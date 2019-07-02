@@ -1,0 +1,86 @@
+---
+title: 'June Recap: Data Visualiztion'
+author: Katerina Placek
+date: '2019-06-27'
+slug: june-recap-data-visualiztion
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+
+
+<hr />
+<p>Data visualization is paramount to both understanding and presenting your data, whatever your data may be. For our June Meetup, R-Ladies Philly member <strong>Jake Riley</strong> led an interactive workshop to elucidate aspects of the popular <code>ggplot2</code> <a href="https://ggplot2.tidyverse.org/">package</a> and share helpful tips and best practices relevant to any R user.</p>
+<div id="the-2-gs-in-ggplot2---defined" class="section level3">
+<h3>The 2 g’s in <code>ggplot2</code> - defined!</h3>
+<p>Jake explained that the architecture of visualizing data using <code>ggplot2</code> is based on the <em>g</em>rammar of <em>g</em>raphics: In <code>ggplot2</code>, just like every sentence has a <strong>subject, verb, and noun</strong>, every plot has a <strong>coordinate system, geom, and aesthetics</strong>.</p>
+This is demonstrated in the example below using the <code>mpg</code> dataset:
+</center>
+<pre class="r"><code>library(tidyverse)
+
+myplot &lt;- 
+  ggplot(mpg) + #set the &#39;subject&#39; or coordinate system
+  geom_point(aes(x = cty, y = hwy)) #add the &#39;verb&#39; or geom used to show the data, and &#39;nouns&#39; or aesthetics on how the geom should appear
+myplot</code></pre>
+<p><img src="/post/2019-06-27-june-recap-data-visualiztion_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>But what exactly does <code>aes()</code> control in plot aesthetics? Jake clarified this by explaining that dynamic, data driven <strong>variables</strong> go inside the <code>aes()</code>, while constant, static <strong>values</strong> go outside.</p>
+The following two plots show the difference between these <code>aes()</code> arguments:
+</center>
+<pre class="r"><code>myplot.v2 &lt;- 
+  ggplot(mpg) +
+  geom_point(aes(x = cty, y = hwy, color = class)) +
+  labs(title = &quot;Setting color inside `aes()`&quot;)+
+  theme(legend.position = &quot;bottom&quot;)
+
+myplot.v3 &lt;- 
+  ggplot(mpg) +
+  geom_point(aes(x = cty, y = hwy), color = &quot;blue&quot;) +
+  labs(title = &quot;Setting color outside `aes()`&quot;)
+
+gridExtra::grid.arrange(
+  myplot.v2,
+  myplot.v3,
+  ncol = 2
+)</code></pre>
+<p><img src="/post/2019-06-27-june-recap-data-visualiztion_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="helpful-tips-and-best-practices-for-plotting" class="section level3">
+<h3>Helpful tips, and best practices for plotting</h3>
+<p>Jake shared some tips for plotting, including:</p>
+<ul>
+<li>ordering barplots in descending (or ascending) order<br />
+</li>
+<li>using <code>facet_grid()</code> and <code>facet_wrap()</code><br />
+</li>
+<li>controlling color and size more precisely using <code>scale_*_identity()</code></li>
+</ul>
+<p>To make your plot as visually appealing as possible, Jake additionally recommended:</p>
+<ul>
+<li>approximating the <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio (1:1.6)</a> for plot dimensions<br />
+</li>
+<li>using color to highlight the most important plot features<br />
+</li>
+<li>choosing a color palette amenable to colorblindness</li>
+</ul>
+</div>
+<div id="extensions-and-addins" class="section level3">
+<h3>Extensions and Addins</h3>
+<p>As a final activity, we explored <a href="https://www.ggplot2-exts.org/ggiraph.html">ggplot extensions</a> and <a href="https://github.com/daattali/addinslist">ggplot addins</a> and shared examples of our findings with the group</p>
+<center>
+<p><em>Alice shared how she added pikachu to her plot using</em> <code>cowplot</code> <img src="/img/pikachu.png" /></p>
+</div>
+<div id="check-it-out" class="section level3">
+<h3>Check it Out</h3>
+<p>The slides and code from Jake’s workshop are available on <a href="https://github.com/rjake/r-ladies-data-viz">his github</a>!</p>
+</div>
+<div id="wework" class="section level3">
+<h3>WeWork</h3>
+<p>We would like to thank WeWork for hosting us!</p>
+<p>“WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 111 locations in 29 cities across the world with over 70,000 members. Book a tour at wework.com now!”</p>
+<p><em>This post was authored by Katerina Placek For more information contact <a href="mailto:philly@rladies.org">philly@rladies.org</a></em></p>
+</div>

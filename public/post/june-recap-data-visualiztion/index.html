@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="author" content="R-Ladies Philly">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Data visualization is paramount to both understanding and presenting your data, whatever your data may be. For our June Meetup, R-Ladies Philly member Jake Riley led an interactive workshop to elucidate aspects of the popular ggplot2 package and share helpful tips and best practices relevant to any R user.
+The 2 g’s in ggplot2 - defined! Jake explained that the architecture of visualizing data using ggplot2 is based on the grammar of graphics: In ggplot2, just like every sentence has a subject, verb, and noun, every plot has a coordinate system, geom, and aesthetics.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/june-recap-data-visualiztion/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="R-Ladies Philly">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="R-Ladies Philly">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/june-recap-data-visualiztion/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@RLadiesPhilly">
+  <meta property="twitter:creator" content="@RLadiesPhilly">
+  
+  <meta property="og:site_name" content="R-Ladies Philly">
+  <meta property="og:url" content="/post/june-recap-data-visualiztion/">
+  <meta property="og:title" content="June Recap: Data Visualiztion | R-Ladies Philly">
+  <meta property="og:description" content="Data visualization is paramount to both understanding and presenting your data, whatever your data may be. For our June Meetup, R-Ladies Philly member Jake Riley led an interactive workshop to elucidate aspects of the popular ggplot2 package and share helpful tips and best practices relevant to any R user.
+The 2 g’s in ggplot2 - defined! Jake explained that the architecture of visualizing data using ggplot2 is based on the grammar of graphics: In ggplot2, just like every sentence has a subject, verb, and noun, every plot has a coordinate system, geom, and aesthetics.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-06-27T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-06-27T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>June Recap: Data Visualiztion | R-Ladies Philly</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="R-Ladies Philly"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#board">
+            
+            <span>Board</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#news">
+            
+            <span>News</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#support">
+            
+            <span>Support</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">June Recap: Data Visualiztion</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-06-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-06-27 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jun 27, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="R-Ladies Philly">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=June%20Recap%3a%20Data%20Visualiztion&amp;url=%2fpost%2fjune-recap-data-visualiztion%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fjune-recap-data-visualiztion%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fjune-recap-data-visualiztion%2f&amp;title=June%20Recap%3a%20Data%20Visualiztion"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fjune-recap-data-visualiztion%2f&amp;title=June%20Recap%3a%20Data%20Visualiztion"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=June%20Recap%3a%20Data%20Visualiztion&amp;body=%2fpost%2fjune-recap-data-visualiztion%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<hr />
+<p>Data visualization is paramount to both understanding and presenting your data, whatever your data may be. For our June Meetup, R-Ladies Philly member <strong>Jake Riley</strong> led an interactive workshop to elucidate aspects of the popular <code>ggplot2</code> <a href="https://ggplot2.tidyverse.org/">package</a> and share helpful tips and best practices relevant to any R user.</p>
+<div id="the-2-gs-in-ggplot2---defined" class="section level3">
+<h3>The 2 g’s in <code>ggplot2</code> - defined!</h3>
+<p>Jake explained that the architecture of visualizing data using <code>ggplot2</code> is based on the <em>g</em>rammar of <em>g</em>raphics: In <code>ggplot2</code>, just like every sentence has a <strong>subject, verb, and noun</strong>, every plot has a <strong>coordinate system, geom, and aesthetics</strong>.</p>
+This is demonstrated in the example below using the <code>mpg</code> dataset:
+</center>
+<pre class="r"><code>library(tidyverse)
+
+myplot &lt;- 
+  ggplot(mpg) + #set the &#39;subject&#39; or coordinate system
+  geom_point(aes(x = cty, y = hwy)) #add the &#39;verb&#39; or geom used to show the data, and &#39;nouns&#39; or aesthetics on how the geom should appear
+myplot</code></pre>
+<p><img src="/post/2019-06-27-june-recap-data-visualiztion_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>But what exactly does <code>aes()</code> control in plot aesthetics? Jake clarified this by explaining that dynamic, data driven <strong>variables</strong> go inside the <code>aes()</code>, while constant, static <strong>values</strong> go outside.</p>
+The following two plots show the difference between these <code>aes()</code> arguments:
+</center>
+<pre class="r"><code>myplot.v2 &lt;- 
+  ggplot(mpg) +
+  geom_point(aes(x = cty, y = hwy, color = class)) +
+  labs(title = &quot;Setting color inside `aes()`&quot;)+
+  theme(legend.position = &quot;bottom&quot;)
+
+myplot.v3 &lt;- 
+  ggplot(mpg) +
+  geom_point(aes(x = cty, y = hwy), color = &quot;blue&quot;) +
+  labs(title = &quot;Setting color outside `aes()`&quot;)
+
+gridExtra::grid.arrange(
+  myplot.v2,
+  myplot.v3,
+  ncol = 2
+)</code></pre>
+<p><img src="/post/2019-06-27-june-recap-data-visualiztion_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="helpful-tips-and-best-practices-for-plotting" class="section level3">
+<h3>Helpful tips, and best practices for plotting</h3>
+<p>Jake shared some tips for plotting, including:</p>
+<ul>
+<li>ordering barplots in descending (or ascending) order<br />
+</li>
+<li>using <code>facet_grid()</code> and <code>facet_wrap()</code><br />
+</li>
+<li>controlling color and size more precisely using <code>scale_*_identity()</code></li>
+</ul>
+<p>To make your plot as visually appealing as possible, Jake additionally recommended:</p>
+<ul>
+<li>approximating the <a href="https://en.wikipedia.org/wiki/Golden_ratio">golden ratio (1:1.6)</a> for plot dimensions<br />
+</li>
+<li>using color to highlight the most important plot features<br />
+</li>
+<li>choosing a color palette amenable to colorblindness</li>
+</ul>
+</div>
+<div id="extensions-and-addins" class="section level3">
+<h3>Extensions and Addins</h3>
+<p>As a final activity, we explored <a href="https://www.ggplot2-exts.org/ggiraph.html">ggplot extensions</a> and <a href="https://github.com/daattali/addinslist">ggplot addins</a> and shared examples of our findings with the group</p>
+<center>
+<p><em>Alice shared how she added pikachu to her plot using</em> <code>cowplot</code> <img src="/img/pikachu.png" /></p>
+</div>
+<div id="check-it-out" class="section level3">
+<h3>Check it Out</h3>
+<p>The slides and code from Jake’s workshop are available on <a href="https://github.com/rjake/r-ladies-data-viz">his github</a>!</p>
+</div>
+<div id="wework" class="section level3">
+<h3>WeWork</h3>
+<p>We would like to thank WeWork for hosting us!</p>
+<p>“WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 111 locations in 29 cities across the world with over 70,000 members. Book a tour at wework.com now!”</p>
+<p><em>This post was authored by Katerina Placek For more information contact <a href="mailto:philly@rladies.org">philly@rladies.org</a></em></p>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 R-Ladies Philly &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

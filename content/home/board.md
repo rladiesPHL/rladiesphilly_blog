@@ -30,15 +30,19 @@ Karla works as Head of Algorithm Development at Orchestrall, where she leads beh
 
 ## Amy Goodwin Davies, PhD
 <img src="/img/Amy.jpg";/>
-Amy is a linguist-by-training and a data scientist. In particular, she is excited about developing her skills in text mining and natural language processing. Amy completed her PhD in Linguistics at the University of Pennsylvania, where her research focused on the grammatical representations involved with word recognition. Amy is originally from the UK. Before moving to Philadelphia in 2012, she completed her undergraduate studies at the University of Edinburgh.
+Amy is a Data Scientist at the Children's Hospital of Philadelphia with a background in Linguistics. She completed her PhD in Linguistics at the University of Pennsylvania, where her research focused on the grammatical representations involved with spoken word recognition. Originally from the UK, Amy moved to Philadelphia in 2012.
 
-
-## Katerina Placek, MSc
-<img src="/img/Katerina.jpeg";/>
-Katerina is a PhD candidate in Neuroscience at the University of Pennsylvania. She uses R in her research to statistically evaluate genetic risk factors for frontotemporal disease in amyotrophic lateral sclerosis and to visualize results. Katerina started an R-Learning group in her lab at the University of Pennsylvania, and was recruited by Alice to help start R-Ladies Philly!
+## Chun Su, PhD
+<img src="/img/Chun.jpg", width = "240" height = "242";/>
+Chun is a bioinformatics scientist at the Children's Hospital of Philadelphia, where she explores the influence of the molecular regulatory architecture on the genetic susceptibility for childhood diseases by analyzing genomics data. She completed her PhD in Biology at the University of Virginia, studying a family of parasitic plants that infect crops in Africa. She uses R extensively for statistical analysis and data visualization in her research. Chun joined R Ladies Philly to learn data science and socialize with local R users.
 
 ## Alice Walsh, PhD
 <img src="/img/Alice.jpeg";/>
 Alice is a computational biologist who works in pharmaceutical drug development and has lived in the Philadelphia area for the last ten years. She uses R to transform biomarker data from patients into useful insights that can help doctors make better decisions. Alice was inspired to start an R-Ladies chapter in Philadelphia after seeing a video of another R-Ladies meetup online. 
 
+## Board Alumni
+Katerina Placek, MSc  
+*Co-Founder and Blog Chair: Jan 2018 - July 2019*
 
+Katie Cousins, PhD  
+*Co-Founder: Jan 2018 - July 2018*
