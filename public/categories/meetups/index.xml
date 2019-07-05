@@ -19,7 +19,7 @@
       
       <guid>/post/aug-recap/</guid>
       <description>Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis! This was our second meetup on the topic. Click here for a recap of our first data cleaning meetup in June.
-Reshaping data We began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial Long to Wide Data in R.</description>
+Reshaping dataWe began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial Long to Wide Data in R.</description>
     </item>
     
     <item>
@@ -28,9 +28,9 @@ Reshaping data We began with an introduction to reshaping data from Alice. The p
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/june-recap/</guid>
-      <description>Our June meetup Our June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!
+      <description>Our June meetupOur June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!
 We were live tweeting the event! Check out some tweets below.
-Introduction Darina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct.</description>
+IntroductionDarina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct.</description>
     </item>
     
     <item>
@@ -50,10 +50,10 @@ Our topic for May was version control using the popular resources Git and GitHub
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/april-recap/</guid>
-      <description>Our April Event! The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!
+      <description>Our April Event!The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!
 Our topic was an introduction to text mining in R using the first two chapters of “Text Mining with R” by fellow R-Lady(!) Julia Silge and David Robinson.
 There was a great group - including some new faces!
- Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together.</description>
+Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together.</description>
     </item>
     
   </channel>

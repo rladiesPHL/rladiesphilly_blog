@@ -13,13 +13,104 @@
     
     
     <item>
+      <title>June Recap: Data Visualiztion</title>
+      <link>/post/june-recap-data-visualiztion/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/june-recap-data-visualiztion/</guid>
+      <description>Data visualization is paramount to both understanding and presenting your data, whatever your data may be. For our June Meetup, R-Ladies Philly member Jake Riley led an interactive workshop to elucidate aspects of the popular ggplot2 package and share helpful tips and best practices relevant to any R user.
+The 2 g’s in ggplot2 - defined!Jake explained that the architecture of visualizing data using ggplot2 is based on the grammar of graphics: In ggplot2, just like every sentence has a subject, verb, and noun, every plot has a coordinate system, geom, and aesthetics.</description>
+    </item>
+    
+    <item>
+      <title>May Recap - Diversity in Data</title>
+      <link>/post/may-recap-diversity-data/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/may-recap-diversity-data/</guid>
+      <description>How to communicate as (minority) data scientists?Being a minority in data science can be tough. It can be tough to get into the field, and sometimes even tougher to make yourself heard in the field. Marieke Jackson, a former epidemiologist turned data scientist, shared how basic rules from improv have helped her navigate day to day challenges.
+Imagine you are working with an improv partner and you mention those pesky magical flying birds that poop jellybeans.</description>
+    </item>
+    
+    <item>
+      <title>April Recap - Open Science</title>
+      <link>/post/april-recap-open-science/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/april-recap-open-science/</guid>
+      <description>Our April meetup with Data Philly focused on the increasingly popular topic of Open Science. See below for the article that R Ladies Philly members Alice, Karla, and Amy co-wrote! This article originally appeared on Technical.ly Philly.
+What is open science?It’s like open data, but for research. Organizers of the R-Ladies Philly meetup offer an explainer based on talks from their most recent meetup.
+Many are familiar with the concept of open source in software development, but what is open science?</description>
+    </item>
+    
+    <item>
+      <title>February and March Recap - PAWS Community Data Project</title>
+      <link>/post/feb-march-recap/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/feb-march-recap/</guid>
+      <description>In February and March, R-Ladies Philly continued a longstanding community data project with the Philadelphia Animal Welfare Society (PAWS) - Philly’s largest no-kill shelter. Last year, we helped PAWS analyze data from volunteer engagement to identify patterns associated with continued volunteering. This year, we worked with PAWS to understand important facets of their sheltering system, including 1) animals’ trajectories at PAWS, 2) the adoption process, 3) geospatial patterns of adoptions, and 4) public engagement via social media.</description>
+    </item>
+    
+    <item>
+      <title>January Recap</title>
+      <link>/post/january-recap/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/january-recap/</guid>
+      <description>Our January meetup marked an important event in R-Ladies Philly history - our first ‘birthday’! We honored this occasion by celebrating what our community has achieved over the past year, and planning for an exciting 2019.
+Recap of our first yearAlice and Karla started off by reiterating the founding principles of R-Ladies Philly: to create a welcoming, accepting, and representative community for R users in the Philadelphia area who espouse our values of diversity and gender equity.</description>
+    </item>
+    
+    <item>
+      <title>December Recap</title>
+      <link>/post/december-recap/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/december-recap/</guid>
+      <description>We collaborated with Women in Kaggle Philly to provide an Introduction to Machine Learning (ML).
+ML is the science of getting computers to learn from data without explicit programming. ML has led to advances in speech recognition, tumor identification, self-driving cars, and many other arenas. You probably interact with ML every day!
+This meetup featured a lightning talk introducing some key concepts followed by a hands-on Kaggle competition tutorial.
+A brief introduction to Machine LearningTamera Lanham, a data scientist at Elsevier, gave a lightning talk introducing ML.</description>
+    </item>
+    
+    <item>
+      <title>November Recap - Geographic Information Systems</title>
+      <link>/post/november-recap/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/november-recap/</guid>
+      <description>Geographic Information Systems or GIS are specialized technology used for spatial data that require mapping. In our November meetup, R-Ladies Philly member and GIS Specialist Mary Lennon introduced R-Ladies Philly to manipulating and plotting spatial data from our favorite city (Philly!) in our favorite language (R!)!
+How can we access and store spatial data?First, Mary explained that GIS data can be stored in different formats including Shapefiles, GPX, and GeoJSON.</description>
+    </item>
+    
+    <item>
+      <title>October Recap - Dashboards and Apps with Shiny</title>
+      <link>/post/october-recap/</link>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/october-recap/</guid>
+      <description>Shiny is an R Package that combines the computational power of R with the interactivity of the web to enable users to create interactive web apps (and dashboards!) in R. For our October meetup, Dr. Mine Çetinkaya-Rundel led a workshop introducing the basics of building dashboards using Shiny, and a demo on transitioning from dashboards to standalone apps. In case you missed the Meetup, all materials (code! slides! more!) can be found on the github repo Mine created.</description>
+    </item>
+    
+    <item>
+      <title>September Recap: Learn to make a website with R and blogdown!</title>
+      <link>/post/september-recap/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/september-recap/</guid>
+      <description>In our September meetup hosted at the Penn Dental School, R-Ladies LA founder and recent Philadelphia transplant Dr. Katie Scranton led an interactive workshop on making websites (like this one!) using R and the blogdown package.
+OverviewKatie started off by providing a broad overview of how blogdown works. Blogdown generates websites using Rmarkdown documents, and each blogdown website consists of a single folder of static files. Once created, your blogdown website can then be hosted on any web server to make it ‘live.</description>
+    </item>
+    
+    <item>
       <title>August recap: Data Cleaning with R, Part 2</title>
       <link>/post/aug-recap/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/aug-recap/</guid>
       <description>Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis! This was our second meetup on the topic. Click here for a recap of our first data cleaning meetup in June.
-Reshaping data We began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial Long to Wide Data in R.</description>
+Reshaping dataWe began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial Long to Wide Data in R.</description>
     </item>
     
     <item>
@@ -28,9 +119,9 @@ Reshaping data We began with an introduction to reshaping data from Alice. The p
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/june-recap/</guid>
-      <description>Our June meetup Our June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!
+      <description>Our June meetupOur June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!
 We were live tweeting the event! Check out some tweets below.
-Introduction Darina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct.</description>
+IntroductionDarina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct.</description>
     </item>
     
     <item>
@@ -50,10 +141,10 @@ Our topic for May was version control using the popular resources Git and GitHub
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/april-recap/</guid>
-      <description>Our April Event! The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!
+      <description>Our April Event!The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!
 Our topic was an introduction to text mining in R using the first two chapters of “Text Mining with R” by fellow R-Lady(!) Julia Silge and David Robinson.
 There was a great group - including some new faces!
- Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together.</description>
+Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together.</description>
     </item>
     
     <item>
