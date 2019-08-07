@@ -1,0 +1,43 @@
+---
+title: 'July Recap: Lightning Talks'
+author: Karla Fettich
+date: '2019-07-16'
+slug: july-recap-lightning-talks
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+---
+
+Our July Meetup sought to highlight work and lessons from our community members through a series of short and engaging lightning talks.
+
+**Important skills for women in data ([Rajvi Mehta](https://www.linkedin.com/in/rajvimehta))**
+
+Rajvi, a Data Scientist at Vanguard and Philadelphia Chapter Lead of Women in Data, shared her story of becoming a data scientist, and the lessons she learned along the way. She highlighted the following advice:
+
+- Always seek to *update your skill set*, because job titles are varied in data science, and it’s a fast paced environment
+- Seek to *improve your communication skills*, because there is often a need to explain complex statistics to colleagues and clients who have different areas of expertise but who, given the right explanation, could contribute tremendously to the data scientist’s work
+- *Seek diversity in teams*, as people with diverse backgrounds can bring unique perspectives on solutions, risk, team dynamics, and problem solving approaches
+- Remember that *data is not just about the numbers*, but it is also about the people behind the data (the end users, the developers implementing data collection systems, the business rules influencing the data being collected, etc.)
+- *Promote women* in data through personalized mentorship programs, public speaking opportunities, and team leadership opportunities
+- In your work, *listen carefully* and *learn about solutions* that have been tried in the past
+- *Share your work* with other departments so innovation can be achieved more efficiently
+
+**Fairness while sampling from very large datasets ([Sheila Braun](https://www.linkedin.com/in/sheila-braun-biostats/))**
+
+Sheila, a seasoned statistical consultant working at CHOP as a data instructor, discussed how social injustice can creep into models using random samples from very large data sets, despite best intentions. She gave the example of a hypothetical large dataset of children from different countries, their symptoms, and their likelihood of dying from Virus Madeupticus. In her example, only children from one very small country (with a very small proportional representation in the dataset) would experience fatalities from contracting the virus. However, a predictive model based on a random subsample training dataset of the entire population would easily miss this narrow, but very real and very lethal effect of the virus. She stressed that in an analysis, it is important to consider whether there is a “time bomb”, and how critical it is to figure out what is truly happening in the data. She also emphasized the importance of using all the data when modeling, and that to prevent introducing bias due to sampling it may be useful to ensure that each sample or cluster created represents all minorities. 
+
+**Leveraging Docker for Reproducible Training Workshops ([Jaclyn Taroni](https://www.linkedin.com/in/jaclyn-taroni-a57265131/))**
+
+Jaclyn Taroni, PhD, a data scientist at the Childhood Cancer Data Lab, an Alex’s Lemonade Stand Foundation initiative, talked about Docker as a tool to make biological big data easier to access, mine, and reuse. She explained that a common process in cancer research is for a researcher to have a question, send it to a bioinformatics core, where a team of scientists prepare the sample and do some analyses, which are then returned to the researcher via a set of files in different formats and encodings. However, bioinformatics cores don’t typically train researchers to use and interpret the results. Therefore, researchers often have to go back to the scientists and ask questions about how data were processed and what each value represents, which leads to significant inefficiencies. To address this problem, the CCDL provides a 3-day workshop, in which attendees learn about the Rocker Project, an R/Docker environment in which the R and RStudio versions can be preconfigured and preloaded via version controlled images. 
+
+**Do we need a new Wawa? ([Alice Walsh](https://www.linkedin.com/in/alice-walsh))**
+
+Alice Walsh, PhD, a principal scientist at Bristol-Myers Squibb, spends her spare time analyzing data to support her community. In this talk, she presented an analysis to assess whether a new Wawa location was needed in her neighborhood, given the strong opposition from the community. She showed the group how she did some detective work to identify the URLs in Wawa’s website that would lead to a list of relevant Wawa locations, and how to call these URLs via R for analysis. She then discussed obtaining data on walk scores, number of houses in the neighborhoods, number of lanes of the road, etc. via APIs, and using these data points to inform the analysis. Her analysis suggested that the proposed Wawa did not fit the profile of other Wawas in the area, thus making a data informed argument against the new Wawa location. She shared her results with her township, but the outcomes remain TBD.
+
+
+*This post was authored by Karla Fettich. For more information contact philly@rladies.org*

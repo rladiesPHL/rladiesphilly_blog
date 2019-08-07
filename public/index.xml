@@ -11,6 +11,35 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>July Recap: Lightning Talks</title>
+      <link>/post/july-recap-lightning-talks/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/july-recap-lightning-talks/</guid>
+      <description>&lt;hr /&gt;
+&lt;p&gt;Our July Meetup sought to highlight work and lessons from our community members through a series of short and engaging lightning talks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important skills for women in data (&lt;a href=&#34;https://www.linkedin.com/in/rajvimehta&#34;&gt;Rajvi Mehta&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rajvi, a Data Scientist at Vanguard and Philadelphia Chapter Lead of Women in Data, shared her story of becoming a data scientist, and the lessons she learned along the way. She highlighted the following advice:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Always seek to &lt;em&gt;update your skill set&lt;/em&gt;, because job titles are varied in data science, and it’s a fast paced environment&lt;/li&gt;
+&lt;li&gt;Seek to &lt;em&gt;improve your communication skills&lt;/em&gt;, because there is often a need to explain complex statistics to colleagues and clients who have different areas of expertise but who, given the right explanation, could contribute tremendously to the data scientist’s work&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Seek diversity in teams&lt;/em&gt;, as people with diverse backgrounds can bring unique perspectives on solutions, risk, team dynamics, and problem solving approaches&lt;/li&gt;
+&lt;li&gt;Remember that &lt;em&gt;data is not just about the numbers&lt;/em&gt;, but it is also about the people behind the data (the end users, the developers implementing data collection systems, the business rules influencing the data being collected, etc.)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Promote women&lt;/em&gt; in data through personalized mentorship programs, public speaking opportunities, and team leadership opportunities&lt;/li&gt;
+&lt;li&gt;In your work, &lt;em&gt;listen carefully&lt;/em&gt; and &lt;em&gt;learn about solutions&lt;/em&gt; that have been tried in the past&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Share your work&lt;/em&gt; with other departments so innovation can be achieved more efficiently&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Fairness while sampling from very large datasets (&lt;a href=&#34;https://www.linkedin.com/in/sheila-braun-biostats/&#34;&gt;Sheila Braun&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Sheila, a seasoned statistical consultant working at CHOP as a data instructor, discussed how social injustice can creep into models using random samples from very large data sets, despite best intentions. She gave the example of a hypothetical large dataset of children from different countries, their symptoms, and their likelihood of dying from Virus Madeupticus. In her example, only children from one very small country (with a very small proportional representation in the dataset) would experience fatalities from contracting the virus. However, a predictive model based on a random subsample training dataset of the entire population would easily miss this narrow, but very real and very lethal effect of the virus. She stressed that in an analysis, it is important to consider whether there is a “time bomb”, and how critical it is to figure out what is truly happening in the data. She also emphasized the importance of using all the data when modeling, and that to prevent introducing bias due to sampling it may be useful to ensure that each sample or cluster created represents all minorities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Leveraging Docker for Reproducible Training Workshops (&lt;a href=&#34;https://www.linkedin.com/in/jaclyn-taroni-a57265131/&#34;&gt;Jaclyn Taroni&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jaclyn Taroni, PhD, a data scientist at the Childhood Cancer Data Lab, an Alex’s Lemonade Stand Foundation initiative, talked about Docker as a tool to make biological big data easier to access, mine, and reuse. She explained that a common process in cancer research is for a researcher to have a question, send it to a bioinformatics core, where a team of scientists prepare the sample and do some analyses, which are then returned to the researcher via a set of files in different formats and encodings. However, bioinformatics cores don’t typically train researchers to use and interpret the results. Therefore, researchers often have to go back to the scientists and ask questions about how data were processed and what each value represents, which leads to significant inefficiencies. To address this problem, the CCDL provides a 3-day workshop, in which attendees learn about the Rocker Project, an R/Docker environment in which the R and RStudio versions can be preconfigured and preloaded via version controlled images.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do we need a new Wawa? (&lt;a href=&#34;https://www.linkedin.com/in/alice-walsh&#34;&gt;Alice Walsh&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Alice Walsh, PhD, a principal scientist at Bristol-Myers Squibb, spends her spare time analyzing data to support her community. In this talk, she presented an analysis to assess whether a new Wawa location was needed in her neighborhood, given the strong opposition from the community. She showed the group how she did some detective work to identify the URLs in Wawa’s website that would lead to a list of relevant Wawa locations, and how to call these URLs via R for analysis. She then discussed obtaining data on walk scores, number of houses in the neighborhoods, number of lanes of the road, etc. via APIs, and using these data points to inform the analysis. Her analysis suggested that the proposed Wawa did not fit the profile of other Wawas in the area, thus making a data informed argument against the new Wawa location. She shared her results with her township, but the outcomes remain TBD.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Karla Fettich. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>June Recap: Data Visualiztion</title>
       <link>/post/june-recap-data-visualiztion/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
@@ -993,227 +1022,6 @@ ggplot(kafka_sentiment, aes(index, sentiment, fill = sentiment &amp;gt; 0)) +
 &lt;p&gt;For those who want to learn more, I recommend continuing on in the excellent book, “Text Mining with R”:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.tidytextmining.com&#34; class=&#34;uri&#34;&gt;https://www.tidytextmining.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Who are the Philly R-Ladies? Analyzing Data from Google Forms</title>
-      <link>/post/survey/</link>
-      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/survey/</guid>
-      <description>&lt;div id=&#34;why-do-a-new-member-survey&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Why do a new member survey?&lt;/h2&gt;
-&lt;p&gt;One of the goals of R-Ladies Philly is for the group to be focused on the needs and interests of its members. With this goal in mind, we created a survey to query members about meeting logistics and R experience level. This survey also provided a mechanism to collect emails in order to invite new members to our Slack channel.&lt;/p&gt;
-&lt;p&gt;If you want to join us and fill out the survey, you can find it here: &lt;a href=&#34;http://bit.ly/rladies-survey&#34; class=&#34;uri&#34;&gt;http://bit.ly/rladies-survey&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I thought it would be fun to share the results. Because this is R-Ladies, I also wanted to analyze and visualize the data in &lt;em&gt;R&lt;/em&gt;!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;step-one-get-the-data-from-google-to-r&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;&lt;strong&gt;Step One:&lt;/strong&gt; Get the data from google to R&lt;/h2&gt;
-&lt;p&gt;There are probably many ways to accomplish getting the data from a google form into R. The first things that came to my mind were:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Download a file from google to some local place on my computer&lt;/li&gt;
-&lt;li&gt;Use an R package to pull the data from google docs to R&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;I decided to try the googlesheets package: &lt;a href=&#34;https://github.com/jennybc/googlesheets&#34; class=&#34;uri&#34;&gt;https://github.com/jennybc/googlesheets&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I found this package very user-friendly and easy to figure out. You will see below that a couple commands get the job done.&lt;/p&gt;
-&lt;p&gt;What I did here is not fully automated. I did visit the survey on docs.google.com and click the option to “View responses in Sheets”. In the resulting sheet, I removed email addresses to anonymize the respondents.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(googlesheets)
-suppressPackageStartupMessages(library(tidyverse))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The first step is to authenticate with google and see what sheets you have available. The following will open a browser window and ask you to tell google you want to look at your data.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_sheets &amp;lt;- gs_ls()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I had made a sheet called, “survey_responses_03_09_2018”, that holds the survey data. You can access it through the key: “1g3-M2fMF7_7pLGv7MttZ0DFjr9jd8jr6zQFxJAccEnw”&lt;/p&gt;
-&lt;p&gt;You can create the googlesheets objects with gs_key() and then pipe this to a data frame with gs_read().&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;rsurvey &amp;lt;- gs_key(&amp;quot;1g3-M2fMF7_7pLGv7MttZ0DFjr9jd8jr6zQFxJAccEnw&amp;quot;) %&amp;gt;%
-  gs_read()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As of March 9, there were 39 responses from the survey.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;step-two-make-some-plots&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;&lt;strong&gt;Step Two:&lt;/strong&gt; Make some plots&lt;/h2&gt;
-&lt;p&gt;For each question, let’s look at the results.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;How would you describe your current R usage?&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;How would you describe your current R usage?&amp;quot;
-rsurvey[[question]] &amp;lt;- gsub(&amp;#39;(.{1,30})(\\s|$)&amp;#39;, &amp;#39;\\1\n&amp;#39;, rsurvey[[question]])
-
-ggplot(rsurvey, aes(x=`How would you describe your current R usage?`)) +
-  geom_bar() +
-  coord_flip() + 
-  ggtitle(question) + 
-  xlab(&amp;quot;&amp;quot;) + 
-  theme_minimal() &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-03-11-survey-data_files/figure-html/q1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What location do you prefer for future meetings?&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;What location do you prefer for future meetings?&amp;quot;
-
-responses &amp;lt;- rsurvey[, question, drop=FALSE] %&amp;gt;%
-  separate(question, sep = &amp;quot;, &amp;quot;, into = c(&amp;quot;first&amp;quot;, &amp;quot;second&amp;quot;, &amp;quot;third&amp;quot;), extra=&amp;quot;drop&amp;quot;) %&amp;gt;%
-  gather(choice, response, na.rm = TRUE)
-
-ggplot(responses, aes(x=response)) +
-  geom_bar() +
-  coord_flip() + 
-  ggtitle(question) + 
-  xlab(&amp;quot;&amp;quot;) + 
-  theme_minimal()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-03-11-survey-data_files/figure-html/q2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What time do you prefer?&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;What time do you prefer? (planning on one/month)&amp;quot; 
-
-responses &amp;lt;- as.data.frame(table(rsurvey[[question]], exclude=NULL)) %&amp;gt;%
-  arrange(desc(Freq)) %&amp;gt;%
-  rename(Response = Var1)
-knitr::kable(responses,
-             caption = question)&lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;caption&gt;&lt;span id=&#34;tab:q3&#34;&gt;Table 1: &lt;/span&gt;What time do you prefer? (planning on one/month)&lt;/caption&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th align=&#34;left&#34;&gt;Response&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;Freq&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;18&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Saturday, Sunday&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Saturday&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Saturday, Sunday&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Saturday, Thursdays after 6 pm&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Tuesday, 6-8pm&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Saturday, NOT Mondays, Thursdays or Sundays.&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Saturday, Sunday, Tuesdays and Wednesdays!&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Sunday&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Weekdays, 6-8pm, Sunday, It really depends on my schedule… I work in Delaware, but if I know enough in advance, I can work from home that day.&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Are you interested in planning a future event or leading an event?&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;Are you interested in planning a future event or leading an event?&amp;quot;
-
-ggplot(rsurvey, aes(x=`Are you interested in planning a future event or leading an event?`)) +
-  geom_bar() +
-  coord_flip() +
-  ggtitle(question) + 
-  theme_minimal() + 
-  xlab(&amp;quot;&amp;quot;) &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-03-11-survey-data_files/figure-html/q4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What types of events would you be interested in attending?&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;What types of events would you be interested in attending (choose as many responses as you like)?&amp;quot;
-# We need to transform the data to see how many times we got each response
-responses &amp;lt;- rsurvey[[question]]
-choices &amp;lt;- c(&amp;quot;Introduction to R workshops&amp;quot;,
-             &amp;quot;Events with advice on careers in statistics and data science/career panels&amp;quot;,
-             &amp;quot;Presentations of research that uses R&amp;quot;,
-             &amp;quot;Community project&amp;quot;,
-             &amp;quot;Tutorials on advanced R topics&amp;quot;,
-             &amp;quot;Workshops on specific packages&amp;quot;,
-             &amp;quot;General networking&amp;quot;,
-             &amp;quot;Mentoring&amp;quot;,
-             &amp;quot;Paired code review&amp;quot;)
-response_table &amp;lt;- as.data.frame(sapply(choices, function(x) length(grep(x, responses)))) %&amp;gt;%
-  rownames_to_column()
-colnames(response_table) &amp;lt;- c(&amp;quot;Response&amp;quot;,&amp;quot;Freq&amp;quot;)
-response_table &amp;lt;- arrange(response_table, desc(Freq))
-  
-knitr::kable(response_table, caption = question)&lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;caption&gt;&lt;span id=&#34;tab:q5&#34;&gt;Table 2: &lt;/span&gt;What types of events would you be interested in attending (choose as many responses as you like)?&lt;/caption&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th align=&#34;left&#34;&gt;Response&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;Freq&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Workshops on specific packages&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;31&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Presentations of research that uses R&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;28&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Tutorials on advanced R topics&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;28&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Events with advice on careers in statistics and data science/career panels&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;27&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Community project&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;26&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Introduction to R workshops&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;22&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Mentoring&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;20&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;General networking&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;18&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Paired code review&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;If you are interested in giving a talk or leading a workshop on something, what would it be?&lt;/strong&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;question &amp;lt;- &amp;quot;If you are interested in giving a talk or leading a workshop on something, what would it be?&amp;quot;
-
-nonempty_responses &amp;lt;- na.omit(rsurvey[[question]])
-print_this &amp;lt;- sapply(nonempty_responses, function(x) cat(&amp;#39;+ &amp;#39;,x,&amp;#39;\n&amp;#39;))&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Git&lt;/li&gt;
-&lt;li&gt;I could do an intro to R (basics, functions and loops). But would love to co-teach with someone else.&lt;/li&gt;
-&lt;li&gt;Not sure yet, but this is something I would be interested in doing in the future&lt;/li&gt;
-&lt;li&gt;Statistics-regression, GLM, machine learning, unsupervised/supervised methods, hypothesis testing, very basic text analytics&lt;/li&gt;
-&lt;li&gt;As of now, I guess I’d do something on the American Community Survey package, if folks would find it useful.&lt;/li&gt;
-&lt;li&gt;I am afraid I don’t know enough to give a talk.&lt;/li&gt;
-&lt;li&gt;Factor analysis, Conjoint analysis, hierarchical linear regression with R&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;my-takeaways&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;My takeaways&lt;/h2&gt;
-&lt;p&gt;Thank you to all the Philly R-Ladies who took the survey!&lt;/p&gt;
-&lt;p&gt;Our group represents a variety of experience levels - some have never used R and some are R experts. We even had some people volunteer to help with planning and content for future events, which I am really excited about!&lt;/p&gt;
-&lt;p&gt;Importantly, the survey confirmed that we will continue to meet in center city or university city (thank you to MakeOffices and Drexel who have hosted us).&lt;/p&gt;
-&lt;p&gt;As far as when we meet, weekdays appear to be the preference, but there is also a lot of interest in a weekend meetup. Our previous events have been on Wednesdays, but we plan to mix it up so that people with conflicts every Wednesday can attend. One practical consideration I have encountered is that it is harder to find a venue for a weekend meetup. Maybe someone wants to email us at &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt; with location ideas?&lt;/p&gt;
-&lt;p&gt;This process got me thinking… let’s plan to do another survey at the end of the year to see how the group has evolved.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
