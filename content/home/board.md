@@ -42,7 +42,7 @@ Alice is a computational biologist who works in pharmaceutical drug development 
 
 ## Jessie Pluto
 <img src="/img/Jessie.jpg";/>
-As a senior analyst at Comcast, Jessie tries to assign value to video programming and predict the impact of specific content loss. She leverages R in her work by building packages and R Markdown documents to automate answers to recurring business questions about video programming and networks. She also uses R in her day-to-day for modeling and data wrangling. Jessie holds a BA in Psychology and a post-grad certification in Applied Statistics from Penn State. 
+As a senior analyst at Comcast, Jessie tries to assign value to video programming and predict the impact of specific content loss. She leverages R in her work by building packages and R Markdown documents to automate answers to recurring business questions about video programming and networks. She also uses R in her day-to-day for modeling and data wrangling. Jessie holds a BA in Psychology, a post-grad certification in Applied Statistics from Penn State and is currently working on an MS in Data Science at Drexel. 
 
 ## Board Alumni
 Katerina Placek, MSc  
