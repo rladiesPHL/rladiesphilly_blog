@@ -41,7 +41,7 @@ Chun is a bioinformatics scientist at the Children's Hospital of Philadelphia, w
 Alice is a computational biologist who works in pharmaceutical drug development and has lived in the Philadelphia area for the last ten years. She uses R to transform biomarker data from patients into useful insights that can help doctors make better decisions. Alice was inspired to start an R-Ladies chapter in Philadelphia after seeing a video of another R-Ladies meetup online. 
 
 ## Jessie Pluto
-<img src="/img/Jessie.jpg";/>
+<img src="/img/Jessie.jpg", width = "240" height = "360";/>
 As a senior analyst at Comcast, Jessie tries to assign value to video programming and predict the impact of specific content loss. She leverages R in her work by building packages and R Markdown documents to automate answers to recurring business questions about video programming and networks. She also uses R in her day-to-day for modeling and data wrangling. Jessie holds a BA in Psychology, a post-grad certification in Applied Statistics from Penn State and is currently working on an MS in Data Science at Drexel. 
 
 ## Board Alumni
