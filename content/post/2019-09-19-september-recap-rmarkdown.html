@@ -1,0 +1,88 @@
+---
+title: 'September Recap: Reporting Research with R Markdown'
+author: "Amy Goodwin Davies"
+date: '2019-09-19'
+slug: sept19-recap-rmarkdown
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+  output: 
+  html_document: 
+    fig_caption: yes
+---
+
+
+
+<hr />
+<p>R-Ladies Philadelphia’s September 2019 meetup was on the topic of reporting research using R Markdown. Our speaker was <a href="https://ramaanathan.github.io/">Ramaa Nathan, PhD</a>, a statistican and data scientist with a background in the healthcare and finance industries. Ramaa is a co-organizer of the <a href="https://www.meetup.com/DataPhilly/">Data Science Philadelphia (DataPhilly) meetup group</a>.</p>
+<p>Ramaa’s materials are available <a href="https://github.com/ramaanathan/R_RepResearch">here</a>.</p>
+<center>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Welcome <a href="https://twitter.com/hashtag/rladies?src=hash&amp;ref_src=twsrc%5Etfw">#rladies</a> to our meetup! So excited to see everyone and to have Ramaa leading our session on R markdown!! Thanks <a href="https://twitter.com/RamaaNathan?ref_src=twsrc%5Etfw"><span class="citation">@RamaaNathan</span></a> ! <a href="https://t.co/Y9JGx3DQYf">pic.twitter.com/Y9JGx3DQYf</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1174812920309538817?ref_src=twsrc%5Etfw">September 19, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<p>Ramaa’s talk included the following:</p>
+<ul>
+<li>An introduction to reproducible research</li>
+<li>A reproducible research case study: Ramaa’s independent research which investigates breast cancer survival</li>
+<li>An overview of output formats available with R Markdown</li>
+</ul>
+<div id="what-is-reproducible-research" class="section level2">
+<h2>What is reproducible research?</h2>
+<p>Ramaa explained that reproducible research involves making data and analyses available so that others can reproduce the research findings. Literate programming frameworks which interleave documentation with code, such as R Markdown, are a great tool for sharing your analyses in an accessible way! Ramaa highlighted the importance of making the data available (with an accompanying data dictionary) as well as information about the software environment used. Ramaa also discussed the utility of public repositories (such as <a href="https://github.com">Github</a>) for sharing these materials and the use of containers (such as <a href="https://www.docker.com/">Docker</a>) to package code and dependencies together, ensuring the code can be run in any computing environment.</p>
+<p>Reproducible research is an essential component of <strong>Open Science</strong>, the topic of R-Ladies Philly’s <a href="https://technical.ly/philly/2019/04/18/what-is-open-science-r-ladies/">April 2019 meetup and Technical.ly guest post</a>.</p>
+</div>
+<div id="breast-cancer-survival-analysis" class="section level2">
+<h2>Breast cancer survival analysis</h2>
+<p>Ramaa introduced <strong>Survival Analysis</strong>, the branch of statistics used to analyze the expected duration of time until one or more events occur. She introduced the following key terms:</p>
+<ul>
+<li><strong>Time to Event</strong>: The expected duration of time until one or more events occur. Examples include survival time from onset of diagnosis, time until progression from one stage of disease to another, and time from surgery until hospital discharge.</li>
+<li><strong>Survival Function</strong>: The probability of surviving beyond time <em>t</em>.</li>
+<li><strong>Hazard Rate</strong>: The probability that if a person survives to time <em>t</em>, they will experience the event in the next instant.</li>
+<li><strong>Cumulative hazard</strong>: The accumulation of hazard rate over time since time of first diagnosis.</li>
+<li><strong>Hazard Ratio</strong>: The ratio of two hazard functions and is used to compare the risk of death between two treatment groups.</li>
+</ul>
+<p>For her research investigating breast cancer survival, Ramaa used several survival analysis techniques to analyze publicly-available data from <a href="https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga">The Cancer Genome Atlas (TCGA) Program</a>. Ramaa’s report on her research is available <a href="https://ramaanathan.github.io/SurvivalAnalysis/">here</a> and all of her code is available <a href="https://github.com/ramaanathan/SurvivalAnalysis">here</a>.</p>
+</div>
+<div id="output-formats-using-r-markdown" class="section level2">
+<h2>Output formats using R Markdown</h2>
+<p>Ramaa overviewed the three basic components of R Markdown which work together to produce the output.</p>
+<ul>
+<li><strong>Markdown</strong>, for formatted text</li>
+<li><strong>KnitR</strong>, for embedded R code</li>
+<li>The <strong>YAML</strong> (<em>“Yet Ain’t Markup Language”</em>) header, for rendering</li>
+</ul>
+<p>The output format can be specified the the YAML header. Ramaa discussed the following (non-exhaustive) list of available output formats:</p>
+<ul>
+<li><strong>Documents</strong>: HTML, PDF, Markdown, Word Document, Notebook, OpenDocument Text Document, Rich Text Format Notebook</li>
+<li><strong>Presentations</strong>: IOSlides, Slidy, Beamer, Powerpoint</li>
+</ul>
+<p>The audience was super-impressed that Ramaa’s powerpoint presentation was generated using R Markdown! Powerpoint presentations are a fairly recent addition (available for RStudio Version 1.2.x with Pandoc version 2.x).</p>
+<center>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en">
+<p lang="en" dir="ltr">
+The latest version of rmarkdown 📦 can even go directly from Rmd -&gt; PowerPoint! Ramaa’s slides were made in <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a>! It’s magic! <a href="https://t.co/Ss3LkeNRDd">pic.twitter.com/Ss3LkeNRDd</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1174826132211941377?ref_src=twsrc%5Etfw">September 19, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<p>For a general overview of R Markdown, Ramaa recommended <a href="https://rmarkdown.rstudio.com/lesson-1.html">RStudio’s R Markdown materials</a>, especially the <a href="https://rmarkdown.rstudio.com/lesson-15.html">cheat sheet</a>.</p>
+</div>
+<div id="thank-yous" class="section level2">
+<h2>Thank yous</h2>
+<ul>
+<li><p>We would like to thank <a href="https://ramaanathan.github.io/">Ramaa Nathan</a> for delivering such an engaging and informative talk! If you are interested in volunteering as a speaker or workshop leader for a future R-Ladies Philly event please get in touch with the organising team at <a href="mailto:philly@rladies.org">philly@rladies.org</a>.</p></li>
+<li><p>Thanks to Comcast Enterprise Business Intelligence for providing food and drinks! Comcast EBI has multiple open roles on the Strategic Analytics team ranging from Analyst to Sr. Manager. If interested email <a href="mailto:jessie_pluto@comcast.com">jessie_pluto@comcast.com</a>!</p></li>
+<li><p>Thank you to WeWork for hosting us. “WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 425 locations in 100 cities and 27 countries across the world with over 400,000 members. Book a tour at wework.com now!”</p></li>
+</ul>
+<p><em>This post was authored by Amy Goodwin Davies. For more information contact <a href="mailto:philly@rladies.org">philly@rladies.org</a></em></p>
+</div>

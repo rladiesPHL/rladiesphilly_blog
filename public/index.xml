@@ -11,6 +11,84 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>September Recap: Reporting Research with R Markdown</title>
+      <link>/post/sept19-recap-rmarkdown/</link>
+      <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/sept19-recap-rmarkdown/</guid>
+      <description>&lt;hr /&gt;
+&lt;p&gt;R-Ladies Philadelphia’s September 2019 meetup was on the topic of reporting research using R Markdown. Our speaker was &lt;a href=&#34;https://ramaanathan.github.io/&#34;&gt;Ramaa Nathan, PhD&lt;/a&gt;, a statistican and data scientist with a background in the healthcare and finance industries. Ramaa is a co-organizer of the &lt;a href=&#34;https://www.meetup.com/DataPhilly/&#34;&gt;Data Science Philadelphia (DataPhilly) meetup group&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ramaa’s materials are available &lt;a href=&#34;https://github.com/ramaanathan/R_RepResearch&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Welcome &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; to our meetup! So excited to see everyone and to have Ramaa leading our session on R markdown!! Thanks &lt;a href=&#34;https://twitter.com/RamaaNathan?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@RamaaNathan&lt;/span&gt;&lt;/a&gt; ! &lt;a href=&#34;https://t.co/Y9JGx3DQYf&#34;&gt;pic.twitter.com/Y9JGx3DQYf&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1174812920309538817?ref_src=twsrc%5Etfw&#34;&gt;September 19, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;p&gt;Ramaa’s talk included the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An introduction to reproducible research&lt;/li&gt;
+&lt;li&gt;A reproducible research case study: Ramaa’s independent research which investigates breast cancer survival&lt;/li&gt;
+&lt;li&gt;An overview of output formats available with R Markdown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;what-is-reproducible-research&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What is reproducible research?&lt;/h2&gt;
+&lt;p&gt;Ramaa explained that reproducible research involves making data and analyses available so that others can reproduce the research findings. Literate programming frameworks which interleave documentation with code, such as R Markdown, are a great tool for sharing your analyses in an accessible way! Ramaa highlighted the importance of making the data available (with an accompanying data dictionary) as well as information about the software environment used. Ramaa also discussed the utility of public repositories (such as &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;) for sharing these materials and the use of containers (such as &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;) to package code and dependencies together, ensuring the code can be run in any computing environment.&lt;/p&gt;
+&lt;p&gt;Reproducible research is an essential component of &lt;strong&gt;Open Science&lt;/strong&gt;, the topic of R-Ladies Philly’s &lt;a href=&#34;https://technical.ly/philly/2019/04/18/what-is-open-science-r-ladies/&#34;&gt;April 2019 meetup and Technical.ly guest post&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;breast-cancer-survival-analysis&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Breast cancer survival analysis&lt;/h2&gt;
+&lt;p&gt;Ramaa introduced &lt;strong&gt;Survival Analysis&lt;/strong&gt;, the branch of statistics used to analyze the expected duration of time until one or more events occur. She introduced the following key terms:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Time to Event&lt;/strong&gt;: The expected duration of time until one or more events occur. Examples include survival time from onset of diagnosis, time until progression from one stage of disease to another, and time from surgery until hospital discharge.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Survival Function&lt;/strong&gt;: The probability of surviving beyond time &lt;em&gt;t&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hazard Rate&lt;/strong&gt;: The probability that if a person survives to time &lt;em&gt;t&lt;/em&gt;, they will experience the event in the next instant.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cumulative hazard&lt;/strong&gt;: The accumulation of hazard rate over time since time of first diagnosis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hazard Ratio&lt;/strong&gt;: The ratio of two hazard functions and is used to compare the risk of death between two treatment groups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For her research investigating breast cancer survival, Ramaa used several survival analysis techniques to analyze publicly-available data from &lt;a href=&#34;https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga&#34;&gt;The Cancer Genome Atlas (TCGA) Program&lt;/a&gt;. Ramaa’s report on her research is available &lt;a href=&#34;https://ramaanathan.github.io/SurvivalAnalysis/&#34;&gt;here&lt;/a&gt; and all of her code is available &lt;a href=&#34;https://github.com/ramaanathan/SurvivalAnalysis&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;output-formats-using-r-markdown&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Output formats using R Markdown&lt;/h2&gt;
+&lt;p&gt;Ramaa overviewed the three basic components of R Markdown which work together to produce the output.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt;, for formatted text&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;KnitR&lt;/strong&gt;, for embedded R code&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;YAML&lt;/strong&gt; (&lt;em&gt;“Yet Ain’t Markup Language”&lt;/em&gt;) header, for rendering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The output format can be specified the the YAML header. Ramaa discussed the following (non-exhaustive) list of available output formats:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Documents&lt;/strong&gt;: HTML, PDF, Markdown, Word Document, Notebook, OpenDocument Text Document, Rich Text Format Notebook&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Presentations&lt;/strong&gt;: IOSlides, Slidy, Beamer, Powerpoint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The audience was super-impressed that Ramaa’s powerpoint presentation was generated using R Markdown! Powerpoint presentations are a fairly recent addition (available for RStudio Version 1.2.x with Pandoc version 2.x).&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-conversation=&#34;none&#34; data-lang=&#34;en&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+The latest version of rmarkdown 📦 can even go directly from Rmd -&amp;gt; PowerPoint! Ramaa’s slides were made in &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt;! It’s magic! &lt;a href=&#34;https://t.co/Ss3LkeNRDd&#34;&gt;pic.twitter.com/Ss3LkeNRDd&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1174826132211941377?ref_src=twsrc%5Etfw&#34;&gt;September 19, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;p&gt;For a general overview of R Markdown, Ramaa recommended &lt;a href=&#34;https://rmarkdown.rstudio.com/lesson-1.html&#34;&gt;RStudio’s R Markdown materials&lt;/a&gt;, especially the &lt;a href=&#34;https://rmarkdown.rstudio.com/lesson-15.html&#34;&gt;cheat sheet&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-yous&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank yous&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;We would like to thank &lt;a href=&#34;https://ramaanathan.github.io/&#34;&gt;Ramaa Nathan&lt;/a&gt; for delivering such an engaging and informative talk! If you are interested in volunteering as a speaker or workshop leader for a future R-Ladies Philly event please get in touch with the organising team at &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Thanks to Comcast Enterprise Business Intelligence for providing food and drinks! Comcast EBI has multiple open roles on the Strategic Analytics team ranging from Analyst to Sr. Manager. If interested email &lt;a href=&#34;mailto:jessie_pluto@comcast.com&#34;&gt;jessie_pluto@comcast.com&lt;/a&gt;!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Thank you to WeWork for hosting us. “WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 425 locations in 100 cities and 27 countries across the world with over 400,000 members. Book a tour at wework.com now!”&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Amy Goodwin Davies. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>July Recap: Lightning Talks</title>
       <link>/post/july-recap-lightning-talks/</link>
       <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
@@ -966,62 +1044,6 @@ Lifesaver R libraries for cleaning data: dplyr, tidyr, stringr, readr, data.tabl
 &lt;h1&gt;For more information&lt;/h1&gt;
 &lt;p&gt;To learn more, we recommend &lt;a href=&#34;http://happygitwithr.com&#34;&gt;“Happy Git and GitHub for the useR”&lt;/a&gt; and the free DataCamp course &lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-git-for-data-science&#34;&gt;“Introduction to Git for Data Science”&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>April recap: Introduction to Text Mining with R</title>
-      <link>/post/april-recap/</link>
-      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/april-recap/</guid>
-      <description>&lt;div id=&#34;our-april-event&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Our April Event!&lt;/h1&gt;
-&lt;p&gt;The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!&lt;/p&gt;
-&lt;p&gt;Our topic was an introduction to text mining in R using the first two chapters of “Text Mining with R” by fellow R-Lady(!) Julia Silge and David Robinson.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/rladiesapril2.png&#34; alt=&#34;There was a great group - including some new faces!&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;There was a great group - including some new faces!&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together. Here is an example analysis that we completed!&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;book.id &amp;lt;- 51713
-kafka &amp;lt;- gutenberg_download(51713)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Determining mirror for Project Gutenberg from http://www.gutenberg.org/robot/harvest&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Using mirror http://aleph.gutenberg.org&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(stop_words)
-
-tidy_kafka &amp;lt;- kafka %&amp;gt;%
-  mutate(linenumber = row_number()) %&amp;gt;%
-  unnest_tokens(word, text)%&amp;gt;%
-  anti_join(stop_words)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Joining, by = &amp;quot;word&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;kafka_sentiment &amp;lt;- tidy_kafka %&amp;gt;%
-  inner_join(get_sentiments(&amp;quot;bing&amp;quot;)) %&amp;gt;%
-  count(index = linenumber %/% 10, sentiment) %&amp;gt;%
-  spread(sentiment, n, fill = 0) %&amp;gt;%
-  mutate(sentiment = positive - negative)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Joining, by = &amp;quot;word&amp;quot;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# PLOT
-ggplot(kafka_sentiment, aes(index, sentiment, fill = sentiment &amp;gt; 0)) +
-  scale_fill_discrete(c(&amp;quot;light blue&amp;quot;,&amp;quot;red&amp;quot;)) + 
-  geom_col(show.legend = FALSE) +
-  ggtitle(&amp;quot;Sentiment in Kafka&amp;#39;s Metamorphosis&amp;quot;) + 
-  theme_bw()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2018-04-29-april-recap_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Next, we had an awesome lightning talk from Darina that went into TF-IDF. TF is Term Frequency and IDF is Inverse Document Frequency. Check out her slides to learn more.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/rladiesapril1.png&#34; alt=&#34;Darina presents on TF-IDF&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Darina presents on TF-IDF&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;for-more-information&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;For more information&lt;/h1&gt;
-&lt;p&gt;The materials from April are posted on GitHub:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia&#34; class=&#34;uri&#34;&gt;https://github.com/rladies/meetup-presentations_philadelphia&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;For those who want to learn more, I recommend continuing on in the excellent book, “Text Mining with R”:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.tidytextmining.com&#34; class=&#34;uri&#34;&gt;https://www.tidytextmining.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
