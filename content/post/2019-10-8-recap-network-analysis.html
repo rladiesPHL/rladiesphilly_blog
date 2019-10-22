@@ -1,0 +1,105 @@
+---
+title: 'October Recap: Network Analysis'
+author: "Chun Su"
+date: "2019-10-12"
+slug: oct08-recap-rmarkdown
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+  output: 
+  html_document: 
+    fig_caption: yes
+---
+
+
+
+<hr />
+<p>Networks, also referred to as graphs in mathematics, model multiple types of relations and processes in physical, social, biological, and information systems. R-Ladies Philly’s October 2019 meetup was a workshop focusing on how to implement network analyses using the R igraph object. The workshop was led by <a href="https://learniningwithsckinta.netlify.com/">Chun Su, PhD</a>, who is a bioinformatics scientist at the Children’s Hospital of Philadelphia and also a R-ladies Philly co-organizer. The workshop materials are available at <a href="https://github.com/rladiesPHL/workshop_network">rladiesPHL github</a>.</p>
+<p>The workshop covered</p>
+<ul>
+<li>IGRAPH object “I/O” and manipulation</li>
+<li>The measurement and clustering of networks</li>
+<li>Network visualization</li>
+<li>Network showcase – gene regulation network</li>
+<li>Group exercise – real-world open flight network</li>
+</ul>
+<div id="igraph-object-in-r" class="section level2">
+<h2>IGRAPH object in R</h2>
+<p>Generally, graphs, (a.k.a networks) are made up of vertices and edges, which represent the whole inter-relationship of nodes. The R Package <code>igraph</code> uses a particular class called “IGRAPH” to represent it.</p>
+<p>IGRAPH object can be created by various ways, including generating from tranditional R object data.frame and adjacant matrix.</p>
+<p>Below is the one example to create a IGRAPH object representing a relationship between five actors.</p>
+<pre class="r"><code>library(igraph)
+library(tidyverse)
+
+# vertices -- actors
+actors &lt;- data.frame(
+  name=c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Cecil&quot;, &quot;David&quot;,&quot;Esmeralda&quot;),
+  age=c(48,33,45,34,21),
+  gender=c(&quot;F&quot;,&quot;M&quot;,&quot;F&quot;,&quot;M&quot;,&quot;F&quot;))
+
+# edges -- relations
+relations &lt;- data.frame(
+  from=c(&quot;Bob&quot;, &quot;Cecil&quot;, &quot;Cecil&quot;, &quot;David&quot;,&quot;David&quot;, &quot;Esmeralda&quot;),
+  to=c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Alice&quot;, &quot;Alice&quot;, &quot;Bob&quot;, &quot;Alice&quot;),
+  same.dept=c(FALSE,FALSE,TRUE,FALSE,FALSE,TRUE),
+  friendship=c(4,5,5,2,1,1), 
+  advice=c(4,5,5,4,2,3)
+  )
+
+# make igraph from data.frame
+g &lt;- graph_from_data_frame(relations, directed=TRUE, vertices=actors)
+g</code></pre>
+<pre><code>## IGRAPH 834595d DN-- 5 6 -- 
+## + attr: name (v/c), age (v/n), gender (v/c), same.dept (e/l),
+## | friendship (e/n), advice (e/n)
+## + edges from 834595d (vertex names):
+## [1] Bob      -&gt;Alice Cecil    -&gt;Bob   Cecil    -&gt;Alice David    -&gt;Alice
+## [5] David    -&gt;Bob   Esmeralda-&gt;Alice</code></pre>
+<p>During the workshop, Chun also introduced several ways to manipulate IGRAPH, including retrieving vertex and edges, adding/deleting vertex and edge attributes, merging multiple graphs and subsetting graphs, etc. The full material refers to the R markdown script at <a href="https://github.com/rladiesPHL/workshop_network/blob/master/network_workshop.Rmd">github</a>.</p>
+</div>
+<div id="the-measurement-and-clustering-of-network" class="section level2">
+<h2>The measurement and clustering of network</h2>
+<p>After presenting the basic IGRAPH object, Chun advanced the topic a little bit by introducing several useful metrics to measure a graph.</p>
+<p>One cool metric particularly useful for social networks is <em>Transitivity</em>, which measures the how well connected the graph is. Among small work networks, a network with high transivity means that it is very likely that the two friends connected to one given person are also friends to each other. To know more, <code>help(&quot;transitivity&quot;)</code></p>
+<p>Besides network measurement metrics, Chun also covered several methods in graph clustering, like decomposing graph to inter-connected components (<code>decompose.graph</code>), clustering to small cliques (<code>cliques</code>) and grouping graph to communities/modules (eg.<code>cluster_walktrap</code>).</p>
+</div>
+<div id="network-visualization" class="section level2">
+<h2>Network visualization</h2>
+<p>Visualizing network was highlighted in the workshop. It can be done by default plotting <code>plot(g)</code> to visualize a IGRAPH object with multiple attributes (color, shape and linetype, etc) applied to edges and vertices. Alternatively, one may consider plotting a IGRAPH using ggraph which is very similar ggplot2. It makes creating legends much easier!</p>
+<p>Below is an example to use ggraph highlighting the actors gender and friendship between them</p>
+<pre class="r"><code>library(ggraph)
+ggraph(g, layout=&quot;kk&quot;) +
+  geom_edge_link(aes(edge_width=friendship, edge_linetype=same.dept), arrow = arrow(angle=5, length = unit(0.3, &quot;inches&quot;))) +
+  geom_node_point(aes(color=gender), size=6) +
+  geom_node_text(aes(label=name), nudge_y = -0.1, nudge_x = -0.1) +
+  scale_edge_width(range = c(1, 2)) +
+  theme_void() </code></pre>
+<p><img src="/post/2019-10-8-recap-network-analysis_files/figure-html/ggraph_exp-1.png" width="672" /></p>
+</div>
+<div id="showcase-and-group-exercise" class="section level2">
+<h2>Showcase and group exercise</h2>
+<p>At end the workshop, Chun presented the application of network analysis in her work. As a bioinformatics scientist, she is particularly interested in the influence of gene regulatory networks on the genetic susceptibility for childhood diseases. She showed us an example of usig a gene-cis-regulatory-element interaction network to predict target genes for Type 1 diabetes-associated variants. To know more, refer to CHOP spatial and functional genomics center <a href="https://sfg.research.chop.edu/">website</a>.</p>
+<p>As a finaly activity, we started a group exercise exploring real-world flight data. Do you know that, if you choose to take the same airline company flight for the shortest tranfer, there are 15 ways to go from Philly to Beijing China?</p>
+<div class="figure">
+<img src="https://i.ibb.co/rkXw9QT/PHL2BJS.png" />
+
+</div>
+</div>
+<div id="thank-you" class="section level2">
+<h2>Thank you</h2>
+<div id="o3-world" class="section level5">
+<h5>O3 World</h5>
+<p>We would like to thank <a href="http://www.o3world.com">O3 World</a> for hosting us!</p>
+<p>“O3 World is a leading digital product design and development agency. They combine strategy, innovation, and a deep understanding of the current and emerging digital ecosystem to deliver results for clients. Headquartered in Philadelphia, they emphasize a balanced approach to design, innovative technological solutions, and award-winning agency culture.”</p>
+</div>
+<div id="orchestrall-care-network" class="section level5">
+<h5>Orchestrall Care Network</h5>
+<p>We would like to thank Orchestrall Care Network for sponsoring us food!</p>
+<p>“<a href="https://www.orchestrallinc.com/">Orchestrall Care Network</a> is a Conshohocken based multi-national healthcare company focused on making the lives of family members taking care of their elderly relatives better. By creating a trained local community network and leveraging the magic of AI, OCN provides low cost support to those dedicating their time to look after their loved ones”</p>
+<p><em>This post was authored by Chun Su. For more information contact <a href="mailto:philly@rladies.org">philly@rladies.org</a></em></p>
+</div>
+</div>

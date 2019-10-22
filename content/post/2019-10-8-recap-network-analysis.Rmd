@@ -1,0 +1,111 @@
+---
+title: 'October Recap: Network Analysis'
+author: "Chun Su"
+date: "2019-10-12"
+slug: oct08-recap-rmarkdown
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+  output: 
+  html_document: 
+    fig_caption: yes
+---
+---
+
+Networks, also referred to as graphs in mathematics, model multiple types of relations and processes in physical, social, biological, and information systems. R-Ladies Philly's October 2019 meetup was a workshop focusing on how to implement network analyses using the R igraph object. The workshop was led by [Chun Su, PhD](https://learniningwithsckinta.netlify.com/), who is a bioinformatics scientist at the Children’s Hospital of Philadelphia and also a R-ladies Philly co-organizer. The workshop materials are available at [rladiesPHL github](https://github.com/rladiesPHL/workshop_network).
+
+The workshop covered
+
+  * IGRAPH object "I/O" and manipulation
+  * The measurement and clustering of networks
+  * Network visualization
+  * Network showcase -- gene regulation network
+  * Group exercise -- real-world open flight network 
+
+## IGRAPH object in R
+Generally, graphs, (a.k.a networks) are made up of vertices and edges, which represent the whole inter-relationship of nodes. The R Package `igraph` uses a particular class called "IGRAPH" to represent it. 
+
+IGRAPH object can be created by various ways, including generating from tranditional R object data.frame and adjacant matrix. 
+
+Below is the one example to create a IGRAPH object representing a relationship between five actors.
+
+```{r igraph_object, message=F, warning=F}
+library(igraph)
+library(tidyverse)
+
+# vertices -- actors
+actors <- data.frame(
+  name=c("Alice", "Bob", "Cecil", "David","Esmeralda"),
+  age=c(48,33,45,34,21),
+  gender=c("F","M","F","M","F"))
+
+# edges -- relations
+relations <- data.frame(
+  from=c("Bob", "Cecil", "Cecil", "David","David", "Esmeralda"),
+  to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
+  same.dept=c(FALSE,FALSE,TRUE,FALSE,FALSE,TRUE),
+  friendship=c(4,5,5,2,1,1), 
+  advice=c(4,5,5,4,2,3)
+  )
+
+# make igraph from data.frame
+g <- graph_from_data_frame(relations, directed=TRUE, vertices=actors)
+g
+```
+
+During the workshop, Chun also introduced several ways to manipulate IGRAPH, including retrieving vertex and edges, adding/deleting vertex and edge attributes, merging multiple graphs and subsetting graphs, etc. The full material refers to the R markdown script at [github](https://github.com/rladiesPHL/workshop_network/blob/master/network_workshop.Rmd). 
+
+
+## The measurement and clustering of network
+After presenting the basic IGRAPH object, Chun advanced the topic a little bit by introducing several useful metrics to measure a graph. 
+
+One cool metric particularly useful for social networks is *Transitivity*, which measures the how well connected the graph is. Among small work networks, a network with high transivity means that it is very likely that the two friends connected to one given person are also friends to each other. To know more, `help("transitivity")`
+
+Besides network measurement metrics, Chun also covered several methods in graph clustering, like decomposing graph to inter-connected components (`decompose.graph`),  clustering to small cliques (`cliques`) and grouping graph to communities/modules (eg.`cluster_walktrap`).
+
+## Network visualization
+Visualizing network was highlighted in the workshop. It can be done by default plotting `plot(g)` to visualize a IGRAPH object with multiple attributes (color, shape and linetype, etc) applied to edges and vertices. Alternatively, one may consider plotting a IGRAPH using ggraph which is very similar ggplot2. It makes creating legends much easier!
+
+Below is an example to use ggraph highlighting the actors gender and friendship between them
+
+```{r ggraph_exp, message=F, warning=F}
+library(ggraph)
+ggraph(g, layout="kk") +
+  geom_edge_link(aes(edge_width=friendship, edge_linetype=same.dept), arrow = arrow(angle=5, length = unit(0.3, "inches"))) +
+  geom_node_point(aes(color=gender), size=6) +
+  geom_node_text(aes(label=name), nudge_y = -0.1, nudge_x = -0.1) +
+  scale_edge_width(range = c(1, 2)) +
+  theme_void() 
+
+```
+
+
+## Showcase and group exercise
+At end the workshop, Chun presented the application of network analysis in her work. As a bioinformatics scientist, she is particularly interested in the influence of gene regulatory networks on the genetic susceptibility for childhood diseases. She showed us an example of usig a gene-cis-regulatory-element interaction network to predict target genes for Type 1 diabetes-associated variants. To know more, refer to CHOP spatial and functional genomics center [website](https://sfg.research.chop.edu/). 
+
+As a finaly activity, we started a group exercise exploring real-world flight data. Do you know that, if you choose to take the same airline company flight for the shortest tranfer, there are 15 ways to go from Philly to Beijing China?
+
+![](https://i.ibb.co/rkXw9QT/PHL2BJS.png)
+
+## Thank you
+
+##### O3 World
+
+We would like to thank [O3 World](http://www.o3world.com) for hosting us!
+
+"O3 World is a leading digital product design and development agency. They combine strategy, innovation, and a deep understanding of the current and emerging digital ecosystem to deliver results for clients. Headquartered in Philadelphia, they emphasize a balanced approach to design, innovative technological solutions, and award-winning agency culture.
+"
+
+##### Orchestrall Care Network
+
+We would like to thank Orchestrall Care Network for sponsoring us food!
+
+"[Orchestrall Care Network](https://www.orchestrallinc.com/) is a Conshohocken based multi-national healthcare company focused on making the lives of family members taking care of their elderly relatives better. By creating a trained local community network and leveraging the magic of AI, OCN provides low cost support to those dedicating their time to look after their loved ones"
+
+*This post was authored by Chun Su. For more information contact philly@rladies.org*
+
+

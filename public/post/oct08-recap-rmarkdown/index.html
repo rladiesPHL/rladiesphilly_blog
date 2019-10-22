@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.56.3" />
+  <meta name="author" content="R-Ladies Philly">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Networks, also referred to as graphs in mathematics, model multiple types of relations and processes in physical, social, biological, and information systems. R-Ladies Philly’s October 2019 meetup was a workshop focusing on how to implement network analyses using the R igraph object. The workshop was led by Chun Su, PhD, who is a bioinformatics scientist at the Children’s Hospital of Philadelphia and also a R-ladies Philly co-organizer. The workshop materials are available at rladiesPHL github.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/oct08-recap-rmarkdown/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="R-Ladies Philly">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="R-Ladies Philly">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/oct08-recap-rmarkdown/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@RLadiesPhilly">
+  <meta property="twitter:creator" content="@RLadiesPhilly">
+  
+  <meta property="og:site_name" content="R-Ladies Philly">
+  <meta property="og:url" content="/post/oct08-recap-rmarkdown/">
+  <meta property="og:title" content="October Recap: Network Analysis | R-Ladies Philly">
+  <meta property="og:description" content="Networks, also referred to as graphs in mathematics, model multiple types of relations and processes in physical, social, biological, and information systems. R-Ladies Philly’s October 2019 meetup was a workshop focusing on how to implement network analyses using the R igraph object. The workshop was led by Chun Su, PhD, who is a bioinformatics scientist at the Children’s Hospital of Philadelphia and also a R-ladies Philly co-organizer. The workshop materials are available at rladiesPHL github.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-10-12T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-10-12T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>October Recap: Network Analysis | R-Ladies Philly</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="R-Ladies Philly"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#board">
+            
+            <span>Board</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#news">
+            
+            <span>News</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#support">
+            
+            <span>Support</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">October Recap: Network Analysis</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-10-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-10-12 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Oct 12, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="R-Ladies Philly">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=October%20Recap%3a%20Network%20Analysis&amp;url=%2fpost%2foct08-recap-rmarkdown%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2foct08-recap-rmarkdown%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2foct08-recap-rmarkdown%2f&amp;title=October%20Recap%3a%20Network%20Analysis"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2foct08-recap-rmarkdown%2f&amp;title=October%20Recap%3a%20Network%20Analysis"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=October%20Recap%3a%20Network%20Analysis&amp;body=%2fpost%2foct08-recap-rmarkdown%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<hr />
+<p>Networks, also referred to as graphs in mathematics, model multiple types of relations and processes in physical, social, biological, and information systems. R-Ladies Philly’s October 2019 meetup was a workshop focusing on how to implement network analyses using the R igraph object. The workshop was led by <a href="https://learniningwithsckinta.netlify.com/">Chun Su, PhD</a>, who is a bioinformatics scientist at the Children’s Hospital of Philadelphia and also a R-ladies Philly co-organizer. The workshop materials are available at <a href="https://github.com/rladiesPHL/workshop_network">rladiesPHL github</a>.</p>
+<p>The workshop covered</p>
+<ul>
+<li>IGRAPH object “I/O” and manipulation</li>
+<li>The measurement and clustering of networks</li>
+<li>Network visualization</li>
+<li>Network showcase – gene regulation network</li>
+<li>Group exercise – real-world open flight network</li>
+</ul>
+<div id="igraph-object-in-r" class="section level2">
+<h2>IGRAPH object in R</h2>
+<p>Generally, graphs, (a.k.a networks) are made up of vertices and edges, which represent the whole inter-relationship of nodes. The R Package <code>igraph</code> uses a particular class called “IGRAPH” to represent it.</p>
+<p>IGRAPH object can be created by various ways, including generating from tranditional R object data.frame and adjacant matrix.</p>
+<p>Below is the one example to create a IGRAPH object representing a relationship between five actors.</p>
+<pre class="r"><code>library(igraph)
+library(tidyverse)
+
+# vertices -- actors
+actors &lt;- data.frame(
+  name=c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Cecil&quot;, &quot;David&quot;,&quot;Esmeralda&quot;),
+  age=c(48,33,45,34,21),
+  gender=c(&quot;F&quot;,&quot;M&quot;,&quot;F&quot;,&quot;M&quot;,&quot;F&quot;))
+
+# edges -- relations
+relations &lt;- data.frame(
+  from=c(&quot;Bob&quot;, &quot;Cecil&quot;, &quot;Cecil&quot;, &quot;David&quot;,&quot;David&quot;, &quot;Esmeralda&quot;),
+  to=c(&quot;Alice&quot;, &quot;Bob&quot;, &quot;Alice&quot;, &quot;Alice&quot;, &quot;Bob&quot;, &quot;Alice&quot;),
+  same.dept=c(FALSE,FALSE,TRUE,FALSE,FALSE,TRUE),
+  friendship=c(4,5,5,2,1,1), 
+  advice=c(4,5,5,4,2,3)
+  )
+
+# make igraph from data.frame
+g &lt;- graph_from_data_frame(relations, directed=TRUE, vertices=actors)
+g</code></pre>
+<pre><code>## IGRAPH 834595d DN-- 5 6 -- 
+## + attr: name (v/c), age (v/n), gender (v/c), same.dept (e/l),
+## | friendship (e/n), advice (e/n)
+## + edges from 834595d (vertex names):
+## [1] Bob      -&gt;Alice Cecil    -&gt;Bob   Cecil    -&gt;Alice David    -&gt;Alice
+## [5] David    -&gt;Bob   Esmeralda-&gt;Alice</code></pre>
+<p>During the workshop, Chun also introduced several ways to manipulate IGRAPH, including retrieving vertex and edges, adding/deleting vertex and edge attributes, merging multiple graphs and subsetting graphs, etc. The full material refers to the R markdown script at <a href="https://github.com/rladiesPHL/workshop_network/blob/master/network_workshop.Rmd">github</a>.</p>
+</div>
+<div id="the-measurement-and-clustering-of-network" class="section level2">
+<h2>The measurement and clustering of network</h2>
+<p>After presenting the basic IGRAPH object, Chun advanced the topic a little bit by introducing several useful metrics to measure a graph.</p>
+<p>One cool metric particularly useful for social networks is <em>Transitivity</em>, which measures the how well connected the graph is. Among small work networks, a network with high transivity means that it is very likely that the two friends connected to one given person are also friends to each other. To know more, <code>help(&quot;transitivity&quot;)</code></p>
+<p>Besides network measurement metrics, Chun also covered several methods in graph clustering, like decomposing graph to inter-connected components (<code>decompose.graph</code>), clustering to small cliques (<code>cliques</code>) and grouping graph to communities/modules (eg.<code>cluster_walktrap</code>).</p>
+</div>
+<div id="network-visualization" class="section level2">
+<h2>Network visualization</h2>
+<p>Visualizing network was highlighted in the workshop. It can be done by default plotting <code>plot(g)</code> to visualize a IGRAPH object with multiple attributes (color, shape and linetype, etc) applied to edges and vertices. Alternatively, one may consider plotting a IGRAPH using ggraph which is very similar ggplot2. It makes creating legends much easier!</p>
+<p>Below is an example to use ggraph highlighting the actors gender and friendship between them</p>
+<pre class="r"><code>library(ggraph)
+ggraph(g, layout=&quot;kk&quot;) +
+  geom_edge_link(aes(edge_width=friendship, edge_linetype=same.dept), arrow = arrow(angle=5, length = unit(0.3, &quot;inches&quot;))) +
+  geom_node_point(aes(color=gender), size=6) +
+  geom_node_text(aes(label=name), nudge_y = -0.1, nudge_x = -0.1) +
+  scale_edge_width(range = c(1, 2)) +
+  theme_void() </code></pre>
+<p><img src="/post/2019-10-8-recap-network-analysis_files/figure-html/ggraph_exp-1.png" width="672" /></p>
+</div>
+<div id="showcase-and-group-exercise" class="section level2">
+<h2>Showcase and group exercise</h2>
+<p>At end the workshop, Chun presented the application of network analysis in her work. As a bioinformatics scientist, she is particularly interested in the influence of gene regulatory networks on the genetic susceptibility for childhood diseases. She showed us an example of usig a gene-cis-regulatory-element interaction network to predict target genes for Type 1 diabetes-associated variants. To know more, refer to CHOP spatial and functional genomics center <a href="https://sfg.research.chop.edu/">website</a>.</p>
+<p>As a finaly activity, we started a group exercise exploring real-world flight data. Do you know that, if you choose to take the same airline company flight for the shortest tranfer, there are 15 ways to go from Philly to Beijing China?</p>
+<div class="figure">
+<img src="https://i.ibb.co/rkXw9QT/PHL2BJS.png" />
+
+</div>
+</div>
+<div id="thank-you" class="section level2">
+<h2>Thank you</h2>
+<div id="o3-world" class="section level5">
+<h5>O3 World</h5>
+<p>We would like to thank <a href="http://www.o3world.com">O3 World</a> for hosting us!</p>
+<p>“O3 World is a leading digital product design and development agency. They combine strategy, innovation, and a deep understanding of the current and emerging digital ecosystem to deliver results for clients. Headquartered in Philadelphia, they emphasize a balanced approach to design, innovative technological solutions, and award-winning agency culture.”</p>
+</div>
+<div id="orchestrall-care-network" class="section level5">
+<h5>Orchestrall Care Network</h5>
+<p>We would like to thank Orchestrall Care Network for sponsoring us food!</p>
+<p>“<a href="https://www.orchestrallinc.com/">Orchestrall Care Network</a> is a Conshohocken based multi-national healthcare company focused on making the lives of family members taking care of their elderly relatives better. By creating a trained local community network and leveraging the magic of AI, OCN provides low cost support to those dedicating their time to look after their loved ones”</p>
+<p><em>This post was authored by Chun Su. For more information contact <a href="mailto:philly@rladies.org">philly@rladies.org</a></em></p>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 R-Ladies Philly &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
