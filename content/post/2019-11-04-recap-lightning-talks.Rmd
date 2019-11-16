@@ -1,0 +1,183 @@
+---
+title: 'November 2019 Recap: Lightning Talks'
+author: "Ramaa Nathan"
+date: "2019-11-14"
+slug: nov04-recap-lightning
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+
+
+On November 04, 2019, RLadies-Philly presented a series of very informative lightning talks ranging from programming tips for reproducible research to full-blown applications of big data in delivering individualized care in medicine. One of the attendees correctly commented later that each of the five lightning talks was very enlightening and could each be extended to a full-length presentation. This blog post provides highlights from the lightning talks.
+
+# I Can Code Clearly Now - 10 Tips for Formatting R Code
+**Speaker: Jenine K. Harris**
+
+[Jenine Harris](https://publichealth.wustl.edu/scholars/jenine-harris/) is an associate professor at the Institute of Public Health of Washington University in St. Louis and is the leader of the RLadies chapter in St. Louis.
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">1️⃣First up! it’s <a href="https://twitter.com/jenineharris?ref_src=twsrc%5Etfw">@jenineharris</a> ! She is here to promote reproducible research practices! <a href="https://t.co/SNmp9tyA2F">pic.twitter.com/SNmp9tyA2F</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1191500609364676608?ref_src=twsrc%5Etfw">November 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+Jenine introduced the audience to the concept of reproducible research. She highlighted current problems with the quality of research, and explained how reproducible research could tackle these problems. 
+
+Every year 500-600 scientific papers are retracted due to errors and omissions, making it very difficult for the research to be replicated. Only 21% of drug studies, 40% to 60% of psychology studies, and 61% of economics studies could be replicated by other researchers. Results can be validated, and errors (incorrect results or data misinterpretation) can be identified only when other researchers can reproduce the research. So it is in the best interests of all that all researchers follow the practices of reproducible research.
+
+Reproducible Research can be classified in one of three categories:  
+1. Same Data + Same Code --> **Repeatable Research**  
+2. Same Data + Same or New Code --> **Reproducible Research**  
+3. New Data + New Code --> **Replicable Research**  
+
+Jenine defined **research is reproducible** when **"data are accessible and data management and analysis instructions are clear and complete"**. 
+
+Three changes can improve research reproducibility:  
+1. Use existing coding guidelines to format statistical code  
+2. Share statistical code  
+3. Share data  
+
+Jenine also shared 10 guidelines within three broad categories for formatting statistical code:  
+
+**Spacing**  
+
+1. Limit line length to 80 characters  
+2. Use white space to separate processes  
+3. Indent to group lines of code that belong together  
+4. Add spaces around operators (=, +, -, <-, etc)  
+
+**Naming**  
+
+5. Use meaningful names for objects  
+6. Use dot.case, camelCase or PascalCase for multipart names  
+    - kCamelCase for constants  
+    - camelCase for variables and dateframes  
+    - PascalCase for function names  
+7. Include metadata like the date and project name in filenames.  
+
+**Explaining**  
+
+8. Use comments strategically (to explain analytic choices)  
+9. Use function arguments and always name the arguments when invoking functions  
+    - For example: Func1(x=5, data=df)  
+10. Introduce your code with a prolog - function description, input arguments and output values, etc.  
+  
+  
+# Meeting People Where They Are 
+**Speaker: Jessica Streeter**
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">2️⃣The next talk is from <a href="https://twitter.com/phillynerd?ref_src=twsrc%5Etfw">@phillynerd</a> talking about her work on data + mental health! How can we meet people where they are? Sometimes it means... creating an excel calculator 👻 <a href="https://t.co/lilZBLP4LU">pic.twitter.com/lilZBLP4LU</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1191503807773061120?ref_src=twsrc%5Etfw">November 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+Jessica highlighted the essential qualities of a good data scientist -  listening to the client's needs, extracting the correct research questions, and answering them creatively using the available tools. She suggested these guidelines as a means of achieving this:  
+
+- Meet people where they are  
+- Put in the work upfront  
+- Be flexible with tools and methods  
+- Be a strong translator  
+
+Jessica used the studies performed at Community Behavioral Health (CBH), a mental health institute, as a case study. At a mental health institute, the clinicians may be outstanding, but the technology may be very laid back. The goals of the researchers may be comprehensive, but not practically achievable. In such cases, it is imperative for the a scientist to sit down with the people conducting the studies, understand the actual problems, and identify achievable and actionable goals. 
+ 
+In this case study, Jessica was able to provide a simple solution in the form of an Excel interface that was very familiar to the mental institute staff. But, at the same time, she did not compromise on the predictive modeling by using a full R implementation on the backend.
+
+
+# So Much Health Care Data 
+**Speaker: Becca Nock, RN - Manager of Data Analytics at Health Verity**
+
+Becca Nock is in a unique position. She is a certified Registered Nurse but is currently the manager of a data analytics group at [Health Verity](https://healthverity.com).
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">3️⃣The third lightning 🌩 talk is from <a href="https://twitter.com/beccanock?ref_src=twsrc%5Etfw">@beccanock</a> talking about where health data comes from. Becca is an RN that developed a data career after working in healthcare. <a href="https://t.co/kls7TIbRE3">pic.twitter.com/kls7TIbRE3</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1191506595747897344?ref_src=twsrc%5Etfw">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+Becca shared with us all the different types of healthcare-related data that are captured and used for different analyses. The types of data collected include medical and pharmacy claims data, purchase transactions, lab results and biomarkers, electronic medical records (EMR), consumer data like credit score, socio-economic factors, data from devices, imaging data, and even grocery data. Even though the data is de-identified, they can link the different records together.
+
+For example, a single doctor's visit by a patient could generate the following data:  
+
+1. EMR - data collected in the doctor's office  
+2. Medical claims - claims data sent from the doctor's office to the insurance companies for payment  
+3. Lab results / biomarkers - data from the lab tests ordered by the doctor during that visit  
+4. Pharmacy claims - from the prescriptions prescribed by the doctor during the visit and picked up by the patient from the pharmacy  
+5. Grocery store - the patient could go and buy healthy food after a visit to the doctor.  
+
+All these data could be either structured (for example, medical claims) or unstructured (for example, EMR).
+
+Because so much data is collected from various sources, two critical tasks required are to normalize the data and to ensure data are interoperable. Interoperability ensures that the same data can be easily used across different systems for different purposes.
+
+Becca concluded her presentation by sharing a few use cases for the data:  
+
+* Identifying patients with rare diseases  
+    + Try to understand the patient's journey from initial misdiagnosis to final diagnosis  
+* Determining clinical trial sites  
+    + Find clusters of patients who would be eligible for a specific trial and determine the geographical location for this clinical trial  
+* Seeing what medications a patient takes after leaving the hospital    
+* Following the uptake of new products that have entered the market    
+* Understanding how providers are prescribing or administering a drug   
+    + This could be to study the impact of translational medicine  
+   
+
+# Data Yenta - Data Science & Opioid Programming, A Love Story
+**Speaker: Marieke Jackson, MPH | Code for Philly**
+
+Marieke Jackson, a data scientist at Health Union, is also one of the organizers for [Code for Philly](https://codeforphilly.org/) and the founder and maintainer of the [Opioid Data Hackathon](https://codeforphilly.org/projects/opioid_data_hackathon).
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">4️⃣ Up next! It’s Merieke Jackson with <a href="https://twitter.com/CodeForPhilly?ref_src=twsrc%5Etfw">@CodeForPhilly</a> sharing experiences working with public health data. <a href="https://t.co/jx0Aa14KU9">pic.twitter.com/jx0Aa14KU9</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1191509212804898816?ref_src=twsrc%5Etfw">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+Marieke spoke passionately about the opioid crisis and how data scientists can help answer pertinent questions around the opioid crisis in Philadelphia.
+
+First, Marieke shared Code for Philly's work with Prevention Point. Prevention Point is a private non-profit organization whose mission is to help people with the opioid crisis by:   
+
+* Serving tens of thousands of individuals annually  
+    * Providing support for victims through the syringe exchange program, and for getting food and any help  
+* Tracking participant data in Excel, third party EHR systems, etc
+
+Code for Philly is helping Prevention Point by building a EHR (Electronic Health Record) system. This example highlights how bringing together data scientists, civic technologies, and developers can work with non-profit organizations, government agencies, public health practioners to answer unanswered questions. Some of the unanswered questions related to the opioid crisis include:  
+
+* How many IV drug users are in Philadelphia?  
+* What are the measurable effects of the Naxalone program?  
+* What are the geographic traits of the opioid problem?
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It looks like a major theme is emerging... a critical piece of the public health <a href="https://twitter.com/hashtag/datascience?src=hash&amp;ref_src=twsrc%5Etfw">#datascience</a> puzzle is understanding the unanswered questions!! What does your colleague/client/stakeholder really want to learn from their data? How can you enable this? <a href="https://t.co/Bv1gBMYwFn">pic.twitter.com/Bv1gBMYwFn</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1191510231517450242?ref_src=twsrc%5Etfw">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+Marieke announced that Code for Philly is organizing an Opioid Data Hackathon during February and March 2020. This project is bringing together local Data Science groups like Philly R, R Ladies Philly, Data Philly, and Data Jawn.
+
+
+# Using Data to Inform Delivery of Individualized Care
+**Speaker: [Kristin Rising](https://www.jefferson.edu/university/research/researcher/researcher-faculty/rising-clinical-research.html)**  
+
+Kristin Rising is an Associate Prof. & Director of Acute Care Transitions, Dept. of Emergency Medicine, Thomas Jefferson University. 
+
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">5️⃣ The final speaker is Dr. Kristin Rising of Thomas Jefferson University! Kristin’s experience as an emergency care physician drives their research into individualized care. How can we quantify patient uncertainty? <a href="https://t.co/wSzjSmhRgg">pic.twitter.com/wSzjSmhRgg</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1191512719045857282?ref_src=twsrc%5Etfw">November 5, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+Kristin spoke about her work developing patient-centered interventions in response to patient-identified needs. She works to turn qualitative data into interventional studies. 
+
+Studies have shown that many patients return to the Emergency Department (ED) after being discharged from an inpatient stay at the hospital. From a patient's perspective, one of the main reasons for returning to ED is the fear and uncertainty in understanding their symptoms. What the patients mainly need at discharge are answers to questions like: 
+
+1. What is the actual diagnosis?  
+2. What is the cause of the symptoms?  
+3. What to expect after discharge?  
+
+Kristin and her team are working to address the patients' fears and uncertainties using quantitative modeling. For example, by developing an uncertainty scale (U-Scale) and an uncertainty communication checklist.
+
+Kristin also spoke about her second project, "Food is Medicine," a NIH-funded study for patients with diabetes. 
+
+"Food is Medicine" is a PCORI study of patients with poorly controlled diabetes. As part of this study, Kristin is working on providing nutrition education through telehealth and medically-tailored meals through non-profit organizations like [MANNA](https://www.mannapa.org). The goal of this study is to inform policy change to cover these interventions as routine benefits. Outcomes measured in the study are the reduction in hemoglobin A1c and cost-effectiveness.
+
+[The Patient Centered Outcomes Research Institute (PCORI)](https://www.pcori.org) is an independent non-profit, non-governmental organization in Washington DC. PCORI funds studies to compare healthcare options and learn what works best, given patients' circumstances and preferences. 
+
+
+
+*his post was authored by Ramaa Nathan. For more information contact philly@rladies.org*
+
+

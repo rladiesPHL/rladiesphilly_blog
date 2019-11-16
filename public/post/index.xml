@@ -13,6 +13,25 @@
     
     
     <item>
+      <title>November 2019 Recap: Lightning Talks</title>
+      <link>/post/nov04-recap-lightning/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nov04-recap-lightning/</guid>
+      <description>On November 04, 2019, RLadies-Philly presented a series of very informative lightning talks ranging from programming tips for reproducible research to full-blown applications of big data in delivering individualized care in medicine. One of the attendees correctly commented later that each of the five lightning talks was very enlightening and could each be extended to a full-length presentation. This blog post provides highlights from the lightning talks.
+I Can Code Clearly Now - 10 Tips for Formatting R Code Speaker: Jenine K.</description>
+    </item>
+    
+    <item>
+      <title>October Recap: Network Analysis</title>
+      <link>/post/oct08-recap-rmarkdown/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/oct08-recap-rmarkdown/</guid>
+      <description>Networks, also referred to as graphs in mathematics, model multiple types of relations and processes in physical, social, biological, and information systems. R-Ladies Philly’s October 2019 meetup was a workshop focusing on how to implement network analyses using the R igraph object. The workshop was led by Chun Su, PhD, who is a bioinformatics scientist at the Children’s Hospital of Philadelphia and also a R-ladies Philly co-organizer. The workshop materials are available at rladiesPHL github.</description>
+    </item>
+    
+    <item>
       <title>September Recap: Reporting Research with R Markdown</title>
       <link>/post/sept19-recap-rmarkdown/</link>
       <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
@@ -20,7 +39,7 @@
       <guid>/post/sept19-recap-rmarkdown/</guid>
       <description>R-Ladies Philadelphia’s September 2019 meetup was on the topic of reporting research using R Markdown. Our speaker was Ramaa Nathan, PhD, a statistican and data scientist with a background in the healthcare and finance industries. Ramaa is a co-organizer of the Data Science Philadelphia (DataPhilly) meetup group.
 Ramaa’s materials are available here.
-Welcome #rladies to our meetup! So excited to see everyone and to have Ramaa leading our session on R markdown!</description>
+ Welcome #rladies to our meetup! So excited to see everyone and to have Ramaa leading our session on R markdown!</description>
     </item>
     
     <item>
@@ -32,7 +51,7 @@ Ramaa’s materials are available here.
       <description>Our July Meetup sought to highlight work and lessons from our community members through a series of short and engaging lightning talks.
 Important skills for women in data (Rajvi Mehta)
 Rajvi, a Data Scientist at Vanguard and Philadelphia Chapter Lead of Women in Data, shared her story of becoming a data scientist, and the lessons she learned along the way. She highlighted the following advice:
-Always seek to update your skill set, because job titles are varied in data science, and it’s a fast paced environmentSeek to improve your communication skills, because there is often a need to explain complex statistics to colleagues and clients who have different areas of expertise but who, given the right explanation, could contribute tremendously to the data scientist’s workSeek diversity in teams, as people with diverse backgrounds can bring unique perspectives on solutions, risk, team dynamics, and problem solving approachesRemember that data is not just about the numbers, but it is also about the people behind the data (the end users, the developers implementing data collection systems, the business rules influencing the data being collected, etc.</description>
+ Always seek to update your skill set, because job titles are varied in data science, and it’s a fast paced environment Seek to improve your communication skills, because there is often a need to explain complex statistics to colleagues and clients who have different areas of expertise but who, given the right explanation, could contribute tremendously to the data scientist’s work Seek diversity in teams, as people with diverse backgrounds can bring unique perspectives on solutions, risk, team dynamics, and problem solving approaches Remember that data is not just about the numbers, but it is also about the people behind the data (the end users, the developers implementing data collection systems, the business rules influencing the data being collected, etc.</description>
     </item>
     
     <item>
@@ -42,7 +61,7 @@ Rajvi, a Data Scientist at Vanguard and Philadelphia Chapter Lead of Women in Da
       
       <guid>/post/june-recap-data-visualiztion/</guid>
       <description>Data visualization is paramount to both understanding and presenting your data, whatever your data may be. For our June Meetup, R-Ladies Philly member Jake Riley led an interactive workshop to elucidate aspects of the popular ggplot2 package and share helpful tips and best practices relevant to any R user.
-The 2 g’s in ggplot2 - defined!Jake explained that the architecture of visualizing data using ggplot2 is based on the grammar of graphics: In ggplot2, just like every sentence has a subject, verb, and noun, every plot has a coordinate system, geom, and aesthetics.</description>
+The 2 g’s in ggplot2 - defined! Jake explained that the architecture of visualizing data using ggplot2 is based on the grammar of graphics: In ggplot2, just like every sentence has a subject, verb, and noun, every plot has a coordinate system, geom, and aesthetics.</description>
     </item>
     
     <item>
@@ -51,7 +70,7 @@ The 2 g’s in ggplot2 - defined!Jake explained that the architecture of visual
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/may-recap-diversity-data/</guid>
-      <description>How to communicate as (minority) data scientists?Being a minority in data science can be tough. It can be tough to get into the field, and sometimes even tougher to make yourself heard in the field. Marieke Jackson, a former epidemiologist turned data scientist, shared how basic rules from improv have helped her navigate day to day challenges.
+      <description>How to communicate as (minority) data scientists? Being a minority in data science can be tough. It can be tough to get into the field, and sometimes even tougher to make yourself heard in the field. Marieke Jackson, a former epidemiologist turned data scientist, shared how basic rules from improv have helped her navigate day to day challenges.
 Imagine you are working with an improv partner and you mention those pesky magical flying birds that poop jellybeans.</description>
     </item>
     
@@ -62,7 +81,7 @@ Imagine you are working with an improv partner and you mention those pesky magic
       
       <guid>/post/april-recap-open-science/</guid>
       <description>Our April meetup with Data Philly focused on the increasingly popular topic of Open Science. See below for the article that R Ladies Philly members Alice, Karla, and Amy co-wrote! This article originally appeared on Technical.ly Philly.
-What is open science?It’s like open data, but for research. Organizers of the R-Ladies Philly meetup offer an explainer based on talks from their most recent meetup.
+What is open science? It’s like open data, but for research. Organizers of the R-Ladies Philly meetup offer an explainer based on talks from their most recent meetup.
 Many are familiar with the concept of open source in software development, but what is open science?</description>
     </item>
     
@@ -82,7 +101,7 @@ Many are familiar with the concept of open source in software development, but w
       
       <guid>/post/january-recap/</guid>
       <description>Our January meetup marked an important event in R-Ladies Philly history - our first ‘birthday’! We honored this occasion by celebrating what our community has achieved over the past year, and planning for an exciting 2019.
-Recap of our first yearAlice and Karla started off by reiterating the founding principles of R-Ladies Philly: to create a welcoming, accepting, and representative community for R users in the Philadelphia area who espouse our values of diversity and gender equity.</description>
+Recap of our first year Alice and Karla started off by reiterating the founding principles of R-Ladies Philly: to create a welcoming, accepting, and representative community for R users in the Philadelphia area who espouse our values of diversity and gender equity.</description>
     </item>
     
     <item>
@@ -94,7 +113,7 @@ Recap of our first yearAlice and Karla started off by reiterating the founding 
       <description>We collaborated with Women in Kaggle Philly to provide an Introduction to Machine Learning (ML).
 ML is the science of getting computers to learn from data without explicit programming. ML has led to advances in speech recognition, tumor identification, self-driving cars, and many other arenas. You probably interact with ML every day!
 This meetup featured a lightning talk introducing some key concepts followed by a hands-on Kaggle competition tutorial.
-A brief introduction to Machine LearningTamera Lanham, a data scientist at Elsevier, gave a lightning talk introducing ML.</description>
+A brief introduction to Machine Learning Tamera Lanham, a data scientist at Elsevier, gave a lightning talk introducing ML.</description>
     </item>
     
     <item>
@@ -104,7 +123,7 @@ A brief introduction to Machine LearningTamera Lanham, a data scientist at Else
       
       <guid>/post/november-recap/</guid>
       <description>Geographic Information Systems or GIS are specialized technology used for spatial data that require mapping. In our November meetup, R-Ladies Philly member and GIS Specialist Mary Lennon introduced R-Ladies Philly to manipulating and plotting spatial data from our favorite city (Philly!) in our favorite language (R!)!
-How can we access and store spatial data?First, Mary explained that GIS data can be stored in different formats including Shapefiles, GPX, and GeoJSON.</description>
+How can we access and store spatial data? First, Mary explained that GIS data can be stored in different formats including Shapefiles, GPX, and GeoJSON.</description>
     </item>
     
     <item>
@@ -123,7 +142,7 @@ How can we access and store spatial data?First, Mary explained that GIS data ca
       
       <guid>/post/september-recap/</guid>
       <description>In our September meetup hosted at the Penn Dental School, R-Ladies LA founder and recent Philadelphia transplant Dr. Katie Scranton led an interactive workshop on making websites (like this one!) using R and the blogdown package.
-OverviewKatie started off by providing a broad overview of how blogdown works. Blogdown generates websites using Rmarkdown documents, and each blogdown website consists of a single folder of static files. Once created, your blogdown website can then be hosted on any web server to make it ‘live.</description>
+Overview Katie started off by providing a broad overview of how blogdown works. Blogdown generates websites using Rmarkdown documents, and each blogdown website consists of a single folder of static files. Once created, your blogdown website can then be hosted on any web server to make it ‘live.</description>
     </item>
     
     <item>
@@ -133,7 +152,7 @@ OverviewKatie started off by providing a broad overview of how blogdown works. 
       
       <guid>/post/aug-recap/</guid>
       <description>Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis! This was our second meetup on the topic. Click here for a recap of our first data cleaning meetup in June.
-Reshaping dataWe began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial Long to Wide Data in R.</description>
+Reshaping data We began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial Long to Wide Data in R.</description>
     </item>
     
     <item>
@@ -142,9 +161,9 @@ Reshaping dataWe began with an introduction to reshaping data from Alice. The p
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/june-recap/</guid>
-      <description>Our June meetupOur June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!
+      <description>Our June meetup Our June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!
 We were live tweeting the event! Check out some tweets below.
-IntroductionDarina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct.</description>
+Introduction Darina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct.</description>
     </item>
     
     <item>
@@ -153,9 +172,9 @@ IntroductionDarina and Katerina provided an introduction to data cleaning, with
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/may-recap/</guid>
-      <description>Our May Event!The May R-Ladies meetup took place on May 16, 2018 at Drexel’s LeBow School of Business. Thanks for hosting us again, Drexel, and thanks to our sponsors Datacamp and the R consortium!
+      <description>Our May Event! The May R-Ladies meetup took place on May 16, 2018 at Drexel’s LeBow School of Business. Thanks for hosting us again, Drexel, and thanks to our sponsors Datacamp and the R consortium!
 Our topic for May was version control using the popular resources Git and GitHub, and we focused on integrating version control with R.
-IntroDarina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time.</description>
+ Intro Darina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time.</description>
     </item>
     
     <item>
@@ -164,10 +183,10 @@ Our topic for May was version control using the popular resources Git and GitHub
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/april-recap/</guid>
-      <description>Our April Event!The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!
+      <description>Our April Event! The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!
 Our topic was an introduction to text mining in R using the first two chapters of “Text Mining with R” by fellow R-Lady(!) Julia Silge and David Robinson.
 There was a great group - including some new faces!
-Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together.</description>
+ Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together.</description>
     </item>
     
     <item>
@@ -176,7 +195,7 @@ There was a great group - including some new faces!
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/survey/</guid>
-      <description>Why do a new member survey?One of the goals of R-Ladies Philly is for the group to be focused on the needs and interests of its members. With this goal in mind, we created a survey to query members about meeting logistics and R experience level. This survey also provided a mechanism to collect emails in order to invite new members to our Slack channel.
+      <description>Why do a new member survey? One of the goals of R-Ladies Philly is for the group to be focused on the needs and interests of its members. With this goal in mind, we created a survey to query members about meeting logistics and R experience level. This survey also provided a mechanism to collect emails in order to invite new members to our Slack channel.
 If you want to join us and fill out the survey, you can find it here: http://bit.</description>
     </item>
     

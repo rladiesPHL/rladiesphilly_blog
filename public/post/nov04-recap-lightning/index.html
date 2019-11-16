@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38" />
+  <meta name="author" content="R-Ladies Philly">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="On November 04, 2019, RLadies-Philly presented a series of very informative lightning talks ranging from programming tips for reproducible research to full-blown applications of big data in delivering individualized care in medicine. One of the attendees correctly commented later that each of the five lightning talks was very enlightening and could each be extended to a full-length presentation. This blog post provides highlights from the lightning talks.
+I Can Code Clearly Now - 10 Tips for Formatting R Code Speaker: Jenine K.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/nov04-recap-lightning/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="R-Ladies Philly">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="R-Ladies Philly">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/nov04-recap-lightning/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@RLadiesPhilly">
+  <meta property="twitter:creator" content="@RLadiesPhilly">
+  
+  <meta property="og:site_name" content="R-Ladies Philly">
+  <meta property="og:url" content="/post/nov04-recap-lightning/">
+  <meta property="og:title" content="November 2019 Recap: Lightning Talks | R-Ladies Philly">
+  <meta property="og:description" content="On November 04, 2019, RLadies-Philly presented a series of very informative lightning talks ranging from programming tips for reproducible research to full-blown applications of big data in delivering individualized care in medicine. One of the attendees correctly commented later that each of the five lightning talks was very enlightening and could each be extended to a full-length presentation. This blog post provides highlights from the lightning talks.
+I Can Code Clearly Now - 10 Tips for Formatting R Code Speaker: Jenine K.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-11-14T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-11-14T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>November 2019 Recap: Lightning Talks | R-Ladies Philly</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="R-Ladies Philly"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#board">
+            
+            <span>Board</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#news">
+            
+            <span>News</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#support">
+            
+            <span>Support</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">November 2019 Recap: Lightning Talks</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-11-14 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-11-14 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Nov 14, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="R-Ladies Philly">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=November%202019%20Recap%3a%20Lightning%20Talks&amp;url=%2fpost%2fnov04-recap-lightning%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fnov04-recap-lightning%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fnov04-recap-lightning%2f&amp;title=November%202019%20Recap%3a%20Lightning%20Talks"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fnov04-recap-lightning%2f&amp;title=November%202019%20Recap%3a%20Lightning%20Talks"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=November%202019%20Recap%3a%20Lightning%20Talks&amp;body=%2fpost%2fnov04-recap-lightning%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>On November 04, 2019, RLadies-Philly presented a series of very informative lightning talks ranging from programming tips for reproducible research to full-blown applications of big data in delivering individualized care in medicine. One of the attendees correctly commented later that each of the five lightning talks was very enlightening and could each be extended to a full-length presentation. This blog post provides highlights from the lightning talks.</p>
+<div id="i-can-code-clearly-now---10-tips-for-formatting-r-code" class="section level1">
+<h1>I Can Code Clearly Now - 10 Tips for Formatting R Code</h1>
+<p><strong>Speaker: Jenine K. Harris</strong></p>
+<p><a href="https://publichealth.wustl.edu/scholars/jenine-harris/">Jenine Harris</a> is an associate professor at the Institute of Public Health of Washington University in St. Louis and is the leader of the RLadies chapter in St. Louis.</p>
+<center>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+1️⃣First up! it’s <a href="https://twitter.com/jenineharris?ref_src=twsrc%5Etfw"><span class="citation">@jenineharris</span></a> ! She is here to promote reproducible research practices! <a href="https://t.co/SNmp9tyA2F">pic.twitter.com/SNmp9tyA2F</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1191500609364676608?ref_src=twsrc%5Etfw">November 4, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<p>Jenine introduced the audience to the concept of reproducible research. She highlighted current problems with the quality of research, and explained how reproducible research could tackle these problems.</p>
+<p>Every year 500-600 scientific papers are retracted due to errors and omissions, making it very difficult for the research to be replicated. Only 21% of drug studies, 40% to 60% of psychology studies, and 61% of economics studies could be replicated by other researchers. Results can be validated, and errors (incorrect results or data misinterpretation) can be identified only when other researchers can reproduce the research. So it is in the best interests of all that all researchers follow the practices of reproducible research.</p>
+<p>Reproducible Research can be classified in one of three categories:<br />
+1. Same Data + Same Code –&gt; <strong>Repeatable Research</strong><br />
+2. Same Data + Same or New Code –&gt; <strong>Reproducible Research</strong><br />
+3. New Data + New Code –&gt; <strong>Replicable Research</strong></p>
+<p>Jenine defined <strong>research is reproducible</strong> when <strong>“data are accessible and data management and analysis instructions are clear and complete”</strong>.</p>
+<p>Three changes can improve research reproducibility:<br />
+1. Use existing coding guidelines to format statistical code<br />
+2. Share statistical code<br />
+3. Share data</p>
+<p>Jenine also shared 10 guidelines within three broad categories for formatting statistical code:</p>
+<p><strong>Spacing</strong></p>
+<ol style="list-style-type: decimal">
+<li>Limit line length to 80 characters<br />
+</li>
+<li>Use white space to separate processes<br />
+</li>
+<li>Indent to group lines of code that belong together<br />
+</li>
+<li>Add spaces around operators (=, +, -, &lt;-, etc)</li>
+</ol>
+<p><strong>Naming</strong></p>
+<ol start="5" style="list-style-type: decimal">
+<li>Use meaningful names for objects<br />
+</li>
+<li>Use dot.case, camelCase or PascalCase for multipart names
+<ul>
+<li>kCamelCase for constants<br />
+</li>
+<li>camelCase for variables and dateframes<br />
+</li>
+<li>PascalCase for function names<br />
+</li>
+</ul></li>
+<li>Include metadata like the date and project name in filenames.</li>
+</ol>
+<p><strong>Explaining</strong></p>
+<ol start="8" style="list-style-type: decimal">
+<li>Use comments strategically (to explain analytic choices)<br />
+</li>
+<li>Use function arguments and always name the arguments when invoking functions
+<ul>
+<li>For example: Func1(x=5, data=df)<br />
+</li>
+</ul></li>
+<li>Introduce your code with a prolog - function description, input arguments and output values, etc.</li>
+</ol>
+</div>
+<div id="meeting-people-where-they-are" class="section level1">
+<h1>Meeting People Where They Are</h1>
+<p><strong>Speaker: Jessica Streeter</strong></p>
+<center>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+2️⃣The next talk is from <a href="https://twitter.com/phillynerd?ref_src=twsrc%5Etfw"><span class="citation">@phillynerd</span></a> talking about her work on data + mental health! How can we meet people where they are? Sometimes it means… creating an excel calculator 👻 <a href="https://t.co/lilZBLP4LU">pic.twitter.com/lilZBLP4LU</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1191503807773061120?ref_src=twsrc%5Etfw">November 4, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<p>Jessica highlighted the essential qualities of a good data scientist - listening to the client’s needs, extracting the correct research questions, and answering them creatively using the available tools. She suggested these guidelines as a means of achieving this:</p>
+<ul>
+<li>Meet people where they are<br />
+</li>
+<li>Put in the work upfront<br />
+</li>
+<li>Be flexible with tools and methods<br />
+</li>
+<li>Be a strong translator</li>
+</ul>
+<p>Jessica used the studies performed at Community Behavioral Health (CBH), a mental health institute, as a case study. At a mental health institute, the clinicians may be outstanding, but the technology may be very laid back. The goals of the researchers may be comprehensive, but not practically achievable. In such cases, it is imperative for the a scientist to sit down with the people conducting the studies, understand the actual problems, and identify achievable and actionable goals.</p>
+<p>In this case study, Jessica was able to provide a simple solution in the form of an Excel interface that was very familiar to the mental institute staff. But, at the same time, she did not compromise on the predictive modeling by using a full R implementation on the backend.</p>
+</div>
+<div id="so-much-health-care-data" class="section level1">
+<h1>So Much Health Care Data</h1>
+<p><strong>Speaker: Becca Nock, RN - Manager of Data Analytics at Health Verity</strong></p>
+<p>Becca Nock is in a unique position. She is a certified Registered Nurse but is currently the manager of a data analytics group at <a href="https://healthverity.com">Health Verity</a>.</p>
+<center>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+3️⃣The third lightning 🌩 talk is from <a href="https://twitter.com/beccanock?ref_src=twsrc%5Etfw"><span class="citation">@beccanock</span></a> talking about where health data comes from. Becca is an RN that developed a data career after working in healthcare. <a href="https://t.co/kls7TIbRE3">pic.twitter.com/kls7TIbRE3</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1191506595747897344?ref_src=twsrc%5Etfw">November 5, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<p>Becca shared with us all the different types of healthcare-related data that are captured and used for different analyses. The types of data collected include medical and pharmacy claims data, purchase transactions, lab results and biomarkers, electronic medical records (EMR), consumer data like credit score, socio-economic factors, data from devices, imaging data, and even grocery data. Even though the data is de-identified, they can link the different records together.</p>
+<p>For example, a single doctor’s visit by a patient could generate the following data:</p>
+<ol style="list-style-type: decimal">
+<li>EMR - data collected in the doctor’s office<br />
+</li>
+<li>Medical claims - claims data sent from the doctor’s office to the insurance companies for payment<br />
+</li>
+<li>Lab results / biomarkers - data from the lab tests ordered by the doctor during that visit<br />
+</li>
+<li>Pharmacy claims - from the prescriptions prescribed by the doctor during the visit and picked up by the patient from the pharmacy<br />
+</li>
+<li>Grocery store - the patient could go and buy healthy food after a visit to the doctor.</li>
+</ol>
+<p>All these data could be either structured (for example, medical claims) or unstructured (for example, EMR).</p>
+<p>Because so much data is collected from various sources, two critical tasks required are to normalize the data and to ensure data are interoperable. Interoperability ensures that the same data can be easily used across different systems for different purposes.</p>
+<p>Becca concluded her presentation by sharing a few use cases for the data:</p>
+<ul>
+<li>Identifying patients with rare diseases
+<ul>
+<li>Try to understand the patient’s journey from initial misdiagnosis to final diagnosis<br />
+</li>
+</ul></li>
+<li>Determining clinical trial sites
+<ul>
+<li>Find clusters of patients who would be eligible for a specific trial and determine the geographical location for this clinical trial<br />
+</li>
+</ul></li>
+<li>Seeing what medications a patient takes after leaving the hospital<br />
+</li>
+<li>Following the uptake of new products that have entered the market<br />
+</li>
+<li>Understanding how providers are prescribing or administering a drug
+<ul>
+<li>This could be to study the impact of translational medicine</li>
+</ul></li>
+</ul>
+</div>
+<div id="data-yenta---data-science-opioid-programming-a-love-story" class="section level1">
+<h1>Data Yenta - Data Science &amp; Opioid Programming, A Love Story</h1>
+<p><strong>Speaker: Marieke Jackson, MPH | Code for Philly</strong></p>
+<p>Marieke Jackson, a data scientist at Health Union, is also one of the organizers for <a href="https://codeforphilly.org/">Code for Philly</a> and the founder and maintainer of the <a href="https://codeforphilly.org/projects/opioid_data_hackathon">Opioid Data Hackathon</a>.</p>
+<center>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+4️⃣ Up next! It’s Merieke Jackson with <a href="https://twitter.com/CodeForPhilly?ref_src=twsrc%5Etfw"><span class="citation">@CodeForPhilly</span></a> sharing experiences working with public health data. <a href="https://t.co/jx0Aa14KU9">pic.twitter.com/jx0Aa14KU9</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1191509212804898816?ref_src=twsrc%5Etfw">November 5, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<p>Marieke spoke passionately about the opioid crisis and how data scientists can help answer pertinent questions around the opioid crisis in Philadelphia.</p>
+<p>First, Marieke shared Code for Philly’s work with Prevention Point. Prevention Point is a private non-profit organization whose mission is to help people with the opioid crisis by:</p>
+<ul>
+<li>Serving tens of thousands of individuals annually
+<ul>
+<li>Providing support for victims through the syringe exchange program, and for getting food and any help<br />
+</li>
+</ul></li>
+<li>Tracking participant data in Excel, third party EHR systems, etc</li>
+</ul>
+<p>Code for Philly is helping Prevention Point by building a EHR (Electronic Health Record) system. This example highlights how bringing together data scientists, civic technologies, and developers can work with non-profit organizations, government agencies, public health practioners to answer unanswered questions. Some of the unanswered questions related to the opioid crisis include:</p>
+<ul>
+<li>How many IV drug users are in Philadelphia?<br />
+</li>
+<li>What are the measurable effects of the Naxalone program?<br />
+</li>
+<li>What are the geographic traits of the opioid problem?</li>
+</ul>
+<center>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+It looks like a major theme is emerging… a critical piece of the public health <a href="https://twitter.com/hashtag/datascience?src=hash&amp;ref_src=twsrc%5Etfw">#datascience</a> puzzle is understanding the unanswered questions!! What does your colleague/client/stakeholder really want to learn from their data? How can you enable this? <a href="https://t.co/Bv1gBMYwFn">pic.twitter.com/Bv1gBMYwFn</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1191510231517450242?ref_src=twsrc%5Etfw">November 5, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<p>Marieke announced that Code for Philly is organizing an Opioid Data Hackathon during February and March 2020. This project is bringing together local Data Science groups like Philly R, R Ladies Philly, Data Philly, and Data Jawn.</p>
+</div>
+<div id="using-data-to-inform-delivery-of-individualized-care" class="section level1">
+<h1>Using Data to Inform Delivery of Individualized Care</h1>
+<p><strong>Speaker: <a href="https://www.jefferson.edu/university/research/researcher/researcher-faculty/rising-clinical-research.html">Kristin Rising</a></strong></p>
+<p>Kristin Rising is an Associate Prof. &amp; Director of Acute Care Transitions, Dept. of Emergency Medicine, Thomas Jefferson University.</p>
+<center>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+5️⃣ The final speaker is Dr. Kristin Rising of Thomas Jefferson University! Kristin’s experience as an emergency care physician drives their research into individualized care. How can we quantify patient uncertainty? <a href="https://t.co/wSzjSmhRgg">pic.twitter.com/wSzjSmhRgg</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1191512719045857282?ref_src=twsrc%5Etfw">November 5, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+<p>Kristin spoke about her work developing patient-centered interventions in response to patient-identified needs. She works to turn qualitative data into interventional studies.</p>
+<p>Studies have shown that many patients return to the Emergency Department (ED) after being discharged from an inpatient stay at the hospital. From a patient’s perspective, one of the main reasons for returning to ED is the fear and uncertainty in understanding their symptoms. What the patients mainly need at discharge are answers to questions like:</p>
+<ol style="list-style-type: decimal">
+<li>What is the actual diagnosis?<br />
+</li>
+<li>What is the cause of the symptoms?<br />
+</li>
+<li>What to expect after discharge?</li>
+</ol>
+<p>Kristin and her team are working to address the patients’ fears and uncertainties using quantitative modeling. For example, by developing an uncertainty scale (U-Scale) and an uncertainty communication checklist.</p>
+<p>Kristin also spoke about her second project, “Food is Medicine,” a NIH-funded study for patients with diabetes.</p>
+<p>“Food is Medicine” is a PCORI study of patients with poorly controlled diabetes. As part of this study, Kristin is working on providing nutrition education through telehealth and medically-tailored meals through non-profit organizations like <a href="https://www.mannapa.org">MANNA</a>. The goal of this study is to inform policy change to cover these interventions as routine benefits. Outcomes measured in the study are the reduction in hemoglobin A1c and cost-effectiveness.</p>
+<p><a href="https://www.pcori.org">The Patient Centered Outcomes Research Institute (PCORI)</a> is an independent non-profit, non-governmental organization in Washington DC. PCORI funds studies to compare healthcare options and learn what works best, given patients’ circumstances and preferences.</p>
+<p><em>his post was authored by Ramaa Nathan. For more information contact <a href="mailto:philly@rladies.org" class="email">philly@rladies.org</a></em></p>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 R-Ladies Philly &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
