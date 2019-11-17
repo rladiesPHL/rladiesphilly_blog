@@ -11,6 +11,318 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>November 2019 Recap: Lightning Talks</title>
+      <link>/post/nov04-recap-lightning/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nov04-recap-lightning/</guid>
+      <description>&lt;p&gt;On November 04, 2019, RLadies-Philly presented a series of very informative lightning talks ranging from programming tips for reproducible research to full-blown applications of big data in delivering individualized care in medicine. One of the attendees correctly commented later that each of the five lightning talks was very enlightening and could each be extended to a full-length presentation. This blog post provides highlights from the lightning talks.&lt;/p&gt;
+&lt;div id=&#34;i-can-code-clearly-now---10-tips-for-formatting-r-code&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;I Can Code Clearly Now - 10 Tips for Formatting R Code&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Speaker: Jenine K. Harris&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://publichealth.wustl.edu/scholars/jenine-harris/&#34;&gt;Jenine Harris&lt;/a&gt; is an associate professor at the Institute of Public Health of Washington University in St. Louis and is the leader of the RLadies chapter in St. Louis.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+1️⃣First up! it’s &lt;a href=&#34;https://twitter.com/jenineharris?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@jenineharris&lt;/span&gt;&lt;/a&gt; ! She is here to promote reproducible research practices! &lt;a href=&#34;https://t.co/SNmp9tyA2F&#34;&gt;pic.twitter.com/SNmp9tyA2F&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1191500609364676608?ref_src=twsrc%5Etfw&#34;&gt;November 4, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;p&gt;Jenine introduced the audience to the concept of reproducible research. She highlighted current problems with the quality of research, and explained how reproducible research could tackle these problems.&lt;/p&gt;
+&lt;p&gt;Every year 500-600 scientific papers are retracted due to errors and omissions, making it very difficult for the research to be replicated. Only 21% of drug studies, 40% to 60% of psychology studies, and 61% of economics studies could be replicated by other researchers. Results can be validated, and errors (incorrect results or data misinterpretation) can be identified only when other researchers can reproduce the research. So it is in the best interests of all that all researchers follow the practices of reproducible research.&lt;/p&gt;
+&lt;p&gt;Reproducible Research can be classified in one of three categories:&lt;br /&gt;
+1. Same Data + Same Code –&amp;gt; &lt;strong&gt;Repeatable Research&lt;/strong&gt;&lt;br /&gt;
+2. Same Data + Same or New Code –&amp;gt; &lt;strong&gt;Reproducible Research&lt;/strong&gt;&lt;br /&gt;
+3. New Data + New Code –&amp;gt; &lt;strong&gt;Replicable Research&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jenine defined &lt;strong&gt;research is reproducible&lt;/strong&gt; when &lt;strong&gt;“data are accessible and data management and analysis instructions are clear and complete”&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Three changes can improve research reproducibility:&lt;br /&gt;
+1. Use existing coding guidelines to format statistical code&lt;br /&gt;
+2. Share statistical code&lt;br /&gt;
+3. Share data&lt;/p&gt;
+&lt;p&gt;Jenine also shared 10 guidelines within three broad categories for formatting statistical code:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spacing&lt;/strong&gt;&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Limit line length to 80 characters&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Use white space to separate processes&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Indent to group lines of code that belong together&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Add spaces around operators (=, +, -, &amp;lt;-, etc)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Naming&lt;/strong&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Use meaningful names for objects&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Use dot.case, camelCase or PascalCase for multipart names
+&lt;ul&gt;
+&lt;li&gt;kCamelCase for constants&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;camelCase for variables and dateframes&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;PascalCase for function names&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Include metadata like the date and project name in filenames.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Explaining&lt;/strong&gt;&lt;/p&gt;
+&lt;ol start=&#34;8&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Use comments strategically (to explain analytic choices)&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Use function arguments and always name the arguments when invoking functions
+&lt;ul&gt;
+&lt;li&gt;For example: Func1(x=5, data=df)&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Introduce your code with a prolog - function description, input arguments and output values, etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;meeting-people-where-they-are&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Meeting People Where They Are&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Speaker: Jessica Streeter&lt;/strong&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+2️⃣The next talk is from &lt;a href=&#34;https://twitter.com/phillynerd?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@phillynerd&lt;/span&gt;&lt;/a&gt; talking about her work on data + mental health! How can we meet people where they are? Sometimes it means… creating an excel calculator 👻 &lt;a href=&#34;https://t.co/lilZBLP4LU&#34;&gt;pic.twitter.com/lilZBLP4LU&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1191503807773061120?ref_src=twsrc%5Etfw&#34;&gt;November 4, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;p&gt;Jessica highlighted the essential qualities of a good data scientist - listening to the client’s needs, extracting the correct research questions, and answering them creatively using the available tools. She suggested these guidelines as a means of achieving this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Meet people where they are&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Put in the work upfront&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Be flexible with tools and methods&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Be a strong translator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jessica used the studies performed at Community Behavioral Health (CBH), a mental health institute, as a case study. At a mental health institute, the clinicians may be outstanding, but the technology may be very laid back. The goals of the researchers may be comprehensive, but not practically achievable. In such cases, it is imperative for the a scientist to sit down with the people conducting the studies, understand the actual problems, and identify achievable and actionable goals.&lt;/p&gt;
+&lt;p&gt;In this case study, Jessica was able to provide a simple solution in the form of an Excel interface that was very familiar to the mental institute staff. But, at the same time, she did not compromise on the predictive modeling by using a full R implementation on the backend.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;so-much-health-care-data&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;So Much Health Care Data&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Speaker: Becca Nock, RN - Manager of Data Analytics at Health Verity&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Becca Nock is in a unique position. She is a certified Registered Nurse but is currently the manager of a data analytics group at &lt;a href=&#34;https://healthverity.com&#34;&gt;Health Verity&lt;/a&gt;.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+3️⃣The third lightning 🌩 talk is from &lt;a href=&#34;https://twitter.com/beccanock?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@beccanock&lt;/span&gt;&lt;/a&gt; talking about where health data comes from. Becca is an RN that developed a data career after working in healthcare. &lt;a href=&#34;https://t.co/kls7TIbRE3&#34;&gt;pic.twitter.com/kls7TIbRE3&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1191506595747897344?ref_src=twsrc%5Etfw&#34;&gt;November 5, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;p&gt;Becca shared with us all the different types of healthcare-related data that are captured and used for different analyses. The types of data collected include medical and pharmacy claims data, purchase transactions, lab results and biomarkers, electronic medical records (EMR), consumer data like credit score, socio-economic factors, data from devices, imaging data, and even grocery data. Even though the data is de-identified, they can link the different records together.&lt;/p&gt;
+&lt;p&gt;For example, a single doctor’s visit by a patient could generate the following data:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;EMR - data collected in the doctor’s office&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Medical claims - claims data sent from the doctor’s office to the insurance companies for payment&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Lab results / biomarkers - data from the lab tests ordered by the doctor during that visit&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Pharmacy claims - from the prescriptions prescribed by the doctor during the visit and picked up by the patient from the pharmacy&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Grocery store - the patient could go and buy healthy food after a visit to the doctor.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All these data could be either structured (for example, medical claims) or unstructured (for example, EMR).&lt;/p&gt;
+&lt;p&gt;Because so much data is collected from various sources, two critical tasks required are to normalize the data and to ensure data are interoperable. Interoperability ensures that the same data can be easily used across different systems for different purposes.&lt;/p&gt;
+&lt;p&gt;Becca concluded her presentation by sharing a few use cases for the data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identifying patients with rare diseases
+&lt;ul&gt;
+&lt;li&gt;Try to understand the patient’s journey from initial misdiagnosis to final diagnosis&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Determining clinical trial sites
+&lt;ul&gt;
+&lt;li&gt;Find clusters of patients who would be eligible for a specific trial and determine the geographical location for this clinical trial&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Seeing what medications a patient takes after leaving the hospital&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Following the uptake of new products that have entered the market&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Understanding how providers are prescribing or administering a drug
+&lt;ul&gt;
+&lt;li&gt;This could be to study the impact of translational medicine&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;data-yenta---data-science-opioid-programming-a-love-story&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Data Yenta - Data Science &amp;amp; Opioid Programming, A Love Story&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Speaker: Marieke Jackson, MPH | Code for Philly&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Marieke Jackson, a data scientist at Health Union, is also one of the organizers for &lt;a href=&#34;https://codeforphilly.org/&#34;&gt;Code for Philly&lt;/a&gt; and the founder and maintainer of the &lt;a href=&#34;https://codeforphilly.org/projects/opioid_data_hackathon&#34;&gt;Opioid Data Hackathon&lt;/a&gt;.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+4️⃣ Up next! It’s Merieke Jackson with &lt;a href=&#34;https://twitter.com/CodeForPhilly?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@CodeForPhilly&lt;/span&gt;&lt;/a&gt; sharing experiences working with public health data. &lt;a href=&#34;https://t.co/jx0Aa14KU9&#34;&gt;pic.twitter.com/jx0Aa14KU9&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1191509212804898816?ref_src=twsrc%5Etfw&#34;&gt;November 5, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;p&gt;Marieke spoke passionately about the opioid crisis and how data scientists can help answer pertinent questions around the opioid crisis in Philadelphia.&lt;/p&gt;
+&lt;p&gt;First, Marieke shared Code for Philly’s work with Prevention Point. Prevention Point is a private non-profit organization whose mission is to help people with the opioid crisis by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Serving tens of thousands of individuals annually
+&lt;ul&gt;
+&lt;li&gt;Providing support for victims through the syringe exchange program, and for getting food and any help&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tracking participant data in Excel, third party EHR systems, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Code for Philly is helping Prevention Point by building a EHR (Electronic Health Record) system. This example highlights how bringing together data scientists, civic technologies, and developers can work with non-profit organizations, government agencies, public health practioners to answer unanswered questions. Some of the unanswered questions related to the opioid crisis include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How many IV drug users are in Philadelphia?&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;What are the measurable effects of the Naxalone program?&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;What are the geographic traits of the opioid problem?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+It looks like a major theme is emerging… a critical piece of the public health &lt;a href=&#34;https://twitter.com/hashtag/datascience?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#datascience&lt;/a&gt; puzzle is understanding the unanswered questions!! What does your colleague/client/stakeholder really want to learn from their data? How can you enable this? &lt;a href=&#34;https://t.co/Bv1gBMYwFn&#34;&gt;pic.twitter.com/Bv1gBMYwFn&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1191510231517450242?ref_src=twsrc%5Etfw&#34;&gt;November 5, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;p&gt;Marieke announced that Code for Philly is organizing an Opioid Data Hackathon during February and March 2020. This project is bringing together local Data Science groups like Philly R, R Ladies Philly, Data Philly, and Data Jawn.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;using-data-to-inform-delivery-of-individualized-care&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Using Data to Inform Delivery of Individualized Care&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Speaker: &lt;a href=&#34;https://www.jefferson.edu/university/research/researcher/researcher-faculty/rising-clinical-research.html&#34;&gt;Kristin Rising&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Kristin Rising is an Associate Prof. &amp;amp; Director of Acute Care Transitions, Dept. of Emergency Medicine, Thomas Jefferson University.&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+5️⃣ The final speaker is Dr. Kristin Rising of Thomas Jefferson University! Kristin’s experience as an emergency care physician drives their research into individualized care. How can we quantify patient uncertainty? &lt;a href=&#34;https://t.co/wSzjSmhRgg&#34;&gt;pic.twitter.com/wSzjSmhRgg&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1191512719045857282?ref_src=twsrc%5Etfw&#34;&gt;November 5, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;p&gt;Kristin spoke about her work developing patient-centered interventions in response to patient-identified needs. She works to turn qualitative data into interventional studies.&lt;/p&gt;
+&lt;p&gt;Studies have shown that many patients return to the Emergency Department (ED) after being discharged from an inpatient stay at the hospital. From a patient’s perspective, one of the main reasons for returning to ED is the fear and uncertainty in understanding their symptoms. What the patients mainly need at discharge are answers to questions like:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;What is the actual diagnosis?&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;What is the cause of the symptoms?&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;What to expect after discharge?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Kristin and her team are working to address the patients’ fears and uncertainties using quantitative modeling. For example, by developing an uncertainty scale (U-Scale) and an uncertainty communication checklist.&lt;/p&gt;
+&lt;p&gt;Kristin also spoke about her second project, “Food is Medicine,” a NIH-funded study for patients with diabetes.&lt;/p&gt;
+&lt;p&gt;“Food is Medicine” is a PCORI study of patients with poorly controlled diabetes. As part of this study, Kristin is working on providing nutrition education through telehealth and medically-tailored meals through non-profit organizations like &lt;a href=&#34;https://www.mannapa.org&#34;&gt;MANNA&lt;/a&gt;. The goal of this study is to inform policy change to cover these interventions as routine benefits. Outcomes measured in the study are the reduction in hemoglobin A1c and cost-effectiveness.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.pcori.org&#34;&gt;The Patient Centered Outcomes Research Institute (PCORI)&lt;/a&gt; is an independent non-profit, non-governmental organization in Washington DC. PCORI funds studies to compare healthcare options and learn what works best, given patients’ circumstances and preferences.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;his post was authored by Ramaa Nathan. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>October Recap: Network Analysis</title>
+      <link>/post/oct08-recap-rmarkdown/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/oct08-recap-rmarkdown/</guid>
+      <description>&lt;hr /&gt;
+&lt;p&gt;Networks, also referred to as graphs in mathematics, model multiple types of relations and processes in physical, social, biological, and information systems. R-Ladies Philly’s October 2019 meetup was a workshop focusing on how to implement network analyses using the R igraph object. The workshop was led by &lt;a href=&#34;https://learniningwithsckinta.netlify.com/&#34;&gt;Chun Su, PhD&lt;/a&gt;, who is a bioinformatics scientist at the Children’s Hospital of Philadelphia and also a R-ladies Philly co-organizer. The workshop materials are available at &lt;a href=&#34;https://github.com/rladiesPHL/workshop_network&#34;&gt;rladiesPHL github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The workshop covered&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IGRAPH object “I/O” and manipulation&lt;/li&gt;
+&lt;li&gt;The measurement and clustering of networks&lt;/li&gt;
+&lt;li&gt;Network visualization&lt;/li&gt;
+&lt;li&gt;Network showcase – gene regulation network&lt;/li&gt;
+&lt;li&gt;Group exercise – real-world open flight network&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;igraph-object-in-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;IGRAPH object in R&lt;/h2&gt;
+&lt;p&gt;Generally, graphs, (a.k.a networks) are made up of vertices and edges, which represent the whole inter-relationship of nodes. The R Package &lt;code&gt;igraph&lt;/code&gt; uses a particular class called “IGRAPH” to represent it.&lt;/p&gt;
+&lt;p&gt;IGRAPH object can be created by various ways, including generating from tranditional R object data.frame and adjacant matrix.&lt;/p&gt;
+&lt;p&gt;Below is the one example to create a IGRAPH object representing a relationship between five actors.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(igraph)
+library(tidyverse)
+
+# vertices -- actors
+actors &amp;lt;- data.frame(
+  name=c(&amp;quot;Alice&amp;quot;, &amp;quot;Bob&amp;quot;, &amp;quot;Cecil&amp;quot;, &amp;quot;David&amp;quot;,&amp;quot;Esmeralda&amp;quot;),
+  age=c(48,33,45,34,21),
+  gender=c(&amp;quot;F&amp;quot;,&amp;quot;M&amp;quot;,&amp;quot;F&amp;quot;,&amp;quot;M&amp;quot;,&amp;quot;F&amp;quot;))
+
+# edges -- relations
+relations &amp;lt;- data.frame(
+  from=c(&amp;quot;Bob&amp;quot;, &amp;quot;Cecil&amp;quot;, &amp;quot;Cecil&amp;quot;, &amp;quot;David&amp;quot;,&amp;quot;David&amp;quot;, &amp;quot;Esmeralda&amp;quot;),
+  to=c(&amp;quot;Alice&amp;quot;, &amp;quot;Bob&amp;quot;, &amp;quot;Alice&amp;quot;, &amp;quot;Alice&amp;quot;, &amp;quot;Bob&amp;quot;, &amp;quot;Alice&amp;quot;),
+  same.dept=c(FALSE,FALSE,TRUE,FALSE,FALSE,TRUE),
+  friendship=c(4,5,5,2,1,1), 
+  advice=c(4,5,5,4,2,3)
+  )
+
+# make igraph from data.frame
+g &amp;lt;- graph_from_data_frame(relations, directed=TRUE, vertices=actors)
+g&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## IGRAPH 834595d DN-- 5 6 -- 
+## + attr: name (v/c), age (v/n), gender (v/c), same.dept (e/l),
+## | friendship (e/n), advice (e/n)
+## + edges from 834595d (vertex names):
+## [1] Bob      -&amp;gt;Alice Cecil    -&amp;gt;Bob   Cecil    -&amp;gt;Alice David    -&amp;gt;Alice
+## [5] David    -&amp;gt;Bob   Esmeralda-&amp;gt;Alice&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;During the workshop, Chun also introduced several ways to manipulate IGRAPH, including retrieving vertex and edges, adding/deleting vertex and edge attributes, merging multiple graphs and subsetting graphs, etc. The full material refers to the R markdown script at &lt;a href=&#34;https://github.com/rladiesPHL/workshop_network/blob/master/network_workshop.Rmd&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-measurement-and-clustering-of-network&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The measurement and clustering of network&lt;/h2&gt;
+&lt;p&gt;After presenting the basic IGRAPH object, Chun advanced the topic a little bit by introducing several useful metrics to measure a graph.&lt;/p&gt;
+&lt;p&gt;One cool metric particularly useful for social networks is &lt;em&gt;Transitivity&lt;/em&gt;, which measures the how well connected the graph is. Among small work networks, a network with high transivity means that it is very likely that the two friends connected to one given person are also friends to each other. To know more, &lt;code&gt;help(&amp;quot;transitivity&amp;quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Besides network measurement metrics, Chun also covered several methods in graph clustering, like decomposing graph to inter-connected components (&lt;code&gt;decompose.graph&lt;/code&gt;), clustering to small cliques (&lt;code&gt;cliques&lt;/code&gt;) and grouping graph to communities/modules (eg.&lt;code&gt;cluster_walktrap&lt;/code&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;network-visualization&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Network visualization&lt;/h2&gt;
+&lt;p&gt;Visualizing network was highlighted in the workshop. It can be done by default plotting &lt;code&gt;plot(g)&lt;/code&gt; to visualize a IGRAPH object with multiple attributes (color, shape and linetype, etc) applied to edges and vertices. Alternatively, one may consider plotting a IGRAPH using ggraph which is very similar ggplot2. It makes creating legends much easier!&lt;/p&gt;
+&lt;p&gt;Below is an example to use ggraph highlighting the actors gender and friendship between them&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggraph)
+ggraph(g, layout=&amp;quot;kk&amp;quot;) +
+  geom_edge_link(aes(edge_width=friendship, edge_linetype=same.dept), arrow = arrow(angle=5, length = unit(0.3, &amp;quot;inches&amp;quot;))) +
+  geom_node_point(aes(color=gender), size=6) +
+  geom_node_text(aes(label=name), nudge_y = -0.1, nudge_x = -0.1) +
+  scale_edge_width(range = c(1, 2)) +
+  theme_void() &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-10-8-recap-network-analysis_files/figure-html/ggraph_exp-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;showcase-and-group-exercise&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Showcase and group exercise&lt;/h2&gt;
+&lt;p&gt;At end the workshop, Chun presented the application of network analysis in her work. As a bioinformatics scientist, she is particularly interested in the influence of gene regulatory networks on the genetic susceptibility for childhood diseases. She showed us an example of usig a gene-cis-regulatory-element interaction network to predict target genes for Type 1 diabetes-associated variants. To know more, refer to CHOP spatial and functional genomics center &lt;a href=&#34;https://sfg.research.chop.edu/&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a finaly activity, we started a group exercise exploring real-world flight data. Do you know that, if you choose to take the same airline company flight for the shortest tranfer, there are 15 ways to go from Philly to Beijing China?&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://i.ibb.co/rkXw9QT/PHL2BJS.png&#34; /&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank you&lt;/h2&gt;
+&lt;div id=&#34;o3-world&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;O3 World&lt;/h5&gt;
+&lt;p&gt;We would like to thank &lt;a href=&#34;http://www.o3world.com&#34;&gt;O3 World&lt;/a&gt; for hosting us!&lt;/p&gt;
+&lt;p&gt;“O3 World is a leading digital product design and development agency. They combine strategy, innovation, and a deep understanding of the current and emerging digital ecosystem to deliver results for clients. Headquartered in Philadelphia, they emphasize a balanced approach to design, innovative technological solutions, and award-winning agency culture.”&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;orchestrall-care-network&#34; class=&#34;section level5&#34;&gt;
+&lt;h5&gt;Orchestrall Care Network&lt;/h5&gt;
+&lt;p&gt;We would like to thank Orchestrall Care Network for sponsoring us food!&lt;/p&gt;
+&lt;p&gt;“&lt;a href=&#34;https://www.orchestrallinc.com/&#34;&gt;Orchestrall Care Network&lt;/a&gt; is a Conshohocken based multi-national healthcare company focused on making the lives of family members taking care of their elderly relatives better. By creating a trained local community network and leveraging the magic of AI, OCN provides low cost support to those dedicating their time to look after their loved ones”&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Chun Su. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>September Recap: Reporting Research with R Markdown</title>
       <link>/post/sept19-recap-rmarkdown/</link>
       <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
@@ -934,117 +1246,6 @@ Pros &amp;amp; cons of each wide to long approach. Gather is brief. You have to 
       
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>June recap: Data Cleaning with R</title>
-      <link>/post/june-recap/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/june-recap/</guid>
-      <description>&lt;div id=&#34;our-june-meetup&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Our June meetup&lt;/h1&gt;
-&lt;p&gt;Our June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!&lt;/p&gt;
-&lt;p&gt;We were live tweeting the event! Check out some tweets below.&lt;/p&gt;
-&lt;div id=&#34;introduction&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Darina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct. &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/June2018/The%20Exciting%20Presentation%20on%20Data%20Cleaning!.pptx&#34;&gt;Their presentation on data cleaning&lt;/a&gt; is posted on github. They referenced Chapters 1-2 of &lt;a href=&#34;https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf&#34;&gt;“An Introduction to Data Cleaning with R”&lt;/a&gt; by Edwin de Jonge and Mark van der Loo, which we recommend you take a look at to learn more.&lt;/p&gt;
-&lt;p&gt;We covered topics such as:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Importing data into R&lt;/li&gt;
-&lt;li&gt;Best practice for inspecting data&lt;/li&gt;
-&lt;li&gt;Dealing with NAs versus NaNs&lt;/li&gt;
-&lt;li&gt;Variable types&lt;/li&gt;
-&lt;li&gt;Dealing with inconsistent data&lt;/li&gt;
-&lt;li&gt;Reshaping and pivoting data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The presentation was supplemented by a live demo on some raw data about Philly’s farmers’ markets. &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/tree/master/June2018&#34;&gt;Check out the data and the code on github.&lt;/a&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;
-&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
-Using farmer&#39;s market data to learn about cleaning data with R tonight. Data set includes long, lat, address, address notes, day, time, accepts snap, major bus and subway routes data &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; &lt;a href=&#34;https://t.co/QnecAfs43D&#34;&gt;pic.twitter.com/QnecAfs43D&lt;/a&gt;
-&lt;/p&gt;
-— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1009928201102077952?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2018&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;
-&lt;/div&gt;
-&lt;div id=&#34;irem-celens-lightning-talk-cleaning-up-messy-genetics-data&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Irem Celen’s lightning talk: “Cleaning up Messy Genetics Data”&lt;/h2&gt;
-&lt;p&gt;After the introduction, &lt;a href=&#34;https://www.linkedin.com/in/irem-celen&#34;&gt;Irem Celen&lt;/a&gt; delivered a lightning talk about an important application of data cleaning: Messy genetics data! Irem is a Ph.D. candidate in Bioinformatics and Systems Biology at the University of Delaware. In her talk she outlined some common data cleaning issues for genetics data as well as some great solutions in R. &lt;!-- [Irem&#39;s slides]() are also posted on github.  --&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;
-&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
-Lifesaver R libraries for cleaning data: dplyr, tidyr, stringr, readr, data.table &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt;
-&lt;/p&gt;
-— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1009941191532711937?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2018&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;
-&lt;center&gt;
-&lt;img src=&#34;/img/june_lightning.JPG&#34; alt=&#34;Irem’s lightning talk&#34; /&gt;
-&lt;/center&gt;
-&lt;div id=&#34;wework&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;WeWork&lt;/h3&gt;
-&lt;p&gt;We would like to thank WeWork for hosting our June meetup!&lt;/p&gt;
-&lt;p&gt;“WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 111 locations in 29 cities across the world with over 70,000 members. Book a tour at wework.com now!”&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Amy Goodwin Davies. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>May recap: Git happieR with GitHub</title>
-      <link>/post/may-recap/</link>
-      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/may-recap/</guid>
-      <description>&lt;div id=&#34;our-may-event&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Our May Event!&lt;/h1&gt;
-&lt;p&gt;The May R-Ladies meetup took place on May 16, 2018 at Drexel’s LeBow School of Business. Thanks for hosting us again, Drexel, and thanks to our sponsors Datacamp and the R consortium!&lt;/p&gt;
-&lt;p&gt;Our topic for May was version control using the popular resources Git and GitHub, and we focused on integrating version control with R.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;intro&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Intro&lt;/h1&gt;
-&lt;p&gt;Darina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time.&lt;/p&gt;
-&lt;p&gt;Many popular word processing software packages employ “track changes” as a way to edit a document or share with others for editing or feedback.&lt;/p&gt;
-&lt;p&gt;However, using something like track changes for version control is problematic!&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/RLadies_May1.JPG&#34; alt=&#34;Our attempt to use track changes to collaborate on a document listing our favorite women from Philadelphia&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Our attempt to use ‘track changes’ to collaborate on a document listing our favorite women from Philadelphia&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;In order to reference previous versions of a document, we would have to go through comment by comment to examine the changes a single collaborator made at a single point in time, or else revert back to the original version of the document and lose all changes!&lt;/p&gt;
-&lt;p&gt;We turned to the whiteboard to demonstrate how you can use Git to keep track of the evolution of a document or project over time, and how you can use GitHub to collaborate with others on the evolution of a document&lt;/p&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/5_sdaVXlKNM&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;
-&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;div id=&#34;demo&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Demo&lt;/h1&gt;
-&lt;p&gt;After this introduction, Alice led an interactive demo so that R-Ladies Philly could practice integrating Git and GitHub with R.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/RLadies_May2.jpg&#34; /&gt;
-
-&lt;/div&gt;
-&lt;p&gt;Through this, members practiced:&lt;br /&gt;
-- configuring Git locally&lt;br /&gt;
-- creating a Git repository&lt;br /&gt;
-- committing changes&lt;br /&gt;
-- pushing work to a &lt;a href=&#34;https://github.com/awalsh17/intro_git_live&#34;&gt;shared repo&lt;/a&gt; on GitHub&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/tree/master/May2018&#34;&gt;Alice’s slides&lt;/a&gt; are posted on GitHub - this is a great resource to go through if you couldn’t make it to the meeting!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;lightning-talk&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Lightning Talk&lt;/h1&gt;
-&lt;p&gt;We ended by showing a GitHub repo illustrating ‘real world’ use of version control with R!&lt;/p&gt;
-&lt;p&gt;R-Ladies Philly members Karla, Alice, Kristen, and myself recently used Git and GitHub with R to collaborate on a data analysis project for the Philadelphia Animal Welfare Society.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;for-more-information&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;For more information&lt;/h1&gt;
-&lt;p&gt;To learn more, we recommend &lt;a href=&#34;http://happygitwithr.com&#34;&gt;“Happy Git and GitHub for the useR”&lt;/a&gt; and the free DataCamp course &lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-git-for-data-science&#34;&gt;“Introduction to Git for Data Science”&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
 </description>
     </item>
     
