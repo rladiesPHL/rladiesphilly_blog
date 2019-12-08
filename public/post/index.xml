@@ -13,6 +13,18 @@
     
     
     <item>
+      <title>December 2019 Recap: Machine Learning Workshop</title>
+      <link>/post/dec02-recap-machinelearning/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/dec02-recap-machinelearning/</guid>
+      <description>On December 2, 2019, almost 50 data enthusiasts joined R-Ladies Philly for a workshop on machine learning in R.
+The workshop was led by Trang Le. Trang is a researcher at the University of Pennsylvania who has authored several R packages and applies machine learning to biomedical data. Follow her on twitter and at https://trang.page.
+At a high-level, this workshop covered:
+ Intro to the caret package and why it exists Live demo and exercises using a dataset of beer reviews Trang’s insights into good practices  Off to a great start with our machine learning workshop!</description>
+    </item>
+    
+    <item>
       <title>November 2019 Recap: Lightning Talks</title>
       <link>/post/nov04-recap-lightning/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
