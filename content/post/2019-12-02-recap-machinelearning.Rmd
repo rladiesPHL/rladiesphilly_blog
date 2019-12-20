@@ -1,0 +1,75 @@
+---
+title: 'December 2019 Recap: Machine Learning Workshop'
+author: "Alice Walsh"
+date: "2019-12-08"
+slug: dec02-recap-machinelearning
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+On December 2, 2019, almost 50 data enthusiasts joined R-Ladies Philly for a workshop on machine learning in R.
+
+The workshop was led by Trang Le. Trang is a researcher at the University of Pennsylvania who has authored several R packages and applies machine learning to biomedical data. Follow her on [twitter](https://twitter.com/trang1618) and at [https://trang.page](https://trang.page).
+
+**At a high-level, this workshop covered:**  
+
++ Intro to the `caret` package and why it exists
++ Live demo and exercises using a dataset of beer reviews
++ Trang's insights into good practices
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Off to a great start with our machine learning workshop! <a href="https://t.co/lNUCAoiQye">pic.twitter.com/lNUCAoiQye</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1201647728083775489?ref_src=twsrc%5Etfw">December 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+**The materials for this workshop are available online:**  
+
++ Slides: [https://slides.com/trang1618/caret-rladies](https://slides.com/trang1618/caret-rladies)
++ RStudio Cloud: [bit.ly/33MFHLy](bit.ly/33MFHLy)
++ Code: [https://github.com/trang1618/rladies-caret](https://github.com/trang1618/rladies-caret)
+
+
+## Do you even caret all?
+
+The `caret` package was created to solve the problem of lots of modeling packages that didn't play well together. `caret` currently unifies over 200 models!
+
+Trang suggested that you get started with the `caret` [website](http://topepo.github.io/caret/index.html). She also reminded us that the package is not perfect. When you find issues or errors, contribute to the codebase or submit issues!
+
+## Machine learning for beer lovers
+
+This workshop used the beer ratings dataset available on Kaggle ([link](https://www.kaggle.com/c/beer-ratings/data)). This data is freely available and provides a tasty example to practice on. Each review includes ratings on the appearance, aroma, palate, taste, and overall impression of a beer. Each beer review includes product and user information, followed by each of these five ratings, and a plaintext review.
+
+Remember - *it is essential to clean your data!* Trang recommended the `skimr` package and `skim` function to quickly get a look at your dataset.
+
+For this workshop, we used 1,000 reviews to predict the ABV (alcohol content) of beers from the reviews.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Machine learning 101: before building your models... MAKE SURE YOUR DATASET IS CLEAN. (Or, can&#39;t do the fun stuff until you&#39;ve completed your data cleaning chores) <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/trang1618?ref_src=twsrc%5Etfw">@trang1618</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1201655412258476032?ref_src=twsrc%5Etfw">December 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Making some predictions...
+
+Using 1,000 reviews from the beer review dataset, attendees practiced... 
+
++ Dimensionality reduction with principal component analysis
++ Fitting a support vector machine model, then tuning the parameters
++ Testing a random forest model
++ Using the unstructured text reviews to predict and then evaluating which words were the most predictive
+
+## Closing thoughts
+
+Trang wrapped up with a Q&A session. During this time, she discussed some comparisons between machine learning frameworks in R versus python and what "counts" as machine learning. 
+
+## Thank you!
+
+Thank you to all our attendees, our sponsors (Elsevier), and especially Trang!!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you even caret all? With Trang Le, PhD! <a href="https://t.co/ZeN8DkTFQT">pic.twitter.com/ZeN8DkTFQT</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1201647069171195904?ref_src=twsrc%5Etfw">December 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+*About our sponsor:*
+[Elsevier](https://www.elsevier.com) fuses evidence-based trusted content, cutting-edge technology and analytics in a range of innovative digital applications for end users in the scientific, academic and medical worlds. Our leading-edge applications, platforms and products are used globally to advance science, aid discovery, improve patient outcomes and to positively impact people’s lives.
+
+*This post was authored by Alice Walsh. For more information contact philly@rladies.org*
+

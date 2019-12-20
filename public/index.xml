@@ -11,6 +11,82 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>December 2019 Recap: Machine Learning Workshop</title>
+      <link>/post/dec02-recap-machinelearning/</link>
+      <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/dec02-recap-machinelearning/</guid>
+      <description>&lt;p&gt;On December 2, 2019, almost 50 data enthusiasts joined R-Ladies Philly for a workshop on machine learning in R.&lt;/p&gt;
+&lt;p&gt;The workshop was led by Trang Le. Trang is a researcher at the University of Pennsylvania who has authored several R packages and applies machine learning to biomedical data. Follow her on &lt;a href=&#34;https://twitter.com/trang1618&#34;&gt;twitter&lt;/a&gt; and at &lt;a href=&#34;https://trang.page&#34;&gt;https://trang.page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;At a high-level, this workshop covered:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Intro to the &lt;code&gt;caret&lt;/code&gt; package and why it exists&lt;/li&gt;
+&lt;li&gt;Live demo and exercises using a dataset of beer reviews&lt;/li&gt;
+&lt;li&gt;Trang’s insights into good practices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Off to a great start with our machine learning workshop! &lt;a href=&#34;https://t.co/lNUCAoiQye&#34;&gt;pic.twitter.com/lNUCAoiQye&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1201647728083775489?ref_src=twsrc%5Etfw&#34;&gt;December 2, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;strong&gt;The materials for this workshop are available online:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides: &lt;a href=&#34;https://slides.com/trang1618/caret-rladies&#34;&gt;https://slides.com/trang1618/caret-rladies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RStudio Cloud: &lt;a href=&#34;bit.ly/33MFHLy&#34;&gt;bit.ly/33MFHLy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Code: &lt;a href=&#34;https://github.com/trang1618/rladies-caret&#34;&gt;https://github.com/trang1618/rladies-caret&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;do-you-even-caret-all&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Do you even caret all?&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;caret&lt;/code&gt; package was created to solve the problem of lots of modeling packages that didn’t play well together. &lt;code&gt;caret&lt;/code&gt; currently unifies over 200 models!&lt;/p&gt;
+&lt;p&gt;Trang suggested that you get started with the &lt;code&gt;caret&lt;/code&gt; &lt;a href=&#34;http://topepo.github.io/caret/index.html&#34;&gt;website&lt;/a&gt;. She also reminded us that the package is not perfect. When you find issues or errors, contribute to the codebase or submit issues!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;machine-learning-for-beer-lovers&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Machine learning for beer lovers&lt;/h2&gt;
+&lt;p&gt;This workshop used the beer ratings dataset available on Kaggle (&lt;a href=&#34;https://www.kaggle.com/c/beer-ratings/data&#34;&gt;link&lt;/a&gt;). This data is freely available and provides a tasty example to practice on. Each review includes ratings on the appearance, aroma, palate, taste, and overall impression of a beer. Reviews include product and user information, followed by each of these five ratings, and a plaintext review.&lt;/p&gt;
+&lt;p&gt;Remember - &lt;em&gt;it is important to clean your data!&lt;/em&gt; Trang recommended the &lt;code&gt;skimr&lt;/code&gt; package and &lt;code&gt;skim&lt;/code&gt; function to quickly get a look at your dataset.&lt;/p&gt;
+&lt;p&gt;For this workshop, we used 1,000 reviews to predict the ABV (alcohol content) of beers from the reviews.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Machine learning 101: before building your models… MAKE SURE YOUR DATASET IS CLEAN. (Or, can&#39;t do the fun stuff until you&#39;ve completed your data cleaning chores) &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/trang1618?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@trang1618&lt;/span&gt;&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1201655412258476032?ref_src=twsrc%5Etfw&#34;&gt;December 3, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&#34;making-some-predictions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Making some predictions…&lt;/h2&gt;
+&lt;p&gt;Using 1,000 reviews from the beer review dataset, attendees practiced…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dimensionality reduction with principal component analysis&lt;/li&gt;
+&lt;li&gt;Fitting a support vector machine model, then tuning the parameters&lt;/li&gt;
+&lt;li&gt;Testing a random forest model&lt;/li&gt;
+&lt;li&gt;Using the unstructured text reviews to predict and then evaluating which words were the most predictive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;closing-thoughts&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Closing thoughts&lt;/h2&gt;
+&lt;p&gt;Trang wrapped up with a Q&amp;amp;A session. During this time, she discussed some comparisons between machine learning frameworks in R versus python and what “counts” as machine learning.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank you!&lt;/h2&gt;
+&lt;p&gt;Thank you to all our attendees, our sponsors (Elsevier), and especially Trang!!&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Do you even caret all? With Trang Le, PhD! &lt;a href=&#34;https://t.co/ZeN8DkTFQT&#34;&gt;pic.twitter.com/ZeN8DkTFQT&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1201647069171195904?ref_src=twsrc%5Etfw&#34;&gt;December 2, 2019&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;em&gt;About our sponsor:&lt;/em&gt;
+&lt;a href=&#34;https://www.elsevier.com&#34;&gt;Elsevier&lt;/a&gt; fuses evidence-based trusted content, cutting-edge technology and analytics in a range of innovative digital applications for end users in the scientific, academic and medical worlds. Our leading-edge applications, platforms and products are used globally to advance science, aid discovery, improve patient outcomes and to positively impact people’s lives.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>November 2019 Recap: Lightning Talks</title>
       <link>/post/nov04-recap-lightning/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
@@ -1236,16 +1312,6 @@ Pros &amp;amp; cons of each wide to long approach. Gather is brief. You have to 
 &lt;p&gt;&lt;em&gt;This post was authored by Amy Goodwin Davies. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 -0400</pubDate>
-      
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

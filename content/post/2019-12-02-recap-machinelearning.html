@@ -1,0 +1,83 @@
+---
+title: 'December 2019 Recap: Machine Learning Workshop'
+author: "Alice Walsh"
+date: "2019-12-08"
+slug: dec02-recap-machinelearning
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+
+
+<p>On December 2, 2019, almost 50 data enthusiasts joined R-Ladies Philly for a workshop on machine learning in R.</p>
+<p>The workshop was led by Trang Le. Trang is a researcher at the University of Pennsylvania who has authored several R packages and applies machine learning to biomedical data. Follow her on <a href="https://twitter.com/trang1618">twitter</a> and at <a href="https://trang.page">https://trang.page</a>.</p>
+<p><strong>At a high-level, this workshop covered:</strong></p>
+<ul>
+<li>Intro to the <code>caret</code> package and why it exists</li>
+<li>Live demo and exercises using a dataset of beer reviews</li>
+<li>Trang’s insights into good practices</li>
+</ul>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Off to a great start with our machine learning workshop! <a href="https://t.co/lNUCAoiQye">pic.twitter.com/lNUCAoiQye</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1201647728083775489?ref_src=twsrc%5Etfw">December 2, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p><strong>The materials for this workshop are available online:</strong></p>
+<ul>
+<li>Slides: <a href="https://slides.com/trang1618/caret-rladies">https://slides.com/trang1618/caret-rladies</a></li>
+<li>RStudio Cloud: <a href="bit.ly/33MFHLy">bit.ly/33MFHLy</a></li>
+<li>Code: <a href="https://github.com/trang1618/rladies-caret">https://github.com/trang1618/rladies-caret</a></li>
+</ul>
+<div id="do-you-even-caret-all" class="section level2">
+<h2>Do you even caret all?</h2>
+<p>The <code>caret</code> package was created to solve the problem of lots of modeling packages that didn’t play well together. <code>caret</code> currently unifies over 200 models!</p>
+<p>Trang suggested that you get started with the <code>caret</code> <a href="http://topepo.github.io/caret/index.html">website</a>. She also reminded us that the package is not perfect. When you find issues or errors, contribute to the codebase or submit issues!</p>
+</div>
+<div id="machine-learning-for-beer-lovers" class="section level2">
+<h2>Machine learning for beer lovers</h2>
+<p>This workshop used the beer ratings dataset available on Kaggle (<a href="https://www.kaggle.com/c/beer-ratings/data">link</a>). This data is freely available and provides a tasty example to practice on. Each review includes ratings on the appearance, aroma, palate, taste, and overall impression of a beer. Reviews include product and user information, followed by each of these five ratings, and a plaintext review.</p>
+<p>Remember - <em>it is important to clean your data!</em> Trang recommended the <code>skimr</code> package and <code>skim</code> function to quickly get a look at your dataset.</p>
+<p>For this workshop, we used 1,000 reviews to predict the ABV (alcohol content) of beers from the reviews.</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Machine learning 101: before building your models… MAKE SURE YOUR DATASET IS CLEAN. (Or, can't do the fun stuff until you've completed your data cleaning chores) <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/trang1618?ref_src=twsrc%5Etfw"><span class="citation">@trang1618</span></a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1201655412258476032?ref_src=twsrc%5Etfw">December 3, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<div id="making-some-predictions" class="section level2">
+<h2>Making some predictions…</h2>
+<p>Using 1,000 reviews from the beer review dataset, attendees practiced…</p>
+<ul>
+<li>Dimensionality reduction with principal component analysis</li>
+<li>Fitting a support vector machine model, then tuning the parameters</li>
+<li>Testing a random forest model</li>
+<li>Using the unstructured text reviews to predict and then evaluating which words were the most predictive</li>
+</ul>
+</div>
+<div id="closing-thoughts" class="section level2">
+<h2>Closing thoughts</h2>
+<p>Trang wrapped up with a Q&amp;A session. During this time, she discussed some comparisons between machine learning frameworks in R versus python and what “counts” as machine learning.</p>
+</div>
+<div id="thank-you" class="section level2">
+<h2>Thank you!</h2>
+<p>Thank you to all our attendees, our sponsors (Elsevier), and especially Trang!!</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Do you even caret all? With Trang Le, PhD! <a href="https://t.co/ZeN8DkTFQT">pic.twitter.com/ZeN8DkTFQT</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1201647069171195904?ref_src=twsrc%5Etfw">December 2, 2019</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p><em>About our sponsor:</em>
+<a href="https://www.elsevier.com">Elsevier</a> fuses evidence-based trusted content, cutting-edge technology and analytics in a range of innovative digital applications for end users in the scientific, academic and medical worlds. Our leading-edge applications, platforms and products are used globally to advance science, aid discovery, improve patient outcomes and to positively impact people’s lives.</p>
+<p><em>This post was authored by Alice Walsh. For more information contact <a href="mailto:philly@rladies.org" class="email">philly@rladies.org</a></em></p>
+</div>
