@@ -21,4 +21,4 @@ Since our first meetup in January 2018, R-Ladies Philly has grown to a highly ac
  - Collaborative engagements with other local data science groups
  - Monthly code and coffee gettogethers
 
-We are always looking for more ways to grow and for new data approaches to try! Connect with us via the R-Ladies Philly [Slack](bit.ly/join-rladies-slack-2020), Email [philly@rladies.org](mailto:philly@rladies.org) or better yet, come to one of our [Meetup events](https://meetup.com/rladies-philly)!
+We are always looking for more ways to grow and for new data approaches to try! Connect with us via the R-Ladies Philly [Slack](https://bit.ly/join-rladies-slack-2020), Email [philly@rladies.org](mailto:philly@rladies.org) or better yet, come to one of our [Meetup events](https://meetup.com/rladies-philly)!
