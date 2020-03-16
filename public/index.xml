@@ -11,6 +11,34 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>January 2020 Meetup</title>
+      <link>/post/dec02-recap-machinelearning/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/dec02-recap-machinelearning/</guid>
+      <description>&lt;p&gt;Our January meetup celebrated our second birthday! We took the time to look back on what we accomplished last year and what we want to accomplish this year via our member survey.&lt;/p&gt;
+&lt;div id=&#34;survey-results&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Survey Results&lt;/h1&gt;
+&lt;p&gt;Karla started off the meetup by talking about the R Ladies mission of promoting gender diversity in the R and data science community. Next, highlights from 2019 were covered including workshops on packages such as caret and ggplot. Other events we hosted included tutorials on more advanced R topics such as r markdown and data visualization. We also had presentations on research that use R such as our meetup on data analytics in public health. We had success with our first data hackathon helping Philadelphia Animal Welfare Society (PAWS) and the second hackathon on the opioid epidemic was introduced &lt;a href=&#34;https://codeforphilly.org/events/datahack2020&#34;&gt;https://codeforphilly.org/events/datahack2020&lt;/a&gt;. Another great highlight was that members told us R Ladies helped them gain new skills and find better jobs.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/2019_highlights_slide.png&#34; alt=&#34;2019 was a great year!&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;2019 was a great year!&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;More information (including the full slide deck that was presented) can be found on our &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia&#34;&gt;GitHub repository&lt;/a&gt; for all past meetups.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;outlook&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;2020 Outlook&lt;/h1&gt;
+&lt;p&gt;We discussed plans for 2020 including having more workshops on advanced topics and establishing a mentorship program. We also introduced the opioid hackathon which is a collaborative effort with other data groups in the Philadelphia area. In addition, we discussed our R-esolutions by dividing the group into 4 tables on mentorship, career advancement, skill development, and contributing to the R/data science community. Each group crafted ways they can achieve their goals and how R Ladies can help.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Thank You&lt;/h1&gt;
+&lt;p&gt;Thank you to our sponsor the Children’s Hospital of Philadelphia and the iSTEM employee resource group!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Darina Chudnovskaya. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>December 2019 Recap: Machine Learning Workshop</title>
       <link>/post/dec02-recap-machinelearning/</link>
       <pubDate>Sun, 08 Dec 2019 00:00:00 +0000</pubDate>
@@ -1230,87 +1258,6 @@ file.edit(&amp;#39;config.toml&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thanks again to Katie for leading this informative meetup, and to Penn Dental for hosting R-Ladies Philly!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>August recap: Data Cleaning with R, Part 2</title>
-      <link>/post/aug-recap/</link>
-      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/aug-recap/</guid>
-      <description>&lt;p&gt;Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis! This was our second meetup on the topic. &lt;a href=&#34;http://rladiesphilly.org/post/june-recap/&#34;&gt;Click here for a recap of our first data cleaning meetup in June.&lt;/a&gt;&lt;/p&gt;
-&lt;div id=&#34;reshaping-data&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Reshaping data&lt;/h2&gt;
-&lt;p&gt;We began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial &lt;a href=&#34;https://www.datacamp.com/community/tutorials/long-wide-data-R&#34;&gt;Long to Wide Data in R&lt;/a&gt;. Data can be &lt;strong&gt;long format&lt;/strong&gt; (&lt;em&gt;one measurement per row&lt;/em&gt;) and &lt;strong&gt;wide format&lt;/strong&gt; (&lt;em&gt;many measurements in one row&lt;/em&gt;). It is important to be able to convert between the two formats as different functions require different formats. In R, there are a variety of functions which can be used for this task:&lt;/p&gt;
-&lt;center&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th align=&#34;left&#34;&gt;Function&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Package&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;To long format&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;To wide format&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;stack/unstack&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;utils&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;stack&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;unstack&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;reshape&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;stats&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;reshape(direction = “long”, …)&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;reshape(direction = “wide”, …)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;melt/dcast&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;reshape2&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;melt&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;dcast&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;melt/dcast&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;tidyr&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;gather&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;spread&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;em&gt;Functions for converting to long format and wide format (adapted from Table 34 from &lt;a href=&#34;https://www.datacamp.com/community/tutorials/long-wide-data-R&#34;&gt;Long to Wide Data in R&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-&lt;/center&gt;
-&lt;p&gt;Alice provided a few examples of how to use these functions. &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/August2018/reshape_examples.R&#34;&gt;The script is available on github.&lt;/a&gt;&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;
-&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
-Pros &amp;amp; cons of each wide to long approach. Gather is brief. You have to specify more when using melt. &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt;
-&lt;/p&gt;
-— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1027688436596129793?ref_src=twsrc%5Etfw&#34;&gt;August 9, 2018&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;
-&lt;/div&gt;
-&lt;div id=&#34;the-r-ladies-data-cleaning-gauntlet&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;The R-Ladies Data Cleaning Gauntlet!&lt;/h2&gt;
-&lt;p&gt;Next up was a series of data cleaning challenges which we tackled in small groups. The challenges, created by Alice, meant putting into practice approaches and techniques from both data cleaning meetups. We cleaned the &lt;a href=&#34;http://data-phl.opendata.arcgis.com/datasets/0707c1f31e2446e881d680b0a5ee54bc_0&#34;&gt;Philly farmers’ markets data&lt;/a&gt; which was also featured in our June meetup.&lt;/p&gt;
-&lt;p&gt;The materials are available on github:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/August2018/challenge.Rmd&#34;&gt;The R-Ladies Data Cleaning Gauntlet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/August2018/challenge_answers.Rmd&#34;&gt;Possible solutions&lt;/a&gt; &lt;em&gt;Get in touch (&lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;) if you have a nice solution that isn’t featured here!&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;center&gt;
-&lt;img src=&#34;/img/aug_challenge.jpg&#34; alt=&#34;RLadies working on the data cleaning challenges&#34; /&gt;
-&lt;/center&gt;
-&lt;div id=&#34;wework&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;WeWork&lt;/h3&gt;
-&lt;p&gt;We would like to thank WeWork for hosting us!&lt;/p&gt;
-&lt;p&gt;“WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 111 locations in 29 cities across the world with over 70,000 members. Book a tour at wework.com now!”&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Amy Goodwin Davies. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
