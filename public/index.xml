@@ -12,18 +12,15 @@
     
     <item>
       <title>January 2020 Meetup</title>
-      <link>/post/dec02-recap-machinelearning/</link>
+      <link>/post/jan2020-recap/</link>
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/dec02-recap-machinelearning/</guid>
+      <guid>/post/jan2020-recap/</guid>
       <description>&lt;p&gt;Our January meetup celebrated our second birthday! We took the time to look back on what we accomplished last year and what we want to accomplish this year via our member survey.&lt;/p&gt;
 &lt;div id=&#34;survey-results&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Survey Results&lt;/h1&gt;
 &lt;p&gt;Karla started off the meetup by talking about the R Ladies mission of promoting gender diversity in the R and data science community. Next, highlights from 2019 were covered including workshops on packages such as caret and ggplot. Other events we hosted included tutorials on more advanced R topics such as r markdown and data visualization. We also had presentations on research that use R such as our meetup on data analytics in public health. We had success with our first data hackathon helping Philadelphia Animal Welfare Society (PAWS) and the second hackathon on the opioid epidemic was introduced &lt;a href=&#34;https://codeforphilly.org/events/datahack2020&#34;&gt;https://codeforphilly.org/events/datahack2020&lt;/a&gt;. Another great highlight was that members told us R Ladies helped them gain new skills and find better jobs.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/2019_highlights_slide.png&#34; alt=&#34;2019 was a great year!&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;2019 was a great year!&lt;/p&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2019_highlights_slide.png&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;More information (including the full slide deck that was presented) can be found on our &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia&#34;&gt;GitHub repository&lt;/a&gt; for all past meetups.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;outlook&#34; class=&#34;section level1&#34;&gt;
