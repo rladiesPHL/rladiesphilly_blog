@@ -1,0 +1,31 @@
+---
+title: 'January 2020 Meetup'
+author: "Darina Chudnovskaya"
+date: "2020-03-15"
+slug: dec02-recap-machinelearning
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+Our January meetup celebrated our second birthday! We took the time to look back on what we accomplished last year and what we want to accomplish this year via our member survey.
+
+# Survey Results
+Karla started off the meetup by talking about the R Ladies mission of promoting gender diversity in the R and data science community. Next, highlights from 2019 were covered including workshops on packages such as caret and ggplot. Other events we hosted included tutorials on more advanced R topics such as r markdown and data visualization. We also had presentations on research that use R such as our meetup on data analytics in public health. We had success with our first data hackathon helping Philadelphia Animal Welfare Society (PAWS) and the second hackathon on the opioid epidemic was introduced [https://codeforphilly.org/events/datahack2020](https://codeforphilly.org/events/datahack2020). Another great highlight was that members told us R Ladies helped them gain new skills and find better jobs.   
+
+![2019 was a great year!](/img/2019_highlights_slide.png)
+
+More information (including the full slide deck that was presented) can be found on our [GitHub repository](https://github.com/rladies/meetup-presentations_philadelphia) for all past meetups.
+
+# 2020 Outlook
+We discussed plans for 2020 including having more workshops on advanced topics and establishing a mentorship program. We also introduced the opioid hackathon which is a collaborative effort with other data groups in the Philadelphia area. In addition, we discussed our R-esolutions by dividing the group into 4 tables on mentorship, career advancement, skill development, and contributing to the R/data science community. Each group crafted ways they can achieve their goals and how R Ladies can help. 
+
+# Thank You
+Thank you to our sponsor the Children’s Hospital of Philadelphia and the iSTEM employee resource group! 
+
+*This post was authored by Darina Chudnovskaya. For more information contact philly@rladies.org*
+
