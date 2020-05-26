@@ -11,6 +11,88 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The 2020 Opioid Data Hack</title>
+      <link>/post/mar2020-recap/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mar2020-recap/</guid>
+      <description>&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;In early 2020, R-Ladies Philly joined forces with &lt;a href=&#34;https://codeforphilly.org&#34;&gt;Code for Philly&lt;/a&gt;, &lt;a href=&#34;https://www.meetup.com/DataPhilly/&#34;&gt;DataPhilly&lt;/a&gt;, and &lt;a href=&#34;https://www.phillydatajawn.com/&#34;&gt;the Philly Data Jawn&lt;/a&gt; to organize a &lt;a href=&#34;https://codeforphilly.org/events/datahack2020&#34;&gt;data science hackathon addressing Philadelphia’s opioid crisis&lt;/a&gt;. Organizers partnered with &lt;a href=&#34;https://healthfederation.org/&#34;&gt;the Health Federation of Philadelphia&lt;/a&gt; and &lt;a href=&#34;https://ppponline.org/&#34;&gt;Prevention Point&lt;/a&gt; to obtain data and subject matter expertise that would help hackathon participants focus on the most pressing issues.&lt;/p&gt;
+&lt;p&gt;We started off with a Partner Presentation Night, where partner organizations described their mission, their work and their data-related challenges to a large audience of Philly’s finest data enthusiasts interested to donate their time and expertise to a good cause.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Yesterday was day 1 in a city-wide hackathon that brings together data enthusiasts and organizations addressing the opioid epidemic. We&#39;re honored to be among the organizers along with &lt;a href=&#34;https://twitter.com/CodeForPhilly?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@CodeForPhilly&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://twitter.com/phillydatajawn?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@phillydatajawn&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://twitter.com/DataPhilly?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@DataPhilly&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://t.co/xXg2joff7j&#34;&gt;https://t.co/xXg2joff7j&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/Philadelphia?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Philadelphia&lt;/a&gt; &lt;a href=&#34;https://t.co/KuYcL08x9y&#34;&gt;pic.twitter.com/KuYcL08x9y&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1226119317806342144?ref_src=twsrc%5Etfw&#34;&gt;February 8, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;The next day, participants convened to spend a whole Saturday forming groups, exploring issues in more depth under the guidance of partner organizations, and setting up their project plan for the coming weeks.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Hackathon kickoff! Great turnout!! &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/datahack2020?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#datahack2020&lt;/a&gt; &lt;a href=&#34;https://t.co/Od6HGdXQZc&#34;&gt;pic.twitter.com/Od6HGdXQZc&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1226181986034888705?ref_src=twsrc%5Etfw&#34;&gt;February 8, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Groups worked together over Slack, meeting weekly in person or virtually for code nights. After 6 productive weeks, all hack participants and partner organizations reconvened virtually for a final presentation night, to showcase and discuss findings:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ZN7HjZ6Glv4&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;div id=&#34;results&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;div id=&#34;visualizing-the-impact-of-and-need-for-narcan-provisions&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Visualizing the impact of, and need for Narcan provisions&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Team Members: Jay Alston, Katy Ament, Vicky Kelberer, Lei Liao, Bruce Segal, Annalisa Szymanski, Laura Taddei, Jackie Taylor&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This team found that only 6% of overdose victims who received Narcan died, compared to 36% of those who didn’t. Additionally, despite increased efforts to provide Narcan to the community, because of the deadly nature of fentanyl, more is needed. The majority of Narcan distributed by Prevention Point was collected by people who refilled more than once, suggesting that these clients are witnessing repeated overdoses among their friends, families, and other loved ones. This, essentially, makes community members the most effective first responders when it comes to reversing an opioid overdose.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;estimating-the-number-of-injecting-drug-users-in-philadelphia&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Estimating the number of injecting drug users in Philadelphia&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Team Members: Cara Cuiule, Kelsey Keith, Spandana Makeneni, Sam May&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This team used several methods of estimation, including addition methods, multiplier methods, and truncated poisson methods. Given the short time to address such a complex issue, they provided several estimates yielded by the different methods, but cautioned that a more concerted effort is needed, both in terms of literature review and data collection, to obtain a robust estimate.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;drug-overdoses-in-pennsylvania-who-when-how-many&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Drug overdoses in Pennsylvania: Who, When, How many?&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Team Members: Samara Andrieux, Sybil Andrieux, Carolyn Gerace, Joey Logan, Ou Stella Lang, Mitchell Maltenford, Grace Pham, Chun Su, Julia Schuchard, Zoe Wilkinson Saldana&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This team found further support for the finding of the first team, that Naloxone administration is associated with a lower probability of death from drug overdoses, and expanded this finding by adding that Naloxone is consistently protective across age groups. They found that counties with more overall use of Narcan have higher survivability. The team emphasized the need to move more in-depth than county-level data, to more fully understand the situations of individuals and communities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;exploring-the-economic-effects-of-the-opioid-epidemic&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Exploring the economic effects of the opioid epidemic&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Team Members: Quinn McHugh, Quinn Doughtery, Tommy B. Nguyen, Rida Iqbal, John Fonte, Christine Wilson, Seth Kalkstein&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One of the questions this team looked into was whether an increase in administering Narcan/Naloxone by Philadelphia emergency services personnel correlate with lowered medical costs. The team found that in comparison to the cost of non-fatal hospitalizations (less Narcan costs), which were estimated at almost $700 million in 2019, the costs of administering brand-name Narcan (approx. $0.5 million) and Naloxone (approx. $0.25 million) are far lower.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;matchmaker-mapping-buprenorphine-access-need&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;MATchmaker: Mapping buprenorphine access &amp;amp; need&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Team Members: Dave Slinger, David Bowden, Yuxin Chen, Josephine Dru, Holly Giang, Becca Nock, Luke Shi, Sam Tan&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This team sought to address the question: How does access to licensed buprenorphine providers compare with the areas of highest need for medication-assisted treatment (MAT) in Philadelphia? The team collected and centralized data into one central reference (Google Maps), converted word documents and PDF documents into spreadsheets, solved typos and other conflicts, and displayed the data into an easy to use tool that can display the number of providers and number of fatalities by census tract, among others.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;visualizing-the-inside-journey-of-recovery-from-opioid-use-disorder&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Visualizing the inside journey of recovery from opioid use disorder&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Team Members: Pete Arriaza, Silvia Canelon, Vince Giorno, Alyssa Hernandez, Spriha Jha, Adnette Kamugisha, Selah Lynch, Ben Miller, Laura Mullin, Jessica Streeter, Catherine Weiss&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This team created a detailed map of how individuals affected by opioid use disorder interact with the healthcare system. Their work emphasized that every recovery path is unique, that relapse cannot be ignored in the road to recovery, and that there is a long-term relationship between individuals with OUD and agencies like Prevention Point. They also highlighted the stigma that is associated with OUD and how this acts as a barrier to seeking and adhering to treatment.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Thank You&lt;/h1&gt;
+&lt;p&gt;The 2020 Data Hack was a success, with participants, partner organizations, and organizers gaining valuable knowledge and insights. This multi-group effort would not have been possible without the generous support of our sponsors, &lt;a href=&#34;http://www.att.com&#34;&gt;AT&amp;amp;T&lt;/a&gt; and &lt;a href=&#34;www.compassred.com&#34;&gt;CompassRed&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Karla Fettich. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>January 2020 Meetup</title>
       <link>/post/jan2020-recap/</link>
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
@@ -1196,64 +1278,6 @@ tm_shape(acs_philly) +
 &lt;h2&gt;Temple University Center City&lt;/h2&gt;
 &lt;p&gt;We would like to thank Temple University Center City for hosting our October Meetup!&lt;/p&gt;
 &lt;p&gt;“Temple Center City’s goal is to serve the adult learning needs of area corporations and their employees and to provide enrichment through community education opportunities for Philadelphia area residents. Since its creation in 1973, TUCC has offered undergraduate and graduate courses, degree programs, and professional development programs to working adults with classes offered primarily during the evenings and on weekends. Visit www.temple.edu/tucc/ for more information!”&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>September Recap: Learn to make a website with R and blogdown!</title>
-      <link>/post/september-recap/</link>
-      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/september-recap/</guid>
-      <description>&lt;p&gt;In our September meetup hosted at the &lt;a href=&#34;https://www.dental.upenn.edu/&#34;&gt;Penn Dental School&lt;/a&gt;, &lt;a href=&#34;https://www.meetup.com/rladies-la/&#34;&gt;R-Ladies LA&lt;/a&gt; founder and recent Philadelphia transplant Dr. Katie Scranton led an interactive workshop on making websites (like this one!) using R and the &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt; package.&lt;/p&gt;
-&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Katie started off by providing a broad overview of how blogdown works. Blogdown generates websites using Rmarkdown documents, and each blogdown website consists of a single folder of static files. Once created, your blogdown website can then be hosted on any web server to make it ‘live.’&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;how-to&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;How To&lt;/h2&gt;
-&lt;p&gt;Next, Katie live-coded website creation in R using blogdown. We worked in parallel on our laptops, so that each meetup attendee left with their own website. Here, we go over some of the essential steps in this process!&lt;/p&gt;
-&lt;p&gt;First, we installed blogdown and Hugo. Hugo is the default site generator in blogdown:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(blogdown)
-library(blogdown)
-blogdown::install_hugo()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next, we each chose a Hugo &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;theme&lt;/a&gt; for our website and used this theme to create a new, blank site in our current working directory:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# create blank website with the Hugo &amp;#39;Academic&amp;#39; theme
-blogdown::new_site(theme = &amp;quot;gcushen/hugo-academic&amp;quot;)
-
-# view your website layout in the RStudio Viewer
-blogdown::serve_site()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Aside from aesthetic preferences, choosing an appropriate theme for your website involves consideration of your website’s purpose. For example, is it an academic website, a blog, or a general informational website (e.g. for a company or business)? Chances are, there is a theme to best suit your website’s purpose.&lt;/p&gt;
-&lt;p&gt;The files for your website now live in your current working directory:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# see all the files that blogdown::new_site() created
-list.files()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then, Katie showed us how to customize our website focusing on the &lt;code&gt;config.toml&lt;/code&gt; file that configures the settings for our website:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# open the config.toml file to edit
-file.edit(&amp;#39;config.toml&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;…And the &lt;code&gt;content/&lt;/code&gt; folder that - as you might have guessed - includes the content of our website:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;list.files(&amp;quot;content&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;For example, if we were to create a blogpost for our website using blogdown, this file would automatically appear in &lt;code&gt;content/post&lt;/code&gt;:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;blogdown::new_post(title = &amp;quot;my_first_post&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Once created, your website files can be uploaded to any webserver. We use &lt;a href=&#34;https://github.com/&#34;&gt;github&lt;/a&gt; for rladiesphilly.org - to learn more about web hosting and version control, see our &lt;a href=&#34;http://rladiesphilly.org/post/may-recap/&#34;&gt;May meetup recap&lt;/a&gt;. You can see the code used to generate this website hosted on our blog github repo &lt;a href=&#34;https://github.com/kplacek/rladiesphilly_blog&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;You can use &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; to deploy your website directly from your github repo, or a service like &lt;a href=&#34;https://www.netlify.com/&#34;&gt;Netlify&lt;/a&gt; (to customize your domain name, you may need to purchase a domain, e.g. from &lt;a href=&#34;https://domains.google/&#34;&gt;google&lt;/a&gt;).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;website-example&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Website Example&lt;/h2&gt;
-&lt;p&gt;To end our workshop and inspire further refinement of our websites, Katie showed us her &lt;a href=&#34;https://www.katiescranton.com&#34;&gt;personal website&lt;/a&gt; created using blogdown.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;resources&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Resources&lt;/h2&gt;
-&lt;p&gt;Katie suggests the following resources to learn more:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;her meetup &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/September2018/meetup-summary.md&#34;&gt;summary&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;this &lt;a href=&#34;https://alison.rbind.io/post/up-and-running-with-blogdown/&#34;&gt;post&lt;/a&gt; from Alison Presmanes Hill&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;this &lt;a href=&#34;https://maraaverick.rbind.io/2017/10/keeping-up-with-blogdown/&#34;&gt;post&lt;/a&gt; from Mara Averick&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;this &lt;a href=&#34;https://rladies-melb-blogdown.netlify.com/#9&#34;&gt;guide&lt;/a&gt; from R-Ladies Melbourne&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;and &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34;&gt;the blogdown online book&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Thanks again to Katie for leading this informative meetup, and to Penn Dental for hosting R-Ladies Philly!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>

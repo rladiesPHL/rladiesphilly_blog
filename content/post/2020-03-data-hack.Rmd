@@ -1,0 +1,73 @@
+---
+title: 'The 2020 Opioid Data Hack'
+author: "Karla Fettich"
+date: "2020-05-26"
+slug: mar2020-recap
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+In early 2020, R-Ladies Philly joined forces with [Code for Philly](https://codeforphilly.org), [DataPhilly](https://www.meetup.com/DataPhilly/), and [the Philly Data Jawn](https://www.phillydatajawn.com/) to organize a [data science hackathon addressing Philadelphia's opioid crisis](https://codeforphilly.org/events/datahack2020). Organizers partnered with [the Health Federation of Philadelphia](https://healthfederation.org/) and [Prevention Point](https://ppponline.org/) to obtain data and subject matter expertise that would help hackathon participants focus on the most pressing issues.
+
+We started off with a Partner Presentation Night, where partner organizations described their mission, their work and their data-related challenges to a large audience of Philly's finest data enthusiasts interested to donate their time and expertise to a good cause.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yesterday was day 1 in a city-wide hackathon that brings together data enthusiasts and organizations addressing the opioid epidemic. We&#39;re honored to be among the organizers along with <a href="https://twitter.com/CodeForPhilly?ref_src=twsrc%5Etfw">@CodeForPhilly</a> <a href="https://twitter.com/phillydatajawn?ref_src=twsrc%5Etfw">@phillydatajawn</a> <a href="https://twitter.com/DataPhilly?ref_src=twsrc%5Etfw">@DataPhilly</a> <a href="https://t.co/xXg2joff7j">https://t.co/xXg2joff7j</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/Philadelphia?src=hash&amp;ref_src=twsrc%5Etfw">#Philadelphia</a> <a href="https://t.co/KuYcL08x9y">pic.twitter.com/KuYcL08x9y</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1226119317806342144?ref_src=twsrc%5Etfw">February 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+The next day, participants convened to spend a whole Saturday forming groups, exploring issues in more depth under the guidance of partner organizations, and setting up their project plan for the coming weeks. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hackathon kickoff! Great turnout!! <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/datahack2020?src=hash&amp;ref_src=twsrc%5Etfw">#datahack2020</a> <a href="https://t.co/Od6HGdXQZc">pic.twitter.com/Od6HGdXQZc</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1226181986034888705?ref_src=twsrc%5Etfw">February 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+Groups worked together over Slack, meeting weekly in person or virtually for code nights. After 6 productive weeks, all hack participants and partner organizations reconvened virtually for a final presentation night, to showcase and discuss findings:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZN7HjZ6Glv4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Results
+
+### Visualizing the impact of, and need for Narcan provisions
+
+> Team Members: Jay Alston, Katy Ament, Vicky Kelberer, Lei Liao, Bruce Segal, Annalisa Szymanski, Laura Taddei, Jackie Taylor
+
+This team found that only 6% of overdose victims who received Narcan died, compared to 36% of those who didn't. Additionally, despite increased efforts to provide Narcan to the community, because of the deadly nature of fentanyl, more is needed. The majority of Narcan distributed by Prevention Point was collected by people who refilled more than once, suggesting that these clients are witnessing repeated overdoses among their friends, families, and other loved ones. This, essentially, makes community members the most effective first responders when it comes to reversing an opioid overdose. 
+
+### Estimating the number of injecting drug users in Philadelphia
+
+> Team Members: Cara Cuiule, Kelsey Keith, Spandana Makeneni, Sam May
+
+This team used several methods of estimation, including addition methods, multiplier methods, and truncated poisson methods. Given the short time to address such a complex issue, they provided several estimates yielded by the different methods, but cautioned that a more concerted effort is needed, both in terms of literature review and data collection, to obtain a robust estimate. 
+
+### Drug overdoses in Pennsylvania: Who, When, How many?
+
+> Team Members: Samara Andrieux, Sybil Andrieux, Carolyn Gerace, Joey Logan, Ou Stella Lang, Mitchell Maltenford, Grace Pham, Chun Su, Julia Schuchard, Zoe Wilkinson Saldana
+
+This team found further support for the finding of the first team, that Naloxone administration is associated with a lower probability of death from drug overdoses, and expanded this finding by adding that Naloxone is consistently protective across age groups. They found that counties with more overall use of Narcan have higher survivability. The team emphasized the need to move more in-depth than county-level data, to more fully understand the situations of individuals and communities. 
+
+### Exploring the economic effects of the opioid epidemic
+
+> Team Members: Quinn McHugh, Quinn Doughtery, Tommy B. Nguyen, Rida Iqbal, John Fonte, Christine Wilson, Seth Kalkstein
+
+One of the questions this team looked into was whether an increase in administering Narcan/Naloxone by Philadelphia emergency services personnel correlate with lowered medical costs. The team found that in comparison to the cost of non-fatal hospitalizations (less Narcan costs), which were estimated at almost $700 million in 2019, the costs of administering brand-name Narcan (approx. $0.5 million) and Naloxone (approx. $0.25 million) are far lower. 
+
+### MATchmaker: Mapping buprenorphine access & need
+
+> Team Members: Dave Slinger, David Bowden, Yuxin Chen, Josephine Dru, Holly Giang, Becca Nock, Luke Shi, Sam Tan
+
+This team sought to address the question: How does access to licensed buprenorphine providers compare with the areas of highest need for medication-assisted treatment (MAT) in Philadelphia? The team collected and centralized data into one central reference (Google Maps), converted word documents and PDF documents into spreadsheets, solved typos and other conflicts, and displayed the data into an easy to use tool that can display the number of providers and number of fatalities by census tract, among others. 
+
+### Visualizing the inside journey of recovery from opioid use disorder
+
+> Team Members: Pete Arriaza, Silvia Canelon, Vince Giorno, Alyssa Hernandez, Spriha Jha, Adnette Kamugisha, Selah Lynch, Ben Miller, Laura Mullin, Jessica Streeter, Catherine Weiss
+
+This team created a detailed map of how individuals affected by opioid use disorder interact with the healthcare system. Their work emphasized that every recovery path is unique, that relapse cannot be ignored in the road to recovery, and that there is a long-term relationship between individuals with OUD and agencies like Prevention Point. They also highlighted the stigma that is associated with OUD and how this acts as a barrier to seeking and adhering to treatment. 
+
+
+# Thank You
+
+The 2020 Data Hack was a success, with participants, partner organizations, and organizers gaining valuable knowledge and insights. This multi-group effort would not have been possible without the generous support of our sponsors, [AT&T](http://www.att.com) and [CompassRed](www.compassred.com). 
+
+*This post was authored by Karla Fettich. For more information contact philly@rladies.org*
+
