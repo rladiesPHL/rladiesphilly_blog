@@ -10,7 +10,11 @@ weight = 5
 
 +++
 
-R-Ladies Philly is fortunate to receive support from several amazing organizations. Contact us to learn more about becoming a sponsor.
+R-Ladies Philly is fortunate to receive support from several amazing organizations. Contact us to learn more about sponsorship opportunities.
+
+#### [R-Ladies Philly open collective](https://opencollective.com/rladies-philly)
+
+Some of our past and current sponsors include:
 
 #### [RStudio](https://www.rstudio.com/)
 
