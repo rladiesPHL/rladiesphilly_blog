@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Announcing Our New YouTube Channel</title>
+      <link>/post/2020-06-youtube/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-06-youtube/</guid>
+      <description>&lt;p&gt;With the recent transition to running R-Ladies Philly workshops and events virtually, we have launched a YouTube channel, &lt;a href=&#34;https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg&#34;&gt;R-Ladies Philly&lt;/a&gt;! We plan to share recordings of our events whenever possible.&lt;/p&gt;
+&lt;p&gt;If you are so inclined, please subscribe and check out the recordings from our May and June workshops. While you are there, you can also find channels from other R-Ladies chapters from around the world.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The 2020 Opioid Data Hack</title>
       <link>/post/mar2020-recap/</link>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
@@ -1232,52 +1244,6 @@ tm_shape(acs_philly) +
 &lt;div id=&#34;thank-you-mary-sponsors-and-wework&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Thank You Mary, Sponsors, and WeWork!&lt;/h2&gt;
 &lt;p&gt;Many thanks to Mary for leading this informative meetup, to Mica Data Labs and the &lt;a href=&#34;https://www.design.upenn.edu/musa/news&#34;&gt;PENN Masters in Urban Spatial Analytics program&lt;/a&gt; for sponsoring delicious pizza and refreshments, and to &lt;a href=&#34;https://www.wework.com/&#34;&gt;WeWork&lt;/a&gt; for hosting R-Ladies Philly!&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>October Recap - Dashboards and Apps with Shiny</title>
-      <link>/post/october-recap/</link>
-      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/october-recap/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://shiny.rstudio.com/&#34;&gt;Shiny&lt;/a&gt; is an R Package that combines the computational power of R with the interactivity of the web to enable users to create interactive web apps (and dashboards!) in R. For our October meetup, &lt;a href=&#34;https://en.wikipedia.org/wiki/Mine_%C3%87etinkaya-Rundel&#34;&gt;Dr. Mine Çetinkaya-Rundel&lt;/a&gt; led a workshop introducing the basics of building dashboards using Shiny, and a demo on transitioning from dashboards to standalone apps. In case you missed the Meetup, all materials (code! slides! more!) can be found on the &lt;a href=&#34;https://github.com/mine-cetinkaya-rundel/rladies-phl-shiny&#34;&gt;github repo&lt;/a&gt; Mine created.&lt;/p&gt;
-&lt;div id=&#34;building-interactive-dashboards-with-shiny-and-flexdashboard&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Building interactive dashboards with Shiny and flexdashboard&lt;/h2&gt;
-&lt;p&gt;A dashboard is an information management tool that tracks, analyzes and displays metrics and key data points, and can be static (i.e. an html page) or dynamic (i.e. user input updates data displayed in real time). Mine shared a dashboard she created using Shiny and the &lt;a href=&#34;https://rmarkdown.rstudio.com/flexdashboard/&#34;&gt;flexdashboard&lt;/a&gt; pacakage to display statistics on gender in United Nations (UN) representatives: &lt;a href=&#34;https://gallery.shinyapps.io/un-women-dash/&#34; class=&#34;uri&#34;&gt;https://gallery.shinyapps.io/un-women-dash/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;… And gave Meetup attendees hands-on experience editing dashboard content by changing the time period of data shown in the dashboard.&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/mine1.JPG&#34; /&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;getting-started-with-shiny&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Getting started with Shiny&lt;/h2&gt;
-&lt;p&gt;Next, Mine moved on to how Shiny apps (like the dashboard described above) actually work.&lt;/p&gt;
-&lt;p&gt;From a high-level view, you first create an app locally (i.e. the computer serving your app is your computer) and then deploy your app on a web server to be accessible to others (i.e. the computer serving your app is a web server).&lt;/p&gt;
-&lt;p&gt;Mine explained that the ‘anatomy’ of the Shiny app you create is comprised of two core components necessary for deployment on a web server:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;User interface - controls the app’s layout and appearance, and is what the user sees on the web&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Server function - contains the instructions to the web server needed to build the app&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;/img/server_user.png&#34; alt=&#34;Relationship between Server and UI&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Relationship between Server and UI&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;After this introduction, meetup attendees practiced editing both app layout and server-generated content using data from the National Health and Nutrition Examination Survey.&lt;/p&gt;
-&lt;p&gt;Mine also shared a pro-tip on Shiny app creation: users can optimize Shiny app performance by organizing code in a certain order, since Shiny runs some code sections more often than others.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;understanding-reactivity&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Understanding reactivity&lt;/h2&gt;
-&lt;p&gt;Last, Mine taught us about reactivity - how our apps ‘react’ to information input by the user.&lt;/p&gt;
-&lt;p&gt;User inputs can be saved as variables, and used in subsequent code to modify app features. For example, a user could input the year of data they want to see plotted, and the app would to only plot data corresponding to the input year. Importantly, the render functions used to create the output of an app (e.g. a table, plot, etc.) update in response to reactive values - this enables the interactivity of Shiny apps.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;temple-university-center-city&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Temple University Center City&lt;/h2&gt;
-&lt;p&gt;We would like to thank Temple University Center City for hosting our October Meetup!&lt;/p&gt;
-&lt;p&gt;“Temple Center City’s goal is to serve the adult learning needs of area corporations and their employees and to provide enrichment through community education opportunities for Philadelphia area residents. Since its creation in 1973, TUCC has offered undergraduate and graduate courses, degree programs, and professional development programs to working adults with classes offered primarily during the evenings and on weekends. Visit www.temple.edu/tucc/ for more information!”&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>

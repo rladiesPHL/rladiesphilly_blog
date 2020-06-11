@@ -1,0 +1,17 @@
+---
+title: "Announcing Our New YouTube Channel"
+author: ~
+date: '2020-06-11'
+slug: 2020-06-youtube
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+With the recent transition to running R-Ladies Philly workshops and events virtually, we have launched a YouTube channel, [R-Ladies Philly](https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg)! We plan to share recordings of our events whenever possible.
+
+If you are so inclined, please subscribe and check out the recordings from our May and June workshops. While you are there, you can also find channels from other R-Ladies chapters from around the world.
+
+*For more information contact philly@rladies.org*

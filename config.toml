@@ -238,6 +238,11 @@ enableGitInfo = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/rladies/meetup-presentations_philadelphia"
+    
+  [[params.social]]
+    icon = "youtube"
+    icon_pack = "fa"
+    link = "//www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg"
 
 
 # Navigation Links
