@@ -1,0 +1,97 @@
+---
+title: 'April Recap: tidyverse'
+author: Chun Su
+date: '2020-06-13'
+slug: april-recap-tidyverse
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+
+
+<p>On April 14th, R-Ladies Philly hosted our first virtual meetup event. It was an exciting interactive workshop on <code>tidyverse</code>, led by our member <a href="https://github.com/kelseykeith"><strong>Kelsey Keith</strong></a>. Kelsey is an associate bioinformatics scientist at Coriell Institute for Medical Research, who uses R daily to wrangle, test, and visualize data.</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+We are in the future! Our first VIRTUAL workshop! It's a tidyverse introduction led by <span class="citation">@kelseykeith42</span> <a href="https://t.co/j8oLUQWXPZ">pic.twitter.com/j8oLUQWXPZ</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1250548833878245376?ref_src=twsrc%5Etfw">April 15, 2020</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div id="tidyverse-and-tidy-data" class="section level2">
+<h2>Tidyverse and tidy data</h2>
+<p>Tidyverse is a collection of R packages that share an underlying design philosophy, grammar, and data structures, and evolutionarily changed how to program in R.</p>
+<p>Kelsey started the workshop by explaining what “tidy data” is. Tidy data is a data structure where each column represents a variable, each row represents an observation, and each cell contains only a single value.</p>
+<div class="figure">
+<img src="https://r4ds.had.co.nz/images/tidy-1.png" />
+
+</div>
+</div>
+<div id="workshop-content" class="section level2">
+<h2>Workshop content</h2>
+<p>The workshop covered the following four basic aspects of tidyverse packages using the <a href="https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/iris">iris</a> dataset.</p>
+<ul>
+<li>reading data with <code>readr</code></li>
+<li>tidying data with <code>tidyr</code></li>
+<li>wrangling data with <code>dplyr</code></li>
+<li>visualizing data with <code>ggplot2</code></li>
+</ul>
+<p>The materials for this workshop are available online:</p>
+<ul>
+<li>Slides: <a href="bit.ly/rlp_slides" class="uri">bit.ly/rlp_slides</a></li>
+<li>RStudio Cloud: <a href="bit.ly/rlp_rscloud" class="uri">bit.ly/rlp_rscloud</a></li>
+</ul>
+<div id="pipe-the-code" class="section level3">
+<h3>Pipe the code</h3>
+<p>One evolutionary grammar of tidyverse is the pipe operator, <code>%&gt;%</code>. The pipe takes the output of one function and gives it to the next function, allowing you to carry out separate operations in a fluid and readable manner.</p>
+<pre class="r"><code>read_csv(&quot;iris_data.csv&quot;) %&gt;% 
+  select(Species)</code></pre>
+</div>
+<div id="tidy-your-data" class="section level3">
+<h3>Tidy your data</h3>
+<p>The useful commands to tidy your data up include</p>
+<ul>
+<li><code>pivot_longer()</code> and <code>pivot_wider()</code> to reshape the data</li>
+<li><code>separate()</code> and <code>unite()</code> to split or combine the columns</li>
+</ul>
+<p>In the workshop, Kelsey offered a version of <a href="https://drive.google.com/file/d/1i51gRbBZSMClAwc75w7gnWg74rxLL6ox/view?usp=sharing">untidy iris data</a> and led an interactive practice to convert the untidy to tidy. Try it out!</p>
+</div>
+<div id="wrangle-around" class="section level3">
+<h3>Wrangle around</h3>
+<p>Data wrangling is the most basic but essential step for any data project. To organize the data into the form you want it in, try</p>
+<ul>
+<li><code>arrange()</code> sorts by column(s)</li>
+<li><code>select()</code> picks only the column(s) you want</li>
+<li><code>filter()</code> selects a subset of observations according to some criteria</li>
+<li><code>mutate()</code> adds an additional column onto the table</li>
+<li><code>summarize()</code> with <code>group_by()</code> reduces the data down to some summary statistics based on defined group</li>
+</ul>
+</div>
+<div id="visualize-it" class="section level3">
+<h3>Visualize it!</h3>
+<p>Data visualization provides an effective and straightforward way to present your data and to communicate with audiences. Rladies Philly hosted a specific <a href="http://rladiesphilly.org/post/june-recap-data-visualiztion/">data visualization workshop</a> last June, in which Jake Riley shared helpful tips and best practices about <code>ggplot2</code>. However, data visualization is always a hot topic to talk about, isn’t it?</p>
+<p>In tidyverse workshop this year, Kelsey made the data visualization accessible to complete novices and provided examples of density plots, boxplots, and scatterplots.</p>
+<p>The following plots show an example scatterplot with linear regression between sepal width and sepal length independently in iris species.</p>
+<pre class="r"><code>library(tidyverse)
+ggplot(iris, aes(x = Petal.Width, y = Petal.Length, color = Species)) +
+  geom_point(alpha = 0.75) +
+  geom_smooth(method = &#39;lm&#39;, se = F) +
+  theme_classic()</code></pre>
+<p><img src="/post/2020-04-tidyverse_files/figure-html/ggplot2-1.png" width="672" /></p>
+<p>At the end of thevvisualization part, we discussed several ggplot extension packages to make your plot more appealing.</p>
+<ul>
+<li><code>ggbeeswarm</code> to make your points in scatterplot like a “bee swarm”</li>
+<li><code>cowplot</code> and <code>patchwork</code> to organize multiple ggplots together easily.</li>
+<li><code>xkcd</code> to make ggplot2 graphs in XKCD style</li>
+</ul>
+</div>
+</div>
+<div id="thank-you" class="section level2">
+<h2>Thank you</h2>
+<p>Many thanks to our great presenter Kelsey Keith.</p>
+<p><em>This post was authored by Chun Su. For more information contact <a href="mailto:philly@rladies.org">philly@rladies.org</a></em></p>
+</div>
