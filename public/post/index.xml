@@ -13,6 +13,27 @@
     
     
     <item>
+      <title>A/B Testing in R with Elea McDonnell Feit</title>
+      <link>/post/recap_may_2020/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/recap_may_2020/</guid>
+      <description>R-Ladies Philly was delighted to host Elea McDonnell Feit, who led a virtual workshop on the topic of A/B Testing in R.
+Our presenter Elea McDonnell Feit is an Assistant Professor of Marketing at the LeBow College of Business at Drexel University. She develops data analysis methods to inform marketing decisions, including designing new products as well as planning advertising campaigns.
+ A/B testing A/B testing (also termed split testing or bucket testing) is a type of experiment conducted to compare two variants of a marketing or promotional effort (e.</description>
+    </item>
+    
+    <item>
+      <title>April Recap: tidyverse</title>
+      <link>/post/april-recap-tidyverse/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/april-recap-tidyverse/</guid>
+      <description>On April 14th, R-Ladies Philly hosted our first virtual meetup event. It was an exciting interactive workshop on tidyverse, led by our member Kelsey Keith. Kelsey is an associate bioinformatics scientist at Coriell Institute for Medical Research, who uses R daily to wrangle, test, and visualize data.
+We are in the future! Our first VIRTUAL workshop! It&#39;s a tidyverse introduction led by @kelseykeith42 pic.twitter.com/j8oLUQWXPZ — R-Ladies Philly (@RLadiesPhilly) April 15, 2020   Tidyverse and tidy data Tidyverse is a collection of R packages that share an underlying design philosophy, grammar, and data structures, and evolutionarily changed how to program in R.</description>
+    </item>
+    
+    <item>
       <title>Announcing Our New YouTube Channel</title>
       <link>/post/2020-06-youtube/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>

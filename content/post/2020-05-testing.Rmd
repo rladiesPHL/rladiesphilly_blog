@@ -1,0 +1,85 @@
+---
+title: 'A/B Testing in R with Elea McDonnell Feit'
+author: "Amy Goodwin Davies"
+date: '2020-06-27'
+slug: recap_may_2020
+tags: []
+categories: []
+header:
+  caption: ''
+  image: ''
+---
+
+R-Ladies Philly was delighted to host Elea McDonnell Feit, who led a virtual workshop on the topic of A/B Testing in R.
+
+## Our presenter
+
+[Elea McDonnell Feit](https://www.lebow.drexel.edu/people/eleafeit) is an Assistant Professor of Marketing at the LeBow College of Business at Drexel University. She develops data analysis methods to inform marketing decisions, including designing new products as well as planning advertising campaigns.
+
+## A/B testing
+
+A/B testing (also termed split testing or bucket testing) is a type of experiment conducted to compare two variants of a marketing or promotional effort (e.g. webpage design, email, or app interface). These variants are assigned to users at random and statistical analyses are used to determine which variant performs better for a given outcome (e.g. purchases or clicks).
+
+## The virtual workshop
+
+The virtual workshop covered parts 1-3 of Elea's [Advanced A/B Testing Workshop](https://eleafeit.github.io/ab_test/).
+
+* Slides are available at [https://eleafeit.github.io/ab_test/](https://eleafeit.github.io/ab_test/)  
+* RMarkdown code for the slides is available at [https://github.com/eleafeit/ab_test/](https://github.com/eleafeit/ab_test/)
+
+1. [**Introduction**](https://eleafeit.github.io/ab_test/code/1_intro.html#1)
+2. [**A/B Test Basics**](https://eleafeit.github.io/ab_test/code/2_basics.html#1)
+3. [**When your sample size is big**](https://eleafeit.github.io/ab_test/code/3_large_sample.html#1) (*Note: we stopped at slide 27*)
+
+R-Ladies Philly recorded the meetup. The video is available on our newly launched [R-Ladies Philly youtube channel](https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg)!
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QXpYtM-Zlxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+## A few takeaways
+
+### A/B test plan questions
+
+If you can answer these questions, you have an A/B test plan! ([A/B Test Basics, slide 34](https://eleafeit.github.io/ab_test/code/2_basics.html#34))
+
+What is/are the...
+
+1. Business question?
+2. Test setting (lab v. field)?
+3. Unit of analysis (visit, customer, store)?
+4. Treatments?
+5. Response variable(s)?
+6. Selection of units?
+7. Assignment to treatments?
+8. Sample size?
+
+### Randomization
+
+Elea was careful to highlight the importance of randomization, with the mantra <span style="color: purple;">"1, 2, 3. Repeat with me. Randomization will set you free"</span> and this reminder ([A/B Test Basics, slide 12](https://eleafeit.github.io/ab_test/code/2_basics.html#12)):
+
+>What is the first question you should ask about an A/B test?  
+>~~Did the treatment affect the response?~~  
+>Was the randomization done correctly?
+
+### Communicating results
+
+As an analyst in a business or marketing context, don't be afraid to provide recommendations to the client! If you are more direct about what the data shows, your recommendation can help the client understand your analysis better.
+
+### Resources
+
+There are some great resources for learning more about marketing research using R, such as:
+
+* [R for Marketing Research and Analytics, by Chris Chapman and Elea McDonnell Feit](http://r-marketing.r-forge.r-project.org/index.html) (see also [Python for Marketing Research and Analytics](https://www.springer.com/gp/book/9783030497194))
+* The remainder of Elea's workshop: [Advanced A/B Testing Workshop](https://eleafeit.github.io/ab_test/)
+* [R for Marketing Students, from the KU Leuven Marketing department](https://bookdown.org/content/1340/)
+
+## Thank yous
+
+* Many thanks to our fantastic presenter, Elea McDonnell Feit, and to [R-Ladies Global](https://rladies.org/) for making the virtual event possible via Zoom.
+
+<center>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en" data-theme="light"><p lang="en" dir="ltr">We are delighted to have <a href="https://twitter.com/eleafeit?ref_src=twsrc%5Etfw">@eleafeit</a> share a workshop on A/B testing in R! <br>Thank you to <a href="https://twitter.com/RLadiesGlobal?ref_src=twsrc%5Etfw">@RLadiesGlobal</a> for sponsoring the zoom! <a href="https://t.co/YTGC0DoWx8">pic.twitter.com/YTGC0DoWx8</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1261055620540780548?ref_src=twsrc%5Etfw">May 14, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
+*This post was authored by Amy Goodwin Davies. For more information contact philly@rladies.org*
