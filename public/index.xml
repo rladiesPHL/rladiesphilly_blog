@@ -11,6 +11,51 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>June 2020: Intro to R Workshop</title>
+      <link>/post/j2020-june-recap/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/j2020-june-recap/</guid>
+      <description>&lt;div id=&#34;our-june-virtual-workshop&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Our June Virtual Workshop&lt;/h2&gt;
+&lt;p&gt;R-Ladies Philly continues to host free online events during the Coronavirus pandemic. On June 9th, we hosted an introduction to R workshop for beginners with a featured lighting talk.&lt;/p&gt;
+&lt;p&gt;Thanks to our new &lt;a href=&#34;https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg&#34;&gt;YouTube channel&lt;/a&gt;, you can view a recording of the entire event online.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;r-packages-to-add-to-your-workflow-by-jinyi-kuang&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;“6 R Packages to Add to Your Workflow” by Jinyi Kuang&lt;/h2&gt;
+&lt;p&gt;We kicked off the event with a lightning talk by Jinyi Kuang. Her slides are available on her GitHub account &lt;a href=&#34;https://github.com/jinyikuang000/r-ladies-talk&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jinyi highlighted 6 packages that can boost your productivity in R. For example, &lt;a href=&#34;https://images.plot.ly/plotly-documentation/images/r_cheat_sheet.pdf?_ga=2.144655730.634097270.1588348056-452179466.1588348056&#34;&gt;plotly&lt;/a&gt; allows you to make beautiful interactive graphics.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;intro-to-r-workshop-by-tess-cherlin&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Intro to R Workshop by Tess Cherlin&lt;/h2&gt;
+&lt;p&gt;Before the workshop, Tess created this &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/2020_06/R%20Studio%20Download%20Tutorial%202020.pdf&#34;&gt;useful resource&lt;/a&gt; to guide new R users through how to install R and RStudio for the first time.&lt;/p&gt;
+&lt;p&gt;The content for the main workshop is available online &lt;a href=&#34;https://github.com/alldayscientess/RLadies&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The example data for this workshop were taken from the &lt;a href=&#34;https://ncses.nsf.gov/pubs/nsf19304/data&#34;&gt;Women, Minorities, and Persons with Disabilities in Science and Engineering Report&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;continue-to-learn&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Continue to learn!&lt;/h2&gt;
+&lt;p&gt;We hope that new R users will jump into using R and continue to attend R-Ladies events! For some immediate next steps, here are some free online resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Swirl: &lt;a href=&#34;https://swirlstats.com&#34;&gt;https://swirlstats.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;R for Data Science: &lt;a href=&#34;https://r4ds.had.co.nz&#34;&gt;https://r4ds.had.co.nz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;R4DS online community: &lt;a href=&#34;https://rfordatasci.com&#34;&gt;https://rfordatasci.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://Learningstatisticswithr.com&#34;&gt;http://Learningstatisticswithr.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;tidymodels.org/learn/&#34;&gt;tidymodels.org/learn/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Troubleshooting errors: &lt;a href=&#34;https://github.com/AlexsLemonade/training-modules/blob/master/intro-to-R-tidyverse/00b-debugging_resources.md&#34;&gt;Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Look for a mentor! R-Ladies Philly has started a &lt;a href=&#34;https://rladiesphilly.shinyapps.io/mentorship/&#34;&gt;mentor/speaker directory&lt;/a&gt; where you can find someone to connect with or volunteer yourself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Don’t forget that R-Ladies Philly also has a Slack workspace where you can join the conversation to ask the R questions you have always wanted to ask and learn more about upcoming events. You can join &lt;a href=&#34;https://bit.ly/join-rladies-slack-2020&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank you&lt;/h2&gt;
+&lt;p&gt;Many thanks to our great presenters &lt;a href=&#34;https://twitter.com/jinyikuang&#34;&gt;Jinyi Kuang&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/alldayscientess&#34;&gt;Tess Cherlin&lt;/a&gt;.&lt;br /&gt;
+Thank you to R-Ladies Global for hosting the zoom meeting.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A/B Testing in R with Elea McDonnell Feit</title>
       <link>/post/recap_may_2020/</link>
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
@@ -1043,44 +1088,6 @@ It’s our April event in collaboration with &lt;a href=&#34;https://twitter.com
 &lt;h2&gt;Thank you&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Thanks to &lt;a href=&#34;https://www.wework.com/&#34;&gt;Drexel&lt;/a&gt; for hosting us!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>January Recap</title>
-      <link>/post/january-recap/</link>
-      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/january-recap/</guid>
-      <description>&lt;p&gt;Our January meetup marked an important event in R-Ladies Philly history - our first ‘birthday’! We honored this occasion by celebrating what our community has achieved over the past year, and planning for an exciting 2019.&lt;/p&gt;
-&lt;div id=&#34;recap-of-our-first-year&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Recap of our first year&lt;/h2&gt;
-&lt;p&gt;Alice and Karla started off by reiterating the founding principles of R-Ladies Philly: to create a welcoming, accepting, and representative community for R users in the Philadelphia area who espouse our values of diversity and gender equity. In doing so, R-Ladies Philly hosts free, monthly events aimed at supporting the development of our community members’ skills in R while encouraging a positive networking environment.&lt;/p&gt;
-&lt;p&gt;Over 2018, we hosted 11 skills-based events with topics ranging from ‘Introduction to Text Mining in R’ to ‘Spatial Data Basics,’ and 3 networking events to facilitate collaboration with our friends at &lt;a href=&#34;https://www.meetup.com/Women-in-Kaggle-Philly/&#34;&gt;Women in Kaggle Philly&lt;/a&gt; and the &lt;a href=&#34;https://www.nwct-phila.org/&#34;&gt;NWCT Philly&lt;/a&gt; (huge shout out to our amazing Community Chair, Karla!).&lt;/p&gt;
-&lt;p&gt;In true R-Ladies Philly fashion, Alice and Karla amassed and visualized survey data demonstrating what our members appreciate about our meetups: &lt;img src=&#34;/img/survey.png&#34; /&gt; Based on these results, it seems we are on-track with our founding principles: our members most appreciate the opportunity to “learn new skills” in “a collaborative atmosphere!”&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;our-birthday-cake&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Our Bi&lt;strong&gt;R&lt;/strong&gt;thday Cake&lt;/h2&gt;
-&lt;p&gt;This cake warrants a blog post section of its own. As evidence of our members’ multifaceted talents, Karla made a beautiful birthday cake for R-Ladies Philly. &lt;img src=&#34;/img/cake.jpg&#34; /&gt; We at R-Ladies Philly do not judge on appearance, which necessitated a thorough evaluation of cake texture and flavor. The cake was blueberry-studded and featured a buttery, crumby texture, and was complemented by a decadent vanilla cream-cheese frosting. Based on extensive repeated-measures testing (by yours truly), we found that this cake and frosting combination achieved an approval rating of 100% (temporal autocorrelation was accounted for in a linear mixed-effects model including subject and timepoint as random effects).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;a-look-forward-to-2019&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;A look forward to 2019&lt;/h2&gt;
-&lt;p&gt;In addition to recapping the previous year, we looked ahead to 2019 by each stating our New Year’s “R”esolutions. Through this, we discovered common interests (making a package! writing an academic paper in .Rmd!) and gained insight into what topics would best serve our community in 2019. Over the next few months, we will work on these skills through a collaborative project with Philly’s largest no-kill shelter, &lt;a href=&#34;https://phillypaws.org/&#34;&gt;PAWS&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Thank you&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Many thanks to YOU, our incredible R-Ladies Philly members!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Thanks to &lt;a href=&#34;https://www.wework.com/&#34;&gt;WeWork&lt;/a&gt; for hosting us!&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;resources&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Our &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/January2019/16JAN2019_RLadies_Philly.pdf&#34;&gt;presentation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
