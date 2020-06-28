@@ -41,8 +41,8 @@ We hope that new R users will jump into using R and continue to attend R-Ladies 
 + R for Data Science: [https://r4ds.had.co.nz](https://r4ds.had.co.nz)
 + R4DS online community: [https://rfordatasci.com](https://rfordatasci.com)
 + [http://Learningstatisticswithr.com](http://Learningstatisticswithr.com)
-+ [tidymodels.org/learn/](tidymodels.org/learn/)
-+ Troubleshooting errors: [Guide](https://github.com/AlexsLemonade/training-modules/blob/master/intro-to-R-tidyverse/00b-debugging_resources.md)
++ Tidymodels: [https://www.tidymodels.org/learn/](https://www.tidymodels.org/learn/)
++ Troubleshooting errors: [Guide from the CCDL](https://github.com/AlexsLemonade/training-modules/blob/master/intro-to-R-tidyverse/00b-debugging_resources.md)
 + Look for a mentor! R-Ladies Philly has started a [mentor/speaker directory](https://rladiesphilly.shinyapps.io/mentorship/) where you can find someone to connect with or volunteer yourself
 
 Don't forget that R-Ladies Philly also has a Slack workspace where you can join the conversation to ask the R questions you have always wanted to ask and learn more about upcoming events. You can join [here](https://bit.ly/join-rladies-slack-2020).
