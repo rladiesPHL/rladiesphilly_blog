@@ -13,6 +13,17 @@
     
     
     <item>
+      <title>June 2020: Intro to R Workshop</title>
+      <link>/post/j2020-june-recap/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/j2020-june-recap/</guid>
+      <description>Our June Virtual Workshop R-Ladies Philly continues to host free online events during the Coronavirus pandemic. On June 9th, we hosted an introduction to R workshop for beginners with a featured lighting talk.
+Thanks to our new YouTube channel, you can view a recording of the entire event online.
+ “6 R Packages to Add to Your Workflow” by Jinyi Kuang We kicked off the event with a lightning talk by Jinyi Kuang.</description>
+    </item>
+    
+    <item>
       <title>A/B Testing in R with Elea McDonnell Feit</title>
       <link>/post/recap_may_2020/</link>
       <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
