@@ -1,0 +1,56 @@
+---
+title: '2020 Oct: Flexdashboard debugging with shinyobjects'
+author: Chun Su
+date: '2020-10-26'
+slug: oct2020-recap
+categories: ["Meetups"]
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+
+
+<p>Shiny applications and dashboards help communicate analytics insights to both technical and non-technical audiences in an interactive and efficient way. However, debugging them is not an easy process. For 2020 October virtual meetup, 30+ data enthusiastics joined the interactive workshop led by R-Ladies Philly member <a href="https://twitter.com/yake_84">Jake Riley</a>. Jake elucidated aspects of the popular dashboard building package <a href="https://rmarkdown.rstudio.com/flexdashboard/">flexdashboard</a> and demonstrated his recently published tool <a href="https://cran.r-project.org/web/packages/shinyobjects/index.html">shinyobjects</a> to debug.</p>
+<div id="flexdashboard-and-reactivity" class="section level3">
+<h3>flexdashboard and reactivity</h3>
+<p>flexdashboard leverages Rmarkdown and shiny to build a dashboard or shiny application. Instead of splitting ui and server functions, flexdashboard takes the advantage of interpretability from Rmarkdown and makes shiny code cleaner and easier to read.</p>
+<p>Like shiny, flexdashboard used the <a href="https://shiny.rstudio.com/articles/reactivity-overview.html"><strong>reactive programming model</strong></a> which involves user inputs and dynamic data/plots/titles. It can get really complicated when you have a cascade of reactive variables. It also increases the difficulty at the debugging step.</p>
+</div>
+<div id="shinyobjects-workflow" class="section level3">
+<h3>shinyobjects workflow</h3>
+<p>To troubleshoot reactive data, Jake developed <a href="https://cran.r-project.org/web/packages/shinyobjects/index.html">shinyobjects</a>. This R package can access reactive objects in your local environment and allow debugging R code without actually running the app. It will save you time and allow you to iterate more quickly.</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">
+Do you also hate having to run the entire shiny code to see what one tiny change will look like? There's a tool you can use to debug specific sections! Check out shinyobjects by <a href="https://twitter.com/yake_84?ref_src=twsrc%5Etfw"><span class="citation">@yake_84</span></a>! <a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> <a href="https://t.co/XNs1fi3BGr">pic.twitter.com/XNs1fi3BGr</a>
+</p>
+— R-Ladies Philly (<span class="citation">@RLadiesPhilly</span>) <a href="https://twitter.com/RLadiesPhilly/status/1319046827702996992?ref_src=twsrc%5Etfw">October 21, 2020</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>The package includes 4 components at the workflow</p>
+<ul>
+<li><code>view_ui()</code> to see what UI components look like without running the app</li>
+<li><code>load_reactive_objects()</code> to convert reactive objects to static functions</li>
+<li>create a <strong>dummy input</strong> list object for users to prepopulate</li>
+<li><code>convert_selection()</code> to convert code highlighted in source pane</li>
+</ul>
+<p>To learn more, please read the detailed <a href="https://www.rdocumentation.org/packages/shinyobjects/versions/0.1.1">vignette</a> and <a href="https://rjake.github.io/shinyobjects/articles/tips-and-tricks.html">tips and tricks</a>.s</p>
+</div>
+<div id="check-it-out" class="section level3">
+<h3>Check it Out</h3>
+<ul>
+<li><p>The slides and code from Jake’s workshop are available on <a href="https://github.com/rjake/workshop-flexdashboard-shinyobjects">his github</a>!</p></li>
+<li><p>The workshop recording is available at <a href="https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg">our Youtube channel</a></p></li>
+<li><p><a href="https://docs.google.com/document/d/1FG3CQJeESXa40cvSfzkNQnxfIQU9zQFq_OL9KLzD5JA/edit">Q&amp;A session</a></p></li>
+</ul>
+</div>
+<div id="thank-you" class="section level3">
+<h3>Thank you</h3>
+<p>Thank you to all our attendees, our sponsors (R-ladies Global), and especially our great presenter <a href="https://twitter.com/yake_84">Jake Riley</a>!!</p>
+<p><em>This post was authored by Chun Su. For more information contact <a href="mailto:philly@rladies.org" class="email">philly@rladies.org</a></em></p>
+</div>

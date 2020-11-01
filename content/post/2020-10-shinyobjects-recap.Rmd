@@ -1,0 +1,46 @@
+---
+title: '2020 Oct: Flexdashboard debugging with shinyobjects'
+author: Chun Su
+date: '2020-10-26'
+slug: oct2020-recap
+categories: ["Meetups"]
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+Shiny applications and dashboards help communicate analytics insights to both technical and non-technical audiences in an interactive and efficient way. However, debugging them is not an easy process. For 2020 October virtual meetup, 30+ data enthusiastics joined the interactive workshop led by R-Ladies Philly member [Jake Riley](https://twitter.com/yake_84). Jake elucidated aspects of the popular dashboard building package [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/) and demonstrated his recently published tool [shinyobjects](https://cran.r-project.org/web/packages/shinyobjects/index.html) to debug.
+
+### flexdashboard and reactivity
+flexdashboard leverages Rmarkdown and shiny to build a dashboard or shiny application. Instead of splitting ui and server functions, flexdashboard takes the advantage of interpretability from Rmarkdown and makes shiny code cleaner and easier to read. 
+
+Like shiny, flexdashboard used the [**reactive programming model**](https://shiny.rstudio.com/articles/reactivity-overview.html) which involves user inputs and dynamic data/plots/titles. It can get really complicated when you have a cascade of reactive variables. It also increases the difficulty at the debugging step. 
+
+### shinyobjects workflow
+To troubleshoot reactive data, Jake developed [shinyobjects](https://cran.r-project.org/web/packages/shinyobjects/index.html). This R package can access reactive objects in your local environment and allow debugging R code without actually running the app. It will save you time and allow you to iterate more quickly. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you also hate having to run the entire shiny code to see what one tiny change will look like? There&#39;s a tool you can use to debug specific sections! Check out shinyobjects by <a href="https://twitter.com/yake_84?ref_src=twsrc%5Etfw">@yake_84</a>! <a href="https://twitter.com/hashtag/RStats?src=hash&amp;ref_src=twsrc%5Etfw">#RStats</a> <a href="https://t.co/XNs1fi3BGr">pic.twitter.com/XNs1fi3BGr</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1319046827702996992?ref_src=twsrc%5Etfw">October 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The package includes 4 components at the workflow
+
+* `view_ui()` to see what UI components look like without running the app
+* `load_reactive_objects()` to convert reactive objects to static functions
+* create a **dummy input** list object for users to prepopulate
+* `convert_selection()` to convert code highlighted in source pane
+
+To learn more, please read the detailed [vignette](https://www.rdocumentation.org/packages/shinyobjects/versions/0.1.1) and [tips and tricks](https://rjake.github.io/shinyobjects/articles/tips-and-tricks.html).s
+
+### Check it Out
+
+* The slides and code from Jake's workshop are available on [his github](https://github.com/rjake/workshop-flexdashboard-shinyobjects)!
+
+* The workshop recording is available at [our Youtube channel](https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg)
+* [Q&A session](https://docs.google.com/document/d/1FG3CQJeESXa40cvSfzkNQnxfIQU9zQFq_OL9KLzD5JA/edit)
+
+### Thank you
+Thank you to all our attendees, our sponsors (R-ladies Global), and especially our great presenter [Jake Riley](https://twitter.com/yake_84)!!
+
+*This post was authored by Chun Su. For more information contact philly@rladies.org*
