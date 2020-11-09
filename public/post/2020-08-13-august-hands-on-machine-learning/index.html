@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.38" />
+  <meta name="author" content="R-Ladies Philly">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Our August Virtual Workshop Five months into the U.S. Coronavirus pandemic R-Ladies Philly continues to host monthly events virtually. In August we hosted “Hands-On Machine Learning Workshop” by Jaclyn Taroni. You can view a recording of the event on our YouTube channel . The content for the main workshop is available online here.
+ Speaker Our Presenter Jaclyn Taroni, is a Principal Data Scientist at the Childhood Cancer Data Lab. She was a Postdoctoral Researcher in the Greene Lab at the University of Pennsylvania Perelman School of Medicine, where she worked on cross-platform normalization of gene expression data and unsupervised transfer learning of transcriptomic data for rare diseases.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/2020-08-13-august-hands-on-machine-learning/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="R-Ladies Philly">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="R-Ladies Philly">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/2020-08-13-august-hands-on-machine-learning/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@RLadiesPhilly">
+  <meta property="twitter:creator" content="@RLadiesPhilly">
+  
+  <meta property="og:site_name" content="R-Ladies Philly">
+  <meta property="og:url" content="/post/2020-08-13-august-hands-on-machine-learning/">
+  <meta property="og:title" content="August 2020: Hands on Machine Learning Workshop | R-Ladies Philly">
+  <meta property="og:description" content="Our August Virtual Workshop Five months into the U.S. Coronavirus pandemic R-Ladies Philly continues to host monthly events virtually. In August we hosted “Hands-On Machine Learning Workshop” by Jaclyn Taroni. You can view a recording of the event on our YouTube channel . The content for the main workshop is available online here.
+ Speaker Our Presenter Jaclyn Taroni, is a Principal Data Scientist at the Childhood Cancer Data Lab. She was a Postdoctoral Researcher in the Greene Lab at the University of Pennsylvania Perelman School of Medicine, where she worked on cross-platform normalization of gene expression data and unsupervised transfer learning of transcriptomic data for rare diseases.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2020-08-13T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2020-08-13T00:00:00&#43;00:00">
+  
+
+  
+
+  
+
+  <title>August 2020: Hands on Machine Learning Workshop | R-Ladies Philly</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="R-Ladies Philly"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#board">
+            
+            <span>Board</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#news">
+            
+            <span>News</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#support">
+            
+            <span>Support</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">August 2020: Hands on Machine Learning Workshop</h1>
+
+    
+
+<div class="article-metadata">
+
+  
+
+  <span class="article-date">
+    
+    <meta content="2020-08-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2020-08-13 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Aug 13, 2020
+    </time>
+  </span>
+  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="R-Ladies Philly">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=August%202020%3a%20Hands%20on%20Machine%20Learning%20Workshop&amp;url=%2fpost%2f2020-08-13-august-hands-on-machine-learning%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2f2020-08-13-august-hands-on-machine-learning%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2f2020-08-13-august-hands-on-machine-learning%2f&amp;title=August%202020%3a%20Hands%20on%20Machine%20Learning%20Workshop"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2f2020-08-13-august-hands-on-machine-learning%2f&amp;title=August%202020%3a%20Hands%20on%20Machine%20Learning%20Workshop"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=August%202020%3a%20Hands%20on%20Machine%20Learning%20Workshop&amp;body=%2fpost%2f2020-08-13-august-hands-on-machine-learning%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <div id="our-august-virtual-workshop" class="section level3">
+<h3>Our August Virtual Workshop</h3>
+<p>Five months into the U.S. Coronavirus pandemic R-Ladies Philly continues to host monthly events virtually. In August we hosted “Hands-On Machine Learning Workshop” by <a href="https://twitter.com/jaclyn_taroni">Jaclyn Taroni</a>. You can view a recording of the event on our <a href="https://www.youtube.com/watch?v=6AFHMIJ8EGY">YouTube channel</a> . The content for the main workshop is available online <a href="https://github.com/jaclyn-taroni/2020-rladies-phl-ml">here</a>.</p>
+</div>
+<div id="speaker" class="section level3">
+<h3>Speaker</h3>
+<p>Our Presenter Jaclyn Taroni, is a Principal Data Scientist at the Childhood Cancer Data Lab. She was a Postdoctoral Researcher in the Greene Lab at the University of Pennsylvania Perelman School of Medicine, where she worked on cross-platform normalization of gene expression data and unsupervised transfer learning of transcriptomic data for rare diseases. She conducted her thesis work in the Whitfield Lab at the Geisel School of Medicine at Dartmouth studying the rare autoimmune disease systemic sclerosis, where she developed novel frameworks for analyzing high-throughput molecular data from multiple tissues, clinical manifestations, and drug trials.</p>
+</div>
+<div id="consensus-clustering" class="section level3">
+<h3>Consensus Clustering</h3>
+<p>Jaclyn used medulloblastoma (common brain cancer) expression data to demonstrate consensus clustering in the machine learning workshop. Typically, data rows are assumed to observations and columns assumed to be variables but gene expression data is transposed, with rows representing genes (features) and columns representing samples. Jacki shows how to use <code>ConsensusClusterPlus</code> package to estimate the number of unsupervised clusters with quantitative and visual ‘stability’ evidence.</p>
+</div>
+<div id="dimensionality-reduction" class="section level3">
+<h3>Dimensionality Reduction</h3>
+<p>Because gene expression data has hundreds of thousands of features (genes), reducing the number of dimensions is an important step. Jaclyn introduced several widely-used dimension reduction methods, including PCA, UMAP and t-SNE, and demonstrated their application in R. For the grand finale, Jaclyn explained a domain-specific dimension reduction technique called Pathway-Level Information ExtractoR (PLIER) that learns correlated patterns of gene expression data and extracts latent variables (LVs) to get a low-dimensional representation of the data. It is excellent strategy for biological discovery. For more information about PLIER, please read <a href="https://www.nature.com/articles/s41592-019-0456-1">Mao et al. (2019)</a></p>
+</div>
+<div id="thank-you" class="section level3">
+<h3>Thank you :)</h3>
+<p>Big, big thanks to Jaclyn Taroni for preparing materials and sharing her time and knowledge with the R-Ladies Philly community. And thanks to R-Ladies Global for sponsoring the Zoom meeting.</p>
+</div>
+<div id="get-involved" class="section level3">
+<h3>Get Involved!</h3>
+<p>R-Ladies Philly has a Slack workspace! Join the conversation, learn more about upcoming events, ask a questions in the #r-help channel or find out about new opportunities in the #jobs channel. Join slack here. You can also subscribe to the R-Ladies Philly YouTube channel for recordings of past and future events. And of course, follow us on twitter <span class="citation">@RLadiesPhilly</span>.</p>
+</div>
+
+    </div>
+
+    
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 R-Ladies Philly &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
