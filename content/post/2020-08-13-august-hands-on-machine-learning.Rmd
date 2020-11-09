@@ -2,14 +2,6 @@
 title: 'August 2020: Hands on Machine Learning Workshop'
 author: "Jessie Pluto"
 date: "2020-08-13"
-tags:
-- iwd
-- twitter
-- part1
-- 2018
-categories:
-- IWD
-- R-Ladies
 output: html_document
 ---
 
