@@ -2,9 +2,13 @@
 title: 'Decision Trees & Random Forests'
 author: "Amy Goodwin Davies"
 date: '2020-09-15'
-slug: 
-tags: []
 categories: ["Meetups"]
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
 ---
 
 <link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
@@ -14,7 +18,7 @@ categories: ["Meetups"]
 <p>Our September 2020 meetup was on the topic of Decision Trees &amp; Random Forests. It featured three presentations on the topic of tree-based models in R:</p>
 <ol style="list-style-type: decimal">
 <li><p>Hierarchical clustering in R (Kavana Rudresh)</p></li>
-<li><p>treeheatr - an R package to create interpretable decision tree visualizations (Trang Le)</p></li>
+<li><p><code>treeheatr</code> - an R package to create interpretable decision tree visualizations (Trang Le)</p></li>
 <li><p>Decision trees vs. random forests (Karla Fettich)</p></li>
 </ol>
 <center>
@@ -28,19 +32,16 @@ categories: ["Meetups"]
 </center>
 <div id="hierarchical-clustering-in-r" class="section level2">
 <h2>Hierarchical clustering in R</h2>
-<p>Our first presenter was Kavana Rudresh, an Enterprise Business Intelligence Manager for Strategic Analytics at Comcast Corporation. Materials from Kavana’s presentation are available <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering">here</a>.</p>
-<p>Kavana explained some <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering#what-is-clustering">key concepts within clustering</a>, before focusing on hierarchical algorithms. Within hierarchical clustering, she discussed the <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering#hierarchical-clustering">distinction between bottom-up (agglomerative / additive) and top-down (divisive) types</a>, before moving on to questions of <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering#so-how-are-we-measuring-similarity">how to measure similarity</a> and <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering#how-should-we-choose-the-number-of-clusters-in-hierarchical-clustering">how to choose the number of clusters</a>.</p>
+<p>Our first presenter was Kavana Rudresh, Enterprise Business Intelligence Manager for Strategic Analytics at Comcast Corporation. Materials from Kavana’s presentation are available <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering">here</a>.</p>
+<p>Kavana explained some <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering#what-is-clustering">key concepts within clustering</a>, before focusing on hierarchical algorithms. Within hierarchical clustering, she discussed the <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering#hierarchical-clustering">distinction between bottom-up (agglomerative/additive) and top-down (divisive) types</a>, before moving on to questions of <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering#so-how-are-we-measuring-similarity">how to measure similarity</a> and <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering#how-should-we-choose-the-number-of-clusters-in-hierarchical-clustering">how to choose the number of clusters</a>.</p>
 <p>Kavana also walked us through <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering/blob/master/clustering.R">a script</a> which employs some of these techniques with mall customer data and discussed tips for using clustering techniques with <a href="https://github.com/kavana-r/RLadies_Hierarchical_Clustering#working-with-messy-real-world-data">messy real-world data</a>.</p>
 <p>In the discussion period we talked a bit about how dendrograms can be misinterpreted; it is important to look at where leaves join rather than how they are arranged relative to each other. One suggestion was to visualize a baby’s crib mobile, where the branches can rotate without changing the structural relationship between the leaves.</p>
 </div>
 <div id="treeheatr---an-r-package-to-create-interpretable-decision-tree-visualizations" class="section level2">
-<h2>treeheatr - an R package to create interpretable decision tree visualizations</h2>
+<h2><code>treeheatr</code> - an R package to create interpretable decision tree visualizations</h2>
 <p>Trang Le is a postdoctoral fellow with Jason Moore at the Computational Genetics Lab, University of Pennsylvania. She’s the author and maintainer of 5 R packages and active contributor of the automated machine learning tool TPOT.</p>
 <p>Trang’s presentation was about the package <code>treeheatr</code>, which she authors and maintains. <code>treeheatr</code> creates interpretable decision tree visualizations which incorporate a heatmap of the data at the tree’s leaf nodes. The presentation slides are available <a href="https://slides.com/trang1618/treeheatr-rladies-philly">here</a> and a recording of the presentation is available <a href="https://youtu.be/h5OXch2lXWo?t=54">here</a>. Trang started by reviewing some other options for visualizing decision tree models, before introducing <code>treeheatr</code> and how to use it. A vignette is available <a href="https://cran.r-project.org/web/packages/treeheatr/vignettes/explore.html">here</a>.</p>
-<p>See also:<br />
-<a href="https://trang1618.github.io/treeheatr/">trang1618.github.io/treeheatr</a><br />
-<a href="https://github.com/trang1618/treeheatr">github.com/trang1618/treeheatr</a><br />
-<a href="https://cran.r-project.org/web/packages/treeheatr/index.html">treeheatr on CRAN</a></p>
+<p>You can learn more about <code>treeheatr</code> on the <a href="https://trang1618.github.io/treeheatr/">github website</a>, in the <a href="https://github.com/trang1618/treeheatr">github repository</a> and on <a href="https://cran.r-project.org/web/packages/treeheatr/index.html">CRAN</a>!</p>
 </div>
 <div id="decision-trees-vs.-random-forests" class="section level2">
 <h2>Decision trees vs. random forests</h2>
@@ -48,10 +49,7 @@ categories: ["Meetups"]
 <p>Karla provided an introduction to random forests. Karla’s slides are available <a href="https://kfettich.github.io/rladies_random_forests_workshop/">here</a> and recording of her presentation is available <a href="https://youtu.be/h5OXch2lXWo?t=1148">here</a>. Her presentation included some background on <a href="https://kfettich.github.io/rladies_random_forests_workshop/#3">decision trees versus random forests</a>, an explanation of <a href="https://kfettich.github.io/rladies_random_forests_workshop/#4">how random forest algorithms work at a high level</a>, as well as some discussion of <a href="https://kfettich.github.io/rladies_random_forests_workshop/#5">advantages and disadvantages of the approach</a>.</p>
 <p>Karla also walked through an implementation with some fictitious data - <a href="https://kfettich.github.io/rladies_random_forests_workshop/#7"><em>a case of the Mondays</em></a> - and highlighted <a href="https://kfettich.github.io/rladies_random_forests_workshop/#20">some “gotchas”</a> to watch out for.</p>
 </div>
-<div id="thank-yous" class="section level2">
-<h2>Thank yous</h2>
-<ul>
-<li>Many thanks to our fantastic presenters, Kavana, Trang, and Karla, and to <a href="https://rladies.org/">R-Ladies Global</a> for making the virtual event possible via Zoom.</li>
-</ul>
-<p><em>This post was authored by Amy Goodwin Davies. For more information contact <a href="mailto:philly@rladies.org" class="email">philly@rladies.org</a></em></p>
+<div id="thank-you" class="section level2">
+<h2>Thank you</h2>
+<p>Many thanks to our fantastic presenters, Kavana, Trang, and Karla, and to <a href="https://rladies.org/">R-Ladies Global</a> for making the virtual event possible via Zoom.</p>
 </div>
