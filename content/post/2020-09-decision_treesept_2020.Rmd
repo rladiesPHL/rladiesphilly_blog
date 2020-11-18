@@ -2,9 +2,13 @@
 title: 'Decision Trees & Random Forests'
 author: "Amy Goodwin Davies"
 date: '2020-09-15'
-slug: 
+categories: ["Meetups"]
 tags: []
-categories: Meetups
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
 ---
 
 Our September 2020 meetup was on the topic of Decision Trees & Random Forests. It featured three presentations on the topic of tree-based models in R:
