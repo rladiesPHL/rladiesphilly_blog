@@ -43,8 +43,3 @@ Video on YouTube:
 https://www.youtube.com/watch?v=k3-gsNwWX7E
 
 Thank you to Elea McDonnell Feit and Ron Berman for their wonderful workshop. Thank you to our sponsor R Ladies Global!
-
-
-```{r cars}
-summary(cars)
-```
