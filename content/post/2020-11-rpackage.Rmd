@@ -1,0 +1,33 @@
+---
+title: '2020 Nov: Your first R package in 1 hour'
+author: Karla Fettich
+date: '2020-12-07'
+slug: nov2020-recap
+categories: ["Meetups"]
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+Package development can be intimidating, but it doesn't have to be! In this month's workshop, [Shannon Pileggi](https://www.pipinghotdata.com/about.html) gives us a step by step guide for how to get started, and shares her experience with “usethis”, “devtools” and various handy functions for package development. This workshop, suitable for beginner to intermediate R users, aims to help participants develop a working, well-documented package, and provides insights into the files and file structure required for R packages. A familiarity with functions, pipe and tidyverse is helpful.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First step... usethis::create_package(&#39;path/packagename&#39;)! Then you can take a look at the DESCRIPTION file... R is smart enough to populate some of this information for you if you have it in your Rprofile - try usethis::edit_r_profile() <a href="https://t.co/x0Oi65rvPC">pic.twitter.com/x0Oi65rvPC</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1327031853451243522?ref_src=twsrc%5Etfw">November 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+### About our speaker
+
+Shannon is an enthusiastic statistical collaborator and professional educator with over ten years of experience partnering on data analysis with diverse stakeholders in corporate settings, tech, public health, and clinical research. Shannon’s previous work experiences include supporting research on parasitic diseases at the CDC, developing a pilot college-wide intro stats course at the Institute for Quantitative Theory and Methods at Emory University, and instructing R/SAS programming, intro stats, and survival analysis courses at California Polytechnic State University, San Luis Obispo. Shannon is currently a Statistician at Adelphi Research in Doylestown, PA working in pharmaceutical market research. Shannon’s day-to-day in R include: fine-tuning ggplots to convey analysis results, contributing to an internal package to automate routine analyses/tasks, streamlining work-flows for repetitive analyses, and developing shiny apps.
+
+### Workshop Materials
+
+* A [step-by-step guide](https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/) written by Shannon is available on her website
+* The [workshop recording](https://youtu.be/xcXzaEmZ-m4) is available at the [R-Ladies Philly Youtube channel](https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg?view_as=subscriber)
+* [Q&A session](https://docs.google.com/document/d/1etzriMMb3InQXYicjUJrpmn1h1-dSSA7-CcPadvU1fE/edit?usp=sharing)
+
+### Thank you
+
+Thank you to all our attendees, our sponsors (R-ladies Global), and especially our presenter [Shannon Pileggi](https://www.pipinghotdata.com/about.html)!
+
+*This post was authored by Karla Fettich. For more information contact philly@rladies.org*
