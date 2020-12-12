@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>December 2020: Data Visualization</title>
+      <link>/post/recap_data_viz/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/recap_data_viz/</guid>
+      <description>Take a sad chart and make it better On December 8, we were incredibly fortunate to have Trang Le lead us through a data visualization workshop. You can find a recording of the meetup on our YouTube channel. Links to the meetup content are all at the end of this post.
+ About our speaker Trang Le is a postdoctoral fellow at the University of Pennsylvania with the Computational Genomics Lab.</description>
+    </item>
+    
+    <item>
       <title>2020 Nov: Your first R package in 1 hour</title>
       <link>/post/nov2020-recap/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>

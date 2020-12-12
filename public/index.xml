@@ -11,6 +11,56 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>December 2020: Data Visualization</title>
+      <link>/post/recap_data_viz/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/recap_data_viz/</guid>
+      <description>&lt;div id=&#34;take-a-sad-chart-and-make-it-better&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Take a sad chart and make it better&lt;/h1&gt;
+&lt;p&gt;On December 8, we were incredibly fortunate to have Trang Le lead us through a data visualization workshop. You can find a recording of the meetup on our YouTube channel. Links to the meetup content are all at the end of this post.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;about-our-speaker&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;About our speaker&lt;/h1&gt;
+&lt;p&gt;Trang Le is a postdoctoral fellow at the University of Pennsylvania with the Computational Genomics Lab. She is a big supporter of the R-Ladies community and has presented at previous R-Ladies meetups with Philadelphia and Miami chapters. You can follow her on twitter (&lt;span class=&#34;citation&#34;&gt;@trang1618&lt;/span&gt;) and at her website (trang.page).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;key-takeaways&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Key takeaways&lt;/h1&gt;
+&lt;p&gt;Trang gave a fantastic overview of effective data communication. From pie charts to heat maps, we can take an “OK” plot and make it great. While Trang’s background is in academic biological research, her insights apply to other fields. Trang showed several examples of how to take a confusing visualization and improve it. Do check out her slides to see them all.&lt;/p&gt;
+&lt;p&gt;Here are some of her key points summarized:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can break the rules (3D can be useful, more than seven colors can be effective)&lt;/li&gt;
+&lt;li&gt;Reduce cognitive burden by direct labeling, reducing the number of labels, highlighting, and using a consistent color scheme&lt;/li&gt;
+&lt;li&gt;Use facets to break a large dataset into digestible pieces&lt;/li&gt;
+&lt;li&gt;Identify the key data before plotting&lt;/li&gt;
+&lt;li&gt;Use great resources (e.g., &lt;a href=&#34;ft.com/vocabulary&#34;&gt;ft.com/vocabulary&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Next, it was our turn as participants to apply these tips in a hands-on exercise. Using the latest COVID-19 data, we recreated and experimented with the Financial Times visualization by John Burn-Murdoch:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/jburnmurdoch/status/1250538655707430913?s=20&#34; class=&#34;uri&#34;&gt;https://twitter.com/jburnmurdoch/status/1250538655707430913?s=20&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;links-for-meetup-materials&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Links for meetup materials&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides: &lt;a href=&#34;https://slides.com/trang1618/take-a-sad-chart-and-make-it-better/&#34; class=&#34;uri&#34;&gt;https://slides.com/trang1618/take-a-sad-chart-and-make-it-better/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RStudio Cloud: &lt;a href=&#34;https://rstudio.cloud/project/1893495&#34; class=&#34;uri&#34;&gt;https://rstudio.cloud/project/1893495&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/trang1618/rladies-dataviz&#34; class=&#34;uri&#34;&gt;https://github.com/trang1618/rladies-dataviz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Google Drive: rladies-dataviz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;to-learn-more-about-r-ladies-philly&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;To learn more about R-Ladies Philly&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Mentor/Speaker directory: rladiesphilly.shinyapps.io/mentorship/&lt;/li&gt;
+&lt;li&gt;Youtube channel: &lt;a href=&#34;https://yt.vu/+rladiesphilly&#34; class=&#34;uri&#34;&gt;https://yt.vu/+rladiesphilly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slack: bit.ly/join-rladies-slack-2020&lt;/li&gt;
+&lt;li&gt;Survey: bit.do/rladies-survey&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2020 Nov: Your first R package in 1 hour</title>
       <link>/post/nov2020-recap/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
@@ -934,101 +984,6 @@ It looks like a major theme is emerging… a critical piece of the public health
 &lt;p&gt;“Food is Medicine” is a PCORI study of patients with poorly controlled diabetes. As part of this study, Kristin is working on providing nutrition education through telehealth and medically-tailored meals through non-profit organizations like &lt;a href=&#34;https://www.mannapa.org&#34;&gt;MANNA&lt;/a&gt;. The goal of this study is to inform policy change to cover these interventions as routine benefits. Outcomes measured in the study are the reduction in hemoglobin A1c and cost-effectiveness.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.pcori.org&#34;&gt;The Patient Centered Outcomes Research Institute (PCORI)&lt;/a&gt; is an independent non-profit, non-governmental organization in Washington DC. PCORI funds studies to compare healthcare options and learn what works best, given patients’ circumstances and preferences.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;his post was authored by Ramaa Nathan. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>October Recap: Network Analysis</title>
-      <link>/post/oct08-recap-rmarkdown/</link>
-      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/oct08-recap-rmarkdown/</guid>
-      <description>&lt;hr /&gt;
-&lt;p&gt;Networks, also referred to as graphs in mathematics, model multiple types of relations and processes in physical, social, biological, and information systems. R-Ladies Philly’s October 2019 meetup was a workshop focusing on how to implement network analyses using the R igraph object. The workshop was led by &lt;a href=&#34;https://learniningwithsckinta.netlify.com/&#34;&gt;Chun Su, PhD&lt;/a&gt;, who is a bioinformatics scientist at the Children’s Hospital of Philadelphia and also a R-ladies Philly co-organizer. The workshop materials are available at &lt;a href=&#34;https://github.com/rladiesPHL/workshop_network&#34;&gt;rladiesPHL github&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The workshop covered&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;IGRAPH object “I/O” and manipulation&lt;/li&gt;
-&lt;li&gt;The measurement and clustering of networks&lt;/li&gt;
-&lt;li&gt;Network visualization&lt;/li&gt;
-&lt;li&gt;Network showcase – gene regulation network&lt;/li&gt;
-&lt;li&gt;Group exercise – real-world open flight network&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;igraph-object-in-r&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;IGRAPH object in R&lt;/h2&gt;
-&lt;p&gt;Generally, graphs, (a.k.a networks) are made up of vertices and edges, which represent the whole inter-relationship of nodes. The R Package &lt;code&gt;igraph&lt;/code&gt; uses a particular class called “IGRAPH” to represent it.&lt;/p&gt;
-&lt;p&gt;IGRAPH object can be created by various ways, including generating from tranditional R object data.frame and adjacant matrix.&lt;/p&gt;
-&lt;p&gt;Below is the one example to create a IGRAPH object representing a relationship between five actors.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(igraph)
-library(tidyverse)
-
-# vertices -- actors
-actors &amp;lt;- data.frame(
-  name=c(&amp;quot;Alice&amp;quot;, &amp;quot;Bob&amp;quot;, &amp;quot;Cecil&amp;quot;, &amp;quot;David&amp;quot;,&amp;quot;Esmeralda&amp;quot;),
-  age=c(48,33,45,34,21),
-  gender=c(&amp;quot;F&amp;quot;,&amp;quot;M&amp;quot;,&amp;quot;F&amp;quot;,&amp;quot;M&amp;quot;,&amp;quot;F&amp;quot;))
-
-# edges -- relations
-relations &amp;lt;- data.frame(
-  from=c(&amp;quot;Bob&amp;quot;, &amp;quot;Cecil&amp;quot;, &amp;quot;Cecil&amp;quot;, &amp;quot;David&amp;quot;,&amp;quot;David&amp;quot;, &amp;quot;Esmeralda&amp;quot;),
-  to=c(&amp;quot;Alice&amp;quot;, &amp;quot;Bob&amp;quot;, &amp;quot;Alice&amp;quot;, &amp;quot;Alice&amp;quot;, &amp;quot;Bob&amp;quot;, &amp;quot;Alice&amp;quot;),
-  same.dept=c(FALSE,FALSE,TRUE,FALSE,FALSE,TRUE),
-  friendship=c(4,5,5,2,1,1), 
-  advice=c(4,5,5,4,2,3)
-  )
-
-# make igraph from data.frame
-g &amp;lt;- graph_from_data_frame(relations, directed=TRUE, vertices=actors)
-g&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## IGRAPH 834595d DN-- 5 6 -- 
-## + attr: name (v/c), age (v/n), gender (v/c), same.dept (e/l),
-## | friendship (e/n), advice (e/n)
-## + edges from 834595d (vertex names):
-## [1] Bob      -&amp;gt;Alice Cecil    -&amp;gt;Bob   Cecil    -&amp;gt;Alice David    -&amp;gt;Alice
-## [5] David    -&amp;gt;Bob   Esmeralda-&amp;gt;Alice&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;During the workshop, Chun also introduced several ways to manipulate IGRAPH, including retrieving vertex and edges, adding/deleting vertex and edge attributes, merging multiple graphs and subsetting graphs, etc. The full material refers to the R markdown script at &lt;a href=&#34;https://github.com/rladiesPHL/workshop_network/blob/master/network_workshop.Rmd&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;the-measurement-and-clustering-of-network&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;The measurement and clustering of network&lt;/h2&gt;
-&lt;p&gt;After presenting the basic IGRAPH object, Chun advanced the topic a little bit by introducing several useful metrics to measure a graph.&lt;/p&gt;
-&lt;p&gt;One cool metric particularly useful for social networks is &lt;em&gt;Transitivity&lt;/em&gt;, which measures the how well connected the graph is. Among small work networks, a network with high transivity means that it is very likely that the two friends connected to one given person are also friends to each other. To know more, &lt;code&gt;help(&amp;quot;transitivity&amp;quot;)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Besides network measurement metrics, Chun also covered several methods in graph clustering, like decomposing graph to inter-connected components (&lt;code&gt;decompose.graph&lt;/code&gt;), clustering to small cliques (&lt;code&gt;cliques&lt;/code&gt;) and grouping graph to communities/modules (eg.&lt;code&gt;cluster_walktrap&lt;/code&gt;).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;network-visualization&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Network visualization&lt;/h2&gt;
-&lt;p&gt;Visualizing network was highlighted in the workshop. It can be done by default plotting &lt;code&gt;plot(g)&lt;/code&gt; to visualize a IGRAPH object with multiple attributes (color, shape and linetype, etc) applied to edges and vertices. Alternatively, one may consider plotting a IGRAPH using ggraph which is very similar ggplot2. It makes creating legends much easier!&lt;/p&gt;
-&lt;p&gt;Below is an example to use ggraph highlighting the actors gender and friendship between them&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggraph)
-ggraph(g, layout=&amp;quot;kk&amp;quot;) +
-  geom_edge_link(aes(edge_width=friendship, edge_linetype=same.dept), arrow = arrow(angle=5, length = unit(0.3, &amp;quot;inches&amp;quot;))) +
-  geom_node_point(aes(color=gender), size=6) +
-  geom_node_text(aes(label=name), nudge_y = -0.1, nudge_x = -0.1) +
-  scale_edge_width(range = c(1, 2)) +
-  theme_void() &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-10-8-recap-network-analysis_files/figure-html/ggraph_exp-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;showcase-and-group-exercise&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Showcase and group exercise&lt;/h2&gt;
-&lt;p&gt;At end the workshop, Chun presented the application of network analysis in her work. As a bioinformatics scientist, she is particularly interested in the influence of gene regulatory networks on the genetic susceptibility for childhood diseases. She showed us an example of usig a gene-cis-regulatory-element interaction network to predict target genes for Type 1 diabetes-associated variants. To know more, refer to CHOP spatial and functional genomics center &lt;a href=&#34;https://sfg.research.chop.edu/&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As a finaly activity, we started a group exercise exploring real-world flight data. Do you know that, if you choose to take the same airline company flight for the shortest tranfer, there are 15 ways to go from Philly to Beijing China?&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://i.ibb.co/rkXw9QT/PHL2BJS.png&#34; /&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Thank you&lt;/h2&gt;
-&lt;div id=&#34;o3-world&#34; class=&#34;section level5&#34;&gt;
-&lt;h5&gt;O3 World&lt;/h5&gt;
-&lt;p&gt;We would like to thank &lt;a href=&#34;http://www.o3world.com&#34;&gt;O3 World&lt;/a&gt; for hosting us!&lt;/p&gt;
-&lt;p&gt;“O3 World is a leading digital product design and development agency. They combine strategy, innovation, and a deep understanding of the current and emerging digital ecosystem to deliver results for clients. Headquartered in Philadelphia, they emphasize a balanced approach to design, innovative technological solutions, and award-winning agency culture.”&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;orchestrall-care-network&#34; class=&#34;section level5&#34;&gt;
-&lt;h5&gt;Orchestrall Care Network&lt;/h5&gt;
-&lt;p&gt;We would like to thank Orchestrall Care Network for sponsoring us food!&lt;/p&gt;
-&lt;p&gt;“&lt;a href=&#34;https://www.orchestrallinc.com/&#34;&gt;Orchestrall Care Network&lt;/a&gt; is a Conshohocken based multi-national healthcare company focused on making the lives of family members taking care of their elderly relatives better. By creating a trained local community network and leveraging the magic of AI, OCN provides low cost support to those dedicating their time to look after their loved ones”&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Chun Su. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
