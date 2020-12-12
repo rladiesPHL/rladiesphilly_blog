@@ -11,6 +11,146 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>2020 Nov: Your first R package in 1 hour</title>
+      <link>/post/nov2020-recap/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nov2020-recap/</guid>
+      <description>&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Package development can be intimidating, but it doesn’t have to be! In this month’s workshop, &lt;a href=&#34;https://www.pipinghotdata.com/about.html&#34;&gt;Shannon Pileggi&lt;/a&gt; gives us a step by step guide for how to get started, and shares her experience with “usethis”, “devtools” and various handy functions for package development. This workshop, suitable for beginner to intermediate R users, aims to help participants develop a working, well-documented package, and provides insights into the files and file structure required for R packages. A familiarity with functions, pipe and tidyverse is helpful.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+First step… usethis::create_package(‘path/packagename’)! Then you can take a look at the DESCRIPTION file… R is smart enough to populate some of this information for you if you have it in your Rprofile - try usethis::edit_r_profile() &lt;a href=&#34;https://t.co/x0Oi65rvPC&#34;&gt;pic.twitter.com/x0Oi65rvPC&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1327031853451243522?ref_src=twsrc%5Etfw&#34;&gt;November 12, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;div id=&#34;about-our-speaker&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;About our speaker&lt;/h3&gt;
+&lt;p&gt;Shannon is an enthusiastic statistical collaborator and professional educator with over ten years of experience partnering on data analysis with diverse stakeholders in corporate settings, tech, public health, and clinical research. Shannon’s previous work experiences include supporting research on parasitic diseases at the CDC, developing a pilot college-wide intro stats course at the Institute for Quantitative Theory and Methods at Emory University, and instructing R/SAS programming, intro stats, and survival analysis courses at California Polytechnic State University, San Luis Obispo. Shannon is currently a Statistician at Adelphi Research in Doylestown, PA working in pharmaceutical market research. Shannon’s day-to-day in R include: fine-tuning ggplots to convey analysis results, contributing to an internal package to automate routine analyses/tasks, streamlining work-flows for repetitive analyses, and developing shiny apps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;workshop-materials&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Workshop Materials&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;a href=&#34;https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/&#34;&gt;step-by-step guide&lt;/a&gt; written by Shannon is available on her website&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://youtu.be/xcXzaEmZ-m4&#34;&gt;workshop recording&lt;/a&gt; is available at the &lt;a href=&#34;https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg?view_as=subscriber&#34;&gt;R-Ladies Philly Youtube channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1etzriMMb3InQXYicjUJrpmn1h1-dSSA7-CcPadvU1fE/edit?usp=sharing&#34;&gt;Q&amp;amp;A session&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Thank you&lt;/h3&gt;
+&lt;p&gt;Thank you to all our attendees, our sponsors (R-ladies Global), and especially our presenter &lt;a href=&#34;https://www.pipinghotdata.com/about.html&#34;&gt;Shannon Pileggi&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Karla Fettich. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020 Oct: Flexdashboard debugging with shinyobjects</title>
+      <link>/post/oct2020-recap/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/oct2020-recap/</guid>
+      <description>&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Shiny applications and dashboards help communicate analytics insights to both technical and non-technical audiences in an interactive and efficient way. However, debugging them is not an easy process. For 2020 October virtual meetup, 30+ data enthusiastics joined the interactive workshop led by R-Ladies Philly member &lt;a href=&#34;https://twitter.com/yake_84&#34;&gt;Jake Riley&lt;/a&gt;. Jake elucidated aspects of the popular dashboard building package &lt;a href=&#34;https://rmarkdown.rstudio.com/flexdashboard/&#34;&gt;flexdashboard&lt;/a&gt; and demonstrated his recently published tool &lt;a href=&#34;https://cran.r-project.org/web/packages/shinyobjects/index.html&#34;&gt;shinyobjects&lt;/a&gt; to debug.&lt;/p&gt;
+&lt;div id=&#34;flexdashboard-and-reactivity&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;flexdashboard and reactivity&lt;/h3&gt;
+&lt;p&gt;flexdashboard leverages Rmarkdown and shiny to build a dashboard or shiny application. Instead of splitting ui and server functions, flexdashboard takes the advantage of interpretability from Rmarkdown and makes shiny code cleaner and easier to read.&lt;/p&gt;
+&lt;p&gt;Like shiny, flexdashboard used the &lt;a href=&#34;https://shiny.rstudio.com/articles/reactivity-overview.html&#34;&gt;&lt;strong&gt;reactive programming model&lt;/strong&gt;&lt;/a&gt; which involves user inputs and dynamic data/plots/titles. It can get really complicated when you have a cascade of reactive variables. It also increases the difficulty at the debugging step.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;shinyobjects-workflow&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;shinyobjects workflow&lt;/h3&gt;
+&lt;p&gt;To troubleshoot reactive data, Jake developed &lt;a href=&#34;https://cran.r-project.org/web/packages/shinyobjects/index.html&#34;&gt;shinyobjects&lt;/a&gt;. This R package can access reactive objects in your local environment and allow debugging R code without actually running the app. It will save you time and allow you to iterate more quickly.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Do you also hate having to run the entire shiny code to see what one tiny change will look like? There&#39;s a tool you can use to debug specific sections! Check out shinyobjects by &lt;a href=&#34;https://twitter.com/yake_84?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@yake_84&lt;/span&gt;&lt;/a&gt;! &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://t.co/XNs1fi3BGr&#34;&gt;pic.twitter.com/XNs1fi3BGr&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1319046827702996992?ref_src=twsrc%5Etfw&#34;&gt;October 21, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;The package includes 4 components at the workflow&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;view_ui()&lt;/code&gt; to see what UI components look like without running the app&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;load_reactive_objects()&lt;/code&gt; to convert reactive objects to static functions&lt;/li&gt;
+&lt;li&gt;create a &lt;strong&gt;dummy input&lt;/strong&gt; list object for users to prepopulate&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;convert_selection()&lt;/code&gt; to convert code highlighted in source pane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To learn more, please read the detailed &lt;a href=&#34;https://www.rdocumentation.org/packages/shinyobjects/versions/0.1.1&#34;&gt;vignette&lt;/a&gt; and &lt;a href=&#34;https://rjake.github.io/shinyobjects/articles/tips-and-tricks.html&#34;&gt;tips and tricks&lt;/a&gt;.s&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;check-it-out&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Check it Out&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The slides and code from Jake’s workshop are available on &lt;a href=&#34;https://github.com/rjake/workshop-flexdashboard-shinyobjects&#34;&gt;his github&lt;/a&gt;!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The workshop recording is available at &lt;a href=&#34;https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg&#34;&gt;our Youtube channel&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1FG3CQJeESXa40cvSfzkNQnxfIQU9zQFq_OL9KLzD5JA/edit&#34;&gt;Q&amp;amp;A session&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Thank you&lt;/h3&gt;
+&lt;p&gt;Thank you to all our attendees, our sponsors (R-ladies Global), and especially our great presenter &lt;a href=&#34;https://twitter.com/yake_84&#34;&gt;Jake Riley&lt;/a&gt;!!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Chun Su. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Decision Trees &amp; Random Forests</title>
+      <link>/post/2020-09_decision_tree_sept_2020_final/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-09_decision_tree_sept_2020_final/</guid>
+      <description>&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Our September 2020 meetup was on the topic of Decision Trees &amp;amp; Random Forests. It featured three presentations on the topic of tree-based models in R:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Hierarchical clustering in R (Kavana Rudresh)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;treeheatr&lt;/code&gt; - an R package to create interpretable decision tree visualizations (Trang Le)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Decision trees vs. random forests (Karla Fettich)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+&lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; Join us today at 6pm for our September event! We are excited to have a line-up of presenters &lt;a href=&#34;https://twitter.com/trang1618?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@trang1618&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://twitter.com/kfettich?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@kfettich&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://twitter.com/kavana_rudresh?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@kavana_rudresh&lt;/span&gt;&lt;/a&gt; to share how to engage with tree-based methods in R.&lt;a href=&#34;https://t.co/iCTY8n6Hub&#34;&gt;https://t.co/iCTY8n6Hub&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1305983436650352640?ref_src=twsrc%5Etfw&#34;&gt;September 15, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;div id=&#34;hierarchical-clustering-in-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Hierarchical clustering in R&lt;/h2&gt;
+&lt;p&gt;Our first presenter was Kavana Rudresh, Enterprise Business Intelligence Manager for Strategic Analytics at Comcast Corporation. Materials from Kavana’s presentation are available &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kavana explained some &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#what-is-clustering&#34;&gt;key concepts within clustering&lt;/a&gt;, before focusing on hierarchical algorithms. Within hierarchical clustering, she discussed the &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#hierarchical-clustering&#34;&gt;distinction between bottom-up (agglomerative/additive) and top-down (divisive) types&lt;/a&gt;, before moving on to questions of &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#so-how-are-we-measuring-similarity&#34;&gt;how to measure similarity&lt;/a&gt; and &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#how-should-we-choose-the-number-of-clusters-in-hierarchical-clustering&#34;&gt;how to choose the number of clusters&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kavana also walked us through &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering/blob/master/clustering.R&#34;&gt;a script&lt;/a&gt; which employs some of these techniques with mall customer data and discussed tips for using clustering techniques with &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#working-with-messy-real-world-data&#34;&gt;messy real-world data&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the discussion period we talked a bit about how dendrograms can be misinterpreted; it is important to look at where leaves join rather than how they are arranged relative to each other. One suggestion was to visualize a baby’s crib mobile, where the branches can rotate without changing the structural relationship between the leaves.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;treeheatr---an-r-package-to-create-interpretable-decision-tree-visualizations&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;code&gt;treeheatr&lt;/code&gt; - an R package to create interpretable decision tree visualizations&lt;/h2&gt;
+&lt;p&gt;Trang Le is a postdoctoral fellow with Jason Moore at the Computational Genetics Lab, University of Pennsylvania. She’s the author and maintainer of 5 R packages and active contributor of the automated machine learning tool TPOT.&lt;/p&gt;
+&lt;p&gt;Trang’s presentation was about the package &lt;code&gt;treeheatr&lt;/code&gt;, which she authors and maintains. &lt;code&gt;treeheatr&lt;/code&gt; creates interpretable decision tree visualizations which incorporate a heatmap of the data at the tree’s leaf nodes. The presentation slides are available &lt;a href=&#34;https://slides.com/trang1618/treeheatr-rladies-philly&#34;&gt;here&lt;/a&gt; and a recording of the presentation is available &lt;a href=&#34;https://youtu.be/h5OXch2lXWo?t=54&#34;&gt;here&lt;/a&gt;. Trang started by reviewing some other options for visualizing decision tree models, before introducing &lt;code&gt;treeheatr&lt;/code&gt; and how to use it. A vignette is available &lt;a href=&#34;https://cran.r-project.org/web/packages/treeheatr/vignettes/explore.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can learn more about &lt;code&gt;treeheatr&lt;/code&gt; on the &lt;a href=&#34;https://trang1618.github.io/treeheatr/&#34;&gt;github website&lt;/a&gt;, in the &lt;a href=&#34;https://github.com/trang1618/treeheatr&#34;&gt;github repository&lt;/a&gt; and on &lt;a href=&#34;https://cran.r-project.org/web/packages/treeheatr/index.html&#34;&gt;CRAN&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;decision-trees-vs.-random-forests&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Decision trees vs. random forests&lt;/h2&gt;
+&lt;p&gt;Karla works as Head of Algorithm Development at Orchestrall, where she leads behavioral data analytics efforts and predictive model development for healthcare IT innovation. She is also an organizer of R-Ladies Philly!&lt;/p&gt;
+&lt;p&gt;Karla provided an introduction to random forests. Karla’s slides are available &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/&#34;&gt;here&lt;/a&gt; and recording of her presentation is available &lt;a href=&#34;https://youtu.be/h5OXch2lXWo?t=1148&#34;&gt;here&lt;/a&gt;. Her presentation included some background on &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#3&#34;&gt;decision trees versus random forests&lt;/a&gt;, an explanation of &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#4&#34;&gt;how random forest algorithms work at a high level&lt;/a&gt;, as well as some discussion of &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#5&#34;&gt;advantages and disadvantages of the approach&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Karla also walked through an implementation with some fictitious data - &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#7&#34;&gt;&lt;em&gt;a case of the Mondays&lt;/em&gt;&lt;/a&gt; - and highlighted &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#20&#34;&gt;some “gotchas”&lt;/a&gt; to watch out for.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank you&lt;/h2&gt;
+&lt;p&gt;Many thanks to our fantastic presenters, Kavana, Trang, and Karla, and to &lt;a href=&#34;https://rladies.org/&#34;&gt;R-Ladies Global&lt;/a&gt; for making the virtual event possible via Zoom.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>So you want to teach a workshop!</title>
       <link>/post/workshop_tips_2020/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
@@ -87,6 +227,74 @@
 &lt;p&gt;We cannot thank enough all the volunteers and organizers that have contributed to create new content for our events!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>August 2020: Hands on Machine Learning Workshop</title>
+      <link>/post/august_2020/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/august_2020/</guid>
+      <description>&lt;div id=&#34;our-august-virtual-workshop&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Our August Virtual Workshop&lt;/h3&gt;
+&lt;p&gt;Five months into the U.S. Coronavirus pandemic R-Ladies Philly continues to host monthly events virtually. In August we hosted “Hands-On Machine Learning Workshop” by &lt;a href=&#34;https://twitter.com/jaclyn_taroni&#34;&gt;Jaclyn Taroni&lt;/a&gt;. You can view a recording of the event on our &lt;a href=&#34;https://www.youtube.com/watch?v=6AFHMIJ8EGY&#34;&gt;YouTube channel&lt;/a&gt; . The content for the main workshop is available online &lt;a href=&#34;https://github.com/jaclyn-taroni/2020-rladies-phl-ml&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;speaker&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Speaker&lt;/h3&gt;
+&lt;p&gt;Our Presenter Jaclyn Taroni, is a Principal Data Scientist at the Childhood Cancer Data Lab. She was a Postdoctoral Researcher in the Greene Lab at the University of Pennsylvania Perelman School of Medicine, where she worked on cross-platform normalization of gene expression data and unsupervised transfer learning of transcriptomic data for rare diseases. She conducted her thesis work in the Whitfield Lab at the Geisel School of Medicine at Dartmouth studying the rare autoimmune disease systemic sclerosis, where she developed novel frameworks for analyzing high-throughput molecular data from multiple tissues, clinical manifestations, and drug trials.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;consensus-clustering&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Consensus Clustering&lt;/h3&gt;
+&lt;p&gt;Jaclyn used medulloblastoma (common brain cancer) expression data to demonstrate consensus clustering in the machine learning workshop. Typically, data rows are assumed to observations and columns assumed to be variables but gene expression data is transposed, with rows representing genes (features) and columns representing samples. Jacki shows how to use &lt;code&gt;ConsensusClusterPlus&lt;/code&gt; package to estimate the number of unsupervised clusters with quantitative and visual ‘stability’ evidence.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;dimensionality-reduction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Dimensionality Reduction&lt;/h3&gt;
+&lt;p&gt;Because gene expression data has hundreds of thousands of features (genes), reducing the number of dimensions is an important step. Jaclyn introduced several widely-used dimension reduction methods, including PCA, UMAP and t-SNE, and demonstrated their application in R. For the grand finale, Jaclyn explained a domain-specific dimension reduction technique called Pathway-Level Information ExtractoR (PLIER) that learns correlated patterns of gene expression data and extracts latent variables (LVs) to get a low-dimensional representation of the data. It is excellent strategy for biological discovery. For more information about PLIER, please read &lt;a href=&#34;https://www.nature.com/articles/s41592-019-0456-1&#34;&gt;Mao et al. (2019)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Thank you :)&lt;/h3&gt;
+&lt;p&gt;Big, big thanks to Jaclyn Taroni for preparing materials and sharing her time and knowledge with the R-Ladies Philly community. And thanks to R-Ladies Global for sponsoring the Zoom meeting.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;get-involved&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Get Involved!&lt;/h3&gt;
+&lt;p&gt;R-Ladies Philly has a Slack workspace! Join the conversation, learn more about upcoming events, ask a questions in the #r-help channel or find out about new opportunities in the #jobs channel. Join slack here. You can also subscribe to the R-Ladies Philly YouTube channel for recordings of past and future events. And of course, follow us on twitter &lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>July 2020: How to Test and Roll</title>
+      <link>/post/2020-07_julyblog_rladies/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-07_julyblog_rladies/</guid>
+      <description>&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This month R Ladies Philly hosted Elea McDonnell Feit and Ron Berman for a follow up to our previous MeetUp “A/B Testing in R with Elea McDonnell Feit”.&lt;/p&gt;
+&lt;p&gt;Presenters:
+Elea McDonnell Feit is an Assistant Professor of Marketing at the LeBow College of Business at Drexel University. She develops data analysis methods to inform marketing decisions including designing new products as well as planning advertising campaigns.&lt;/p&gt;
+&lt;p&gt;Ron Berman is an Assistant Professor of Marketing at the Wharton School at University of Pennsylvania. He focuses his research on online marketing, marketing analytics and the marketing actions of startup firms.&lt;/p&gt;
+&lt;p&gt;How to Test and Roll:
+A/B testing as a tool often used in marketing to compare treatments in a test stage and then deploy the better-performing treatment to the remainder of the consumer population. These tests have traditionally been analyzed using hypothesis testing. In this workshop, Elea and Ron explained a new approach to A/B testing that they developed called “Test &amp;amp; Roll” that focuses on the profit earned during and after the test. It is based on a Bayesian decision theory and the (very technical) Test &amp;amp; Roll paper explains why marketers should use this approach.
+The workshop covered topics in R including:
+· When you should use “Test &amp;amp; Roll” versus traditional hypothesis test
+· How to compute the Test &amp;amp; Roll sample size that maximizes profits
+· How to estimate priors from your own data to help plan your Test &amp;amp; Roll
+· How to analyze a Test &amp;amp; Roll experiment (It’s easy!)&lt;/p&gt;
+&lt;p&gt;How to Test and Roll workshop:
+&lt;a href=&#34;https://eleafeit.github.io/testandroll/howto/README.html&#34; class=&#34;uri&#34;&gt;https://eleafeit.github.io/testandroll/howto/README.html&lt;/a&gt;
+Slides:
+&lt;a href=&#34;https://eleafeit.github.io/testandroll/howto/How_To_Test_and_Roll.html#1&#34; class=&#34;uri&#34;&gt;https://eleafeit.github.io/testandroll/howto/How_To_Test_and_Roll.html#1&lt;/a&gt;
+GitHub repo:
+&lt;a href=&#34;https://github.com/eleafeit/testandroll&#34; class=&#34;uri&#34;&gt;https://github.com/eleafeit/testandroll&lt;/a&gt;
+Test &amp;amp; Roll: Profit-Maximizing A/B Tests (paper)
+&lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3274875&#34; class=&#34;uri&#34;&gt;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3274875&lt;/a&gt;
+Video on YouTube:
+&lt;a href=&#34;https://www.youtube.com/watch?v=k3-gsNwWX7E&#34; class=&#34;uri&#34;&gt;https://www.youtube.com/watch?v=k3-gsNwWX7E&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thank you to Elea McDonnell Feit and Ron Berman for their wonderful workshop. Thank you to our sponsor R Ladies Global!&lt;/p&gt;
 </description>
     </item>
     
@@ -820,299 +1028,6 @@ ggraph(g, layout=&amp;quot;kk&amp;quot;) +
 &lt;p&gt;We would like to thank Orchestrall Care Network for sponsoring us food!&lt;/p&gt;
 &lt;p&gt;“&lt;a href=&#34;https://www.orchestrallinc.com/&#34;&gt;Orchestrall Care Network&lt;/a&gt; is a Conshohocken based multi-national healthcare company focused on making the lives of family members taking care of their elderly relatives better. By creating a trained local community network and leveraging the magic of AI, OCN provides low cost support to those dedicating their time to look after their loved ones”&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This post was authored by Chun Su. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>September Recap: Reporting Research with R Markdown</title>
-      <link>/post/sept19-recap-rmarkdown/</link>
-      <pubDate>Thu, 19 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/sept19-recap-rmarkdown/</guid>
-      <description>&lt;hr /&gt;
-&lt;p&gt;R-Ladies Philadelphia’s September 2019 meetup was on the topic of reporting research using R Markdown. Our speaker was &lt;a href=&#34;https://ramaanathan.github.io/&#34;&gt;Ramaa Nathan, PhD&lt;/a&gt;, a statistican and data scientist with a background in the healthcare and finance industries. Ramaa is a co-organizer of the &lt;a href=&#34;https://www.meetup.com/DataPhilly/&#34;&gt;Data Science Philadelphia (DataPhilly) meetup group&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Ramaa’s materials are available &lt;a href=&#34;https://github.com/ramaanathan/R_RepResearch&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
-&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
-Welcome &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; to our meetup! So excited to see everyone and to have Ramaa leading our session on R markdown!! Thanks &lt;a href=&#34;https://twitter.com/RamaaNathan?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@RamaaNathan&lt;/span&gt;&lt;/a&gt; ! &lt;a href=&#34;https://t.co/Y9JGx3DQYf&#34;&gt;pic.twitter.com/Y9JGx3DQYf&lt;/a&gt;
-&lt;/p&gt;
-— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1174812920309538817?ref_src=twsrc%5Etfw&#34;&gt;September 19, 2019&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;
-&lt;p&gt;Ramaa’s talk included the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;An introduction to reproducible research&lt;/li&gt;
-&lt;li&gt;A reproducible research case study: Ramaa’s independent research which investigates breast cancer survival&lt;/li&gt;
-&lt;li&gt;An overview of output formats available with R Markdown&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div id=&#34;what-is-reproducible-research&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;What is reproducible research?&lt;/h2&gt;
-&lt;p&gt;Ramaa explained that reproducible research involves making data and analyses available so that others can reproduce the research findings. Literate programming frameworks which interleave documentation with code, such as R Markdown, are a great tool for sharing your analyses in an accessible way! Ramaa highlighted the importance of making the data available (with an accompanying data dictionary) as well as information about the software environment used. Ramaa also discussed the utility of public repositories (such as &lt;a href=&#34;https://github.com&#34;&gt;Github&lt;/a&gt;) for sharing these materials and the use of containers (such as &lt;a href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt;) to package code and dependencies together, ensuring the code can be run in any computing environment.&lt;/p&gt;
-&lt;p&gt;Reproducible research is an essential component of &lt;strong&gt;Open Science&lt;/strong&gt;, the topic of R-Ladies Philly’s &lt;a href=&#34;https://technical.ly/philly/2019/04/18/what-is-open-science-r-ladies/&#34;&gt;April 2019 meetup and Technical.ly guest post&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;breast-cancer-survival-analysis&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Breast cancer survival analysis&lt;/h2&gt;
-&lt;p&gt;Ramaa introduced &lt;strong&gt;Survival Analysis&lt;/strong&gt;, the branch of statistics used to analyze the expected duration of time until one or more events occur. She introduced the following key terms:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Time to Event&lt;/strong&gt;: The expected duration of time until one or more events occur. Examples include survival time from onset of diagnosis, time until progression from one stage of disease to another, and time from surgery until hospital discharge.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Survival Function&lt;/strong&gt;: The probability of surviving beyond time &lt;em&gt;t&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hazard Rate&lt;/strong&gt;: The probability that if a person survives to time &lt;em&gt;t&lt;/em&gt;, they will experience the event in the next instant.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cumulative hazard&lt;/strong&gt;: The accumulation of hazard rate over time since time of first diagnosis.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hazard Ratio&lt;/strong&gt;: The ratio of two hazard functions and is used to compare the risk of death between two treatment groups.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For her research investigating breast cancer survival, Ramaa used several survival analysis techniques to analyze publicly-available data from &lt;a href=&#34;https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga&#34;&gt;The Cancer Genome Atlas (TCGA) Program&lt;/a&gt;. Ramaa’s report on her research is available &lt;a href=&#34;https://ramaanathan.github.io/SurvivalAnalysis/&#34;&gt;here&lt;/a&gt; and all of her code is available &lt;a href=&#34;https://github.com/ramaanathan/SurvivalAnalysis&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;output-formats-using-r-markdown&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Output formats using R Markdown&lt;/h2&gt;
-&lt;p&gt;Ramaa overviewed the three basic components of R Markdown which work together to produce the output.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt;, for formatted text&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;KnitR&lt;/strong&gt;, for embedded R code&lt;/li&gt;
-&lt;li&gt;The &lt;strong&gt;YAML&lt;/strong&gt; (&lt;em&gt;“Yet Ain’t Markup Language”&lt;/em&gt;) header, for rendering&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The output format can be specified the the YAML header. Ramaa discussed the following (non-exhaustive) list of available output formats:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Documents&lt;/strong&gt;: HTML, PDF, Markdown, Word Document, Notebook, OpenDocument Text Document, Rich Text Format Notebook&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Presentations&lt;/strong&gt;: IOSlides, Slidy, Beamer, Powerpoint&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The audience was super-impressed that Ramaa’s powerpoint presentation was generated using R Markdown! Powerpoint presentations are a fairly recent addition (available for RStudio Version 1.2.x with Pandoc version 2.x).&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-conversation=&#34;none&#34; data-lang=&#34;en&#34;&gt;
-&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
-The latest version of rmarkdown 📦 can even go directly from Rmd -&amp;gt; PowerPoint! Ramaa’s slides were made in &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt;! It’s magic! &lt;a href=&#34;https://t.co/Ss3LkeNRDd&#34;&gt;pic.twitter.com/Ss3LkeNRDd&lt;/a&gt;
-&lt;/p&gt;
-— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1174826132211941377?ref_src=twsrc%5Etfw&#34;&gt;September 19, 2019&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;
-&lt;p&gt;For a general overview of R Markdown, Ramaa recommended &lt;a href=&#34;https://rmarkdown.rstudio.com/lesson-1.html&#34;&gt;RStudio’s R Markdown materials&lt;/a&gt;, especially the &lt;a href=&#34;https://rmarkdown.rstudio.com/lesson-15.html&#34;&gt;cheat sheet&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;thank-yous&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Thank yous&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;We would like to thank &lt;a href=&#34;https://ramaanathan.github.io/&#34;&gt;Ramaa Nathan&lt;/a&gt; for delivering such an engaging and informative talk! If you are interested in volunteering as a speaker or workshop leader for a future R-Ladies Philly event please get in touch with the organising team at &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Thanks to Comcast Enterprise Business Intelligence for providing food and drinks! Comcast EBI has multiple open roles on the Strategic Analytics team ranging from Analyst to Sr. Manager. If interested email &lt;a href=&#34;mailto:jessie_pluto@comcast.com&#34;&gt;jessie_pluto@comcast.com&lt;/a&gt;!&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Thank you to WeWork for hosting us. “WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 425 locations in 100 cities and 27 countries across the world with over 400,000 members. Book a tour at wework.com now!”&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Amy Goodwin Davies. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>July Recap: Lightning Talks</title>
-      <link>/post/july-recap-lightning-talks/</link>
-      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/july-recap-lightning-talks/</guid>
-      <description>&lt;hr /&gt;
-&lt;p&gt;Our July Meetup sought to highlight work and lessons from our community members through a series of short and engaging lightning talks.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Important skills for women in data (&lt;a href=&#34;https://www.linkedin.com/in/rajvimehta&#34;&gt;Rajvi Mehta&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Rajvi, a Data Scientist at Vanguard and Philadelphia Chapter Lead of Women in Data, shared her story of becoming a data scientist, and the lessons she learned along the way. She highlighted the following advice:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Always seek to &lt;em&gt;update your skill set&lt;/em&gt;, because job titles are varied in data science, and it’s a fast paced environment&lt;/li&gt;
-&lt;li&gt;Seek to &lt;em&gt;improve your communication skills&lt;/em&gt;, because there is often a need to explain complex statistics to colleagues and clients who have different areas of expertise but who, given the right explanation, could contribute tremendously to the data scientist’s work&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Seek diversity in teams&lt;/em&gt;, as people with diverse backgrounds can bring unique perspectives on solutions, risk, team dynamics, and problem solving approaches&lt;/li&gt;
-&lt;li&gt;Remember that &lt;em&gt;data is not just about the numbers&lt;/em&gt;, but it is also about the people behind the data (the end users, the developers implementing data collection systems, the business rules influencing the data being collected, etc.)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Promote women&lt;/em&gt; in data through personalized mentorship programs, public speaking opportunities, and team leadership opportunities&lt;/li&gt;
-&lt;li&gt;In your work, &lt;em&gt;listen carefully&lt;/em&gt; and &lt;em&gt;learn about solutions&lt;/em&gt; that have been tried in the past&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Share your work&lt;/em&gt; with other departments so innovation can be achieved more efficiently&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Fairness while sampling from very large datasets (&lt;a href=&#34;https://www.linkedin.com/in/sheila-braun-biostats/&#34;&gt;Sheila Braun&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Sheila, a seasoned statistical consultant working at CHOP as a data instructor, discussed how social injustice can creep into models using random samples from very large data sets, despite best intentions. She gave the example of a hypothetical large dataset of children from different countries, their symptoms, and their likelihood of dying from Virus Madeupticus. In her example, only children from one very small country (with a very small proportional representation in the dataset) would experience fatalities from contracting the virus. However, a predictive model based on a random subsample training dataset of the entire population would easily miss this narrow, but very real and very lethal effect of the virus. She stressed that in an analysis, it is important to consider whether there is a “time bomb”, and how critical it is to figure out what is truly happening in the data. She also emphasized the importance of using all the data when modeling, and that to prevent introducing bias due to sampling it may be useful to ensure that each sample or cluster created represents all minorities.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Leveraging Docker for Reproducible Training Workshops (&lt;a href=&#34;https://www.linkedin.com/in/jaclyn-taroni-a57265131/&#34;&gt;Jaclyn Taroni&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Jaclyn Taroni, PhD, a data scientist at the Childhood Cancer Data Lab, an Alex’s Lemonade Stand Foundation initiative, talked about Docker as a tool to make biological big data easier to access, mine, and reuse. She explained that a common process in cancer research is for a researcher to have a question, send it to a bioinformatics core, where a team of scientists prepare the sample and do some analyses, which are then returned to the researcher via a set of files in different formats and encodings. However, bioinformatics cores don’t typically train researchers to use and interpret the results. Therefore, researchers often have to go back to the scientists and ask questions about how data were processed and what each value represents, which leads to significant inefficiencies. To address this problem, the CCDL provides a 3-day workshop, in which attendees learn about the Rocker Project, an R/Docker environment in which the R and RStudio versions can be preconfigured and preloaded via version controlled images.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Do we need a new Wawa? (&lt;a href=&#34;https://www.linkedin.com/in/alice-walsh&#34;&gt;Alice Walsh&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Alice Walsh, PhD, a principal scientist at Bristol-Myers Squibb, spends her spare time analyzing data to support her community. In this talk, she presented an analysis to assess whether a new Wawa location was needed in her neighborhood, given the strong opposition from the community. She showed the group how she did some detective work to identify the URLs in Wawa’s website that would lead to a list of relevant Wawa locations, and how to call these URLs via R for analysis. She then discussed obtaining data on walk scores, number of houses in the neighborhoods, number of lanes of the road, etc. via APIs, and using these data points to inform the analysis. Her analysis suggested that the proposed Wawa did not fit the profile of other Wawas in the area, thus making a data informed argument against the new Wawa location. She shared her results with her township, but the outcomes remain TBD.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Karla Fettich. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>June Recap: Data Visualiztion</title>
-      <link>/post/june-recap-data-visualiztion/</link>
-      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/june-recap-data-visualiztion/</guid>
-      <description>&lt;hr /&gt;
-&lt;p&gt;Data visualization is paramount to both understanding and presenting your data, whatever your data may be. For our June Meetup, R-Ladies Philly member &lt;strong&gt;Jake Riley&lt;/strong&gt; led an interactive workshop to elucidate aspects of the popular &lt;code&gt;ggplot2&lt;/code&gt; &lt;a href=&#34;https://ggplot2.tidyverse.org/&#34;&gt;package&lt;/a&gt; and share helpful tips and best practices relevant to any R user.&lt;/p&gt;
-&lt;div id=&#34;the-2-gs-in-ggplot2---defined&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;The 2 g’s in &lt;code&gt;ggplot2&lt;/code&gt; - defined!&lt;/h3&gt;
-&lt;p&gt;Jake explained that the architecture of visualizing data using &lt;code&gt;ggplot2&lt;/code&gt; is based on the &lt;em&gt;g&lt;/em&gt;rammar of &lt;em&gt;g&lt;/em&gt;raphics: In &lt;code&gt;ggplot2&lt;/code&gt;, just like every sentence has a &lt;strong&gt;subject, verb, and noun&lt;/strong&gt;, every plot has a &lt;strong&gt;coordinate system, geom, and aesthetics&lt;/strong&gt;.&lt;/p&gt;
-This is demonstrated in the example below using the &lt;code&gt;mpg&lt;/code&gt; dataset:
-&lt;/center&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
-
-myplot &amp;lt;- 
-  ggplot(mpg) + #set the &amp;#39;subject&amp;#39; or coordinate system
-  geom_point(aes(x = cty, y = hwy)) #add the &amp;#39;verb&amp;#39; or geom used to show the data, and &amp;#39;nouns&amp;#39; or aesthetics on how the geom should appear
-myplot&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-06-27-june-recap-data-visualiztion_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;But what exactly does &lt;code&gt;aes()&lt;/code&gt; control in plot aesthetics? Jake clarified this by explaining that dynamic, data driven &lt;strong&gt;variables&lt;/strong&gt; go inside the &lt;code&gt;aes()&lt;/code&gt;, while constant, static &lt;strong&gt;values&lt;/strong&gt; go outside.&lt;/p&gt;
-The following two plots show the difference between these &lt;code&gt;aes()&lt;/code&gt; arguments:
-&lt;/center&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;myplot.v2 &amp;lt;- 
-  ggplot(mpg) +
-  geom_point(aes(x = cty, y = hwy, color = class)) +
-  labs(title = &amp;quot;Setting color inside `aes()`&amp;quot;)+
-  theme(legend.position = &amp;quot;bottom&amp;quot;)
-
-myplot.v3 &amp;lt;- 
-  ggplot(mpg) +
-  geom_point(aes(x = cty, y = hwy), color = &amp;quot;blue&amp;quot;) +
-  labs(title = &amp;quot;Setting color outside `aes()`&amp;quot;)
-
-gridExtra::grid.arrange(
-  myplot.v2,
-  myplot.v3,
-  ncol = 2
-)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2019-06-27-june-recap-data-visualiztion_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;helpful-tips-and-best-practices-for-plotting&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Helpful tips, and best practices for plotting&lt;/h3&gt;
-&lt;p&gt;Jake shared some tips for plotting, including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ordering barplots in descending (or ascending) order&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;using &lt;code&gt;facet_grid()&lt;/code&gt; and &lt;code&gt;facet_wrap()&lt;/code&gt;&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;controlling color and size more precisely using &lt;code&gt;scale_*_identity()&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To make your plot as visually appealing as possible, Jake additionally recommended:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;approximating the &lt;a href=&#34;https://en.wikipedia.org/wiki/Golden_ratio&#34;&gt;golden ratio (1:1.6)&lt;/a&gt; for plot dimensions&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;using color to highlight the most important plot features&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;choosing a color palette amenable to colorblindness&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;extensions-and-addins&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Extensions and Addins&lt;/h3&gt;
-&lt;p&gt;As a final activity, we explored &lt;a href=&#34;https://www.ggplot2-exts.org/ggiraph.html&#34;&gt;ggplot extensions&lt;/a&gt; and &lt;a href=&#34;https://github.com/daattali/addinslist&#34;&gt;ggplot addins&lt;/a&gt; and shared examples of our findings with the group&lt;/p&gt;
-&lt;center&gt;
-&lt;p&gt;&lt;em&gt;Alice shared how she added pikachu to her plot using&lt;/em&gt; &lt;code&gt;cowplot&lt;/code&gt; &lt;img src=&#34;/img/pikachu.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;check-it-out&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Check it Out&lt;/h3&gt;
-&lt;p&gt;The slides and code from Jake’s workshop are available on &lt;a href=&#34;https://github.com/rjake/r-ladies-data-viz&#34;&gt;his github&lt;/a&gt;!&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;wework&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;WeWork&lt;/h3&gt;
-&lt;p&gt;We would like to thank WeWork for hosting us!&lt;/p&gt;
-&lt;p&gt;“WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 111 locations in 29 cities across the world with over 70,000 members. Book a tour at wework.com now!”&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>May Recap - Diversity in Data</title>
-      <link>/post/may-recap-diversity-data/</link>
-      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/may-recap-diversity-data/</guid>
-      <description>&lt;div id=&#34;how-to-communicate-as-minority-data-scientists&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;How to communicate as (minority) data scientists?&lt;/h1&gt;
-&lt;p&gt;Being a minority in data science can be tough. It can be tough to get into the field, and sometimes even tougher to make yourself heard in the field. &lt;strong&gt;Marieke Jackson&lt;/strong&gt;, a former epidemiologist turned data scientist, shared how basic rules from improv have helped her navigate day to day challenges.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Imagine you are working with an improv partner and you mention those pesky magical flying birds that poop jellybeans. And your partner says: “huh? We’re on a boat, on the moon - there are no birds here.”&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Your partner has blocked your attempt to share your reality, and this interrupts flow, makes communication difficult, and can make everyone seem a bit out of place. One of the core rules of improv is to listen to your partner in conversation, agree, and build upon the shared understanding. This holds in a meeting too: as data scientists, we should listen to the non-data people in the team and really pay attention when they explain what they do or what problems they face. As Marieke put it, “you have to be trusting of your partner, accept being vulnerable, be accepting of what they give you and be willing to build on top of it.” What you don’t want to do is tell them there are no magical birds that poop jelly beans (i.e., discount their perspective and expertise). Instead, what you should do is find ways to give things to your scene/meeting partner that make them look good - because if they look good, you look good, and the interaction flows, and everyone wins.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;how-do-training-institutions-communicate-with-data-science-minorities&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;How do training institutions communicate with data science minorities?&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Jennifer Bochenek&lt;/strong&gt;, who has experience working with education services and is currently a data science graduate student, explored how educational institutions may attract (or not) diversity students through mission statements.&lt;/p&gt;
-&lt;p&gt;Mission statements reflect an institution’s goals, values and aspirations, but are the words chosen just to secure accreditation, or do they truly reflect the atmosphere and orientation of the school? While back in the 1990s diversity was limited to racial and ethnic diversity only, nowadays the term has expanded to include other kinds of diverse characteristics as well, e.g. geography, gender identity, age or generation, religious and spiritual beliefs, etc.&lt;/p&gt;
-&lt;p&gt;Looking specifically at gender diversity, Jennifer noted that while the number of women in colleges has increased dramatically in the last 60 years and women earn 58% of bachelor’s degrees, they only earn 35% of STEM degrees. In her study, she examined almost 800 mission statements from institutions conferring bachelor’s, master’s and doctoral degrees, and found that diversity was mentioned in only 17% of cases. Interestingly, mentioning diversity in the mission statement did not appear to be related to the number of women graduating with STEM degrees. However, programs that DO have greater numbers of women graduating with STEM degrees, tend to have mission statements that include words like “safe”, “moral”, “inclusive”, “supporting” and “collaborative”.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;when-should-training-institutions-communicate-with-data-science-minorities&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;When should training institutions communicate with data science minorities?&lt;/h1&gt;
-&lt;p&gt;According to &lt;strong&gt;Danica Pascavage&lt;/strong&gt; of &lt;a href=&#34;https://www.techgirlz.org/&#34;&gt;TechGirlz&lt;/a&gt;, the best time to get gender minorities excited about tech is middle school. She observed that interest in tech is fairly equally divided between genders until kids reach middle school, when girls seem to lose interest.&lt;/p&gt;
-&lt;p&gt;She pointed out that the time when girls lose interest in tech is also the time when girls seek out opportunities to be nurturing, to collaborate with others and work towards the greater good. Danica thinks that one explanation for why girls are stepping away from tech and engineering in middle school is the cultural portrayal of people working in tech. Media often shows tech savvy individuals as hackers who work alone in dark rooms and are often up to no good. Which is the opposite of the social, collaborative, fun activities that girls seek at that age.&lt;/p&gt;
-&lt;p&gt;Based on her experience with TechGirlz, Danica believes that if we want to increase diversity in tech and data science, we need to start in middle school, and we need to show girls that they can help others and collaborate with each other through technology.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;thank-yous&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Thank yous!&lt;/h1&gt;
-&lt;p&gt;Many thanks to everyone who made this event possible! We are very grateful to Liz Scott of &lt;a href=&#34;www.AlexsLemonade.org&#34;&gt;Alex’ Lemonade Stand Foundation (ALSF)&lt;/a&gt; and Jaclyn Taroni and Casey Green of the &lt;a href=&#34;https://www.ccdatalab.org/&#34;&gt;Childhood Cancer Data Lab (CCDL; an ALSF initiative based in Philadelphia)&lt;/a&gt; for providing location space.&lt;/p&gt;
-&lt;p&gt;Alex’s Lemonade Stand Foundation emerged from the front yard lemonade stand of 4-year-old Alexandra “Alex” Scott, who was fighting cancer and wanted to raise money to find cures for all children with cancer. Her spirit and determination inspired others to support her cause, and when she passed away at the age of 8, she had raised $1 million. Since then, the Foundation bearing her name has evolved into a national fundraising movement. Today, ALSF is one of the leading funders of pediatric cancer research in the U.S. and Canada having raised more than $150 million so far, funding nearly 1,000 research projects and providing programs to families affected by childhood cancer. For more information, visit &lt;a href=&#34;www.AlexsLemonade.org&#34;&gt;AlexsLemonade.org&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;We also enjoyed partnering with &lt;a href=&#34;https://www.accenture.com/us-en&#34;&gt;Accenture&lt;/a&gt;’s Philly Metro Women’s Interest Employee Resource Group for this event. Special thanks to Jade Jackson, Erin Senker, and Donna Delrieu. Finally, many thanks to our speakers: Marieke Jackson, Jennifer Bochenek, and Danica Pascavage.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;announcements&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Announcements&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;R-Ladies Philly and the broader Philly data science community will converge at the &lt;a href=&#34;https://www.thedatalab.io/the-data-jawn&#34;&gt;DataJawn&lt;/a&gt; on June 12th. We hope to see everyone there!&lt;/li&gt;
-&lt;li&gt;Code for Philly is working on a project to help Philadelphia Lawyers for Social Equity (PLSE), a non-profit legal aid organization that focuses on helping people overcome the barriers they face as a result of criminal records. (reach out to the organizers of &lt;a href=&#34;https://www.meetup.com/Code-for-Philly/events/258479747/&#34;&gt;this event&lt;/a&gt; to join!)&lt;/li&gt;
-&lt;li&gt;Michael Becker (of Data Philly) is doing a project for the DataJawn about becoming a data scientist. Make sure to fill out &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSfw6j7szKGMRbgp07OcXauR4qlbTQhhRxFjVmh3wWm_3YUguQ/viewform&#34;&gt;this survey&lt;/a&gt; before the event!&lt;/li&gt;
-&lt;li&gt;There are free improv classes available through &lt;a href=&#34;https://phillyimprovtheater.com/classes-old/free-intro-workshops/&#34;&gt;PHIT&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Accenture is hiring! Go to &lt;a href=&#34;https://www.accenture.com/us-en/careers/jobsearch&#34;&gt;this site&lt;/a&gt; to search the most recent listings!&lt;/li&gt;
-&lt;li&gt;CCDL is hiring! Check out their open poistions &lt;a href=&#34;https://www.ccdatalab.org/careers&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>April Recap - Open Science</title>
-      <link>/post/april-recap-open-science/</link>
-      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/april-recap-open-science/</guid>
-      <description>&lt;p&gt;Our April meetup with Data Philly focused on the increasingly popular topic of Open Science. See below for the article that R Ladies Philly members Alice, Karla, and Amy co-wrote! This article originally appeared on &lt;a href=&#34;https://technical.ly/philly/2019/04/18/what-is-open-science-r-ladies/&#34;&gt;Technical.ly Philly&lt;/a&gt;.&lt;/p&gt;
-&lt;div id=&#34;what-is-open-science&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;What is open science?&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;It’s like open data, but for research. Organizers of the R-Ladies Philly meetup offer an explainer based on talks from their most recent meetup.&lt;/em&gt;&lt;/p&gt;
-&lt;div id=&#34;many-are-familiar-with-the-concept-of-open-source-in-software-development-but-what-is-open-science&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Many are familiar with the concept of open source in software development, but what is open science?&lt;/h2&gt;
-&lt;p&gt;The emerging practice of open science seeks to make tools and data available to researchers worldwide so that scientific advances can be made faster and more cost effectively.&lt;/p&gt;
-&lt;p&gt;Contrast this with the traditional model of academic research, where labs often work in silos, rarely make the raw data and analysis code publicly available, and publish in journals that require payment to access content. This lack of transparency, in conjunction with the increasing complexity of data processing techniques, leads to reproducibility problems. Therefore, this “closed” model of doing science is beginning to shift towards a more open approach to research, where the data, code and results are all publicly viewable from the beginning of the project using platforms like &lt;strong&gt;GitHub&lt;/strong&gt; and &lt;strong&gt;FigShare&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;This past Tuesday, local data science meetups &lt;a href=&#34;https://technical.ly/philly/2018/01/03/r-ladies-philly-meetup/&#34;&gt;R-Ladies&lt;/a&gt; and &lt;strong&gt;DataPhilly&lt;/strong&gt; hosted an event at Azavea in Philadelphia with two guest speakers and a discussion of careers in open science.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Jaclyn Taroni&lt;/strong&gt;, Ph.D. presented her work at the &lt;strong&gt;Childhood Cancer Data Lab&lt;/strong&gt; (CCDL), an &lt;strong&gt;Alex’s Lemonade Stand Foundation&lt;/strong&gt; initiative based in Philadelphia. CCDL’s mission is to accelerate childhood cancer research by helping researchers worldwide improve their software, scientific workflows and training.&lt;/p&gt;
-&lt;p&gt;Second, &lt;strong&gt;Olga Botvinnik&lt;/strong&gt;, Ph.D. shared about her role at the &lt;strong&gt;Chan Zuckerberg Biohub&lt;/strong&gt; in California. This initiative aims to solve big problems in human health with the lofty goal of curing, preventing or managing all diseases by 2100.&lt;/p&gt;
-&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;
-&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
-It’s our April event in collaboration with &lt;a href=&#34;https://twitter.com/DataPhilly?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@DataPhilly&lt;/span&gt;&lt;/a&gt;! First up, Jaclyn Taroni PhD is telling us about &lt;a href=&#34;https://twitter.com/CancerDataLab?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@CancerDataLab&lt;/span&gt;&lt;/a&gt; and how these use data for cancer research. &lt;a href=&#34;https://t.co/tKW33couMR&#34;&gt;pic.twitter.com/tKW33couMR&lt;/a&gt;
-&lt;/p&gt;
-— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1118284009820131328?ref_src=twsrc%5Etfw&#34;&gt;April 16, 2019&lt;/a&gt;
-&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;center&gt;
-&lt;/div&gt;
-&lt;div id=&#34;why-do-open-science&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Why do open science?&lt;/h2&gt;
-&lt;p&gt;On a personal level, the supportive community, immediate feedback and potential to positively impact scientific progress quickly are some of the main reasons a scientist might practice open science.&lt;/p&gt;
-&lt;p&gt;For instance, Botvinnik was drawn to this work based on her experience in single-cell transcriptomics research during graduate school. When she wrote Python packages to analyze data, people around the world provided feedback, liked the package, and used it. This inspired her to want to pursue a research career where all code and data are open from the beginning. She further shared that working on open science projects is great way to build your network and your online presence.&lt;/p&gt;
-&lt;p&gt;On a broader, professional level, open science means that more data is available to discern patterns and test predictions against samples with different characteristics. As a result, researchers can not only tackle very difficult and complex problems, but they can also ensure that their findings are more robust and reproducible. Efforts of this scale require coordinated standards for data collection, processing and recording, which are all possible thanks to the latest technological advances and the work of dedicated organizations and scientists.&lt;/p&gt;
-&lt;p&gt;Both speakers emphasized their motivation to make tools accessible, since cumbersome data processing methods limit their utility and makes scientific findings difficult to trust and understand, and even more difficult to translate into solutions.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;how-can-you-get-involved-in-open-science&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;How can you get involved in open science?&lt;/h2&gt;
-&lt;p&gt;Not everyone working on open science must be an active scientist by profession. Botvinnik recommended connecting to researchers who are active on Twitter, especially about open science, and asking them what you can do to help.&lt;/p&gt;
-&lt;p&gt;You can also follow the money: Look for initiatives for open science and see who they are funding. An example is the &lt;strong&gt;Moore-Sloan Data Science Environments&lt;/strong&gt; funded by the &lt;strong&gt;Gordon and Betty Moore Foundation&lt;/strong&gt; and the &lt;strong&gt;Alfred P. Sloan Foundation&lt;/strong&gt;. When it comes time to share your results, consider writing a blog post, which can be a great way to get early feedback.&lt;/p&gt;
-&lt;p&gt;Joining local data science groups is another great way to get in touch with researchers and get involved in data analysis projects. In particular, R-Ladies Philly has already developed external partnerships for hands-on analytics projects in the nonprofit sector, and is looking to expand these collaborations to include researchers in the area.&lt;/p&gt;
-&lt;p&gt;And both R-Ladies Philly and DataPhilly convene scientists and data enthusiasts through regular meetups that are either hands-on workshops or talks given by experts, which offer ample opportunity for connecting and engaging in exciting research work.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;where-can-you-learn-more-about-open-data-and-research&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Where can you learn more about open data and research?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Publications — Look for open access journals like PLOS ONE, Nature Communications, eLife, Scientific Reports, Journal of Open Source Software, GigaScience, F1000 Research and elsewhere&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;To learn more about open access publishing, look into groups such as the Open Research Funders Group&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;Organizations such as the Center for Open Science and rOpenSci&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;The Center for Open Science is a nonprofit with a mission to “increase the openness, integrity, and reproducibility of scientific research”&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;rOpenSci is an R-focused nonprofit which promotes “open and reproducible research using shared data and reusable software”&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;OpenDataPhilly provides access to 300+ datasets related to the Philadelphia region&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;Meetups such as R-Ladies Philly and DataPhilly&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>

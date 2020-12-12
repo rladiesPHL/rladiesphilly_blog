@@ -1,0 +1,45 @@
+---
+title: "July 2020: How to Test and Roll"
+author: "Darina Chudnovskaya"
+date: '2020-07-26'
+slug: 
+categories: ["Meetups"]
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This month R Ladies Philly hosted Elea McDonnell Feit and Ron Berman for a follow up to our previous MeetUp “A/B Testing in R with Elea McDonnell Feit”.
+
+Presenters:
+Elea McDonnell Feit is an Assistant Professor of Marketing at the LeBow College of Business at Drexel University. She develops data analysis methods to inform marketing decisions including designing new products as well as planning advertising campaigns.
+
+Ron Berman is an Assistant Professor of Marketing at the Wharton School at University of Pennsylvania. He focuses his research on online marketing, marketing analytics and the marketing actions of startup firms.
+
+How to Test and Roll:
+A/B testing as a tool often used in marketing to compare treatments in a test stage and then deploy the better-performing treatment to the remainder of the consumer population. These tests have traditionally been analyzed using hypothesis testing. In this workshop, Elea and Ron explained a new approach to A/B testing that they developed called "Test & Roll" that focuses on the profit earned during and after the test. It is based on a Bayesian decision theory and the (very technical) Test & Roll paper explains why marketers should use this approach.
+The workshop covered topics in R including:
+·         When you should use "Test & Roll" versus traditional hypothesis test
+·         How to compute the Test & Roll sample size that maximizes profits
+·         How to estimate priors from your own data to help plan your Test & Roll
+·         How to analyze a Test & Roll experiment (It's easy!)
+
+How to Test and Roll workshop:
+https://eleafeit.github.io/testandroll/howto/README.html
+Slides:
+https://eleafeit.github.io/testandroll/howto/How_To_Test_and_Roll.html#1
+GitHub repo:
+https://github.com/eleafeit/testandroll
+Test & Roll: Profit-Maximizing A/B Tests (paper)
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3274875
+Video on YouTube:
+https://www.youtube.com/watch?v=k3-gsNwWX7E
+
+Thank you to Elea McDonnell Feit and Ron Berman for their wonderful workshop. Thank you to our sponsor R Ladies Global!
