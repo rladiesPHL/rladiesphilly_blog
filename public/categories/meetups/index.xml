@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 R-Ladies Philly</copyright>
-    <lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/meetups/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020 Nov: Your first R package in 1 hour</title>
+      <link>/post/nov2020-recap/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nov2020-recap/</guid>
+      <description>Package development can be intimidating, but it doesn’t have to be! In this month’s workshop, Shannon Pileggi gives us a step by step guide for how to get started, and shares her experience with “usethis”, “devtools” and various handy functions for package development. This workshop, suitable for beginner to intermediate R users, aims to help participants develop a working, well-documented package, and provides insights into the files and file structure required for R packages.</description>
+    </item>
     
     <item>
       <title>2020 Oct: Flexdashboard debugging with shinyobjects</title>
@@ -20,6 +29,30 @@
       <guid>/post/oct2020-recap/</guid>
       <description>Shiny applications and dashboards help communicate analytics insights to both technical and non-technical audiences in an interactive and efficient way. However, debugging them is not an easy process. For 2020 October virtual meetup, 30+ data enthusiastics joined the interactive workshop led by R-Ladies Philly member Jake Riley. Jake elucidated aspects of the popular dashboard building package flexdashboard and demonstrated his recently published tool shinyobjects to debug.
 flexdashboard and reactivity flexdashboard leverages Rmarkdown and shiny to build a dashboard or shiny application.</description>
+    </item>
+    
+    <item>
+      <title>Decision Trees &amp; Random Forests</title>
+      <link>/post/2020-09_decision_tree_sept_2020_final/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-09_decision_tree_sept_2020_final/</guid>
+      <description>Our September 2020 meetup was on the topic of Decision Trees &amp;amp; Random Forests. It featured three presentations on the topic of tree-based models in R:
+Hierarchical clustering in R (Kavana Rudresh)
+ treeheatr - an R package to create interpretable decision tree visualizations (Trang Le)
+ Decision trees vs. random forests (Karla Fettich)
+   #RLadies Join us today at 6pm for our September event! We are excited to have a line-up of presenters @trang1618 @kfettich @kavana_rudresh to share how to engage with tree-based methods in R.</description>
+    </item>
+    
+    <item>
+      <title>July 2020: How to Test and Roll</title>
+      <link>/post/2020-07_julyblog_rladies/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-07_julyblog_rladies/</guid>
+      <description>This month R Ladies Philly hosted Elea McDonnell Feit and Ron Berman for a follow up to our previous MeetUp “A/B Testing in R with Elea McDonnell Feit”.
+Presenters: Elea McDonnell Feit is an Assistant Professor of Marketing at the LeBow College of Business at Drexel University. She develops data analysis methods to inform marketing decisions including designing new products as well as planning advertising campaigns.
+Ron Berman is an Assistant Professor of Marketing at the Wharton School at University of Pennsylvania.</description>
     </item>
     
     <item>

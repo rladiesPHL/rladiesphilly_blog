@@ -13,6 +13,25 @@
     
     
     <item>
+      <title>December 2020: Data Visualization</title>
+      <link>/post/recap_data_viz/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/recap_data_viz/</guid>
+      <description>Take a sad chart and make it better On December 8, we were incredibly fortunate to have Trang Le lead us through a data visualization workshop. You can find a recording of the meetup on our YouTube channel. Links to the meetup content are all at the end of this post.
+ About our speaker Trang Le is a postdoctoral fellow at the University of Pennsylvania with the Computational Genomics Lab.</description>
+    </item>
+    
+    <item>
+      <title>2020 Nov: Your first R package in 1 hour</title>
+      <link>/post/nov2020-recap/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/nov2020-recap/</guid>
+      <description>Package development can be intimidating, but it doesn’t have to be! In this month’s workshop, Shannon Pileggi gives us a step by step guide for how to get started, and shares her experience with “usethis”, “devtools” and various handy functions for package development. This workshop, suitable for beginner to intermediate R users, aims to help participants develop a working, well-documented package, and provides insights into the files and file structure required for R packages.</description>
+    </item>
+    
+    <item>
       <title>2020 Oct: Flexdashboard debugging with shinyobjects</title>
       <link>/post/oct2020-recap/</link>
       <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
@@ -20,6 +39,19 @@
       <guid>/post/oct2020-recap/</guid>
       <description>Shiny applications and dashboards help communicate analytics insights to both technical and non-technical audiences in an interactive and efficient way. However, debugging them is not an easy process. For 2020 October virtual meetup, 30+ data enthusiastics joined the interactive workshop led by R-Ladies Philly member Jake Riley. Jake elucidated aspects of the popular dashboard building package flexdashboard and demonstrated his recently published tool shinyobjects to debug.
 flexdashboard and reactivity flexdashboard leverages Rmarkdown and shiny to build a dashboard or shiny application.</description>
+    </item>
+    
+    <item>
+      <title>Decision Trees &amp; Random Forests</title>
+      <link>/post/2020-09_decision_tree_sept_2020_final/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-09_decision_tree_sept_2020_final/</guid>
+      <description>Our September 2020 meetup was on the topic of Decision Trees &amp;amp; Random Forests. It featured three presentations on the topic of tree-based models in R:
+Hierarchical clustering in R (Kavana Rudresh)
+ treeheatr - an R package to create interpretable decision tree visualizations (Trang Le)
+ Decision trees vs. random forests (Karla Fettich)
+   #RLadies Join us today at 6pm for our September event! We are excited to have a line-up of presenters @trang1618 @kfettich @kavana_rudresh to share how to engage with tree-based methods in R.</description>
     </item>
     
     <item>
@@ -40,6 +72,17 @@ Some of our events are networking focused like our happy hour events. Other even
       <guid>/post/august_2020/</guid>
       <description>Our August Virtual Workshop Five months into the U.S. Coronavirus pandemic R-Ladies Philly continues to host monthly events virtually. In August we hosted “Hands-On Machine Learning Workshop” by Jaclyn Taroni. You can view a recording of the event on our YouTube channel . The content for the main workshop is available online here.
  Speaker Our Presenter Jaclyn Taroni, is a Principal Data Scientist at the Childhood Cancer Data Lab. She was a Postdoctoral Researcher in the Greene Lab at the University of Pennsylvania Perelman School of Medicine, where she worked on cross-platform normalization of gene expression data and unsupervised transfer learning of transcriptomic data for rare diseases.</description>
+    </item>
+    
+    <item>
+      <title>July 2020: How to Test and Roll</title>
+      <link>/post/2020-07_julyblog_rladies/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020-07_julyblog_rladies/</guid>
+      <description>This month R Ladies Philly hosted Elea McDonnell Feit and Ron Berman for a follow up to our previous MeetUp “A/B Testing in R with Elea McDonnell Feit”.
+Presenters: Elea McDonnell Feit is an Assistant Professor of Marketing at the LeBow College of Business at Drexel University. She develops data analysis methods to inform marketing decisions including designing new products as well as planning advertising campaigns.
+Ron Berman is an Assistant Professor of Marketing at the Wharton School at University of Pennsylvania.</description>
     </item>
     
     <item>

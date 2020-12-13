@@ -1,0 +1,56 @@
+---
+title: 'December 2020: Data Visualization'
+author: Alice Walsh
+date: '2020-12-12'
+slug: recap_data_viz
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+# Take a sad chart and make it better
+
+On December 8, we were incredibly fortunate to have Trang Le lead us through a data visualization workshop. You can find a recording of the meetup on our YouTube channel. Links to the meetup content are all at the end of this post.
+
+# About our speaker
+
+Trang Le is a postdoctoral fellow at the University of Pennsylvania with the Computational Genomics Lab. She is a big supporter of the R-Ladies community and has presented at previous R-Ladies meetups with Philadelphia and Miami chapters. You can follow her on twitter (@trang1618) and at her website (trang.page).
+
+# Key takeaways
+
+Trang gave a fantastic overview of effective data communication. From pie charts to heat maps, we can take an “OK” plot and make it great. While Trang’s background is in academic biological research, her insights apply to other fields. Trang showed several examples of how to take a confusing visualization and improve it. Do check out her slides to see them all.
+
+Here are some of her key points summarized:
+
++ You can break the rules (3D can be useful, more than seven colors can be effective)
++ Reduce cognitive burden by direct labeling, reducing the number of labels, highlighting, and using a consistent color scheme
++ Use facets to break a large dataset into digestible pieces
++ Identify the key data before plotting
++ Use great resources (e.g., [ft.com/vocabulary](ft.com/vocabulary))
+
+Next, it was our turn as participants to apply these tips in a hands-on exercise. Using the latest COVID-19 data, we recreated and experimented with the Financial Times visualization by John Burn-Murdoch:
+
+https://twitter.com/jburnmurdoch/status/1250538655707430913?s=20
+
+
+# Links for meetup materials
+
++ Slides: https://slides.com/trang1618/take-a-sad-chart-and-make-it-better/ 
++ RStudio Cloud: https://rstudio.cloud/project/1893495
++ GitHub: https://github.com/trang1618/rladies-dataviz 
++ Google Drive: rladies-dataviz
+
+# To learn more about R-Ladies Philly
+
++ Mentor/Speaker directory: rladiesphilly.shinyapps.io/mentorship/
++ Youtube channel: https://yt.vu/+rladiesphilly
++ Slack: bit.ly/join-rladies-slack-2020
++ Survey: bit.do/rladies-survey
+
+
+
+*This post was authored by Alice Walsh. For more information contact philly@rladies.org*
