@@ -1,376 +1,214 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>/post/recap_data_viz/</loc>
-      <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/nov2020-recap/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/nov2020-recap/</loc>
-      <lastmod>2020-12-07T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/oct2020-recap/</loc>
-      <lastmod>2020-10-26T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/category/meetups/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/2020-09_decision_tree_sept_2020_final/</loc>
-      <lastmod>2020-09-15T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/workshop_tips_2020/</loc>
-      <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/oct2020-recap/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/august_2020/</loc>
-      <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/2020-09_decision_tree_sept_2020_final/</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/2020-07_julyblog_rladies/</loc>
-      <lastmod>2020-07-26T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/workshop_tips_2020/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/j2020-june-recap/</loc>
-      <lastmod>2020-06-28T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/august_2020/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/recap_may_2020/</loc>
-      <lastmod>2020-06-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/2020-07_julyblog_rladies/</loc>
+    <lastmod>2020-07-26T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/april-recap-tidyverse/</loc>
-      <lastmod>2020-06-13T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/j2020-june-recap/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/2020-06-youtube/</loc>
-      <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/recap_may_2020/</loc>
+    <lastmod>2020-06-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/mar2020-recap/</loc>
-      <lastmod>2020-05-26T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/april-recap-tidyverse/</loc>
+    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/jan2020-recap/</loc>
-      <lastmod>2020-03-15T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/2020-06-youtube/</loc>
+    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/dec02-recap-machinelearning/</loc>
-      <lastmod>2019-12-08T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/mar2020-recap/</loc>
+    <lastmod>2020-05-26T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/nov04-recap-lightning/</loc>
-      <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/jan2020-recap/</loc>
+    <lastmod>2020-03-15T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/oct08-recap-rmarkdown/</loc>
-      <lastmod>2019-10-12T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/dec02-recap-machinelearning/</loc>
+    <lastmod>2019-12-08T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/sept19-recap-rmarkdown/</loc>
-      <lastmod>2019-09-19T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/nov04-recap-lightning/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/july-recap-lightning-talks/</loc>
-      <lastmod>2019-07-16T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/oct08-recap-rmarkdown/</loc>
+    <lastmod>2019-10-12T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/june-recap-data-visualiztion/</loc>
-      <lastmod>2019-06-27T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/sept19-recap-rmarkdown/</loc>
+    <lastmod>2019-09-19T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/may-recap-diversity-data/</loc>
-      <lastmod>2019-06-10T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/july-recap-lightning-talks/</loc>
+    <lastmod>2019-07-16T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/april-recap-open-science/</loc>
-      <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/writing-technical-content/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/feb-march-recap/</loc>
-      <lastmod>2019-04-06T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/june-recap-data-visualiztion/</loc>
+    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/january-recap/</loc>
-      <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/may-recap-diversity-data/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/december-recap/</loc>
-      <lastmod>2019-01-02T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/april-recap-open-science/</loc>
+    <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/november-recap/</loc>
-      <lastmod>2018-12-04T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/feb-march-recap/</loc>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/october-recap/</loc>
-      <lastmod>2018-10-17T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/january-recap/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/september-recap/</loc>
-      <lastmod>2018-09-19T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/december-recap/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/aug-recap/</loc>
-      <lastmod>2018-08-15T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/november-recap/</loc>
+    <lastmod>2018-12-04T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/privacy/</loc>
-      <lastmod>2018-06-28T00:00:00-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/october-recap/</loc>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/june-recap/</loc>
-      <lastmod>2018-06-21T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/september-recap/</loc>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/may-recap/</loc>
-      <lastmod>2018-05-22T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/aug-recap/</loc>
+    <lastmod>2018-08-15T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/april-recap/</loc>
-      <lastmod>2018-04-29T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/june-recap/</loc>
+    <lastmod>2018-06-21T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/survey/</loc>
-      <lastmod>2018-03-11T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/may-recap/</loc>
+    <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/welcome-to-the-r-ladies-philly-blog/</loc>
-      <lastmod>2018-03-07T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/april-recap/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/survey/</loc>
+    <lastmod>2018-03-11T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/welcome-to-the-r-ladies-philly-blog/</loc>
+    <lastmod>2018-03-07T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/meetups/</loc>
-      <lastmod>2020-12-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/</loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication_types/</loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2018-07-05T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/</loc>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/author/r-ladies-philly/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
   
 </urlset>

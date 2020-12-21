@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetups | R-Ladies Philly</title>
+    <link>/category/meetups/</link>
+      <atom:link href="/category/meetups/index.xml" rel="self" type="application/rss+xml" />
+    <description>Meetups</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/logo_hu28707ef16119aff2091a8f76d1773782_59391_300x300_fit_lanczos_2.png</url>
+      <title>Meetups</title>
+      <link>/category/meetups/</link>
+    </image>
+    
+    <item>
+      <title>2020 Nov: Your first R package in 1 hour</title>
+      <link>/post/nov2020-recap/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/nov2020-recap/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Package development can be intimidating, but it doesn’t have to be! In this month’s workshop, &lt;a href=&#34;https://www.pipinghotdata.com/about.html&#34;&gt;Shannon Pileggi&lt;/a&gt; gives us a step by step guide for how to get started, and shares her experience with “usethis”, “devtools” and various handy functions for package development. This workshop, suitable for beginner to intermediate R users, aims to help participants develop a working, well-documented package, and provides insights into the files and file structure required for R packages. A familiarity with functions, pipe and tidyverse is helpful.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+First step… usethis::create_package(‘path/packagename’)! Then you can take a look at the DESCRIPTION file… R is smart enough to populate some of this information for you if you have it in your Rprofile - try usethis::edit_r_profile() &lt;a href=&#34;https://t.co/x0Oi65rvPC&#34;&gt;pic.twitter.com/x0Oi65rvPC&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1327031853451243522?ref_src=twsrc%5Etfw&#34;&gt;November 12, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;div id=&#34;about-our-speaker&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;About our speaker&lt;/h3&gt;
+&lt;p&gt;Shannon is an enthusiastic statistical collaborator and professional educator with over ten years of experience partnering on data analysis with diverse stakeholders in corporate settings, tech, public health, and clinical research. Shannon’s previous work experiences include supporting research on parasitic diseases at the CDC, developing a pilot college-wide intro stats course at the Institute for Quantitative Theory and Methods at Emory University, and instructing R/SAS programming, intro stats, and survival analysis courses at California Polytechnic State University, San Luis Obispo. Shannon is currently a Statistician at Adelphi Research in Doylestown, PA working in pharmaceutical market research. Shannon’s day-to-day in R include: fine-tuning ggplots to convey analysis results, contributing to an internal package to automate routine analyses/tasks, streamlining work-flows for repetitive analyses, and developing shiny apps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;workshop-materials&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Workshop Materials&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;a href=&#34;https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/&#34;&gt;step-by-step guide&lt;/a&gt; written by Shannon is available on her website&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&#34;https://youtu.be/xcXzaEmZ-m4&#34;&gt;workshop recording&lt;/a&gt; is available at the &lt;a href=&#34;https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg?view_as=subscriber&#34;&gt;R-Ladies Philly Youtube channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1etzriMMb3InQXYicjUJrpmn1h1-dSSA7-CcPadvU1fE/edit?usp=sharing&#34;&gt;Q&amp;amp;A session&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Thank you&lt;/h3&gt;
+&lt;p&gt;Thank you to all our attendees, our sponsors (R-ladies Global), and especially our presenter &lt;a href=&#34;https://www.pipinghotdata.com/about.html&#34;&gt;Shannon Pileggi&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Karla Fettich. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020 Oct: Flexdashboard debugging with shinyobjects</title>
+      <link>/post/oct2020-recap/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/post/oct2020-recap/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Shiny applications and dashboards help communicate analytics insights to both technical and non-technical audiences in an interactive and efficient way. However, debugging them is not an easy process. For 2020 October virtual meetup, 30+ data enthusiastics joined the interactive workshop led by R-Ladies Philly member &lt;a href=&#34;https://twitter.com/yake_84&#34;&gt;Jake Riley&lt;/a&gt;. Jake elucidated aspects of the popular dashboard building package &lt;a href=&#34;https://rmarkdown.rstudio.com/flexdashboard/&#34;&gt;flexdashboard&lt;/a&gt; and demonstrated his recently published tool &lt;a href=&#34;https://cran.r-project.org/web/packages/shinyobjects/index.html&#34;&gt;shinyobjects&lt;/a&gt; to debug.&lt;/p&gt;
+&lt;div id=&#34;flexdashboard-and-reactivity&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;flexdashboard and reactivity&lt;/h3&gt;
+&lt;p&gt;flexdashboard leverages Rmarkdown and shiny to build a dashboard or shiny application. Instead of splitting ui and server functions, flexdashboard takes the advantage of interpretability from Rmarkdown and makes shiny code cleaner and easier to read.&lt;/p&gt;
+&lt;p&gt;Like shiny, flexdashboard used the &lt;a href=&#34;https://shiny.rstudio.com/articles/reactivity-overview.html&#34;&gt;&lt;strong&gt;reactive programming model&lt;/strong&gt;&lt;/a&gt; which involves user inputs and dynamic data/plots/titles. It can get really complicated when you have a cascade of reactive variables. It also increases the difficulty at the debugging step.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;shinyobjects-workflow&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;shinyobjects workflow&lt;/h3&gt;
+&lt;p&gt;To troubleshoot reactive data, Jake developed &lt;a href=&#34;https://cran.r-project.org/web/packages/shinyobjects/index.html&#34;&gt;shinyobjects&lt;/a&gt;. This R package can access reactive objects in your local environment and allow debugging R code without actually running the app. It will save you time and allow you to iterate more quickly.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Do you also hate having to run the entire shiny code to see what one tiny change will look like? There&#39;s a tool you can use to debug specific sections! Check out shinyobjects by &lt;a href=&#34;https://twitter.com/yake_84?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@yake_84&lt;/span&gt;&lt;/a&gt;! &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;a href=&#34;https://t.co/XNs1fi3BGr&#34;&gt;pic.twitter.com/XNs1fi3BGr&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1319046827702996992?ref_src=twsrc%5Etfw&#34;&gt;October 21, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;The package includes 4 components at the workflow&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;view_ui()&lt;/code&gt; to see what UI components look like without running the app&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;load_reactive_objects()&lt;/code&gt; to convert reactive objects to static functions&lt;/li&gt;
+&lt;li&gt;create a &lt;strong&gt;dummy input&lt;/strong&gt; list object for users to prepopulate&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;convert_selection()&lt;/code&gt; to convert code highlighted in source pane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To learn more, please read the detailed &lt;a href=&#34;https://www.rdocumentation.org/packages/shinyobjects/versions/0.1.1&#34;&gt;vignette&lt;/a&gt; and &lt;a href=&#34;https://rjake.github.io/shinyobjects/articles/tips-and-tricks.html&#34;&gt;tips and tricks&lt;/a&gt;.s&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;check-it-out&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Check it Out&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The slides and code from Jake’s workshop are available on &lt;a href=&#34;https://github.com/rjake/workshop-flexdashboard-shinyobjects&#34;&gt;his github&lt;/a&gt;!&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The workshop recording is available at &lt;a href=&#34;https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg&#34;&gt;our Youtube channel&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://docs.google.com/document/d/1FG3CQJeESXa40cvSfzkNQnxfIQU9zQFq_OL9KLzD5JA/edit&#34;&gt;Q&amp;amp;A session&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Thank you&lt;/h3&gt;
+&lt;p&gt;Thank you to all our attendees, our sponsors (R-ladies Global), and especially our great presenter &lt;a href=&#34;https://twitter.com/yake_84&#34;&gt;Jake Riley&lt;/a&gt;!!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Chun Su. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Decision Trees &amp; Random Forests</title>
+      <link>/post/2020-09_decision_tree_sept_2020_final/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-09_decision_tree_sept_2020_final/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Our September 2020 meetup was on the topic of Decision Trees &amp;amp; Random Forests. It featured three presentations on the topic of tree-based models in R:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Hierarchical clustering in R (Kavana Rudresh)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;treeheatr&lt;/code&gt; - an R package to create interpretable decision tree visualizations (Trang Le)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Decision trees vs. random forests (Karla Fettich)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+&lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; Join us today at 6pm for our September event! We are excited to have a line-up of presenters &lt;a href=&#34;https://twitter.com/trang1618?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@trang1618&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://twitter.com/kfettich?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@kfettich&lt;/span&gt;&lt;/a&gt; &lt;a href=&#34;https://twitter.com/kavana_rudresh?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@kavana_rudresh&lt;/span&gt;&lt;/a&gt; to share how to engage with tree-based methods in R.&lt;a href=&#34;https://t.co/iCTY8n6Hub&#34;&gt;https://t.co/iCTY8n6Hub&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1305983436650352640?ref_src=twsrc%5Etfw&#34;&gt;September 15, 2020&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;div id=&#34;hierarchical-clustering-in-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Hierarchical clustering in R&lt;/h2&gt;
+&lt;p&gt;Our first presenter was Kavana Rudresh, Enterprise Business Intelligence Manager for Strategic Analytics at Comcast Corporation. Materials from Kavana’s presentation are available &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kavana explained some &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#what-is-clustering&#34;&gt;key concepts within clustering&lt;/a&gt;, before focusing on hierarchical algorithms. Within hierarchical clustering, she discussed the &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#hierarchical-clustering&#34;&gt;distinction between bottom-up (agglomerative/additive) and top-down (divisive) types&lt;/a&gt;, before moving on to questions of &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#so-how-are-we-measuring-similarity&#34;&gt;how to measure similarity&lt;/a&gt; and &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#how-should-we-choose-the-number-of-clusters-in-hierarchical-clustering&#34;&gt;how to choose the number of clusters&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kavana also walked us through &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering/blob/master/clustering.R&#34;&gt;a script&lt;/a&gt; which employs some of these techniques with mall customer data and discussed tips for using clustering techniques with &lt;a href=&#34;https://github.com/kavana-r/RLadies_Hierarchical_Clustering#working-with-messy-real-world-data&#34;&gt;messy real-world data&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In the discussion period we talked a bit about how dendrograms can be misinterpreted; it is important to look at where leaves join rather than how they are arranged relative to each other. One suggestion was to visualize a baby’s crib mobile, where the branches can rotate without changing the structural relationship between the leaves.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;treeheatr---an-r-package-to-create-interpretable-decision-tree-visualizations&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;code&gt;treeheatr&lt;/code&gt; - an R package to create interpretable decision tree visualizations&lt;/h2&gt;
+&lt;p&gt;Trang Le is a postdoctoral fellow with Jason Moore at the Computational Genetics Lab, University of Pennsylvania. She’s the author and maintainer of 5 R packages and active contributor of the automated machine learning tool TPOT.&lt;/p&gt;
+&lt;p&gt;Trang’s presentation was about the package &lt;code&gt;treeheatr&lt;/code&gt;, which she authors and maintains. &lt;code&gt;treeheatr&lt;/code&gt; creates interpretable decision tree visualizations which incorporate a heatmap of the data at the tree’s leaf nodes. The presentation slides are available &lt;a href=&#34;https://slides.com/trang1618/treeheatr-rladies-philly&#34;&gt;here&lt;/a&gt; and a recording of the presentation is available &lt;a href=&#34;https://youtu.be/h5OXch2lXWo?t=54&#34;&gt;here&lt;/a&gt;. Trang started by reviewing some other options for visualizing decision tree models, before introducing &lt;code&gt;treeheatr&lt;/code&gt; and how to use it. A vignette is available &lt;a href=&#34;https://cran.r-project.org/web/packages/treeheatr/vignettes/explore.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can learn more about &lt;code&gt;treeheatr&lt;/code&gt; on the &lt;a href=&#34;https://trang1618.github.io/treeheatr/&#34;&gt;github website&lt;/a&gt;, in the &lt;a href=&#34;https://github.com/trang1618/treeheatr&#34;&gt;github repository&lt;/a&gt; and on &lt;a href=&#34;https://cran.r-project.org/web/packages/treeheatr/index.html&#34;&gt;CRAN&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;decision-trees-vs.-random-forests&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Decision trees vs. random forests&lt;/h2&gt;
+&lt;p&gt;Karla works as Head of Algorithm Development at Orchestrall, where she leads behavioral data analytics efforts and predictive model development for healthcare IT innovation. She is also an organizer of R-Ladies Philly!&lt;/p&gt;
+&lt;p&gt;Karla provided an introduction to random forests. Karla’s slides are available &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/&#34;&gt;here&lt;/a&gt; and recording of her presentation is available &lt;a href=&#34;https://youtu.be/h5OXch2lXWo?t=1148&#34;&gt;here&lt;/a&gt;. Her presentation included some background on &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#3&#34;&gt;decision trees versus random forests&lt;/a&gt;, an explanation of &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#4&#34;&gt;how random forest algorithms work at a high level&lt;/a&gt;, as well as some discussion of &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#5&#34;&gt;advantages and disadvantages of the approach&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Karla also walked through an implementation with some fictitious data - &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#7&#34;&gt;&lt;em&gt;a case of the Mondays&lt;/em&gt;&lt;/a&gt; - and highlighted &lt;a href=&#34;https://kfettich.github.io/rladies_random_forests_workshop/#20&#34;&gt;some “gotchas”&lt;/a&gt; to watch out for.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank you&lt;/h2&gt;
+&lt;p&gt;Many thanks to our fantastic presenters, Kavana, Trang, and Karla, and to &lt;a href=&#34;https://rladies.org/&#34;&gt;R-Ladies Global&lt;/a&gt; for making the virtual event possible via Zoom.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>July 2020: How to Test and Roll</title>
+      <link>/post/2020-07_julyblog_rladies/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-07_julyblog_rladies/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;This month R Ladies Philly hosted Elea McDonnell Feit and Ron Berman for a follow up to our previous MeetUp “A/B Testing in R with Elea McDonnell Feit”.&lt;/p&gt;
+&lt;p&gt;Presenters:
+Elea McDonnell Feit is an Assistant Professor of Marketing at the LeBow College of Business at Drexel University. She develops data analysis methods to inform marketing decisions including designing new products as well as planning advertising campaigns.&lt;/p&gt;
+&lt;p&gt;Ron Berman is an Assistant Professor of Marketing at the Wharton School at University of Pennsylvania. He focuses his research on online marketing, marketing analytics and the marketing actions of startup firms.&lt;/p&gt;
+&lt;p&gt;How to Test and Roll:
+A/B testing as a tool often used in marketing to compare treatments in a test stage and then deploy the better-performing treatment to the remainder of the consumer population. These tests have traditionally been analyzed using hypothesis testing. In this workshop, Elea and Ron explained a new approach to A/B testing that they developed called “Test &amp;amp; Roll” that focuses on the profit earned during and after the test. It is based on a Bayesian decision theory and the (very technical) Test &amp;amp; Roll paper explains why marketers should use this approach.
+The workshop covered topics in R including:
+· When you should use “Test &amp;amp; Roll” versus traditional hypothesis test
+· How to compute the Test &amp;amp; Roll sample size that maximizes profits
+· How to estimate priors from your own data to help plan your Test &amp;amp; Roll
+· How to analyze a Test &amp;amp; Roll experiment (It’s easy!)&lt;/p&gt;
+&lt;p&gt;How to Test and Roll workshop:
+&lt;a href=&#34;https://eleafeit.github.io/testandroll/howto/README.html&#34; class=&#34;uri&#34;&gt;https://eleafeit.github.io/testandroll/howto/README.html&lt;/a&gt;
+Slides:
+&lt;a href=&#34;https://eleafeit.github.io/testandroll/howto/How_To_Test_and_Roll.html#1&#34; class=&#34;uri&#34;&gt;https://eleafeit.github.io/testandroll/howto/How_To_Test_and_Roll.html#1&lt;/a&gt;
+GitHub repo:
+&lt;a href=&#34;https://github.com/eleafeit/testandroll&#34; class=&#34;uri&#34;&gt;https://github.com/eleafeit/testandroll&lt;/a&gt;
+Test &amp;amp; Roll: Profit-Maximizing A/B Tests (paper)
+&lt;a href=&#34;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3274875&#34; class=&#34;uri&#34;&gt;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3274875&lt;/a&gt;
+Video on YouTube:
+&lt;a href=&#34;https://www.youtube.com/watch?v=k3-gsNwWX7E&#34; class=&#34;uri&#34;&gt;https://www.youtube.com/watch?v=k3-gsNwWX7E&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thank you to Elea McDonnell Feit and Ron Berman for their wonderful workshop. Thank you to our sponsor R Ladies Global!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>August recap: Data Cleaning with R, Part 2</title>
+      <link>/post/aug-recap/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>/post/aug-recap/</guid>
+      <description>
+
+
+&lt;p&gt;Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis! This was our second meetup on the topic. &lt;a href=&#34;http://rladiesphilly.org/post/june-recap/&#34;&gt;Click here for a recap of our first data cleaning meetup in June.&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;reshaping-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Reshaping data&lt;/h2&gt;
+&lt;p&gt;We began with an introduction to reshaping data from Alice. The presentation was based on the DataCamp tutorial &lt;a href=&#34;https://www.datacamp.com/community/tutorials/long-wide-data-R&#34;&gt;Long to Wide Data in R&lt;/a&gt;. Data can be &lt;strong&gt;long format&lt;/strong&gt; (&lt;em&gt;one measurement per row&lt;/em&gt;) and &lt;strong&gt;wide format&lt;/strong&gt; (&lt;em&gt;many measurements in one row&lt;/em&gt;). It is important to be able to convert between the two formats as different functions require different formats. In R, there are a variety of functions which can be used for this task:&lt;/p&gt;
+&lt;center&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Function&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Package&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;To long format&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;To wide format&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;stack/unstack&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;utils&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;stack&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;unstack&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;reshape&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;stats&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;reshape(direction = “long”, …)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;reshape(direction = “wide”, …)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;melt/dcast&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;reshape2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;melt&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;dcast&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;melt/dcast&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;tidyr&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;gather&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;spread&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Functions for converting to long format and wide format (adapted from Table 34 from &lt;a href=&#34;https://www.datacamp.com/community/tutorials/long-wide-data-R&#34;&gt;Long to Wide Data in R&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;/center&gt;
+&lt;p&gt;Alice provided a few examples of how to use these functions. &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/August2018/reshape_examples.R&#34;&gt;The script is available on github.&lt;/a&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Pros &amp;amp; cons of each wide to long approach. Gather is brief. You have to specify more when using melt. &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1027688436596129793?ref_src=twsrc%5Etfw&#34;&gt;August 9, 2018&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-r-ladies-data-cleaning-gauntlet&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The R-Ladies Data Cleaning Gauntlet!&lt;/h2&gt;
+&lt;p&gt;Next up was a series of data cleaning challenges which we tackled in small groups. The challenges, created by Alice, meant putting into practice approaches and techniques from both data cleaning meetups. We cleaned the &lt;a href=&#34;http://data-phl.opendata.arcgis.com/datasets/0707c1f31e2446e881d680b0a5ee54bc_0&#34;&gt;Philly farmers’ markets data&lt;/a&gt; which was also featured in our June meetup.&lt;/p&gt;
+&lt;p&gt;The materials are available on github:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/August2018/challenge.Rmd&#34;&gt;The R-Ladies Data Cleaning Gauntlet&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/August2018/challenge_answers.Rmd&#34;&gt;Possible solutions&lt;/a&gt; &lt;em&gt;Get in touch (&lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;) if you have a nice solution that isn’t featured here!&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;
+&lt;img src=&#34;/img/aug_challenge.jpg&#34; alt=&#34;RLadies working on the data cleaning challenges&#34; /&gt;
+&lt;/center&gt;
+&lt;div id=&#34;wework&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;WeWork&lt;/h3&gt;
+&lt;p&gt;We would like to thank WeWork for hosting us!&lt;/p&gt;
+&lt;p&gt;“WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 111 locations in 29 cities across the world with over 70,000 members. Book a tour at wework.com now!”&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Amy Goodwin Davies. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>June recap: Data Cleaning with R</title>
+      <link>/post/june-recap/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/post/june-recap/</guid>
+      <description>
+
+
+&lt;div id=&#34;our-june-meetup&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Our June meetup&lt;/h1&gt;
+&lt;p&gt;Our June meetup was about cleaning data using R. Data cleaning is the process of preparing your data for analysis; ensuring that it is technically correct and in the desired format. Data cleaning can often be more time-consuming than the actual analysis!&lt;/p&gt;
+&lt;p&gt;We were live tweeting the event! Check out some tweets below.&lt;/p&gt;
+&lt;div id=&#34;introduction&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Darina and Katerina provided an introduction to data cleaning, with a focus on the process of ensuring the data is technically correct. &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/blob/master/June2018/The%20Exciting%20Presentation%20on%20Data%20Cleaning!.pptx&#34;&gt;Their presentation on data cleaning&lt;/a&gt; is posted on github. They referenced Chapters 1-2 of &lt;a href=&#34;https://cran.r-project.org/doc/contrib/de_Jonge+van_der_Loo-Introduction_to_data_cleaning_with_R.pdf&#34;&gt;“An Introduction to Data Cleaning with R”&lt;/a&gt; by Edwin de Jonge and Mark van der Loo, which we recommend you take a look at to learn more.&lt;/p&gt;
+&lt;p&gt;We covered topics such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Importing data into R&lt;/li&gt;
+&lt;li&gt;Best practice for inspecting data&lt;/li&gt;
+&lt;li&gt;Dealing with NAs versus NaNs&lt;/li&gt;
+&lt;li&gt;Variable types&lt;/li&gt;
+&lt;li&gt;Dealing with inconsistent data&lt;/li&gt;
+&lt;li&gt;Reshaping and pivoting data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The presentation was supplemented by a live demo on some raw data about Philly’s farmers’ markets. &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/tree/master/June2018&#34;&gt;Check out the data and the code on github.&lt;/a&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Using farmer&#39;s market data to learn about cleaning data with R tonight. Data set includes long, lat, address, address notes, day, time, accepts snap, major bus and subway routes data &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; &lt;a href=&#34;https://t.co/QnecAfs43D&#34;&gt;pic.twitter.com/QnecAfs43D&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1009928201102077952?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2018&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;/div&gt;
+&lt;div id=&#34;irem-celens-lightning-talk-cleaning-up-messy-genetics-data&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Irem Celen’s lightning talk: “Cleaning up Messy Genetics Data”&lt;/h2&gt;
+&lt;p&gt;After the introduction, &lt;a href=&#34;https://www.linkedin.com/in/irem-celen&#34;&gt;Irem Celen&lt;/a&gt; delivered a lightning talk about an important application of data cleaning: Messy genetics data! Irem is a Ph.D. candidate in Bioinformatics and Systems Biology at the University of Delaware. In her talk she outlined some common data cleaning issues for genetics data as well as some great solutions in R. &lt;!-- [Irem&#39;s slides]() are also posted on github.  --&gt;&lt;/p&gt;
+&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Lifesaver R libraries for cleaning data: dplyr, tidyr, stringr, readr, data.table &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1009941191532711937?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2018&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;
+&lt;center&gt;
+&lt;img src=&#34;/img/june_lightning.JPG&#34; alt=&#34;Irem’s lightning talk&#34; /&gt;
+&lt;/center&gt;
+&lt;div id=&#34;wework&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;WeWork&lt;/h3&gt;
+&lt;p&gt;We would like to thank WeWork for hosting our June meetup!&lt;/p&gt;
+&lt;p&gt;“WeWork is a community for creators. We transform buildings into beautiful, collaborative workspaces and provide the infrastructure, services, events and technology so our members can focus on doing what they love. WeWork currently has 111 locations in 29 cities across the world with over 70,000 members. Book a tour at wework.com now!”&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Amy Goodwin Davies. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>May recap: Git happieR with GitHub</title>
+      <link>/post/may-recap/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      <guid>/post/may-recap/</guid>
+      <description>
+
+
+&lt;div id=&#34;our-may-event&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Our May Event!&lt;/h1&gt;
+&lt;p&gt;The May R-Ladies meetup took place on May 16, 2018 at Drexel’s LeBow School of Business. Thanks for hosting us again, Drexel, and thanks to our sponsors Datacamp and the R consortium!&lt;/p&gt;
+&lt;p&gt;Our topic for May was version control using the popular resources Git and GitHub, and we focused on integrating version control with R.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;intro&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Intro&lt;/h1&gt;
+&lt;p&gt;Darina and I started with an example to illustrate the utility of version control in collaborating on a document or project over time.&lt;/p&gt;
+&lt;p&gt;Many popular word processing software packages employ “track changes” as a way to edit a document or share with others for editing or feedback.&lt;/p&gt;
+&lt;p&gt;However, using something like track changes for version control is problematic!&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/RLadies_May1.JPG&#34; alt=&#34;Our attempt to use track changes to collaborate on a document listing our favorite women from Philadelphia&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;&lt;em&gt;Our attempt to use ‘track changes’ to collaborate on a document listing our favorite women from Philadelphia&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In order to reference previous versions of a document, we would have to go through comment by comment to examine the changes a single collaborator made at a single point in time, or else revert back to the original version of the document and lose all changes!&lt;/p&gt;
+&lt;p&gt;We turned to the whiteboard to demonstrate how you can use Git to keep track of the evolution of a document or project over time, and how you can use GitHub to collaborate with others on the evolution of a document&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/5_sdaVXlKNM&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;demo&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Demo&lt;/h1&gt;
+&lt;p&gt;After this introduction, Alice led an interactive demo so that R-Ladies Philly could practice integrating Git and GitHub with R.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/RLadies_May2.jpg&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Through this, members practiced:&lt;br /&gt;
+- configuring Git locally&lt;br /&gt;
+- creating a Git repository&lt;br /&gt;
+- committing changes&lt;br /&gt;
+- pushing work to a &lt;a href=&#34;https://github.com/awalsh17/intro_git_live&#34;&gt;shared repo&lt;/a&gt; on GitHub&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/tree/master/May2018&#34;&gt;Alice’s slides&lt;/a&gt; are posted on GitHub - this is a great resource to go through if you couldn’t make it to the meeting!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lightning-talk&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Lightning Talk&lt;/h1&gt;
+&lt;p&gt;We ended by showing a GitHub repo illustrating ‘real world’ use of version control with R!&lt;/p&gt;
+&lt;p&gt;R-Ladies Philly members Karla, Alice, Kristen, and myself recently used Git and GitHub with R to collaborate on a data analysis project for the Philadelphia Animal Welfare Society.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;for-more-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;For more information&lt;/h1&gt;
+&lt;p&gt;To learn more, we recommend &lt;a href=&#34;http://happygitwithr.com&#34;&gt;“Happy Git and GitHub for the useR”&lt;/a&gt; and the free DataCamp course &lt;a href=&#34;https://www.datacamp.com/courses/introduction-to-git-for-data-science&#34;&gt;“Introduction to Git for Data Science”&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Katerina Placek. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>April recap: Introduction to Text Mining with R</title>
+      <link>/post/april-recap/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/post/april-recap/</guid>
+      <description>
+
+
+&lt;div id=&#34;our-april-event&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Our April Event!&lt;/h1&gt;
+&lt;p&gt;The April R-Ladies meetup was held on April 19th at Drexel. Thanks again to Drexel for hosting us and to DataCamp and the R consortium for sponsoring us!&lt;/p&gt;
+&lt;p&gt;Our topic was an introduction to text mining in R using the first two chapters of “Text Mining with R” by fellow R-Lady(!) Julia Silge and David Robinson.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/rladiesapril2.png&#34; alt=&#34;There was a great group - including some new faces!&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;There was a great group - including some new faces!&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Amy took us through the key concepts of the chapter and then we broke into groups to do some exercises together. Here is an example analysis that we completed!&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;book.id &amp;lt;- 51713
+kafka &amp;lt;- gutenberg_download(51713)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Determining mirror for Project Gutenberg from http://www.gutenberg.org/robot/harvest&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Using mirror http://aleph.gutenberg.org&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data(stop_words)
+
+tidy_kafka &amp;lt;- kafka %&amp;gt;%
+  mutate(linenumber = row_number()) %&amp;gt;%
+  unnest_tokens(word, text)%&amp;gt;%
+  anti_join(stop_words)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Joining, by = &amp;quot;word&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;kafka_sentiment &amp;lt;- tidy_kafka %&amp;gt;%
+  inner_join(get_sentiments(&amp;quot;bing&amp;quot;)) %&amp;gt;%
+  count(index = linenumber %/% 10, sentiment) %&amp;gt;%
+  spread(sentiment, n, fill = 0) %&amp;gt;%
+  mutate(sentiment = positive - negative)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Joining, by = &amp;quot;word&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# PLOT
+ggplot(kafka_sentiment, aes(index, sentiment, fill = sentiment &amp;gt; 0)) +
+  scale_fill_discrete(c(&amp;quot;light blue&amp;quot;,&amp;quot;red&amp;quot;)) + 
+  geom_col(show.legend = FALSE) +
+  ggtitle(&amp;quot;Sentiment in Kafka&amp;#39;s Metamorphosis&amp;quot;) + 
+  theme_bw()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-04-29-april-recap_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Next, we had an awesome lightning talk from Darina that went into TF-IDF. TF is Term Frequency and IDF is Inverse Document Frequency. Check out her slides to learn more.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/img/rladiesapril1.png&#34; alt=&#34;Darina presents on TF-IDF&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Darina presents on TF-IDF&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;for-more-information&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;For more information&lt;/h1&gt;
+&lt;p&gt;The materials from April are posted on GitHub:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia&#34; class=&#34;uri&#34;&gt;https://github.com/rladies/meetup-presentations_philadelphia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For those who want to learn more, I recommend continuing on in the excellent book, “Text Mining with R”:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.tidytextmining.com&#34; class=&#34;uri&#34;&gt;https://www.tidytextmining.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

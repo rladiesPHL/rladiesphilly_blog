@@ -6,7 +6,7 @@ date = 2018-07-05T00:00:00
 title = "Sponsors"
 subtitle = ""
 # Order that this section will appear in.
-weight = 5
+weight = 50
 
 +++
 

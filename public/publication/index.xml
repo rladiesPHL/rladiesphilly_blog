@@ -1,34 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on R-Ladies Philly</title>
+    <title>Publications | R-Ladies Philly</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on R-Ladies Philly</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 R-Ladies Philly</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
-    
-	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0400</pubDate>
-      
-      <guid>/publication/person-re-identification/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
-      
-      <guid>/publication/clothing-search/</guid>
-      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
-    </item>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/images/logo_hu28707ef16119aff2091a8f76d1773782_59391_300x300_fit_lanczos_2.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
     
   </channel>
 </rss>
