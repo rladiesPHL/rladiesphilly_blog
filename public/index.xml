@@ -5,12 +5,202 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R-Ladies Philly</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 28 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu28707ef16119aff2091a8f76d1773782_59391_300x300_fit_lanczos_2.png</url>
       <title>R-Ladies Philly</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>February 2021: From Learn-R to Teach-R</title>
+      <link>/post/recap_teachr/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/post/recap_teachr/</guid>
+      <description>
+
+
+&lt;div id=&#34;our-february-2021-event&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Our February 2021 event&lt;/h1&gt;
+&lt;p&gt;On February 18th, we gathered virtually for a lively and engaging panel discussion on teaching R effectively.&lt;/p&gt;
+&lt;p&gt;The event kicked off with some announcements and then introductions to our three panelists. Next, each panelist presented their teaching experience and philosophy. The final part of the meetup was a rich Q&amp;amp;A session driven by attendees’ questions.&lt;/p&gt;
+&lt;p&gt;You can watch a replay of this meetup and many of our past meetup events on our YouTube channel:&lt;/p&gt;
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/d1vLx2vDbU8&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;about-our-panelists&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;About our panelists:&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.anyamemensah.com&#34;&gt;Ama Nyame-Mensah&lt;/a&gt; is a Postdoctoral Fellow and Research Associate in the School of Social Policy &amp;amp; Practice and the Graduate School of Education at the University of Pennsylvania. Her current work rethinks whether and how quantitative and computational methods can contribute to a more equitable understanding of marginalized children’s and families’ learning and development. Ama is passionate about empowering people to use data for social analysis and critique data and data technologies. When not working, Ama can be found tinkering with data and designing visualizations.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cassws.net/&#34;&gt;Cass Wilkinson Saldaña&lt;/a&gt; helps learners, researchers, and communities to engage meaningfully (and critically) with data. They currently work as a Data Instructional Specialist at the Children’s Hospital of Philadelphia’s Research Institute, and teach introduction to R courses at Yeshiva University. Previously, Cass worked as the Social Science and Geospatial Data Librarian at Cornell University.
+As a data educator and data librarian, Cass participates and collaborates in open source ecosystems, especially in the domains of open science, digital scholarship, and civic data. They also strive to advocate for justice in worker and learner communities.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://silvia.rbind.io/&#34;&gt;Silvia Canelón&lt;/a&gt; is a postdoctoral research scientist in biomedical informatics at the University of Pennsylvania in Philadelphia. She uses data science in the public and population health fields and is particularly interested in leveraging electronic health record data to study reproductive health outcomes. Silvia is formally trained as a biomedical engineer and an RStudio Certified Tidyverse Instructor. She loves community organizing and is passionate about R education as a way to help build power in her communities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;some-high-level-takeaways-from-the-meetup&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Some high-level takeaways from the meetup:&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;It was inspiring to hear from three people with different experiences and expertise in teaching R!&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;The panelists emphasized that teaching and learning are processes, and you are continually practicing to improve and evolve as a teacher (and as a learner).&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;Community is important! Participating in learning communities, whether at your work or with local or remote groups like R-Ladies Philly, can enrich your experience as both a learner and a teacher. The panelists also mentioned that social media is a great way to learn about new resources and ideas.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;some-highlights-from-the-qa-session&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Some highlights from the Q&amp;amp;A session:&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; How can I teach my coworkers R?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; It depends on the environment. For example, if you are working one-on-one, then pair programming might be a good solution. Consider creating a space where people can talk such as an R users group and let it grow from there. If you are facing reluctance, consider where that reluctance is coming from and whether you have support from your supervisor. Ensure there is an understanding of the problems you are trying to solve with R and a collective interest in these problems.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; How do you find that balance between instructing someone and facilitating them to learn on their own?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Cass drew the analogy to a librarian. When you go to the library, a librarian may point you to a resource, or you might need to sit down one-on-one with someone. Similarly, when teaching R, you need to understand the learner’s incentives and goals. You might be able to point them to a workshop or a resource, or you might be to sit down with them and help them frame their problems in terms of languages, algorithms, and methods.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What are some favorite or recommended R-related teaching/learning resources?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Follow people online that teach professionally online. They make a lot of their materials available and share their insights.&lt;/li&gt;
+&lt;li&gt;Actively look out for new things that interest you - find the channels where those people are!&lt;/li&gt;
+&lt;li&gt;Here are some R Twitter accounts that were mentioned (but there are many more!) &lt;span class=&#34;citation&#34;&gt;@RLingTip&lt;/span&gt;, &lt;span class=&#34;citation&#34;&gt;@rweekly_org&lt;/span&gt;, &lt;span class=&#34;citation&#34;&gt;@RLadiesGlobal&lt;/span&gt;, &lt;span class=&#34;citation&#34;&gt;@WeAreRLadies&lt;/span&gt;, &lt;span class=&#34;citation&#34;&gt;@Rbloggers&lt;/span&gt;. When an interesting post arrives, you can bookmark it and return to it later.&lt;/li&gt;
+&lt;li&gt;Also mentioned were #tidytuesday and the R for Data Science Online Learning Community: &lt;a href=&#34;https://www.rfordatasci.com&#34; class=&#34;uri&#34;&gt;https://www.rfordatasci.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For specific tools to teach R, The “swirl” R package (&lt;a href=&#34;https://swirlstats.com&#34; class=&#34;uri&#34;&gt;https://swirlstats.com&lt;/a&gt;) was mentioned by several participants. As was the “R for Data Science” book (free online at &lt;a href=&#34;https://r4ds.had.co.nz&#34; class=&#34;uri&#34;&gt;https://r4ds.had.co.nz&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;See the “Additional resources and recommendations” section below for additional resources&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;february-announcements&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;February announcements:&lt;/h1&gt;
+&lt;p&gt;Please check out our upcoming R-Ladies Philly events on our &lt;a href=&#34;https://www.meetup.com/rladies-philly/&#34;&gt;meetup page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In particular, our &lt;a href=&#34;https://www.meetup.com/rladies-philly/events/276365040/&#34;&gt;annual datathon&lt;/a&gt; is starting in March. This year, we are exploring judicial patterns in the Philadelphia courts in partnership with the Judge Accountability Table team.&lt;/p&gt;
+&lt;p&gt;Thank you again to our panelists, Silvia, Cass, and Ama! Also, thank you to all the participants for your thoughtful questions and discussion.&lt;/p&gt;
+&lt;p&gt;Of course, if you are interested in growing your teaching skills, consider leading a workshop with R-Ladies Philly. You can reach the organizers at &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt; or send a message on our Slack.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;additional-resources-and-recommendations&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Additional resources and recommendations&lt;/h1&gt;
+&lt;p&gt;We collated some additional resources and recommendations from the panelists, the participants, and the R-Ladies Philly community:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;What are good tutorial sites for statistical methods that use R as a teaching tool?&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mine Çetinkaya-Rundel develops copious high-quality open-source data science educational materials:
+&lt;ul&gt;
+&lt;li&gt;Data Science in a Box: &lt;a href=&#34;https://datasciencebox.org/&#34; class=&#34;uri&#34;&gt;https://datasciencebox.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Introduction to Data Science materials: &lt;a href=&#34;https://www.introds.org/&#34; class=&#34;uri&#34;&gt;https://www.introds.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Courses on Coursera: &lt;a href=&#34;https://www.coursera.org/instructor/minecetinkayarundel&#34; class=&#34;uri&#34;&gt;https://www.coursera.org/instructor/minecetinkayarundel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;What are some free online platforms to learn R?&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dataquest has some free courses: &lt;a href=&#34;https://www.dataquest.io/&#34; class=&#34;uri&#34;&gt;https://www.dataquest.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;R Bootcamp developed by Ted Laderas: &lt;a href=&#34;https://r-bootcamp.netlify.app/&#34; class=&#34;uri&#34;&gt;https://r-bootcamp.netlify.app/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;R for the Rest of Us has some free courses: - &lt;a href=&#34;https://rfortherestofus.com/courses/getting-started/&#34; class=&#34;uri&#34;&gt;https://rfortherestofus.com/courses/getting-started/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;R for Data Science Online Learning Community: &lt;a href=&#34;https://www.rfordatasci.com&#34; class=&#34;uri&#34;&gt;https://www.rfordatasci.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Learning Statistics with R: learningstatisticswithr.com&lt;/li&gt;
+&lt;li&gt;Swirl: A software package for the R programming language that turns the R console into an interactive learning environment: &lt;a href=&#34;https://swirlstats.com&#34; class=&#34;uri&#34;&gt;https://swirlstats.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Courses from the Coursera JHU Data Science Specialization: &lt;a href=&#34;https://www.coursera.org/specializations/jhu-data-science#courses&#34; class=&#34;uri&#34;&gt;https://www.coursera.org/specializations/jhu-data-science#courses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;R Bootcamp developed by Brendan Cullen: &lt;a href=&#34;https://uopsych-r-bootcamp-2020.netlify.app/&#34; class=&#34;uri&#34;&gt;https://uopsych-r-bootcamp-2020.netlify.app/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;What is a good R reference website for someone who wants a refresher on the language with hands on exercises?&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RStudio Primers: &lt;a href=&#34;https://rstudio.cloud/learn/primers&#34; class=&#34;uri&#34;&gt;https://rstudio.cloud/learn/primers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;DoSS Toolkit developed by the University of Toronto: &lt;a href=&#34;https://www.dosstoolkit.com/modules/&#34; class=&#34;uri&#34;&gt;https://www.dosstoolkit.com/modules/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;No hands-on exercises, but great reference: &lt;a href=&#34;https://www.bigbookofr.com/&#34; class=&#34;uri&#34;&gt;https://www.bigbookofr.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Troubleshooting tips&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jenny Bryan’s talk about errors &lt;a href=&#34;https://rstudio.com/resources/rstudioconf-2020/object-of-type-closure-is-not-subsettable/&#34; class=&#34;uri&#34;&gt;https://rstudio.com/resources/rstudioconf-2020/object-of-type-closure-is-not-subsettable/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Searching within GitHub repos by googling “site:github.com SEARCH TERMS”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;How do we make sure that what we teach our students is still current?&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If there are packages that you rely on for your teaching, periodically check the NEWS.md document in their GitHub repository&lt;/li&gt;
+&lt;li&gt;If it’s a package maintained by RStudio (e.g. any of the tidyverse packages), the documentation pages for those packages will usually indicate changes or the RStudio tidyverse blog will have a post highlighting some changes&lt;/li&gt;
+&lt;li&gt;Follow the #RStats hashtag if you’re on Twitter – bonus, this is also a very lovely and supportive online community :)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Are there effective strategies for teaching virtually in a live session?&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reduce cognitive load&lt;/li&gt;
+&lt;li&gt;Have technical support to field questions from the chat box&lt;/li&gt;
+&lt;li&gt;Talk through all of your coding steps on the screen&lt;/li&gt;
+&lt;li&gt;Have a “solutions” version of your teaching material available and handy for students&lt;/li&gt;
+&lt;li&gt;For every 60 minutes of teaching: teach in 50 minute chunks with 10 minutes for a biobreak. Have everyone take the break, including yourself :)&lt;/li&gt;
+&lt;li&gt;Interweave lecture time with short exercises and live coding&lt;/li&gt;
+&lt;li&gt;Ask for volunteers to share their screen so that you’re not teaching into the void, these can rotate through each hour or something&lt;/li&gt;
+&lt;li&gt;Consider a flipped-classroom approach if that works for you (learning content asynchronously and going through exercises or homework during synchronous lecture time)&lt;/li&gt;
+&lt;li&gt;See also:
+&lt;ul&gt;
+&lt;li&gt;Flatting the leaRning curve by Brendan Cullen: &lt;a href=&#34;https://bcullen.rbind.io/post/2020-10-19-teaching-an-r-bootcamp-remotely/&#34; class=&#34;uri&#34;&gt;https://bcullen.rbind.io/post/2020-10-19-teaching-an-r-bootcamp-remotely/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How I Taught Tidymodels, Virtually by Alison Hill: &lt;a href=&#34;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/&#34; class=&#34;uri&#34;&gt;https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Isabella Velásquez’s remote pair programming tutorial: &lt;a href=&#34;https://ivelasq.rbind.io/blog/vscode-live-share/&#34; class=&#34;uri&#34;&gt;https://ivelasq.rbind.io/blog/vscode-live-share/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Teaching Tech Together by Greg Wilson &lt;a href=&#34;https://teachtogether.tech/en/index.html&#34; class=&#34;uri&#34;&gt;https://teachtogether.tech/en/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Where can I find good datasets that are free to use for educational purposes?&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TidyTuesday datasets: &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday#datasets&#34; class=&#34;uri&#34;&gt;https://github.com/rfordatascience/tidytuesday#datasets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Alex Cookson’s datasets repo: &lt;a href=&#34;https://github.com/tacookson/data#data-repository&#34; class=&#34;uri&#34;&gt;https://github.com/tacookson/data#data-repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Peter Higgins’s medical datasets package: &lt;a href=&#34;https://github.com/higgi13425/medicaldata#medical-data-teaching-package&#34; class=&#34;uri&#34;&gt;https://github.com/higgi13425/medicaldata#medical-data-teaching-package&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;I’d like to know more about concept maps. How do you use them in teaching vs learning? And can you give us some resources that we can refer back to after today?&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Concept maps for all things data science from RStudio: &lt;a href=&#34;https://github.com/rstudio/concept-maps&#34; class=&#34;uri&#34;&gt;https://github.com/rstudio/concept-maps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;R-Ladies Chicago hosted a related event in November 2020 about “InspiRing InstRuction” (&lt;a href=&#34;https://www.youtube.com/watch?v=qvNNhoIEkMU&#34;&gt;recording here&lt;/a&gt;), with the following panelists:&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alison Hill: Data Scientist &amp;amp; Professional Educator at RStudio&lt;/li&gt;
+&lt;li&gt;Marynia Kolak: Assistant Director of Health Informatics at Center for Spatial Data Science at University of Chicago&lt;/li&gt;
+&lt;li&gt;Katie Fitzgerald: PhD Candidate in Statistics at Northwestern University&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;For more information, contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>December 2020: Data Visualization</title>
+      <link>/post/recap_data_viz/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/recap_data_viz/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;take-a-sad-chart-and-make-it-better&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Take a sad chart and make it better&lt;/h1&gt;
+&lt;p&gt;On December 8, we were incredibly fortunate to have Trang Le lead us through a data visualization workshop. You can find a recording of the meetup on our YouTube channel. Links to the meetup content are all at the end of this post.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;about-our-speaker&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;About our speaker&lt;/h1&gt;
+&lt;p&gt;Trang Le is a postdoctoral fellow at the University of Pennsylvania with the Computational Genomics Lab. She is a big supporter of the R-Ladies community and has presented at previous R-Ladies meetups with Philadelphia and Miami chapters. You can follow her on twitter (&lt;span class=&#34;citation&#34;&gt;@trang1618&lt;/span&gt;) and at her website (trang.page).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;key-takeaways&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Key takeaways&lt;/h1&gt;
+&lt;p&gt;Trang gave a fantastic overview of effective data communication. From pie charts to heat maps, we can take an “OK” plot and make it great. While Trang’s background is in academic biological research, her insights apply to other fields. Trang showed several examples of how to take a confusing visualization and improve it. Do check out her slides to see them all.&lt;/p&gt;
+&lt;p&gt;Here are some of her key points summarized:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You can break the rules (3D can be useful, more than seven colors can be effective)&lt;/li&gt;
+&lt;li&gt;Reduce cognitive burden by direct labeling, reducing the number of labels, highlighting, and using a consistent color scheme&lt;/li&gt;
+&lt;li&gt;Use facets to break a large dataset into digestible pieces&lt;/li&gt;
+&lt;li&gt;Identify the key data before plotting&lt;/li&gt;
+&lt;li&gt;Use great resources (e.g., &lt;a href=&#34;ft.com/vocabulary&#34;&gt;ft.com/vocabulary&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Next, it was our turn as participants to apply these tips in a hands-on exercise. Using the latest COVID-19 data, we recreated and experimented with the Financial Times visualization by John Burn-Murdoch:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/jburnmurdoch/status/1250538655707430913?s=20&#34; class=&#34;uri&#34;&gt;https://twitter.com/jburnmurdoch/status/1250538655707430913?s=20&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;links-for-meetup-materials&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Links for meetup materials&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides: &lt;a href=&#34;https://slides.com/trang1618/take-a-sad-chart-and-make-it-better/&#34; class=&#34;uri&#34;&gt;https://slides.com/trang1618/take-a-sad-chart-and-make-it-better/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RStudio Cloud: &lt;a href=&#34;https://rstudio.cloud/project/1893495&#34; class=&#34;uri&#34;&gt;https://rstudio.cloud/project/1893495&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/trang1618/rladies-dataviz&#34; class=&#34;uri&#34;&gt;https://github.com/trang1618/rladies-dataviz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Google Drive: rladies-dataviz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;to-learn-more-about-r-ladies-philly&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;To learn more about R-Ladies Philly&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Mentor/Speaker directory: rladiesphilly.shinyapps.io/mentorship/&lt;/li&gt;
+&lt;li&gt;Youtube channel: &lt;a href=&#34;https://yt.vu/+rladiesphilly&#34; class=&#34;uri&#34;&gt;https://yt.vu/+rladiesphilly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Slack: bit.ly/join-rladies-slack-2020&lt;/li&gt;
+&lt;li&gt;Survey: bit.do/rladies-survey&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>2020 Nov: Your first R package in 1 hour</title>
@@ -1194,7 +1384,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-935218476&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-164372958&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1204,7 +1394,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-935218476&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-164372958&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2263,6 +2453,24 @@ Pros &amp;amp; cons of each wide to long approach. Gather is brief. You have to 
 &lt;p&gt;&lt;em&gt;This post was authored by Amy Goodwin Davies. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>/terms/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

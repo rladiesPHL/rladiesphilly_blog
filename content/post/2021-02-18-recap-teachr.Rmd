@@ -1,0 +1,142 @@
+---
+title: 'February 2021: From Learn-R to Teach-R'
+author: Alice Walsh
+date: '2021-02-28'
+slug: recap_teachr
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+# Our February 2021 event
+
+On February 18th, we gathered virtually for a lively and engaging panel discussion on teaching R effectively.
+
+The event kicked off with some announcements and then introductions to our three panelists. Next, each panelist presented their teaching experience and philosophy. The final part of the meetup was a rich Q&A session driven by attendees’ questions.
+
+You can watch a replay of this meetup and many of our past meetup events on our YouTube channel:
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/d1vLx2vDbU8">
+</iframe>
+
+# About our panelists:
+
+[Ama Nyame-Mensah](https://www.anyamemensah.com) is a Postdoctoral Fellow and Research Associate in the School of Social Policy & Practice and the Graduate School of Education at the University of Pennsylvania. Her current work rethinks whether and how quantitative and computational methods can contribute to a more equitable understanding of marginalized children's and families' learning and development. Ama is passionate about empowering people to use data for social analysis and critique data and data technologies. When not working, Ama can be found tinkering with data and designing visualizations.
+
+[Cass Wilkinson Saldaña](https://cassws.net/) helps learners, researchers, and communities to engage meaningfully (and critically) with data. They currently work as a Data Instructional Specialist at the Children’s Hospital of Philadelphia’s Research Institute, and teach introduction to R courses at Yeshiva University. Previously, Cass worked as the Social Science and Geospatial Data Librarian at Cornell University.
+As a data educator and data librarian, Cass participates and collaborates in open source ecosystems, especially in the domains of open science, digital scholarship, and civic data. They also strive to advocate for justice in worker and learner communities.
+
+[Silvia Canelón](https://silvia.rbind.io/) is a postdoctoral research scientist in biomedical informatics at the University of Pennsylvania in Philadelphia. She uses data science in the public and population health fields and is particularly interested in leveraging electronic health record data to study reproductive health outcomes. Silvia is formally trained as a biomedical engineer and an RStudio Certified Tidyverse Instructor. She loves community organizing and is passionate about R education as a way to help build power in her communities.
+
+# Some high-level takeaways from the meetup:
+
+- It was inspiring to hear from three people with different experiences and expertise in teaching R!  
+- The panelists emphasized that teaching and learning are processes, and you are continually practicing to improve and evolve as a teacher (and as a learner).  
+- Community is important! Participating in learning communities, whether at your work or with local or remote groups like R-Ladies Philly, can enrich your experience as both a learner and a teacher. The panelists also mentioned that social media is a great way to learn about new resources and ideas.  
+
+# Some highlights from the Q&A session:
+
+**Q:** How can I teach my coworkers R?  
+**A:** It depends on the environment. For example, if you are working one-on-one, then pair programming might be a good solution. Consider creating a space where people can talk such as an R users group and let it grow from there. If you are facing reluctance, consider where that reluctance is coming from and whether you have support from your supervisor. Ensure there is an understanding of the problems you are trying to solve with R and a collective interest in these problems.
+
+**Q:** How do you find that balance between instructing someone and facilitating them to learn on their own?  
+**A:** Cass drew the analogy to a librarian. When you go to the library, a librarian may point you to a resource, or you might need to sit down one-on-one with someone. Similarly, when teaching R, you need to understand the learner’s incentives and goals. You might be able to point them to a workshop or a resource, or you might be to sit down with them and help them frame their problems in terms of languages, algorithms, and methods.
+
+**Q:** What are some favorite or recommended R-related teaching/learning resources?  
+**A:** 
+
+- Follow people online that teach professionally online. They make a lot of their materials available and share their insights.
+- Actively look out for new things that interest you - find the channels where those people are!
+- Here are some R Twitter accounts that were mentioned (but there are many more!) @RLingTip, @rweekly_org, @RLadiesGlobal, @WeAreRLadies, @Rbloggers. When an interesting post arrives, you can bookmark it and return to it later.
+- Also mentioned were #tidytuesday and the R for Data Science Online Learning Community: https://www.rfordatasci.com 
+- For specific tools to teach R, The “swirl” R package (https://swirlstats.com) was mentioned by several participants. As was the “R for Data Science” book (free online at https://r4ds.had.co.nz)
+
+**See the “Additional resources and recommendations” section below for additional resources**
+
+# February announcements:
+
+Please check out our upcoming R-Ladies Philly events on our [meetup page](https://www.meetup.com/rladies-philly/).
+
+In particular, our [annual datathon](https://www.meetup.com/rladies-philly/events/276365040/) is starting in March. This year, we are exploring judicial patterns in the Philadelphia courts in partnership with the Judge Accountability Table team. 
+
+Thank you again to our panelists, Silvia, Cass, and Ama! Also, thank you to all the participants for your thoughtful questions and discussion.
+
+Of course, if you are interested in growing your teaching skills, consider leading a workshop with R-Ladies Philly. You can reach the organizers at philly@rladies.org or send a message on our Slack.
+
+
+# Additional resources and recommendations
+We collated some additional resources and recommendations from the panelists, the participants, and the R-Ladies Philly community:
+
+*What are good tutorial sites for statistical methods that use R as a teaching tool?*
+
+- Mine Çetinkaya-Rundel develops copious high-quality open-source data science educational materials:
+  - Data Science in a Box: https://datasciencebox.org/ 
+  - Introduction to Data Science materials: https://www.introds.org/ 
+  - Courses on Coursera: https://www.coursera.org/instructor/minecetinkayarundel 
+
+*What are some free online platforms to learn R?*
+
+- Dataquest has some free courses: https://www.dataquest.io/ 
+- R Bootcamp developed by Ted Laderas: https://r-bootcamp.netlify.app/ 
+- R for the Rest of Us has some free courses:          - https://rfortherestofus.com/courses/getting-started/ 
+- R for Data Science Online Learning Community: https://www.rfordatasci.com
+- Learning Statistics with R: learningstatisticswithr.com
+- Swirl: A software package for the R programming language that turns the R console into an interactive learning environment: https://swirlstats.com
+- Courses from the Coursera JHU Data Science Specialization: https://www.coursera.org/specializations/jhu-data-science#courses
+- R Bootcamp developed by Brendan Cullen: https://uopsych-r-bootcamp-2020.netlify.app/ 
+
+*What is a good R reference website for someone who wants a refresher on the language with hands on exercises?*
+
+- RStudio Primers: https://rstudio.cloud/learn/primers
+- DoSS Toolkit developed by the University of Toronto: https://www.dosstoolkit.com/modules/ 
+- No hands-on exercises, but great reference: https://www.bigbookofr.com/ 
+
+*Troubleshooting tips*
+
+- Jenny Bryan’s talk about errors https://rstudio.com/resources/rstudioconf-2020/object-of-type-closure-is-not-subsettable/
+- Searching within GitHub repos by googling “site:github.com SEARCH TERMS”
+
+*How do we make sure that what we teach our students is still current?*
+
+- If there are packages that you rely on for your teaching, periodically check the NEWS.md document in their GitHub repository
+- If it’s a package maintained by RStudio (e.g. any of the tidyverse packages), the documentation pages for those packages will usually indicate changes or the RStudio tidyverse blog will have a post highlighting some changes
+- Follow the #RStats hashtag if you’re on Twitter -- bonus, this is also a very lovely and supportive online community :)
+
+*Are there effective strategies for teaching virtually in a live session?*
+
+- Reduce cognitive load
+- Have technical support to field questions from the chat box
+- Talk through all of your coding steps on the screen
+- Have a “solutions” version of your teaching material available and handy for students
+- For every 60 minutes of teaching: teach in 50 minute chunks with 10 minutes for a biobreak. Have everyone take the break, including yourself :)
+- Interweave lecture time with short exercises and live coding
+- Ask for volunteers to share their screen so that you’re not teaching into the void, these can rotate through each hour or something
+- Consider a flipped-classroom approach if that works for you (learning content asynchronously and going through exercises or homework during synchronous lecture time)
+- See also:
+  - Flatting the leaRning curve by Brendan Cullen: https://bcullen.rbind.io/post/2020-10-19-teaching-an-r-bootcamp-remotely/ 
+  - How I Taught Tidymodels, Virtually by Alison Hill: https://alison.rbind.io/post/2020-06-02-tidymodels-virtually/ 
+  - Isabella Velásquez’s remote pair programming tutorial: https://ivelasq.rbind.io/blog/vscode-live-share/ 
+  - Teaching Tech Together by Greg Wilson https://teachtogether.tech/en/index.html 
+
+*Where can I find good datasets that are free to use for educational purposes?*
+
+- TidyTuesday datasets: https://github.com/rfordatascience/tidytuesday#datasets
+- Alex Cookson’s datasets repo: https://github.com/tacookson/data#data-repository 
+- Peter Higgins’s medical datasets package: https://github.com/higgi13425/medicaldata#medical-data-teaching-package 
+
+*I'd like to know more about concept maps. How do you use them in teaching vs learning? And can you give us some resources that we can refer back to after today?*
+
+- Concept maps for all things data science from RStudio: https://github.com/rstudio/concept-maps 
+
+*R-Ladies Chicago hosted a related event in November 2020 about “InspiRing InstRuction” ([recording here](https://www.youtube.com/watch?v=qvNNhoIEkMU)), with the following panelists:*
+
+- Alison Hill: Data Scientist & Professional Educator at RStudio
+- Marynia Kolak: Assistant Director of Health Informatics at Center for Spatial Data Science at University of Chicago
+- Katie Fitzgerald: PhD Candidate in Statistics at Northwestern University
+
+*For more information, contact philly@rladies.org*
