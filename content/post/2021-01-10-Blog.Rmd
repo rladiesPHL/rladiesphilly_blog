@@ -1,0 +1,44 @@
+---
+title: 'January 2021: Introduction to R dashboard development with Shiny Dashboard'
+author: "Darina Chudnovskaya"
+date: '2021-01-28'
+slug: recap_jan
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+# January 2021 Event 
+For our January meetup, Anastasia Lucas gave a fantastic introductory workshop on Shiny Dashboard in R using the "shinydashboard" package. Various facets of dashboard development such as reactivity, appearance (i.e. dashboard themes), profiling, and deployment were covered. By the end, users were able to go from raw data to a multi-app dashboard. Even more impressive, the dashboards updated with user input! 
+
+# About the Speaker:
+Anastasia Lucas is a data analyst working in biomedical informatics and computational genomics research at the University of Pennsylvania's Perelman School of Medicine. Her work in R mainly focuses on statistical analysis, package development, and data visualization.
+
+# Takeaways:
+·        Shiny dashboards are a great way to display metrics of multiple shiny apps 
+·        Shiny apps have 3 components:
+1.      A user interface object
+2.      A server function 
+3.      A call to ShinyApp()
+·        Shiny apps are interactive and reactive 
+·        Before starting a dashboard consider
+·        Who is the user?
+·        What insights should the user gain?
+·        What is the best way to present the data?
+·        Hosting options:
+·        Deploy to the cloud using Shinyapps.io
+·        Host on Shiny server
+·        Deploy with RStudio Connect
+
+# Links for meetup materials:
+·        GitHub: https://github.com/anastasia-lucas/rladies_shinydashboards 
+
+You can watch a replay of this meetup and many of our past meetup events on our YouTube channel:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wSYt4IYIsdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Thank you to our sponsors, R Ladies Global, R Consortium, and R Studio!
