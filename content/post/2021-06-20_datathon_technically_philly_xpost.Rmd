@@ -1,0 +1,59 @@
+---
+title: 'How do judges judge? A community effort exploring Philadelphia''s judicial patterns through data'
+author: 'R-Ladies Philly'
+date: '2021-06-09'
+slug: 
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+**This post originally appeared as a [guest post on Technical.ly Philly](https://technical.ly/philly/2021/06/09/r-ladies-judge-accountability-datathon/)**
+
+*The 2021 R-Ladies Philly and Judge Accountability Table community datathon brought together data science enthusiasts to shed light on judicial trends in Philadelphia. Here's what they found.*
+     
+In Pennsylvania, voters elect statewide judges to their positions for 10-year terms and then vote on whether to retain those judges in their roles with a "yes or no" vote once their term comes to an end. Additionally, Philadelphia County voters choose local judges for cases adjudicated in our city, to six- or 10-year terms with similar retention votes after election. While these elections could serve as a tool for communities to hold judges accountable to their priorities, voters often have no way of knowing how judges behave every day in their courtrooms.
+
+The [Judge Accountability Table (JAT)](https://judgeaccountabilitytable.org/), a coalition of organizations in Philadelphia, seeks to combat this problem by tracking and sharing information about both judicial candidates and sitting judges with the public. This information helps voters make more informed choices in judicial elections and serves the broader goal of holding judges accountable to the community's vision of justice.
+
+This year, JAT partnered with [R-Ladies Philly](https://www.rladiesphilly.org/), the local chapter of [R-Ladies](https://rladies.org/), a worldwide organization that promotes gender diversity in the data science community, to better understand judicial trends in Philadelphia. R-Ladies Philly organizers regularly bring together data enthusiasts and community organizations for "datathons" which provide organizations with data science expertise and enable participants to network and gain valuable skills in data analytics.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am proud of our <a href="https://twitter.com/RLadiesPhilly?ref_src=twsrc%5Etfw">@RLadiesPhilly</a> teams that worked on some really interesting research questions as part of our annual datathon! Thanks to <a href="https://twitter.com/judgeyourjudges?ref_src=twsrc%5Etfw">@judgeyourjudges</a> for the opportunity! <a href="https://twitter.com/hashtag/rladies?src=hash&amp;ref_src=twsrc%5Etfw">#rladies</a> <a href="https://t.co/TP2VHL9ict">pic.twitter.com/TP2VHL9ict</a></p>&mdash; Alice Walsh (@sciencealice) <a href="https://twitter.com/sciencealice/status/1387537237605290004?ref_src=twsrc%5Etfw">April 28, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Over the course of six weeks, participants collaborate in teams and consult with subject matter experts to explore and analyze rich, messy real-world datasets from multiple angles. Groups work together over the R-Ladies Slack and [GitHub](https://github.com/rladiesPHL/2021_datathon), meeting virtually and concluding their project with a final presentation and report writeup.
+
+# An interactive dashboard to view judicial trends
+
+Team 1, made up of Sybil Andrieux, Roy Aizen, June Choe, Kulbir Kaur, Alison Moss and Alice Walsh, took on the challenge of making court docket data from Philadelphia cases more accessible to the average citizen through a [highly interactive dashboard](https://awalsh.shinyapps.io/2021_datathon_dashboard/).
+
+This dashboard allows a deep exploration of the patterns in the data, and focused on three different areas:
+
+* **Sentencing**, so users can compare judges and length of sentences based on demographic information and crime details, explore whether a single judge aligns with the "average" judge for a given type of offense, and compare sentencing patterns based on defendants' race. The team identified a pattern that suggests that, for some types of misdemeanors, Black defendants are more often sentenced to confinement than probation as compared to white defendants.
+
+* **Bail**, so users can view the number of times a judge increased or decreased bail overall, as well as explore judges' behavior with bail over the last 20 years.
+
+* **Judge information**, so users can identify the judges that appear on the highest number of dockets for a selected time period and view the five most frequent offense descriptions by judge for a given date range.
+
+# Judges may have differing levels of "harshness"
+Team 2, with Russ Lavery, Shenee Norton, Jessie Pluto, May Sophia, Alex Lesicko, Adam Schlesinger, Jayeon Kim, Eamon Caddigan, Spandana Makeneni and Shanti Agung, explored whether some judges are harsher than others through two general approaches, visualization, and random coefficient modeling.
+
+They defined "harshness" as days of confinement and used linear regression to account for the fact that judges are presented with different types of cases. Team 2's findings suggest that differences in "harshness" can be observed between judges, and that it may even be possible to estimate the average days of confinement depending on which judge hears a case. However, the team cautions that these findings should be considered preliminary, and that the model could and should be further improved with further consideration of the complexities of the question.
+
+# What has changed since Larry Krasner took office?
+Team 3, which includes Addison Larson, Alice Walsh, Christine Carmody, Chun Su, Hector Maldonado-Reis, Jake Riley, Jasmine Pham, Jessie Pluto, Katrina Gutierrez, Khushbu Patel, Meredith Lee, Mitch Maltenfort, Nathan Kendsersky, Trang Le and Zhenya Cherkas, examined how things have changed in the courts since District Attorney Larry Krasner took office in January 2018.
+
+By comparing various metrics two years before and after his election, the team found that there was progress in Krasner's first two years, although there is still room for improvement. For example, after he took office, the data suggests that there was some progress in reducing race-related disparities. Krasner-era rates of release on recognizance and minimum bail set for first-degree felonies was more equitable between races (but inequity exists among first-degree misdemeanors), and bail policy around retail theft, DUI-first offense, and prostitution decreased (but bail policy becomes more severe for strangulation and aggravated indecent assaults).
+
+# Datathon resources
+
+Datathon participants dedicated countless hours and invaluable data expertise to examining these trends and making their findings available to the public. All the coding work, including final reports, is [available via GitHub](https://github.com/rladiesPHL/2021_datathon). The live sessions were recorded, and can be found on the R-Ladies Philly YouTube channel ([kickoff video](https://www.youtube.com/watch?v=sV4RylIrZ6w&t=2677s), [conclusion video](https://www.youtube.com/watch?v=fzJhKMcKVX4)).
+
+We sincerely thank our partners at JAT, especially **Joy Payton** and **Rebecca Hufstader**, for making this valuable dataset available to datathon participants, and for providing subject matter expertise and guidance throughout the six weeks.
+
+Watch the datathon's conclusion presentation here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fzJhKMcKVX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,0 +1,55 @@
+---
+title: 'Panel Discussion: What Are Hiring Managers Looking For in Candidates?'
+author: 'Amy Goodwin Davies'
+date: '2021-06-19'
+slug: 
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+*On June 3rd 2021, we partnered with [DataPhilly](https://www.meetup.com/DataPhilly/) and [The DataLab](https://www.meetup.com/TheDataLab/) to host a panel event with hiring managers in the fields of Data Science and Data Engineering*
+
+# The event
+
+Panelists shared their experiences of the hiring process and their recommendations for job-seekers. The discussion was expertly-moderated by [Jessie Pluto](https://www.linkedin.com/in/jessiepluto/), one of the R-Ladies Philly organizers. We asked the panel a mix of questions that attendees had submitted ahead of time and live-upvoted questions. The panel was followed by smaller conversations in breakout rooms, providing the opportunity for attendees to ask the panelists questions directly.
+
+# The panel
+
+The panel included data professionals from a range of industries. We are grateful to our panelists, who were very generous with their insights and their time:
+
+* [Anjali Bansal](https://www.linkedin.com/in/anjalibansal/): Advanced Analytics Lead, Slalom
+
+* [Robert Cheetham](https://www.linkedin.com/in/rcheetham/): CEO, Azavea
+
+* [Johanna-Laina Fischer](https://www.linkedin.com/in/johanna-laina-fischer/): Senior Data Scientist, Comcast EBI
+
+* [Ryan Harrington](https://www.linkedin.com/in/ryanmharrington/): Lead Data Scientist, CompassRed
+
+* [Dave O' Toole](https://www.linkedin.com/in/daveotoole/): Vice President of Analytics, Consumer Behavior, and BI, Revzilla (Comoto Holdings)
+
+* [Jason Rodriguez](https://www.linkedin.com/in/jason-rodriguez-95b23874/): Data Science Manager, GoPuff
+
+* [Steve Ross](https://www.linkedin.com/in/steveaross/): Sr. Manager Security Data Engineering, Elastic
+
+* [Oodaye Shukla](https://www.linkedin.com/in/oodaye-shukla/): Chief Data Analytics Officer, Eversana
+
+# Take-aways
+
+As Ryan recaps in his LinkedIn post, key themes were **grit** and **curiousity**:
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6806583840916697089" height="809" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+# Catch up on the recording
+
+You can catch up on a recording of the event here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VQZ3AogSdjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Acknowledgements
+
+Thank you to the DataPhilly organizers (especially Ramaa Nathan, Anne Beeman, and Christopher Grannan) and The DataLab organizers (especially Devon Malfitano) for being wonderful collaborators for this event.
