@@ -13,6 +13,207 @@
     </image>
     
     <item>
+      <title>Mapping COVID-19 Vaccination Across the US</title>
+      <link>/post/2021-07-20-mapping/</link>
+      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-07-20-mapping/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/michelle-chiu-leanmeanmishine/&#34;&gt;Michelle Chiu&lt;/a&gt; prepared and delivered the R-Ladies Philly July workshop, which provided a hands-on introduction on how to display data onto relevant geographic locations using R.&lt;/p&gt;
+&lt;p&gt;All of Michelle’s materials are available in &lt;a href=&#34;https://github.com/mchiu91/us_vaccination_rladies&#34;&gt;the GitHub repo for the workshop&lt;/a&gt;. Michelle got us started with an &lt;a href=&#34;https://github.com/mchiu91/us_vaccination_rladies/blob/main/mapping_us_vaccination_presentation.pdf&#34;&gt;introduction&lt;/a&gt; that included review of key packages, such as &lt;a href=&#34;https://ggplot2.tidyverse.org/&#34;&gt;ggplot2&lt;/a&gt; and &lt;a href=&#34;https://cran.r-project.org/package=choroplethr&#34;&gt;cloroplethr&lt;/a&gt;. Michelle then provided a &lt;a href=&#34;https://github.com/mchiu91/us_vaccination_rladies/blob/main/r_ladies_ggplot_workshop.Rmd&#34;&gt;demo&lt;/a&gt; of how to put these tools together in mapping COVID-19 Vaccination data. We wrapped up with a &lt;a href=&#34;https://github.com/mchiu91/us_vaccination_rladies/blob/main/r_ladies_ggplot_workshop.Rmd#L112&#34;&gt;data visualization exercise&lt;/a&gt; in breakout rooms.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-theme=&#34;light&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Want to learn how to display your data onto relevant geographic locations in a ???????? Come to R ladies Philly July workshop ????Mapping COVID-19 Vaccination ????Across the US at 6 p.m EST today!! Sign up at &lt;a href=&#34;https://t.co/ZvnnlSwpTY&#34;&gt;https://t.co/ZvnnlSwpTY&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1415425484876390407?ref_src=twsrc%5Etfw&#34;&gt;July 14, 2021&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;div id=&#34;about-the-speaker&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;About the speaker&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/michelle-chiu-leanmeanmishine/&#34;&gt;Michelle&lt;/a&gt; is a graduate student in the Cognition and Neuroscience PhD Program at Temple University. She received her bachelor’s degree in Cognitive Neuroscience from Johns Hopkins University in 2014 and continued to earn her master’s degree in Human Development at Cornell University in 2017. Her research broadly looks at digital media and risky decision making using a behavioral and neuroimaging approach. In her free time, she enjoys exploring the Philly food scene and practicing yoga!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;watch-the-recording&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Watch the recording&lt;/h1&gt;
+&lt;p&gt;You can watch the recording of the event here:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/6Uh2XhbRGmk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;acknowledgements&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Acknowledgements&lt;/h1&gt;
+&lt;p&gt;Many thanks to Michelle for the fantastic workshop!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Panel Discussion: What Are Hiring Managers Looking For in Candidates?</title>
+      <link>/post/2021-06-21-hiring_manager_panel/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-06-21-hiring_manager_panel/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;em&gt;On June 3rd 2021, we partnered with &lt;a href=&#34;https://www.meetup.com/DataPhilly/&#34;&gt;DataPhilly&lt;/a&gt; and &lt;a href=&#34;https://www.meetup.com/TheDataLab/&#34;&gt;The DataLab&lt;/a&gt; to host a panel event with hiring managers in the fields of Data Science and Data Engineering&lt;/em&gt;&lt;/p&gt;
+&lt;div id=&#34;the-event&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;The event&lt;/h1&gt;
+&lt;p&gt;Panelists shared their experiences of the hiring process and their recommendations for job-seekers. The discussion was expertly-moderated by &lt;a href=&#34;https://www.linkedin.com/in/jessiepluto/&#34;&gt;Jessie Pluto&lt;/a&gt;, one of the R-Ladies Philly organizers. We asked the panel a mix of questions that attendees had submitted ahead of time and live-upvoted questions. The panel was followed by smaller conversations in breakout rooms, providing the opportunity for attendees to ask the panelists questions directly.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-panel&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;The panel&lt;/h1&gt;
+&lt;p&gt;The panel included data professionals from a range of industries. We are grateful to our panelists, who were very generous with their insights and their time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/anjalibansal/&#34;&gt;Anjali Bansal&lt;/a&gt;: Advanced Analytics Lead, Slalom&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/rcheetham/&#34;&gt;Robert Cheetham&lt;/a&gt;: CEO, Azavea&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/johanna-laina-fischer/&#34;&gt;Johanna-Laina Fischer&lt;/a&gt;: Senior Data Scientist, Comcast EBI&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/ryanmharrington/&#34;&gt;Ryan Harrington&lt;/a&gt;: Lead Data Scientist, CompassRed&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/daveotoole/&#34;&gt;Dave O’ Toole&lt;/a&gt;: Vice President of Analytics, Consumer Behavior, and BI, Revzilla (Comoto Holdings)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jason-rodriguez-95b23874/&#34;&gt;Jason Rodriguez&lt;/a&gt;: Data Science Manager, GoPuff&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/steveaross/&#34;&gt;Steve Ross&lt;/a&gt;: Sr. Manager Security Data Engineering, Elastic&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/oodaye-shukla/&#34;&gt;Oodaye Shukla&lt;/a&gt;: Chief Data Analytics Officer, Eversana&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;take-aways&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Take-aways&lt;/h1&gt;
+&lt;p&gt;As Ryan recaps in his LinkedIn post, key themes were &lt;strong&gt;grit&lt;/strong&gt; and &lt;strong&gt;curiousity&lt;/strong&gt;:&lt;/p&gt;
+&lt;iframe src=&#34;https://www.linkedin.com/embed/feed/update/urn:li:share:6806583840916697089&#34; height=&#34;809&#34; width=&#34;504&#34; frameborder=&#34;0&#34; allowfullscreen title=&#34;Embedded post&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;catch-up-on-the-recording&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Catch up on the recording&lt;/h1&gt;
+&lt;p&gt;You can catch up on a recording of the event here:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/VQZ3AogSdjM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;acknowledgements&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Acknowledgements&lt;/h1&gt;
+&lt;p&gt;Thank you to the DataPhilly organizers (especially Ramaa Nathan, Anne Beeman, and Christopher Grannan) and The DataLab organizers (especially Devon Malfitano) for being wonderful collaborators for this event.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How do judges judge? A community effort exploring Philadelphia&#39;s judicial patterns through data</title>
+      <link>/post/2021-06-20_datathon_technically_philly_xpost/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-06-20_datathon_technically_philly_xpost/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;strong&gt;This post originally appeared as a &lt;a href=&#34;https://technical.ly/philly/2021/06/09/r-ladies-judge-accountability-datathon/&#34;&gt;guest post on Technical.ly Philly&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The 2021 R-Ladies Philly and Judge Accountability Table community datathon brought together data science enthusiasts to shed light on judicial trends in Philadelphia. Here’s what they found.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In Pennsylvania, voters elect statewide judges to their positions for 10-year terms and then vote on whether to retain those judges in their roles with a “yes or no” vote once their term comes to an end. Additionally, Philadelphia County voters choose local judges for cases adjudicated in our city, to six- or 10-year terms with similar retention votes after election. While these elections could serve as a tool for communities to hold judges accountable to their priorities, voters often have no way of knowing how judges behave every day in their courtrooms.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://judgeaccountabilitytable.org/&#34;&gt;Judge Accountability Table (JAT)&lt;/a&gt;, a coalition of organizations in Philadelphia, seeks to combat this problem by tracking and sharing information about both judicial candidates and sitting judges with the public. This information helps voters make more informed choices in judicial elections and serves the broader goal of holding judges accountable to the community’s vision of justice.&lt;/p&gt;
+&lt;p&gt;This year, JAT partnered with &lt;a href=&#34;https://www.rladiesphilly.org/&#34;&gt;R-Ladies Philly&lt;/a&gt;, the local chapter of &lt;a href=&#34;https://rladies.org/&#34;&gt;R-Ladies&lt;/a&gt;, a worldwide organization that promotes gender diversity in the data science community, to better understand judicial trends in Philadelphia. R-Ladies Philly organizers regularly bring together data enthusiasts and community organizations for “datathons” which provide organizations with data science expertise and enable participants to network and gain valuable skills in data analytics.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+I am proud of our &lt;a href=&#34;https://twitter.com/RLadiesPhilly?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;&lt;/a&gt; teams that worked on some really interesting research questions as part of our annual datathon! Thanks to &lt;a href=&#34;https://twitter.com/judgeyourjudges?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@judgeyourjudges&lt;/span&gt;&lt;/a&gt; for the opportunity! &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; &lt;a href=&#34;https://t.co/TP2VHL9ict&#34;&gt;pic.twitter.com/TP2VHL9ict&lt;/a&gt;
+&lt;/p&gt;
+— Alice Walsh (&lt;span class=&#34;citation&#34;&gt;@sciencealice&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/sciencealice/status/1387537237605290004?ref_src=twsrc%5Etfw&#34;&gt;April 28, 2021&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;Over the course of six weeks, participants collaborate in teams and consult with subject matter experts to explore and analyze rich, messy real-world datasets from multiple angles. Groups work together over the R-Ladies Slack and &lt;a href=&#34;https://github.com/rladiesPHL/2021_datathon&#34;&gt;GitHub&lt;/a&gt;, meeting virtually and concluding their project with a final presentation and report writeup.&lt;/p&gt;
+&lt;div id=&#34;an-interactive-dashboard-to-view-judicial-trends&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;An interactive dashboard to view judicial trends&lt;/h1&gt;
+&lt;p&gt;Team 1, made up of Sybil Andrieux, Roy Aizen, June Choe, Kulbir Kaur, Alison Moss and Alice Walsh, took on the challenge of making court docket data from Philadelphia cases more accessible to the average citizen through a &lt;a href=&#34;https://awalsh.shinyapps.io/2021_datathon_dashboard/&#34;&gt;highly interactive dashboard&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This dashboard allows a deep exploration of the patterns in the data, and focused on three different areas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Sentencing&lt;/strong&gt;, so users can compare judges and length of sentences based on demographic information and crime details, explore whether a single judge aligns with the “average” judge for a given type of offense, and compare sentencing patterns based on defendants’ race. The team identified a pattern that suggests that, for some types of misdemeanors, Black defendants are more often sentenced to confinement than probation as compared to white defendants.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Bail&lt;/strong&gt;, so users can view the number of times a judge increased or decreased bail overall, as well as explore judges’ behavior with bail over the last 20 years.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Judge information&lt;/strong&gt;, so users can identify the judges that appear on the highest number of dockets for a selected time period and view the five most frequent offense descriptions by judge for a given date range.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;judges-may-have-differing-levels-of-harshness&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Judges may have differing levels of “harshness”&lt;/h1&gt;
+&lt;p&gt;Team 2, with Russ Lavery, Shenee Norton, Jessie Pluto, May Sophia, Alex Lesicko, Adam Schlesinger, Jayeon Kim, Eamon Caddigan, Spandana Makeneni and Shanti Agung, explored whether some judges are harsher than others through two general approaches, visualization, and random coefficient modeling.&lt;/p&gt;
+&lt;p&gt;They defined “harshness” as days of confinement and used linear regression to account for the fact that judges are presented with different types of cases. Team 2’s findings suggest that differences in “harshness” can be observed between judges, and that it may even be possible to estimate the average days of confinement depending on which judge hears a case. However, the team cautions that these findings should be considered preliminary, and that the model could and should be further improved with further consideration of the complexities of the question.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-has-changed-since-larry-krasner-took-office&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;What has changed since Larry Krasner took office?&lt;/h1&gt;
+&lt;p&gt;Team 3, which includes Addison Larson, Alice Walsh, Christine Carmody, Chun Su, Hector Maldonado-Reis, Jake Riley, Jasmine Pham, Jessie Pluto, Katrina Gutierrez, Khushbu Patel, Meredith Lee, Mitch Maltenfort, Nathan Kendsersky, Trang Le and Zhenya Cherkas, examined how things have changed in the courts since District Attorney Larry Krasner took office in January 2018.&lt;/p&gt;
+&lt;p&gt;By comparing various metrics two years before and after his election, the team found that there was progress in Krasner’s first two years, although there is still room for improvement. For example, after he took office, the data suggests that there was some progress in reducing race-related disparities. Krasner-era rates of release on recognizance and minimum bail set for first-degree felonies was more equitable between races (but inequity exists among first-degree misdemeanors), and bail policy around retail theft, DUI-first offense, and prostitution decreased (but bail policy becomes more severe for strangulation and aggravated indecent assaults).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;datathon-resources&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Datathon resources&lt;/h1&gt;
+&lt;p&gt;Datathon participants dedicated countless hours and invaluable data expertise to examining these trends and making their findings available to the public. All the coding work, including final reports, is &lt;a href=&#34;https://github.com/rladiesPHL/2021_datathon&#34;&gt;available via GitHub&lt;/a&gt;. The live sessions were recorded, and can be found on the R-Ladies Philly YouTube channel (&lt;a href=&#34;https://www.youtube.com/watch?v=sV4RylIrZ6w&amp;amp;t=2677s&#34;&gt;kickoff video&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=fzJhKMcKVX4&#34;&gt;conclusion video&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;We sincerely thank our partners at JAT, especially &lt;strong&gt;Joy Payton&lt;/strong&gt; and &lt;strong&gt;Rebecca Hufstader&lt;/strong&gt;, for making this valuable dataset available to datathon participants, and for providing subject matter expertise and guidance throughout the six weeks.&lt;/p&gt;
+&lt;p&gt;Watch the datathon’s conclusion presentation here:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/fzJhKMcKVX4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>March and April 2021: JAT datathon</title>
+      <link>/post/2021-04-28-recap_jat_datathon/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-04-28-recap_jat_datathon/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;For this year datathon, we partnered with the &lt;a href=&#34;https://judgeaccountabilitytable.org/&#34;&gt;Judge Accountability Table (JAT)&lt;/a&gt; - a coalition of organizations working toward a shared mission of holding judicial candidates and judges accountable to our community’s vision of justice, and engaged R enthusiasts to explore judicial patterns in Philadelphia courts.&lt;/p&gt;
+&lt;div id=&#34;kickoff&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Kickoff&lt;/h2&gt;
+&lt;p&gt;In March Kickoff meetup, our partner JAT representative Rebecca Hufstader and R-Ladies Philly co-organizer Karla Fettich oriented us about the basic structure of courts in Philadelphia, the mission of project and overview of &lt;a href=&#34;https://github.com/rladiesPHL/2021_datathon/blob/main/data/data_description.md&#34;&gt;datasets&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Have you heard? Our 2021 &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; datathon kicks off on March 17th! Join us to learn/practice R skills, collaborate, have fun working with real data, and help our community partner &lt;a href=&#34;https://twitter.com/judgeyourjudges?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@judgeyourjudges&lt;/span&gt;&lt;/a&gt; better understand judicial patterns through data! &lt;a href=&#34;https://t.co/VTtzhE5irE&#34;&gt;https://t.co/VTtzhE5irE&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1366160626914058243?ref_src=twsrc%5Etfw&#34;&gt;February 28, 2021&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&#34;result&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Result&lt;/h2&gt;
+&lt;p&gt;About 30 Philly’s R enthusiasts formed into three teams and started to explore this rich, messy data in different perspectives: 1) data visualization, 2) defining and quantifying judge “harshness” and 3) understanding systemic trends in the courts. Groups worked together over Slack and &lt;a href=&#34;https://github.com/rladiesPHL/2021_datathon&#34;&gt;GitHub&lt;/a&gt;, meeting weekly virtually. After a productive month, all datathon participants and our JAT partners reconvened virtually for the conclusion meetup on April 28th , to present and discuss findings:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/fzJhKMcKVX4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;div id=&#34;team-1---data-visualization&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Team 1 - Data Visualization&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sybil Andrieux, Roy Aizen, June Choe, Kulbir Kaur, Alison Moss and Alice Walsh&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The team created &lt;a href=&#34;https://awalsh.shinyapps.io/2021_datathon_dashboard/&#34;&gt;an interactive dashboard&lt;/a&gt; to visualize judicial patterns at various levels of abstraction, including sentencing patterns by judge and by race, bail increases and decreases by judge, bail patterns by season and so on. This team found that&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;team-2---judge-harshness&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Team 2 - Judge “harshness”&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Russ Lavery, Shenee, Vera, Jessie Pluto, May Sophia, Alex Lesicko
+Adam Schlesinger, Jayeon Kim, Eamon Caddigan, Spandana Makeneni, Shanti Agung&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The team focused on quantifying judge “harshness” through two general approaches – visualization and random coefficient modeling. They explored judge “harshness” through length of prison sentences and frequency of sentencing defendants to prison rather than probation, and found that Judge Coyle, Bronson and Cunningham tends to order longer than average sentences, and the first two are also more likely to sentence defendants to prison. Their modeling approach based on confinement days outcome also confirms that some judges are harsher than others, after taking defendant demographic information and offense grades into consideration.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;team-3---systemic-trends&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Team 3 - Systemic Trends&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Addison Larson, Alice Walsh, Christine Carmody, Chun Su, Hector Maldonado-Reis, Jake Riley, Jasmine Pham, Jessie Pluto, Katrina Gutierrez, Khushbu Patel, Meredith Lee, Mitch Maltenfort, Nathan Kendsersky, Trang Le, Zhenya&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One of the questions this team looked into is how things have changed in the courts since District Attorney Larry Krasner took office in January 2018. By comparing various metrics 2 years prior and after his election, the team found that there was progress in Krasner’s first two years although there is still room for improvement. For example, black defendants tend to have lower rates of ROR after he takes office. Minimum bail set for first-degree felonies is more equitable between races since 2018, but inequity exists among first-degree misdemeanors. Bail policy around retail theft, DUI-first offense, and prostitution decrease after his 2018 bail reform, but bail policy becomes more harsh for strangulation and aggravated indecent assaults.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;wrap-up&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Wrap Up&lt;/h2&gt;
+&lt;p&gt;With active &lt;a href=&#34;https://docs.google.com/document/d/1UdI0oRUrbXchwpvy8b0CZcKv_3rgBV0YUF1cUix2lyo/edit?usp=sharing&#34;&gt;Q&amp;amp;A sessions&lt;/a&gt; at the end of amazing presentations, we concluded our community data project working with JAT this year by written-up reports (team &lt;a href=&#34;https://github.com/rladiesPHL/2021_datathon/blob/main/analyses/team1/final_report/jat_team1_report.Rmd&#34;&gt;1&lt;/a&gt;, &lt;a href=&#34;https://github.com/rladiesPHL/2021_datathon/blob/main/analyses/team2/report/team2_report_modeling_approach.Rmd&#34;&gt;2&lt;/a&gt;, &lt;a href=&#34;https://github.com/rladiesPHL/2021_datathon/blob/main/analyses/team3/Datathon%202021%20-%20Team%203%20Final%20Report.pdf&#34;&gt;3&lt;/a&gt;) . Our participants also expressed they learned a lot, and highly appreciated the teamwork through the whole project.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.ibb.co/FnYyrYx/wordclound-2021datathon.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank you&lt;/h2&gt;
+&lt;p&gt;We sincerely thank JAT for providing us valuable data and background resource, and participants for donating their time and expertise to a good cause.&lt;/p&gt;
+&lt;p&gt;This post was authored by Chun Su. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>February 2021: From Learn-R to Teach-R</title>
       <link>/post/recap_teachr/</link>
       <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
@@ -144,6 +345,52 @@ As a data educator and data librarian, Cass participates and collaborates in ope
 &lt;li&gt;Katie Fitzgerald: PhD Candidate in Statistics at Northwestern University&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;For more information, contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>January 2021: Introduction to R dashboard development with Shiny Dashboard</title>
+      <link>/post/recap_jan/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/post/recap_jan/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;january-2021-event&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;January 2021 Event&lt;/h1&gt;
+&lt;p&gt;For our January meetup, Anastasia Lucas gave a fantastic introductory workshop on Shiny Dashboard in R using the “shinydashboard” package. Various facets of dashboard development such as reactivity, appearance (i.e. dashboard themes), profiling, and deployment were covered. By the end, users were able to go from raw data to a multi-app dashboard. Even more impressive, the dashboards updated with user input!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;about-the-speaker&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;About the Speaker:&lt;/h1&gt;
+&lt;p&gt;Anastasia Lucas is a data analyst working in biomedical informatics and computational genomics research at the University of Pennsylvania’s Perelman School of Medicine. Her work in R mainly focuses on statistical analysis, package development, and data visualization.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;takeaways&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Takeaways:&lt;/h1&gt;
+&lt;p&gt;· Shiny dashboards are a great way to display metrics of multiple shiny apps
+· Shiny apps have 3 components:
+1. A user interface object
+2. A server function
+3. A call to ShinyApp()
+· Shiny apps are interactive and reactive
+· Before starting a dashboard consider
+· Who is the user?
+· What insights should the user gain?
+· What is the best way to present the data?
+· Hosting options:
+· Deploy to the cloud using Shinyapps.io
+· Host on Shiny server
+· Deploy with RStudio Connect&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;links-for-meetup-materials&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Links for meetup materials:&lt;/h1&gt;
+&lt;p&gt;· GitHub: &lt;a href=&#34;https://github.com/anastasia-lucas/rladies_shinydashboards&#34; class=&#34;uri&#34;&gt;https://github.com/anastasia-lucas/rladies_shinydashboards&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can watch a replay of this meetup and many of our past meetup events on our YouTube channel:&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wSYt4IYIsdI&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;p&gt;Thank you to our sponsors, R Ladies Global, R Consortium, and R Studio!&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -1384,7 +1631,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-164372958&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-126975438&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1394,7 +1641,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-164372958&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-126975438&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

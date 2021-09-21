@@ -16,6 +16,8 @@ R-Ladies Philly is fortunate to receive support from several amazing organizatio
 
 Some of our past and current sponsors include:
 
+#### [Independence Public Media Foundation](https://independencemedia.org/about/)
+
 #### [RStudio](https://www.rstudio.com/)
 
 #### [R consortium](https://www.r-consortium.org/)
