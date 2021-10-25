@@ -1,0 +1,35 @@
+---
+title: 'Alicia Johnson presents Bayes Rules!'
+author: 'Alice Walsh'
+date: '2021-10-25'
+slug: 
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+Bayesian statistics can be really intimidating! Alicia and her co-authors set out to demystify Bayesian statistics. On October 18th, 2021, we hosted Alicia for an interactive workshop on Bayesian statistics in R where we learned about the difference between Bayesian and Frequentist statistics and how to work with Bayesian statistics in R with the `bayesrules` R package.
+
+The Rmd and Slides from the event are available here: https://github.com/ajohns24/r-ladies-philly
+
+The book can be found for free at: https://www.bayesrulesbook.com 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are looking forward to seeing you virtually this evening for a Bayesian meetup with Alicia Johnson! Bayes Rules! An Introduction to Bayesian Modeling with R <a href="https://t.co/H7yYNp9PVd">https://t.co/H7yYNp9PVd</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1450077570813333506?ref_src=twsrc%5Etfw">October 18, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+# About the speaker
+
+Alicia Johnson is an associate professor of statistics at Macalester College in St Paul, Minnesota. Her research interests span Bayesian statistics, computational statistics, and statistics / data science education. Outside of statistics, she enjoys building things, snow (during the appropriate months), and vitamin D among other things.
+
+# Watch the recording
+
+To watch a replay of this event, please head to our YouTube channel (and why not watch some other R-Ladies videos while you are there!)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MgB1ihuEDN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Acknowledgements
+
+Thank you again to Alicia for the informative and entertaining session!
