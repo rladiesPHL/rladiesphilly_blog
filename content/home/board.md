@@ -41,6 +41,10 @@ Alice is a computational biologist who works in pharmaceutical drug development 
 {{< figure library="true" src="Jessie.jpg" title="" class="floatleft" alt="dwarf" width="250px">}}
 As a senior analyst at Comcast, Jessie tries to assign value to video programming and predict the impact of specific content loss. She leverages R in her work by building packages and R Markdown documents to automate answers to recurring business questions about video programming and networks. She also uses R in her day-to-day for modeling and data wrangling. Jessie holds a BA in Psychology, a post-grad certification in Applied Statistics from Penn State and is currently working on an MS in Data Science at Drexel. 
 
+## Cass Wilkinson Saldaña
+{{< figure library="true" src="Cass.jpg" title="" class="floatleft" alt="dwarf" width="250px">}}
+Cass (they/he) is a data educator and open source developer. They first discovered the R Ladies community while working as a data librarian with city planning students in 2018. Since then, Cass has worked as a data science educator in the Children's Hospital of Philadelphia, and currently writes R code as part of a data engineering team with the City of Philadelphia's COVID Containment (COCO) unit. He is passionate about empowering diverse R users to do amazing things with R and contributing to a vibrant open source ecosystem. Cass holds a BA in Anthropology from Macalester College and a Master of Science in Information from the University of Michigan.
+
 ## Board Alumni
 Katerina Placek, MSc  
 *Co-Founder and Blog Chair: Jan 2018 - July 2019*
