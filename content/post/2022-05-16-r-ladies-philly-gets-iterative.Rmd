@@ -1,0 +1,20 @@
+---
+title: R Ladies Philly Gets Iterative!
+author: Cass Wilkinson Saldana
+date: '2022-05-16'
+slug: r-ladies-philly-gets-iterative
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-05-16T18:51:13-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+This is a test! Test test test.
