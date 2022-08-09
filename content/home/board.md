@@ -39,7 +39,7 @@ Alice is a computational biologist who works in pharmaceutical drug development 
 
 ## Jessie Pluto (she/her)
 {{< figure library="true" src="Jessie.jpg" title="" class="floatleft" alt="dwarf" width="250px">}}
-As a manager of Strategic Analytics at Comcast, Jessie assigns value to video programming and predicts the impact of specific content loss. She leverages R in her work for data wrangling, statistical analyses, and automating everything possible, building functions, packages and R Markdown outputs. Jessie holds a BA in Psychology and a post-grad certification in Applied Statistics from Penn State. 
+As a senior manager of Strategic Analytics at Comcast, Jessie assigns value to video programming and predicts the impact of specific content loss. She leverages R in her work for data wrangling, statistical analyses, and automating everything possible, building functions, packages and R Markdown outputs. Jessie holds a BA in Psychology and a post-grad certification in Applied Statistics from Penn State. 
 
 ## Cass Wilkinson Saldaña (they/he)
 {{< figure library="true" src="Cass.jpg" title="" class="floatleft" alt="dwarf" width="250px">}}
