@@ -1,0 +1,53 @@
+---
+title: 'June 2022: Lighting Talks'
+author: 'R-Ladies Philly'
+date: '2022-08-25'
+slug: 
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+## R-Ladies Lightning Talks: 2022 Edition!
+
+We had our annual Lightning Talks in June 2022! These short and insightful talks covered a variety of R topics used by our members to tackle problems from new to advanced users. 
+
+### Speakers and Talks: 
+
+__Michelle Chiu: Growing Up in R__
+
+When learning R for the first time or teaching R to those who are new to R, where do you begin? This talk elaborates on steps to teach R to beginners. First we start with how to get the data and clean it. Next variables are discussed in terms of type and to foster familiarity with the data. Then we introduce R code for creating a map broken down by layer. The coordinate plane is set up and filled with data followed by overlaying a more accessible palette making the plot easier to read. And finally errors happen so remember to troubleshoot your code! 
+
+Michelle is a graduate student in the Cognition and Neuroscience PhD Program at Temple University. Her research broadly looks at digital media and risky decision making using a behavioral and neuroimaging approach. In her free time, she enjoys exploring the Philly food scene and practicing yoga!
+
+__June Choe: Do more with dplyr's row-selecting verb slice()__
+
+When we think about subsetting rows of a data frame, our tidy-wired brains immediately jump to filter(). But sometimes, untidy data from the real world demands subsetting rows in ways that are difficult to achieve with filtering on column values. In this talk, I will introduce dplyr's row-selecting verb slice(), walk through some of its documented features, and showcase an undocumented but powerful method of selecting and rearranging row indices using a matrix.
+
+June is a second year Ph.D. student in linguistics at the University of Pennsylvania, studying language acquisition and human sentence processing. Outside of research, June spends his free time pursuing his hobby in data visualization, reading about its design principles and code-based implementations.
+
+__Jessie Pluto: Organizing My Massive R Markdown Report__
+
+A couple years ago, I developed a suite of standardized visualizations for my work. I used R and R Markdown to automate the workflow, from source data in Hadoop to the output of an interactive HTML report suitable for my business audience. The report included a dozen different visual templates which were applied and customized automatically based on the data input. It was the biggest R Markdown project I had developed, and I learned a lot in the process. In this lightning talk, I'll share how I used tabs and pills, parent-child nesting, and directory structure to keep it all organized. I'll share some code and discuss how the hierarchical structure helped me automate the output of dynamic inputs.
+
+Jessie Pluto is a senior manager of a strategic analytics team at Comcast, supporting video engagement and content strategy. Jessie loves being an analyst in the TV-space, automating workflows, and using R to build functions, packages, visualizations and reports. Outside of work Jessie likes to spends her free time on long walks listening to podcasts and audiobooks, hiking with her dog, and watching TV.
+
+__Kelsey Keith: Designing Copy Number Visualizations__
+
+This talk walks through the challenges of visualizing genomic data and specifically visualizing copy number variants. Sometimes chromosomes loose or gain copies of genes, leading to diseases including cancer. Finding these genes is challenging due to the size and variability of data. A few visualization tools covered are: summarizing and scaling genomic data - shown as numbers and percentages, evidence viewing - done by sub-setting and combining data, and disease view – through whole genome visualization. 
+
+Kelsey Keith is a Bioinformatics Scientist at Children’s Hospital of Philadelphia, specializing in genomics. She has been involved with R Ladies Philly for about 3 years and (fun fact) gave the first virtual talk of the pandemic! 
+
+### Acknowledgements 
+We would like to thank our sponsors R-Ladies Global, R Consortium, Independence Media, and Comcast EBI. 
+
+Thank you also to our wonderful speakers!
+
+**Watch the event recording on YouTube**
+
+https://www.youtube.com/watch?v=c5ydz-Ha61I 
+
