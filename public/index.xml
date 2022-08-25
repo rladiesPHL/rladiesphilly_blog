@@ -5,12 +5,204 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R-Ladies Philly</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu28707ef16119aff2091a8f76d1773782_59391_300x300_fit_lanczos_2.png</url>
       <title>R-Ladies Philly</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>June 2022: Lighting Talks</title>
+      <link>/post/2022-08-24_lightning_talks/</link>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>/post/2022-08-24_lightning_talks/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;r-ladies-lightning-talks-2022-edition&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;R-Ladies Lightning Talks: 2022 Edition!&lt;/h2&gt;
+&lt;p&gt;We had our annual Lightning Talks in June 2022! These short and insightful talks covered a variety of R topics used by our members to tackle problems from new to advanced users.&lt;/p&gt;
+&lt;div id=&#34;speakers-and-talks&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Speakers and Talks:&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Michelle Chiu: Growing Up in R&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When learning R for the first time or teaching R to those who are new to R, where do you begin? This talk elaborates on steps to teach R to beginners. First we start with how to get the data and clean it. Next variables are discussed in terms of type and to foster familiarity with the data. Then we introduce R code for creating a map broken down by layer. The coordinate plane is set up and filled with data followed by overlaying a more accessible palette making the plot easier to read. And finally errors happen so remember to troubleshoot your code!&lt;/p&gt;
+&lt;p&gt;Michelle is a graduate student in the Cognition and Neuroscience PhD Program at Temple University. Her research broadly looks at digital media and risky decision making using a behavioral and neuroimaging approach. In her free time, she enjoys exploring the Philly food scene and practicing yoga!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;June Choe: Do more with dplyr’s row-selecting verb slice()&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When we think about subsetting rows of a data frame, our tidy-wired brains immediately jump to filter(). But sometimes, untidy data from the real world demands subsetting rows in ways that are difficult to achieve with filtering on column values. In this talk, I will introduce dplyr’s row-selecting verb slice(), walk through some of its documented features, and showcase an undocumented but powerful method of selecting and rearranging row indices using a matrix.&lt;/p&gt;
+&lt;p&gt;June is a second year Ph.D. student in linguistics at the University of Pennsylvania, studying language acquisition and human sentence processing. Outside of research, June spends his free time pursuing his hobby in data visualization, reading about its design principles and code-based implementations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jessie Pluto: Organizing My Massive R Markdown Report&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A couple years ago, I developed a suite of standardized visualizations for my work. I used R and R Markdown to automate the workflow, from source data in Hadoop to the output of an interactive HTML report suitable for my business audience. The report included a dozen different visual templates which were applied and customized automatically based on the data input. It was the biggest R Markdown project I had developed, and I learned a lot in the process. In this lightning talk, I’ll share how I used tabs and pills, parent-child nesting, and directory structure to keep it all organized. I’ll share some code and discuss how the hierarchical structure helped me automate the output of dynamic inputs.&lt;/p&gt;
+&lt;p&gt;Jessie Pluto is a senior manager of a strategic analytics team at Comcast, supporting video engagement and content strategy. Jessie loves being an analyst in the TV-space, automating workflows, and using R to build functions, packages, visualizations and reports. Outside of work Jessie likes to spends her free time on long walks listening to podcasts and audiobooks, hiking with her dog, and watching TV.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kelsey Keith: Designing Copy Number Visualizations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This talk walks through the challenges of visualizing genomic data and specifically visualizing copy number variants. Sometimes chromosomes loose or gain copies of genes, leading to diseases including cancer. Finding these genes is challenging due to the size and variability of data. A few visualization tools covered are: summarizing and scaling genomic data - shown as numbers and percentages, evidence viewing - done by sub-setting and combining data, and disease view – through whole genome visualization.&lt;/p&gt;
+&lt;p&gt;Kelsey Keith is a Bioinformatics Scientist at Children’s Hospital of Philadelphia, specializing in genomics. She has been involved with R Ladies Philly for about 3 years and (fun fact) gave the first virtual talk of the pandemic!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;acknowledgements&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Acknowledgements&lt;/h3&gt;
+&lt;p&gt;We would like to thank our sponsors R-Ladies Global, R Consortium, Independence Media, and Comcast EBI.&lt;/p&gt;
+&lt;p&gt;Thank you also to our wonderful speakers!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Watch the event recording on YouTube&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=c5ydz-Ha61I&#34; class=&#34;uri&#34;&gt;https://www.youtube.com/watch?v=c5ydz-Ha61I&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>February and March 2022: ElderNet Datathon</title>
+      <link>/post/2022-03-20_datathon_eldernet_xpost/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/post/2022-03-20_datathon_eldernet_xpost/</guid>
+      <description>
+
+
+&lt;p&gt;This year, we joined forces with our friends at &lt;a href=&#34;https://www.meetup.com/dataphilly/&#34;&gt;DataPhilly&lt;/a&gt; and partnered with &lt;a href=&#34;https://eldernetonline.org/&#34;&gt;ElderNet of Lower Merion and Narberth&lt;/a&gt;, a wonderful nonprofit organization that facilitates access to healthcare, food security, housing assistance, nursing care, and other necessities for frail older individuals and disabled persons with low to moderate incomes.&lt;/p&gt;
+&lt;p&gt;During the &lt;a href=&#34;https://youtu.be/2dSYuYJGLk0&#34;&gt;kickoff event&lt;/a&gt;, ElderNet provided an overview of their services and data needs, and participants then joined one of 3 groups tackling specific topics of interest. Over the subsequent 8 weeks, teams worked tirelessly to not only analyze data, but also summarize their findings into data stories that were presented during the final conclusion event.&lt;/p&gt;
+&lt;div id=&#34;team-1-eldernets-impact-in-the-community&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Team 1: &lt;a href=&#34;https://youtu.be/FeCYaxBP5VY?t=474&#34;&gt;ElderNet’s impact in the community&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&#34;team-2-decision-making-insights-dashboard&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Team 2: &lt;a href=&#34;https://youtu.be/FeCYaxBP5VY?t=2314&#34;&gt;Decision-making insights dashboard&lt;/a&gt;&lt;/h4&gt;
+&lt;/div&gt;
+&lt;div id=&#34;team-3-growth-opportunities-and-fun-facts&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Team 3: &lt;a href=&#34;https://youtu.be/FeCYaxBP5VY?t=4155&#34;&gt;Growth Opportunities and Fun Facts&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;The teams collaborated over &lt;a href=&#34;https://github.com/rladiesPHL/2022_datathon&#34;&gt;GitHub&lt;/a&gt; and combined their findings into a &lt;a href=&#34;https://github.com/rladiesPHL/2022_datathon/blob/main/analyses/Aging_in_Place_Final_Report.pdf&#34;&gt;comprehensive report&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Thank you&lt;/h3&gt;
+&lt;p&gt;We send a huge thank you to our co-organizers at DataPhilly (they do wonderful work for the data community in Philadelphia, make sure to check out their &lt;a href=&#34;https://www.meetup.com/dataphilly/&#34;&gt;upcoming meetups&lt;/a&gt;!), as well as to our partners at ElderNet who provided us with valuable data and subject matter expertise to help contextualize it. Last but not least, we could not have done this without the dedicated work of the datathon participants who volunteered their time and expertise to analyze, visualize and explain the data so that ElderNet can build a strategy around data insights and continue to make a powerful positive impact in the community.&lt;/p&gt;
+&lt;p&gt;This post was authored by Karla Fettich. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Building Packages at Work</title>
+      <link>/post/2021-12-08-building_packages_at_work/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-12-08-building_packages_at_work/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;For the 2021 holiday season, we decided to conclude the year with a meetup all about packages! But not just any packages - packages of reusable code that can make future-you and your coworkers’ lives so much easier! Our event was a series of short presentations on the topic of R package development and maintenance in the workplace.&lt;/p&gt;
+&lt;div id=&#34;dataviseasy---seamless-integration-of-metadata-and-data-for-easy-and-accurate-visualizations-alison-moss&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;dataVisEasy - seamless integration of metadata and data for easy and accurate visualizations (Alison Moss)&lt;/h2&gt;
+&lt;p&gt;After getting tired of running similar lines of code over and over again to make minor adjustments to heatmaps and data visualizations, &lt;a href=&#34;https://www.linkedin.com/in/alisonmoss3/&#34;&gt;Alison Moss&lt;/a&gt; accidentally found herself writing several functions to make all that tweaking easier, eventually turning into it into a package. Now, seamlessly integrating metadata into data visualizations is nice and easy and all those minor tweaks your boss asks for don’t have to be an extra source of stress.&lt;/p&gt;
+&lt;p&gt;Alison just recently graduated with her PhD from Thomas Jefferson University and is now working at &lt;a href=&#34;https://rajant.com/&#34;&gt;Rajant Health Inc&lt;/a&gt; as a Computational Biologist. She absolutely loves coding in R and gets way too much enjoyment out of writing and debugging functions to make data analysis and visualizations easy and consistent.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;nerdify-your-life-jess-streeter&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Nerdify your life (Jess Streeter)&lt;/h2&gt;
+&lt;p&gt;Learn about &lt;a href=&#34;https://springhealth.com/&#34;&gt;Spring Health&lt;/a&gt;’s internal package, Nerdify, and how it has streamlined several internal processes across our growing data team.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jessica-streeter-9053a630/&#34;&gt;Jess Streeter&lt;/a&gt; is a Senior Data Scientist at Spring Health. She has spent her entire career working on issues around mental health. When she’s not coding away, she enjoys spending time with her family, drinking good beer, and training Jiu Jitsu.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;rocqi---simplifying-workflows-reducing-technical-debt-jake-riley&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;rocqi - simplifying workflows &amp;amp; reducing technical debt (Jake Riley)&lt;/h2&gt;
+&lt;p&gt;Learn about one of &lt;a href=&#34;https://www.chop.edu/&#34;&gt;CHOP&lt;/a&gt;’s internal R packages, rocqi. We built this package to improve the process for accessing, formatting, and visualizing data. Categories include quick and easy database connections, ggplot themes, Rmd/dashboard templates, internal datasets, and many helper functions for presenting data to stakeholders. In this talk I’ll discuss the types of solutions we chose to tackle and how package development has made us all better programmers.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jake-riley-70736a3/&#34;&gt;Jake Riley&lt;/a&gt; is a Senior Data Analyst at the Children’s Hospital of Philadelphia. He works with the Analytics Architecture team to provide centralized solutions for a large team of analysts. His work with rocqi has inspired the development of other R packages including: simplecolors (CRAN), shinyobjects (CRAN), headliner (beta), whereiation (dev), and codereviewr (dev).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;links-for-meetup-materials&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Links for meetup materials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Alison Moss’ &lt;a href=&#34;https://github.com/alisonmoss3/dataVisEasy&#34;&gt;dataVizEasy GitHub Repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jess Streeter’s &lt;a href=&#34;https://docs.google.com/presentation/d/17k8Bkch0HoO79G9boL-nffbeVJIg_YYInG7PVp0gU4A/edit#slide=id.p&#34;&gt;Nerdify your life&lt;/a&gt; slides&lt;/li&gt;
+&lt;li&gt;Jake Riley’s &lt;a href=&#34;https://github.com/rjake&#34;&gt;GitHub page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/15gkRMTa17JZR9qhpmaw-PVAvaem4x6wYxfvaDxTFt0w/edit#&#34;&gt;Q&amp;amp;A notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;announcements&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Announcements:&lt;/h2&gt;
+&lt;p&gt;Spring Health is Hiring! &lt;a href=&#34;https://jobs.lever.co/springhealth&#34; class=&#34;uri&#34;&gt;https://jobs.lever.co/springhealth&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;watch-the-recording&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Watch the recording&lt;/h2&gt;
+&lt;p&gt;To watch a recoring of this event, please head to our &lt;a href=&#34;https://www.youtube.com/channel/UCPque9BaFV9p0hcgImrYBzg&#34;&gt;YouTube channel&lt;/a&gt; (and why not watch some other R-Ladies videos while you are there!)&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/lkjcghesAhc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;acknowledgements&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;Thank you again to Alison, Jess and Jake for sharing their wisdom and experience with us!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Unit Testing in R</title>
+      <link>/post/2021-11-11-unittesting/</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-11-11-unittesting/</guid>
+      <description>
+&lt;link href=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://deploy-preview-16--flamboyant-mccarthy-854a9b.netlify.app/about.html&#34;&gt;Shannon Pileggi&lt;/a&gt; and Gordon Shotwell led a hands-on workshop on how to get started with unit testing in R at the R-Ladies Philly November meetup. This workshop picked up exactly where we left our little &lt;code&gt;ralph&lt;/code&gt; (aka R-Ladies Philly) package one year ago at the R package development workshop &lt;a href=&#34;https://www.pipinghotdata.com/talks/2020-10-25-your-first-r-package-in-1-hour/&#34;&gt;“Your first R package in 1 hour: Tools that make R package development easy”&lt;/a&gt;. Shannon and Gordon demonstrated handy functions in &lt;code&gt;usethis&lt;/code&gt; and &lt;code&gt;devtools&lt;/code&gt;, strategies for writing tests and debugging techniques, and discussed with participants on broad concepts in function writing that facilitate a smoother testing process.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+Are you an R developer tasked with writing code for production? Do you worry that code changes will destabilize your code? Then join us at 6pm Philly time TODAY to learn about unit testing! &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/YhEB6X3gRA&#34;&gt;https://t.co/YhEB6X3gRA&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1458917952493924359?ref_src=twsrc%5Etfw&#34;&gt;November 11, 2021&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;div id=&#34;links-for-meetup-materials&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Links for meetup materials&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://deploy-preview-16--flamboyant-mccarthy-854a9b.netlify.app/posts/2021-11-01-unit-testing/&#34;&gt;Shannon’s blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/shannonpileggi/ralphGetsTested&#34;&gt;GitHub repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1TlL1xkmgfX7lXJWuJnv-jrGG58sYYFFxR0vfIh5iGCc/edit#&#34;&gt;Q&amp;amp;A notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;watch-the-recording&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Watch the recording&lt;/h2&gt;
+&lt;p&gt;To watch a replay of this event, please head to our YouTube channel (and why not watch some other R-Ladies videos while you are there!)&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/4bPekjzIYiU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;acknowledgements&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Acknowledgements&lt;/h2&gt;
+&lt;p&gt;Thank you again to Shannon and Gordon for the interactive and informative session!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alicia Johnson presents Bayes Rules!</title>
+      <link>/post/2021-10-25-bayesrules/</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/post/2021-10-25-bayesrules/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Bayesian statistics can be really intimidating! Alicia and her co-authors set out to demystify Bayesian statistics. On October 18th, 2021, we hosted Alicia for an interactive workshop on Bayesian statistics in R where we learned about the difference between Bayesian and Frequentist statistics and how to work with Bayesian statistics in R with the &lt;code&gt;bayesrules&lt;/code&gt; R package.&lt;/p&gt;
+&lt;p&gt;The Rmd and Slides from the event are available here: &lt;a href=&#34;https://github.com/ajohns24/r-ladies-philly&#34; class=&#34;uri&#34;&gt;https://github.com/ajohns24/r-ladies-philly&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The book can be found for free at: &lt;a href=&#34;https://www.bayesrulesbook.com&#34; class=&#34;uri&#34;&gt;https://www.bayesrulesbook.com&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+We are looking forward to seeing you virtually this evening for a Bayesian meetup with Alicia Johnson! Bayes Rules! An Introduction to Bayesian Modeling with R &lt;a href=&#34;https://t.co/H7yYNp9PVd&#34;&gt;https://t.co/H7yYNp9PVd&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1450077570813333506?ref_src=twsrc%5Etfw&#34;&gt;October 18, 2021&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;div id=&#34;about-the-speaker&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;About the speaker&lt;/h1&gt;
+&lt;p&gt;Alicia Johnson is an associate professor of statistics at Macalester College in St Paul, Minnesota. Her research interests span Bayesian statistics, computational statistics, and statistics / data science education. Outside of statistics, she enjoys building things, snow (during the appropriate months), and vitamin D among other things.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;watch-the-recording&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Watch the recording&lt;/h1&gt;
+&lt;p&gt;To watch a replay of this event, please head to our YouTube channel (and why not watch some other R-Ladies videos while you are there!)&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/MgB1ihuEDN4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;acknowledgements&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Acknowledgements&lt;/h1&gt;
+&lt;p&gt;Thank you again to Alicia for the informative and entertaining session!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Mapping COVID-19 Vaccination Across the US</title>
@@ -1631,7 +1823,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-126975438&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-472351986&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1641,7 +1833,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-126975438&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-472351986&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
