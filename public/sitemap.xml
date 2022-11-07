@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/2022-08-24_lightning_talks/</loc>
-    <lastmod>2022-08-25T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2022-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/post/2022-09-29_philly_sip/</loc>
+    <lastmod>2022-09-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2022-08-24_lightning_talks/</loc>
     <lastmod>2022-08-25T00:00:00+00:00</lastmod>
   </url>
   
