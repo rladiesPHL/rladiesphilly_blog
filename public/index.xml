@@ -5,12 +5,50 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R-Ladies Philly</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu28707ef16119aff2091a8f76d1773782_59391_300x300_fit_lanczos_2.png</url>
       <title>R-Ladies Philly</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>September 2022: Center City Sips Data Workshop</title>
+      <link>/post/2022-09-29_philly_sip/</link>
+      <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/post/2022-09-29_philly_sip/</guid>
+      <description>
+
+
+&lt;p&gt;On the last week of September 2022, 40 R-ladies Philly members joined this wonderful workshop given by &lt;a href=&#34;https://silviacanelon.com/&#34;&gt;Silvia Canelón&lt;/a&gt; who is a data analyst in the Urban Health Lab at the University of Pennsylvania. We learned how to scrape the data from the &lt;a href=&#34;https://centercityphila.org/explore-center-city/ccd-sips&#34;&gt;Philly’s 2022 Center City Sips website&lt;/a&gt;, and geo-coded the addresses to make an interactive map using geographic data.&lt;/p&gt;
+&lt;p&gt;The workshop covers three major steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Scrape restaurants and addresses from the website with &lt;code&gt;rvest&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Geocode the restaurant addresses to obtain geographical coordinates with &lt;code&gt;tidygeocoder&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Build an interactive map with &lt;code&gt;leaflet&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Miss it? No worries!&lt;/p&gt;
+&lt;p&gt;The workshop &lt;a href=&#34;slides.silviacanelon.com/2022-ccd-sips&#34;&gt;slide&lt;/a&gt; and &lt;a href=&#34;https://silviacanelon.com/blog/2022-ccd-sips&#34;&gt;Silvia’s personal blog&lt;/a&gt; include the complete tutorial for this practice. All the materials can be found on &lt;a href=&#34;https://github.com/spcanelon/2022-ccd-sips&#34;&gt;GitHub&lt;/a&gt; and in &lt;a href=&#34;https://rstudio.cloud/content/4597043&#34;&gt;an RStudio Cloud project&lt;/a&gt;. You can also watch the workshop recording at our R&lt;a href=&#34;https://www.youtube.com/watch?v=tcfHr0oeOMw&#34;&gt;ladies Philly YouTube channel&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/tcfHr0oeOMw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;p&gt;Besides the workshop, Silvia and the participates also created a list of useful tools and resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://csspeeper.com&#34; class=&#34;uri&#34;&gt;https://csspeeper.com&lt;/a&gt; Chrome extension is a Smart CSS viewer that inspect styles in a simple, well-organized and beautiful way.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There was a &lt;a href=&#34;https://www.youtube.com/watch?v=meapZAH7Jdc&#34;&gt;YouTube talk on &lt;code&gt;rvest&lt;/code&gt; and &lt;code&gt;webscraping&lt;/code&gt;&lt;/a&gt; hosted by the Salt Lake City RUG several months ago that might be helpful.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There is also another &lt;a href=&#34;https://www.youtube.com/watch?v=ulESEfyKc1Q&#34;&gt;webscraping tutorial&lt;/a&gt; by r-ladies johannesburg by Riva Quiroga.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8972108/&#34;&gt;Paper&lt;/a&gt; and &lt;a href=&#34;https://github.com/spcanelon/geospatial-learning#geocoding-offline&#34;&gt;more resources&lt;/a&gt; on geocoding and privacy compliance. Tidygeocoder has some info &lt;a href=&#34;https://jessecambon.github.io/tidygeocoder/articles/geocoder_services.html#data-privacy&#34;&gt;on HIPAA-privacy considerations&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There’s &lt;a href=&#34;https://www.garrickadenbuie.com/blog/countdown-v0.4.0/&#34;&gt;a wonderful package by Garrick&lt;/a&gt; for adding timer to slides. Works with xaringan. You can see it here:&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://wiki.openstreetmap.org/wiki/Zoom_levels&#34;&gt;Wiki pages&lt;/a&gt; to estimate how much to zoom in your map.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://umami.is/&#34;&gt;Umami&lt;/a&gt; to estimate webpage visit.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For complete Q&amp;amp;A document, please refer to &lt;a href=&#34;https://tinyurl.com/rlp-929&#34; class=&#34;uri&#34;&gt;https://tinyurl.com/rlp-929&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank you&lt;/h2&gt;
+&lt;p&gt;We send a huge thank you to our speaker &lt;a href=&#34;https://silviacanelon.com/&#34;&gt;Silvia Canelón&lt;/a&gt; and all our participates. Follow Silvia at her &lt;a href=&#34;https://silviacanelon.com/&#34;&gt;blog&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/spcanelon&#34;&gt;Twitter&lt;/a&gt; and &lt;a href=&#34;https://github.com/spcanelon&#34;&gt;Github&lt;/a&gt; to learn more about R.&lt;/p&gt;
+&lt;p&gt;This post was authored by Chun Su. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>June 2022: Lighting Talks</title>
@@ -1823,7 +1861,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-472351986&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-342715986&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1833,7 +1871,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-472351986&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-342715986&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
