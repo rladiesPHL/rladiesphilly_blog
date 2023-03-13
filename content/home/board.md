@@ -25,10 +25,6 @@ weight = 30
 {{< figure library="true" src="Karla.jpeg" title="" class="floatleft" alt="Karla photo" width="250px">}}
  Karla works as Senior Data Scientist at AmeriHealth Caritas, where she builds identification and stratification solutions for different populations in the healthcare industry, and coordinates larger data science efforts. Originally from Romania, Karla completed her B.A. in psychology in Germany, her M.A. in social sciences in Chicago, and her Ph.D. in psychology/neuroscience in Philly. 
 
-## Chun Su, PhD (she/her)
-{{< figure library="true" src="Chun.jpg" title="" class="floatleft" alt="Chun photo" width="250px" >}}
-Chun is a bioinformatics scientist at the Children's Hospital of Philadelphia, where she explores the influence of the molecular regulatory architecture on the genetic susceptibility for childhood diseases by analyzing genomics data. She completed her PhD in Biology at the University of Virginia, studying a family of parasitic plants that infect crops in Africa. She uses R extensively for statistical analysis and data visualization in her research. Chun joined R Ladies Philly to learn data science and socialize with local R users.
-
 ## Alice Walsh, PhD (she/her)
 {{< figure library="true" src="Alice.jpeg" title="" class="floatleft" alt="Alice photo" width="250px">}}
 Alice is a computational biologist who works in pharmaceutical drug development and has lived in the Philadelphia area for the last ten years. She uses R to transform biomarker data from patients into useful insights that can help doctors make better decisions. Alice was inspired to start an R-Ladies chapter in Philadelphia after seeing a video of another R-Ladies meetup online. 
@@ -40,6 +36,10 @@ As a senior manager of Strategic Analytics at Comcast, Jessie assigns value to v
 ## Jesika Saucedo (she/her)
 {{< figure library="true" src="Jesika.png" title="" class="floatleft" alt="Jesika photo" width="250px">}}
 Jesika is a final year graduate student in pharmacology. She is a beginner R user that uses R for data visualization and statistical analysis of her wet lab research. She is interested in learning more about how to use R in drug discovery. She joined R Ladies to improve her R skills, meet others in the Philadelphia area, help promote diversity in the programming space, and be a part of a community with others learning or using R.
+
+## Michelle Chiu (she/her)
+{{< figure library="true" src="Michelle.jpg" title="" class="floatleft" alt="Michelle photo" width="250px">}}
+Michelle is currently a data analyst at Children’s Hospital of Philadelphia (CHOP). She recently obtained her PhD in Psychology and Neuroscience from Temple University. When she’s not tackling and visualizing data using R, you can find her exploring Philly’s food scene or practicing yoga.
 
 ## Board Alumni
 Katerina Placek, MSc (she/her)
@@ -53,3 +53,6 @@ Amy Goodwin Davies, PhD (she/her)
 
 Cass Wilkinson Saldaña (they/he)
 *Organizer: 2021 - 2022*
+
+Chun Su, PhD (she/her)
+*Organizer: 2019-2023*
