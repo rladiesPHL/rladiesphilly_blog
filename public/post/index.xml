@@ -13,6 +13,34 @@
     </image>
     
     <item>
+      <title>January 2023: Day in the Life Career Panel</title>
+      <link>/post/2023-01-12-event-recap/</link>
+      <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/post/2023-01-12-event-recap/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;On January 12th, we hosted a wonderful career panel to talk about what it is really like to be a data scientist! Our panelists from various data careers discussed their day-to-day jobs, training, and answered attendee questions.&lt;/p&gt;
+&lt;p&gt;We were joined by four excellent panelists&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Analytics Engineer: &lt;a href=&#34;https://skinnamarieke.com/&#34;&gt;Marieke Jackson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;DevOps/ML Ops: &lt;a href=&#34;https://github.com/isabelizimm&#34;&gt;Isabel Zimmerman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Research Scientist/Data Analytics for Research Group: &lt;a href=&#34;https://www.linkedin.com/in/julia-schuchard-47b32457&#34;&gt;Julia Schuchard, PhD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Data Scientist: &lt;a href=&#34;https://phillynerd.netlify.app/&#34;&gt;Jessica Streeter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Miss it? No worries! You can also watch the workshop recording at our &lt;a href=&#34;https://www.youtube.com/watch?v=tcfHr0oeOMw&#34;&gt;R-Ladies Philly YouTube channel&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/xTb30sRz0xI&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank you&lt;/h2&gt;
+&lt;p&gt;We send a huge thank you to our panelists and all our participants.&lt;/p&gt;
+&lt;p&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>September 2022: Center City Sips Data Workshop</title>
       <link>/post/2022-09-29_philly_sip/</link>
       <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
@@ -1861,7 +1889,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-684179352&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-218796345&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1871,7 +1899,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-684179352&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-218796345&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
