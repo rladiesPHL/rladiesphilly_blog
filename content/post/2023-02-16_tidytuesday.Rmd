@@ -1,0 +1,39 @@
+---
+title: 'February 2023: TidyTuesday with R-Ladies Philly & Philly RUG'
+author: 'R-Ladies Philly'
+date: '2023-02-16'
+slug: 
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Tidy Tuesday is a weekly data project where R enthusiasts across the globe share their plots, analysis, and thoughts about a new data set.
+
+It's a great way to get started with R or really stretch your R skills in a fun way and try something new. On February 16, 2023, we did our first ever R-Ladies Philly Tidy Tuesday event!
+
+This was an interactive event where we collaborated with Philly RUG and facilitated some analysis and live coded a Tidy Tuesday dataset. After a brief survey on what kind of data attendees wanted to try, we had two breakout rooms working on the different selected data sets. One data set was on UK cats and the other was on tech stock prices. Later both rooms shared their code, tables, and plots with everyone. Attendees had a chance to win an exclusive R-related prize for sharing during the event!
+
+This was an online event co-hosted by R-Ladies Philly and Philly RUG! Philly RUG hosts monthly Tidy Tuesday events, so give it a try! 
+
+
+### Sponsors:
+We would like to thank our sponsors R Ladies Global, R Consortium, and Independence Media 
+
+Tidy Tuesday: 
+https://github.com/rfordatascience/tidytuesday 
+
+Philly RUG:
+https://www.meetup.com/philly-rug/ 
+
+Links to YouTube:
+https://www.youtube.com/watch?v=9HGvmx8DXvY 
+

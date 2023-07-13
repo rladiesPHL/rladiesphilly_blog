@@ -5,12 +5,40 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R-Ladies Philly</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 18 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu28707ef16119aff2091a8f76d1773782_59391_300x300_fit_lanczos_2.png</url>
       <title>R-Ladies Philly</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Tidy Tuesday with R-Ladies</title>
+      <link>/post/2023-04-25_tidytuesday/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>/post/2023-04-25_tidytuesday/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday&#34;&gt;Tidy Tuesday&lt;/a&gt; is a weekly data project where R enthusiasts across the globe share their plots, analysis, and thoughts about a new data set.&lt;/p&gt;
+&lt;p&gt;It’s a great way to get started with R or really stretch your R skills in a fun way and try something new.&lt;/p&gt;
+&lt;p&gt;On February 5th, 2023 we co-hosted our first (virtual) Tidy Tuesday event in collaboration with Philly RUG. It was an interactive live-coding event where we split into two break-out rooms and focused on two different datasets. A big thank you to Alice Walsh (R-Ladies Philly) and Cory Cutsail (Philly RUG) for leading breakout rooms and coding live! We had a few members submit their code/plots for a prize (O’Reilly Media eBook on Data Science/R or exclusive R-related prize) and overall had a successful and fun event. Thanks Cory and Philly RUG!&lt;/p&gt;
+&lt;p&gt;On April 25th, we co-hosted another virtual Tidy Tuesday event with R-Ladies DC. We had a great turn out with over 20 R-Ladies members showing up to code. For this session, we focused on the Tidy Tuesday dataset ‘London Marathon’ and split into two breakout rooms led by co-organizers Alice Walsh (Philly) and Sam Tyner-Monroe (DC), who did a great job leading, live-coding, and talking through their code. At the end of our coding session, we had a show-and-tell where both groups showcased their visualizations and insights. We also had others share their plots as well! Overall, these were such a fun events, and we want to give a huge thank you to Philly RUG and R-Ladies DC for the collaboration. Check out our code and plots on our GitHub: &lt;a href=&#34;https://github.com/rladies/meetup-presentations_philadelphia/tree/master/2023/tidytuesday&#34; class=&#34;uri&#34;&gt;https://github.com/rladies/meetup-presentations_philadelphia/tree/master/2023/tidytuesday&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We look forward to having more Tidy Tuesday events! If you’re interested in attending future events follow our meetup, twitter and website for information.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+We had so much fun co-hosting a &lt;a href=&#34;https://twitter.com/hashtag/tidytuesday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#tidytuesday&lt;/a&gt; code along with &lt;a href=&#34;https://twitter.com/RLadiesDC?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@RLadiesDC&lt;/span&gt;&lt;/a&gt; ! Check out some of the plots we made while exploring the London marathon data! Code is also available on our github: &lt;a href=&#34;https://t.co/KhLG7TITCF&#34;&gt;https://t.co/KhLG7TITCF&lt;/a&gt; &lt;a href=&#34;https://t.co/3jCxbr3GVs&#34;&gt;pic.twitter.com/3jCxbr3GVs&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1651014320912736259?ref_src=twsrc%5Etfw&#34;&gt;April 26, 2023&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Thank you&lt;/h2&gt;
+&lt;p&gt;We send a huge thank you to the attendees and participants at these events.&lt;/p&gt;
+&lt;p&gt;This post was authored by Jesika Saucedo. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>January 2023: Day in the Life Career Panel</title>
@@ -36,6 +64,31 @@
 &lt;h2&gt;Thank you&lt;/h2&gt;
 &lt;p&gt;We send a huge thank you to our panelists and all our participants.&lt;/p&gt;
 &lt;p&gt;This post was authored by Alice Walsh. For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>February 2023: TidyTuesday with R-Ladies Philly &amp; Philly RUG</title>
+      <link>/post/2023-02-16_tidytuesday/</link>
+      <pubDate>Thu, 16 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>/post/2023-02-16_tidytuesday/</guid>
+      <description>
+
+
+&lt;p&gt;Tidy Tuesday is a weekly data project where R enthusiasts across the globe share their plots, analysis, and thoughts about a new data set.&lt;/p&gt;
+&lt;p&gt;It’s a great way to get started with R or really stretch your R skills in a fun way and try something new. On February 16, 2023, we did our first ever R-Ladies Philly Tidy Tuesday event!&lt;/p&gt;
+&lt;p&gt;This was an interactive event where we collaborated with Philly RUG and facilitated some analysis and live coded a Tidy Tuesday dataset. After a brief survey on what kind of data attendees wanted to try, we had two breakout rooms working on the different selected data sets. One data set was on UK cats and the other was on tech stock prices. Later both rooms shared their code, tables, and plots with everyone. Attendees had a chance to win an exclusive R-related prize for sharing during the event!&lt;/p&gt;
+&lt;p&gt;This was an online event co-hosted by R-Ladies Philly and Philly RUG! Philly RUG hosts monthly Tidy Tuesday events, so give it a try!&lt;/p&gt;
+&lt;div id=&#34;sponsors&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Sponsors:&lt;/h3&gt;
+&lt;p&gt;We would like to thank our sponsors R Ladies Global, R Consortium, and Independence Media&lt;/p&gt;
+&lt;p&gt;Tidy Tuesday:
+&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday&#34; class=&#34;uri&#34;&gt;https://github.com/rfordatascience/tidytuesday&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Philly RUG:
+&lt;a href=&#34;https://www.meetup.com/philly-rug/&#34; class=&#34;uri&#34;&gt;https://www.meetup.com/philly-rug/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Links to YouTube:
+&lt;a href=&#34;https://www.youtube.com/watch?v=9HGvmx8DXvY&#34; class=&#34;uri&#34;&gt;https://www.youtube.com/watch?v=9HGvmx8DXvY&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -1889,7 +1942,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-592137648&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-716584329&#34; class=&#34;chart pb-3&#34; style=&#34;max-width: 100%; margin: auto;&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1899,7 +1952,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-592137648&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-716584329&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
