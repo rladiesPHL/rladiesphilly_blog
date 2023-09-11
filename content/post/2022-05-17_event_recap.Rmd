@@ -1,0 +1,47 @@
+---
+title: 'May 2023: Analyzing Experiments using Causal Forests'
+author: 'R-Ladies Philly'
+date: '2023-05-17'
+slug: 
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+On May 17 2023, 40+ R-ladies Philly members joined this wonderful workshop given by [Elea McDonnell Feit](https://eleafeit.com/) who is an Associate Professor of Marketing and Associate Dean of Research at Drexel University’s LeBow College of Business. She is also the co-author of R for Marketing Research and Analytics. We learned how to use the {grf} R package to analyze an example dataset!
+
+The workshop covers three major topics using a real world dataset (an experiment on Rhea chicks):
+
+- Analyzing a randomized experiment with linear models - what is the "average treatment effect" (ATE)
+
+- Understanding "treatment modifiers" by estimating conditional average treatment effects (CATEs)
+
+- Introducing Causal Forests: A flexible way to identify important modifiers and relate them to treatment effects
+
+Miss it? No worries! 
+
+The workshop [slides](https://eleafeit.github.io/Causal_Forests_Tutorial/Causal_Forests_Tutorial.html#1) and [code](https://eleafeit.github.io/Causal_Forests_Tutorial/) are available!
+
+You can watch the workshop recording at our [R-Ladies Philly YouTube channel](https://www.youtube.com/watch?v=tcfHr0oeOMw).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3eQUnzHII0M?si=n4aOfl20z1D1HF_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+If you want to follow along, there is also the [Q&A document](https://docs.google.com/document/d/19ayQ3ShsfR42wQ4WzF-CS6BFeIeDJByxH2ziGVwGWBQ/edit?usp=sharing) from the event.
+
+## Thank you
+
+We send a huge thank you to our speaker [Elea](https://eleafeit.com/) and all our participants. 
+
+As for our star dataset, we thank Sue McDonnell for sharing the Rhea Chicks Experiment data reported in Koch, Colleen S., et al. “Training Rhea americana chicks to walk voluntarily across a scale; effect on the handler’s time and the chicks’ weight gain compared with traditional techniques: A pilot study.” Journal of Veterinary Behavior 18 (2017): 69-75.
+
+This post was authored by Alice Walsh. For more information contact philly@rladies.org
+
