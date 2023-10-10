@@ -1,0 +1,50 @@
+---
+title: 'June 2023: R-Ladies Lighting Talks'
+author: 'R-Ladies Philly'
+date: '2023-10-10'
+slug: 
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Lightning Talks w/ R Ladies Philly
+
+We had our annual Lightning Talks on June 28th, 2023. These short and insightful talks covered a variety of R topics used by our members to tackle problems from new to advanced users. We were joined by R Ladies DC and sponsored by O’Reilly Media who provided us with a book prize to give out to our attending members in a raffle. 
+
+Check out our speakers and brief snippet of their talk:
+
+__Data wrangling in R for SAS users‘ by Priyanka Gagneja__
+This talk is about how to make it easy to translate legacy SAS codes with R. This can be a good starting point for SAS programmers who don't know much R and for R users who do not know SAS.
+
+__‘Leveraging Open-Source Communities for Professional Development’ by Hebah Bukhari__
+A few years ago I made a career switch and picked up R as a coding language. I didn’t have any coding background before. I began in an accredited program, but everything I learned about R and coding has been through the contribution of the R community and the help of its generous members.
+
+__‘Imaging R: An Interactive Web Application for Visualizing Multimodality Imaging Data Using R and Shiny’ by Kiki Zhang__
+I developed an R-based web application that provides interactive image processing, analysis, and visualization. Multimodal data can be explored intuitively through the analysis pipelines comprising spectral density and time-lagged cross-correlation analyses for quantifying variation in neuronal dynamics and observing interaction dynamics patterns between signals.
+
+__‘Using the OpenAI API With Your Prompt + Your Data’ by Abigail Haddad__
+I'll show how I'm using the R openAI package to work with the GPT-4 API. My example involves creating fake resumes by combining custom prompts with job-related data from a .csv file, showing how we can use the API to iterate through a dataset for text generation. I'll also mention a couple of NLP projects that I'm doing that use the same general format of prompt + iterating through text.
+
+__‘Tidyverse Style Guide’ by Arati Krishnamoorthy__
+A guide to using the tidyverse style guide.
+
+### Acknowledgements
+We would like to thank our sponsors R-Ladies Global, R Consortium, O’Reilly Media
+
+Thank you also to our wonderful speakers!
+
+### Watch the event recording on YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/68OTaahig8g?si=DGSIwyQKl1nFAw7V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+This post was authored by Jesika Saucedo. For more information contact philly@rladies.org
+
