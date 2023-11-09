@@ -5,12 +5,56 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>R-Ladies Philly</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/logo_hu28707ef16119aff2091a8f76d1773782_59391_300x300_fit_lanczos_2.png</url>
       <title>R-Ladies Philly</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>July 2023: Intro to git (in person)</title>
+      <link>/post/2023-07-20_event_recap/</link>
+      <pubDate>Thu, 09 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>/post/2023-07-20_event_recap/</guid>
+      <description>
+
+
+&lt;div id=&#34;an-in-person-introduction-to-gitgithub-workshop&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;An in person introduction to git/GitHub workshop!&lt;/h3&gt;
+&lt;p&gt;This July, R-Ladies Philly hosted an in-person interactive workshop on version control with git &amp;amp; GitHub with amazing presenters, Shannon Pileggi and E. David Aja!&lt;/p&gt;
+&lt;p&gt;The learning objectives from this workshop were&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Employ version control via git and GitHub with operations including commit, push and + pull.&lt;/li&gt;
+&lt;li&gt;Fork and clone from remote repositories.&lt;/li&gt;
+&lt;li&gt;Describe the importance of viewing commits and diffs.&lt;/li&gt;
+&lt;li&gt;Compile markdown reports from an R script for sharing code products on GitHub.&lt;/li&gt;
+&lt;li&gt;Create a project web site via GitHub Pages.&lt;/li&gt;
+&lt;li&gt;Compare and execute different methods to re-visit previous versions of projects.&lt;/li&gt;
+&lt;li&gt;Utilize branches as safety nets for code experimentation.&lt;/li&gt;
+&lt;li&gt;Explain situations that can create merge conflicts and strategies to resolve them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We have a great time getting to see some old friends and meet some new R users at this event.&lt;/p&gt;
+&lt;p&gt;If you missed the event and want to get started with git from R, we recommend &lt;a href=&#34;https://happygitwithr.com/&#34; class=&#34;uri&#34;&gt;https://happygitwithr.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;thank-you&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Thank you!&lt;/h3&gt;
+&lt;p&gt;Thank you to our wonderful presenters/teachers, Shannon Pileggi and E. David Aja!&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;
+👏👏👏 one more round of applause for &lt;a href=&#34;https://twitter.com/PipingHotData?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@PipingHotData&lt;/span&gt;&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://twitter.com/PeeltothePithy?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@PeeltothePithy&lt;/span&gt;&lt;/a&gt; and 🙏 thank you to &lt;a href=&#34;https://twitter.com/Element84?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@Element84&lt;/span&gt;&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/rajadain?ref_src=twsrc%5Etfw&#34;&gt;&lt;span class=&#34;citation&#34;&gt;@rajadain&lt;/span&gt;&lt;/a&gt; for hosting us!! &lt;a href=&#34;https://t.co/EppwnXQGIW&#34;&gt;pic.twitter.com/EppwnXQGIW&lt;/a&gt;
+&lt;/p&gt;
+— R-Ladies Philly (&lt;span class=&#34;citation&#34;&gt;@RLadiesPhilly&lt;/span&gt;) &lt;a href=&#34;https://twitter.com/RLadiesPhilly/status/1682214564597833731?ref_src=twsrc%5Etfw&#34;&gt;July 21, 2023&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;We also want to thank Element 84 for generously hosting us in their beautiful offices.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;learn-more&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Learn more!&lt;/h3&gt;
+&lt;p&gt;For more information contact &lt;a href=&#34;mailto:philly@rladies.org&#34; class=&#34;email&#34;&gt;philly@rladies.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>June 2023: R-Ladies Lighting Talks</title>

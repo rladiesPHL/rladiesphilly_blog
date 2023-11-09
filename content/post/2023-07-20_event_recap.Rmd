@@ -1,0 +1,48 @@
+---
+title: 'July 2023: Intro to git (in person)'
+author: 'R-Ladies Philly'
+date: '2023-11-09'
+slug: 
+categories: []
+tags: []
+authors: []
+header:
+  caption: ''
+  image: ''
+  preview: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### An in person introduction to git/GitHub workshop!
+
+This July, R-Ladies Philly hosted an in-person interactive workshop on version control with git & GitHub with amazing presenters, Shannon Pileggi and E. David Aja!
+
+The learning objectives from this workshop were
+
+-   Employ version control via git and GitHub with operations including commit, push and + pull.
+-   Fork and clone from remote repositories.
+-   Describe the importance of viewing commits and diffs.
+-   Compile markdown reports from an R script for sharing code products on GitHub.
+-   Create a project web site via GitHub Pages.
+-   Compare and execute different methods to re-visit previous versions of projects.
+-   Utilize branches as safety nets for code experimentation.
+-   Explain situations that can create merge conflicts and strategies to resolve them.
+
+We have a great time getting to see some old friends and meet some new R users at this event. 
+
+If you missed the event and want to get started with git from R, we recommend https://happygitwithr.com/ 
+
+### Thank you!
+
+Thank you to our wonderful presenters/teachers, Shannon Pileggi and E. David Aja!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">👏👏👏 one more round of applause for <a href="https://twitter.com/PipingHotData?ref_src=twsrc%5Etfw">@PipingHotData</a> &amp; <a href="https://twitter.com/PeeltothePithy?ref_src=twsrc%5Etfw">@PeeltothePithy</a> and 🙏 thank you to <a href="https://twitter.com/Element84?ref_src=twsrc%5Etfw">@Element84</a> and <a href="https://twitter.com/rajadain?ref_src=twsrc%5Etfw">@rajadain</a> for hosting us!! <a href="https://t.co/EppwnXQGIW">pic.twitter.com/EppwnXQGIW</a></p>&mdash; R-Ladies Philly (@RLadiesPhilly) <a href="https://twitter.com/RLadiesPhilly/status/1682214564597833731?ref_src=twsrc%5Etfw">July 21, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+We also want to thank Element 84 for generously hosting us in their beautiful offices.
+
+### Learn more!
+
+For more information contact [philly\@rladies.org](mailto:philly@rladies.org){.email}
