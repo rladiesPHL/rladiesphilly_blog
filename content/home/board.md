@@ -17,31 +17,31 @@ weight = 30
 
 # Meet our board members
 
-## Darina Chudnovskaya, MSc (she/her)
-{{< figure library="true" src="Darina.jpg" title="" class="floatleft" alt="Darina photo" width="250px">}}
- Darina is a data analyst at a hospital in the Philadelphia area. She uses R to run statistical tests and build models for epidemiological studies with the goal of developing patient interventions for disease prevention. She grew up in Philadelphia. Darina joined R Ladies Philly to meet other R enthusiasts. 
-
-## Karla Fettich, PhD (she/her)
-{{< figure library="true" src="Karla.jpeg" title="" class="floatleft" alt="Karla photo" width="250px">}}
- Karla works as Senior Data Scientist at AmeriHealth Caritas, where she builds identification and stratification solutions for different populations in the healthcare industry, and coordinates larger data science efforts. Originally from Romania, Karla completed her B.A. in psychology in Germany, her M.A. in social sciences in Chicago, and her Ph.D. in psychology/neuroscience in Philly. 
-
-## Alice Walsh, PhD (she/her)
-{{< figure library="true" src="Alice.jpeg" title="" class="floatleft" alt="Alice photo" width="250px">}}
-Alice is a computational biologist who works in pharmaceutical drug development and has lived in the Philadelphia area for the last ten years. She uses R to transform biomarker data from patients into useful insights that can help doctors make better decisions. Alice was inspired to start an R-Ladies chapter in Philadelphia after seeing a video of another R-Ladies meetup online. 
-
-## Jessie Pluto (she/her)
-{{< figure library="true" src="Jessie.jpg" title="" class="floatleft" alt="Jessie photo" width="250px">}}
-As a senior manager of Strategic Analytics at Comcast, Jessie assigns value to video programming and predicts the impact of specific content loss. She leverages R in her work for data wrangling, statistical analyses, and automating everything possible, building functions, packages and R Markdown outputs. Jessie holds a BA in Psychology and a post-grad certification in Applied Statistics from Penn State. 
-
-## Jesika Saucedo (she/her)
-{{< figure library="true" src="Jesika.png" title="" class="floatleft" alt="Jesika photo" width="250px">}}
-Jesika is a final year graduate student in pharmacology. She is a beginner R user that uses R for data visualization and statistical analysis of her wet lab research. She is interested in learning more about how to use R in drug discovery. She joined R Ladies to improve her R skills, meet others in the Philadelphia area, help promote diversity in the programming space, and be a part of a community with others learning or using R.
-
-## Michelle Chiu (she/her)
-{{< figure library="true" src="Michelle.jpg" title="" class="floatleft" alt="Michelle photo" width="250px">}}
-Michelle is currently a data analyst at Children’s Hospital of Philadelphia (CHOP). She recently obtained her PhD in Psychology and Neuroscience from Temple University. When she’s not tackling and visualizing data using R, you can find her exploring Philly’s food scene or practicing yoga.
+**R-Ladies Philly is seeking enthusiastic volunteers to start up the chapter again! This is a wonderful and fulfilling opportunity to grow your network and leadership skills. Please contact philly@rladies.org to learn more. Former organizers have volunteered to mentor a new team.**
 
 ## Board Alumni
+
+Darina Chudnovskaya, MSc (she/her)
+*2018 - 2023*
+
+Karla Fettich, PhD (she/her)
+*2018 - 2022*
+
+Alice Walsh, PhD (she/her)
+*Co-Founder: Jan 2018 - Dec 2023*
+
+Jessie Pluto (she/her)
+*2019 - 2023*
+
+Darien Aunapu (she/her)
+*2023 - 2024*
+
+Jesika Saucedo (she/her)
+*2022 - 2024*
+
+Michelle Chiu (she/her)
+*2023*
+
 Katerina Placek, MSc (she/her)
 *Co-Founder and Blog Chair: Jan 2018 - July 2019*
 
